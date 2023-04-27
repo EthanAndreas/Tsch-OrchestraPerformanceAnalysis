@@ -27,4 +27,5 @@ do
 done
 
 make clean
+rm nodes.txt
 iotlab-experiment stop
