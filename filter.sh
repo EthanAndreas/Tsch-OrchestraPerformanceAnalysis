@@ -27,11 +27,12 @@ echo "$(tput setaf 2)Retrieving info...$(tput setaf 7)"
 for node in $(cat nodes.txt)
 do
     # retrieve TSCH & RPL info with netcat during 10s, simplify it and display it
-    echo "Node $node :"
+    echo "$(tput setaf 3)Node $node :$(tput setaf 7)"
     timeout 10 nc $node 20000 
     # | (grep "TSCH" & grep "RPL") 
 done
 
 make clean > /dev/null
 rm nodes.txt
-iotlab-experiment stop
+iotlab-experiment stop > /dev/null
+echo "$(tput setaf 2)Experiment stop$(tput setaf 7)"
