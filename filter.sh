@@ -11,11 +11,13 @@ echo "$(tput setaf 3)Compilation...$(tput setaf 7)"
 make > /dev/null
 echo "$(tput setaf 2)Compiled$(tput setaf 7)"
 
-if [ $4 -z ]; then
+if [ -z $4 ]; then
     nodes="-l strasbourg,m3,1,build/iotlab/m3/coordinator.iotlab "
 elif [ $4 = "power" ]; then
+    iotlab-profile addm3 -n power_monitor -voltage -current -power -period 8244 -avg 4 > /dev/null
     nodes="-l strasbourg,m3,1,build/iotlab/m3/coordinator.iotlab,power_monitor "
 elif [ $4 = "radio" ]; then
+    iotlab-profile addm3 -n radio_monitor -rssi -channels 11 14 -rperiod 1 -num 1
     nodes="-l strasbourg,m3,1,build/iotlab/m3/coordinator.iotlab,radio_monitor "
 fi
 for i in $(seq 1 $2); do
@@ -33,13 +35,19 @@ echo "$(tput setaf 2)Experiment start$(tput setaf 7)"
 iotlab-experiment get -n | grep "network_address" | sed 's/.*: "\(.*\)".*/\1/' > nodes.txt
 
 echo "$(tput setaf 2)Retrieving info...$(tput setaf 7)"
-for node in $(cat nodes.txt)
-do
-    # retrieve TSCH & RPL info with netcat during 10s, simplify it and display it
-    echo "$(tput setaf 3)Node $node :$(tput setaf 7)"
-    timeout 10 nc $node 20000 
-    # | (grep "TSCH" & grep "RPL") 
-done
+if [ -z $4 ]; then
+    for node in $(cat nodes.txt)
+    do
+        # retrieve TSCH & RPL info with netcat during 10s, simplify it and display it
+        echo "$(tput setaf 3)Node $node :$(tput setaf 7)"
+        timeout 10 nc $node 20000 
+        # | (grep "TSCH" & grep "RPL") 
+    done
+elif [ $4 = "power" ]; then
+    echo "$(tput setaf 2)Retrieving power info...$(tput setaf 7)"
+    node = $(cat nodes.txt | head -n 1)
+    plot_oml_consum -p -i ~/.iot-lab/last/consumption/$node.oml
+fi
 
 rm nodes.txt
 iotlab-experiment stop > /dev/null
