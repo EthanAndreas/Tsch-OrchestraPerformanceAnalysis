@@ -7,13 +7,12 @@ exit 1
 fi
 
 make
-for i in $(seq 1 $2)
-do
-    j = $i + 1
+nodes=""
+for i in $(seq 1 $2); do
+    j=$((i + 1))
     nodes+="-l strasbourg,m3,$j,build/iotlab/m3/sender.iotlab "
 done
-
-iotlab-experiment submit -n $1 -d 20 -l strasbourg,m3,1,build/iotlab/m3/coordinator.iotlab 
+iotlab-experiment submit -n $1 -d 20 -l strasbourg,m3,1,build/iotlab/m3/coordinator.iotlab $nodes
 iotlab-experiment wait
 
 
