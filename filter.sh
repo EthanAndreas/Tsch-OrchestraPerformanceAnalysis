@@ -22,9 +22,9 @@ iotlab-experiment get -n | grep "network_address" | sed 's/.*: "\(.*\)".*/\1/' >
 for node in $(cat nodes.txt)
 do
     # retrieve TSCH & RPL info with netcat during 10s, simplify it and display it
-    timeout 10 nc $node 20000 | (grep "TSCH" & grep "RPL")  
+     echo "Node $node :"
+    nc $node 20000 | (grep "TSCH" & grep "RPL") &
 done
 
 make clean
 rm nodes.txt
-iotlab-experiment stop
