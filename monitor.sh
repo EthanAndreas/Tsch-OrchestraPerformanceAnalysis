@@ -35,26 +35,23 @@ echo "$(tput setaf 2)Experiment start$(tput setaf 7)"
 # retrieve node names
 iotlab-experiment get -n | grep "network_address" | sed 's/.*: "\(.*\)".*/\1/' > nodes.txt
 
-echo "$(tput setaf 2)Retrieving info...$(tput setaf 7)"
 if [ $4 = "power" ]; then
-    echo "$(tput setaf 2)Retrieving power info...$(tput setaf 7)"
+    echo "$(tput setaf 3)Retrieving power info...$(tput setaf 7)"
     node = $(cat nodes.txt | head -n 1)
     # check if the experiment entered the values in the file
-    cat /senslab/users/wifi2023stras10/.iot-lab/last/consumption/m3_1.oml > /dev/null
-    while [ $? -eq 0 ]; do
-        cat /senslab/users/wifi2023stras10/.iot-lab/last/consumption/m3_1.oml > /dev/null
+    while [ -s /senslab/users/wifi2023stras10/.iot-lab/last/consumption/m3_1.oml ]; do
+        sleep 1
     done
-    python monitor.py power
+    ./usr/bin/python3 monitor.py power
     fi
 elif [ $4 = "radio" ]; then
-    echo "$(tput setaf 2)Retrieving radio info...$(tput setaf 7)"
+    echo "$(tput setaf 3)Retrieving radio info...$(tput setaf 7)"
     node = $(cat nodes.txt | head -n 1)
     # check if the experiment entered the values in the file
-    cat /senslab/users/wifi2023stras10/.iot-lab/last/radio/m3_1.oml > /dev/null
-    while [ $? -eq 0 ]; do
-        cat /senslab/users/wifi2023stras10/.iot-lab/last/radio/m3_1.oml > /dev/null
+     while [ -s /senslab/users/wifi2023stras10/.iot-lab/last/radio/m3_1.oml ]; do
+        sleep 1
     done
-    python monitor.py radio
+    ./usr/bin/python3 monitor.py radio
 fi
 
 rm nodes.txt
