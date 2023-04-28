@@ -39,6 +39,10 @@ node=""
 node=$(head -n 1 nodes.txt)
 if [ $4 = "power" ]; then
     echo "$(tput setaf 3)Retrieving power info...$(tput setaf 7)"
+    # wait for file to be created
+    while [ ! -f /senslab/users/wifi2023stras10/.iot-lab/last/consumption/m3_1.oml ]; do
+        sleep 1
+    done
     # check if the experiment entered at least 100  values in the file
     line_count=$(wc -l < /senslab/users/wifi2023stras10/.iot-lab/last/consumption/m3_1.oml)
     while [ line_count < 100 ]; do   
@@ -47,6 +51,9 @@ if [ $4 = "power" ]; then
     python3 monitor.py power
 elif [ $4 = "radio" ]; then
     echo "$(tput setaf 3)Retrieving radio info...$(tput setaf 7)"
+    while [ ! -f /senslab/users/wifi2023stras10/.iot-lab/last/consumption/m3_1.oml ]; do
+        sleep 1
+    done
     # check if the experiment entered at least 100 values in the file
     line_count=$(wc -l < /senslab/users/wifi2023stras10/.iot-lab/last/consumption/m3_1.oml)
     while [ line_count < 100 ]; do   
