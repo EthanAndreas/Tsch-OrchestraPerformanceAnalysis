@@ -29,6 +29,9 @@ if not os.path.isfile(file_path):
 # Read the data from the file
 with open(file_path, 'r') as f:
     data = f.readlines()
+    
+# Skip the 9 first lines
+data = data[9:]
 
 # Extract the relevant values from the data
 timestamps = []
@@ -37,7 +40,13 @@ for line in data:
     if line.startswith('#'):
         continue
     parts = line.split()
-    timestamps.append(float(parts[0]))
+    if len(parts) < 2:
+        continue  # skip over lines without enough parts
+    try:
+        timestamp = float(parts[0])
+    except ValueError:
+        continue  # skip over lines with non-numeric timestamp
+    timestamps.append(timestamp)
     values.append(float(parts[1]))
 
 # Plot the data using matplotlib
@@ -48,4 +57,4 @@ plt.ylabel("Power (W)" if arg == 'power' else "Radio activity")
 plt.show()
 
 # Save the plot to a file
-plt.savefig(f"{arg}_plot.png")
+plt.savefig(f"plot/{arg}_plot.png")

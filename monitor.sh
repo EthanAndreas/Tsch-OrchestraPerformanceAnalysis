@@ -45,7 +45,7 @@ if [ $4 = "power" ]; then
     done
     # check if the experiment entered at least 100  values in the file
     line_count=$(wc -l < /senslab/users/wifi2023stras10/.iot-lab/last/consumption/m3_1.oml)
-    while [ line_count < 100 ]; do   
+    while [ $line_count -lt 100 ]; do   
         line_count=$(wc -l < /senslab/users/wifi2023stras10/.iot-lab/last/consumption/m3_1.oml)
     done
     python3 monitor.py power
@@ -56,7 +56,7 @@ elif [ $4 = "radio" ]; then
     done
     # check if the experiment entered at least 100 values in the file
     line_count=$(wc -l < /senslab/users/wifi2023stras10/.iot-lab/last/consumption/m3_1.oml)
-    while [ line_count < 100 ]; do   
+    while [ $line_count -lt 100 ]; do   
         line_count=$(wc -l < /senslab/users/wifi2023stras10/.iot-lab/last/consumption/m3_1.oml)
     done
     python3 monitor.py radio
