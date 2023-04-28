@@ -40,8 +40,9 @@ node=$(head -n 1 nodes.txt)
 if [ $4 = "power" ]; then
     echo "$(tput setaf 3)Retrieving power info...$(tput setaf 7)"
     # check if the experiment entered the values in the file
-    while [ -s /senslab/users/wifi2023stras10/.iot-lab/last/consumption/m3_1.oml ]; do
-        sleep 1
+    line_count=$(wc -l < /senslab/users/wifi2023stras10/.iot-lab/last/consumption/m3_1.oml)
+    while [ line_count < 100 ]; done     
+        line_count=$(wc -l < /senslab/users/wifi2023stras10/.iot-lab/last/consumption/m3_1.oml)
     done
     python3 monitor.py power
 elif [ $4 = "radio" ]; then

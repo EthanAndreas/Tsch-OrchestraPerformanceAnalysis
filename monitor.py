@@ -39,6 +39,7 @@ for line in data:
     values.append(float(parts[1]))
 
 # Plot the data using matplotlib
+plt.use('TkAgg')
 plt.plot(timestamps, values)
 plt.title(f"{arg.capitalize()} consumption")
 plt.xlabel("Time (s)")
