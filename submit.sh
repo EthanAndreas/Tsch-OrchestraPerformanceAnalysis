@@ -7,7 +7,7 @@ exit 1
 fi  
 
 echo "$(tput setaf 3)Compilation...$(tput setaf 7)"
-make > /dev/null
+make > /dev/null 2>&1
 echo "$(tput setaf 2)Compiled$(tput setaf 7)"
 
 nodes="-l strasbourg,m3,1,build/iotlab/m3/coordinator.iotlab "
@@ -17,6 +17,6 @@ for i in $(seq 1 $2); do
 done
 
 echo "$(tput setaf 3)Submitting experiment...$(tput setaf 7)"
-iotlab-experiment submit -n $1 -d $3 $nodes > /dev/null
+iotlab-experiment submit -n $1 -d $3 $nodes > /dev/null 2>&1
 iotlab-experiment wait 
 echo "$(tput setaf 2)Experiment start$(tput setaf 7)"

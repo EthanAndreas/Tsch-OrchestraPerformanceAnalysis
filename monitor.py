@@ -1,5 +1,7 @@
 import sys
 import os
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
 # Check that the correct number of arguments was given
@@ -39,9 +41,11 @@ for line in data:
     values.append(float(parts[1]))
 
 # Plot the data using matplotlib
-plt.use('TkAgg')
 plt.plot(timestamps, values)
 plt.title(f"{arg.capitalize()} consumption")
 plt.xlabel("Time (s)")
 plt.ylabel("Power (W)" if arg == 'power' else "Radio activity")
 plt.show()
+
+# Save the plot to a file
+plt.savefig(f"{arg}_plot.png")

@@ -8,17 +8,17 @@ exit 1
 fi  
 
 echo "$(tput setaf 3)Compilation...$(tput setaf 7)"
-make > /dev/null
+make > /dev/null 2>&1
 echo "$(tput setaf 2)Compiled$(tput setaf 7)"
 
 if [ -z $4 ]; then
     nodes="-l strasbourg,m3,1,build/iotlab/m3/coordinator.iotlab "
 elif [ $4 = "power" ]; then
     # do not display error output and classic output of iotlab-profile addm3 -n power_monitor -voltage -current -power -period 8244 -avg 4
-    iotlab-profile addm3 -n power_monitor -voltage -current -power -period 8244 -avg 4 > /dev/null
+    iotlab-profile addm3 -n power_monitor -voltage -current -power -period 8244 -avg 4 > /dev/null 2>&1
     nodes="-l strasbourg,m3,1,build/iotlab/m3/coordinator.iotlab,power_monitor "
 elif [ $4 = "radio" ]; then
-    iotlab-profile addm3 -n radio_monitor -rssi -channels 11 14 -rperiod 1 -num 1 > /dev/null
+    iotlab-profile addm3 -n radio_monitor -rssi -channels 11 14 -rperiod 1 -num 1 > /dev/null 2>&1
     nodes="-l strasbourg,m3,1,build/iotlab/m3/coordinator.iotlab,radio_monitor "
 fi
 for i in $(seq 1 $2); do
@@ -27,7 +27,7 @@ for i in $(seq 1 $2); do
 done
 
 echo "$(tput setaf 3)Submitting experiment...$(tput setaf 7)"
-iotlab-experiment submit -n $1 -d $3 $nodes > /dev/null
+iotlab-experiment submit -n $1 -d $3 $nodes > /dev/null 2>&1
 iotlab-experiment wait 
 echo "$(tput setaf 2)Experiment start$(tput setaf 7)"
 
@@ -39,19 +39,20 @@ node=""
 node=$(head -n 1 nodes.txt)
 if [ $4 = "power" ]; then
     echo "$(tput setaf 3)Retrieving power info...$(tput setaf 7)"
-    # check if the experiment entered the values in the file
+    # check if the experiment entered at least 100  values in the file
     line_count=$(wc -l < /senslab/users/wifi2023stras10/.iot-lab/last/consumption/m3_1.oml)
-    while [ line_count < 100 ]; done     
+    while [ line_count < 100 ]; do   
         line_count=$(wc -l < /senslab/users/wifi2023stras10/.iot-lab/last/consumption/m3_1.oml)
     done
     python3 monitor.py power
 elif [ $4 = "radio" ]; then
     echo "$(tput setaf 3)Retrieving radio info...$(tput setaf 7)"
-    # check if the experiment entered the values in the file
-     while [ -s /senslab/users/wifi2023stras10/.iot-lab/last/radio/m3_1.oml ]; do
-        sleep 1
+    # check if the experiment entered at least 100 values in the file
+    line_count=$(wc -l < /senslab/users/wifi2023stras10/.iot-lab/last/consumption/m3_1.oml)
+    while [ line_count < 100 ]; do   
+        line_count=$(wc -l < /senslab/users/wifi2023stras10/.iot-lab/last/consumption/m3_1.oml)
     done
     python3 monitor.py radio
 fi
 
-rm nodes.txt
+rm nodes.txt > /dev/null 2>&1
