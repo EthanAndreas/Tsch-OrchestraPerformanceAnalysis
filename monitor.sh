@@ -35,23 +35,22 @@ echo "$(tput setaf 2)Experiment start$(tput setaf 7)"
 # retrieve node names
 iotlab-experiment get -n | grep "network_address" | sed 's/.*: "\(.*\)".*/\1/' > nodes.txt
 
+node=""
+node=$(head -n 1 nodes.txt)
 if [ $4 = "power" ]; then
     echo "$(tput setaf 3)Retrieving power info...$(tput setaf 7)"
-    node = $(cat nodes.txt | head -n 1)
     # check if the experiment entered the values in the file
     while [ -s /senslab/users/wifi2023stras10/.iot-lab/last/consumption/m3_1.oml ]; do
         sleep 1
     done
-    ./usr/bin/python3 monitor.py power
-    fi
+    python3 monitor.py power
 elif [ $4 = "radio" ]; then
     echo "$(tput setaf 3)Retrieving radio info...$(tput setaf 7)"
-    node = $(cat nodes.txt | head -n 1)
     # check if the experiment entered the values in the file
      while [ -s /senslab/users/wifi2023stras10/.iot-lab/last/radio/m3_1.oml ]; do
         sleep 1
     done
-    ./usr/bin/python3 monitor.py radio
+    python3 monitor.py radio
 fi
 
 rm nodes.txt
