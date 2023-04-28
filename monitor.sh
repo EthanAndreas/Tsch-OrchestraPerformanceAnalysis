@@ -44,8 +44,7 @@ if [ $4 = "power" ]; then
     while [ $? -eq 0 ]; do
         cat /senslab/users/wifi2023stras10/.iot-lab/last/consumption/m3_1.oml > /dev/null
     done
-    # make a pipe to the user device to plot the power consumption
-    plot_oml_consum -p -i /senslab/users/wifi2023stras10/.iot-lab/last/consumption/m3_1.oml
+    python monitor.py power
     fi
 elif [ $4 = "radio" ]; then
     echo "$(tput setaf 2)Retrieving radio info...$(tput setaf 7)"
@@ -55,8 +54,7 @@ elif [ $4 = "radio" ]; then
     while [ $? -eq 0 ]; do
         cat /senslab/users/wifi2023stras10/.iot-lab/last/radio/m3_1.oml > /dev/null
     done
-    # make a pipe to the user device to plot the power consumption
-    plot_oml_radio -p -i /senslab/users/wifi2023stras10/.iot-lab/last/radio/m3_1.oml
+    python monitor.py radio
 fi
 
 rm nodes.txt
