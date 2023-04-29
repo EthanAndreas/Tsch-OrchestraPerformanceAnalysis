@@ -15,7 +15,13 @@ if [ $# -eq 1 ]; then
     echo "$(tput setaf 2)Experiment stop$(tput setaf 7)"
     exit 0
 else 
-    iotlab-experiment stop -l > /dev/null 2>&1
+    # Get all experiments in state Running
+    iotlab-experiment list -s Running | grep "Running" | cut -d"|" -f2 > ids.txt
+    # Stop all experiments
+    for id in $(cat ids.txt); do
+        iotlab-experiment stop -i $id > /dev/null 2>&1
+    done
+    rm ids.txt > /dev/null 2>&1
     echo "$(tput setaf 2)All experiments stopped$(tput setaf 7)"
     exit 0
 fi
