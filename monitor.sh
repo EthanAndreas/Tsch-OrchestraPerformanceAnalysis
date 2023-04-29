@@ -19,9 +19,11 @@ if [ $(cat nodes_free.txt | wc -l) -lt $3 ]; then
 fi
 
 if [ $4 == "power" ]; then
+    # observe power consumption on coordinator 
     iotlab-profile addm3 -n power_monitor -voltage -current -power -period 8244 -avg 4 > /dev/null 2>&1
     nodes="-l strasbourg,m3,$(cat nodes_free.txt | head -n 1),build/iotlab/m3/coordinator.iotlab,power_monitor"
 elif [ $4 == "radio" ]; then
+    # observe radio consumption on coordinator
     iotlab-profile addm3 -n radio_monitor -rssi -channels 11 14 -rperiod 1 -num 1 > /dev/null 2>&1
     nodes="-l strasbourg,m3,$(cat nodes_free.txt | head -n 1),build/iotlab/m3/coordinator.iotlab,radio_monitor"
 else
@@ -41,34 +43,28 @@ done
 echo "$(tput setaf 3)Submitting experiment...$(tput setaf 7)"
 id=$(iotlab-experiment submit -n $1 -d $2 $nodes 2>&1 |grep id |cut -d":" -f2)
 echo "Experiment ID : $id"
-iotlab-experiment wait -i $id
+exp=$(iotlab-experiment wait -i $id | cut -d" " -f3)
+echo "Waiting for experiment to start..."
 echo "$(tput setaf 2)Experiment start$(tput setaf 7)"
 
 if [ $4 == "power" ]; then
     echo "$(tput setaf 3)Retrieving power info...$(tput setaf 7)"
-    file="/senslab/users/wifi2023stras10/.iot-lab/$(id)/consumption/m3_1.oml"
-    # wait for file to be created
-    while [ ! -f file ]; do
-        sleep 1
-    done
-    # check if the experiment entered at least 100  values in the file
+    file="/senslab/users/wifi2023stras10/.iot-lab/$(exp)/consumption/m3_1.oml"
+    # check if the experiment entered at least 1000  values in the file
     line_count=$(wc -l < file)
-    while [ $line_count -lt 100 ]; do
+    while [ $line_count -lt 1000 ]; do
         line_count=$(wc -l < file)
     done
     python3 monitor.py power
 elif [ $4 == "radio" ]; then
     echo "$(tput setaf 3)Retrieving radio info...$(tput setaf 7)"
-    file="/senslab/users/wifi2023stras10/.iot-lab/$(id)/radio/m3_1.oml"
+    file="/senslab/users/wifi2023stras10/.iot-lab/$(exp)/radio/m3_1.oml"
 	echo $file
-    # check if the experiment entered at least 100 values in the file
+    # check if the experiment entered at least 1000 values in the file
     line_count=$(cat file | wc -l)
-    while [ $line_count -lt 100 ]; do
-	echo "test 3"        
-line_count=$(cat file | wc -l)
-	sleep 1
+    while [ $line_count -lt 1000 ]; do  
+        line_count=$(cat file | wc -l)
     done
-	echo "test 4"
     python3 monitor.py radio
 fi
 
