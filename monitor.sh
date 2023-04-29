@@ -19,10 +19,10 @@ fi
 
 nodes=""
 
-if [ $5 == "power" ]; then
+if [ $5 = "power" ]; then
     iotlab-profile addm3 -n power_monitor -voltage -current -power -period 8244 -avg 4 > /dev/null 2>&1
     nodes+="-l $4,m3,$(cat nodes_free.txt | head -n 1),build/iotlab/m3/coordinator.iotlab,power_monitor "
-elif [ $5 == "radio" ]; then
+elif [ $5 = "radio" ]; then
     iotlab-profile addm3 -n radio_monitor -rssi -channels 11 14 -rperiod 1 -num 1 > /dev/null 2>&1
     nodes+="-l $4,m3,$(cat nodes_free.txt | head -n 1),build/iotlab/m3/coordinator.iotlab,radio_monitor "
 fi
@@ -37,7 +37,7 @@ iotlab-experiment submit -n $1 -d $2 $nodes > /dev/null 2>&1
 iotlab-experiment wait 
 echo "$(tput setaf 2)Experiment start$(tput setaf 7)"
 
-if [ $5= "power" ]; then
+if [ $5 = "power" ]; then
     echo "$(tput setaf 3)Retrieving power info...$(tput setaf 7)"
     # wait for file to be created
     while [ ! -f /senslab/users/wifi2023stras10/.iot-lab/last/consumption/m3_$(cat nodes_free.txt | head -n 1).oml ]; do
@@ -49,7 +49,7 @@ if [ $5= "power" ]; then
         line_count=$(wc -l < /senslab/users/wifi2023stras10/.iot-lab/last/consumption/m3_1.oml)
     done
     python3 monitor.py power
-elif [ $5= "radio" ]; then
+elif [ $5 = "radio" ]; then
     echo "$(tput setaf 3)Retrieving radio info...$(tput setaf 7)"
     while [ ! -f /senslab/users/wifi2023stras10/.iot-lab/last/consumption/m3_$(cat nodes_free.txt | head -n 1).oml ]; do
         sleep 1
