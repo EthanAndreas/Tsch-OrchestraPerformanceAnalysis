@@ -15,6 +15,7 @@ do
     echo "$(tput setaf 3)Node $node :$(tput setaf 7)"
     # TODO: remove timeout and replace by thread, one thread per node that execute nc
     (nc $node 20000 | (grep "TSCH" & grep "RPL") > .terminal_out/$node.txt )&
+	(nc -l $node 20000 | while read input; do echo "$(date '+%Y-%m-%d %H:%M:%S') $input"; done >> bis_$node.txt)& 
 done
 
 rm nodes.txt > /dev/null 2>&1

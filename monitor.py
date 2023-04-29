@@ -28,18 +28,32 @@ data = data[9:]
 # Extract the relevant values from the data
 timestamps = []
 values = []
-for line in data:
-    if line.startswith('#'):
-        continue
-    parts = line.split()
-    if len(parts) < 2:
-        continue  # skip over lines without enough parts
-    try:
-        timestamp = float(parts[0])
-    except ValueError:
-        continue  # skip over lines with non-numeric timestamp
-    timestamps.append(timestamp)
-    values.append(float(parts[1]))
+if sys.argv[3] == 'power':
+    for line in data:
+        if line.startswith('#'):
+            continue
+        parts = line.split()
+        if len(parts) < 2:
+            continue  # skip over lines without enough parts
+        try:
+            timestamp = float(parts[0])
+        except ValueError:
+            continue  # skip over lines with non-numeric timestamp
+        timestamps.append(timestamp)
+        values.append(float(parts[2]))
+else:
+    for line in data:
+        if line.startswith('#'):
+            continue
+        parts = line.split()
+        if len(parts) < 2:
+            continue  # skip over lines without enough parts
+        try:
+            timestamp = float(parts[0])
+        except ValueError:
+            continue  # skip over lines with non-numeric timestamp
+        timestamps.append(timestamp)
+        values.append(float(parts[3]))
 
 # Plot the data using matplotlib
 plt.plot(timestamps, values)
