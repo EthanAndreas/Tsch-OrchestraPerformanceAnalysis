@@ -18,14 +18,11 @@ fi
 
 nodes="-l strasbourg,m3,$(cat nodes_free.txt | head -n 1),build/iotlab/m3/coordinator.iotlab"
 
-for i in $(seq 2 $2); do
+for i in $(seq 1 $(($2 - 1))); do
     node_id=$(cat nodes_free.txt | tail -n +$((i + 1)) | head -n 1) 
     nodes+=", -l strasbourg,m3,$node_id,build/iotlab/m3/sender.iotlab"
     echo "$node_id" >> nodes.txt
-done 
-
-echo "$nodes"
-
+done
 
 rm nodes_free.txt > /dev/null 2>&1
 
