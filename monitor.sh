@@ -11,20 +11,20 @@ echo "$(tput setaf 3)Compilation...$(tput setaf 7)"
 make > /dev/null 2>&1
 echo "$(tput setaf 2)Compiled$(tput setaf 7)"
 
-iotlab-status --nodes --archi m3 --state Alive --site $4 |grep network |cut -d"-" -f2 |cut -d"." -f1 > nodes_free.txt
+iotlab-status --nodes --archi m3 --state Alive --site $4 | grep network |cut -d"-" -f2 |cut -d"." -f1 > nodes_free.txt
 if [ $(cat nodes_free.txt | wc -l) -lt $3 ]; then
     echo "$(tput setaf 1)Not enough nodes available$(tput setaf 7)"
     exit 1
 fi
 
-if [ -z $5 ]; then
-    nodes="-l $4,m3,$(cat nodes_free.txt | head -n 1),build/iotlab/m3/coordinator.iotlab "
-elif [ $5= "power" ]; then
+nodes=""
+
+if [ $5 == "power" ]; then
     iotlab-profile addm3 -n power_monitor -voltage -current -power -period 8244 -avg 4 > /dev/null 2>&1
-    nodes="-l $4,m3,$(cat nodes_free.txt | head -n 1),build/iotlab/m3/coordinator.iotlab,power_monitor "
-elif [ $5= "radio" ]; then
+    nodes+="-l $4,m3,$(cat nodes_free.txt | head -n 1),build/iotlab/m3/coordinator.iotlab,power_monitor "
+elif [ $5 == "radio" ]; then
     iotlab-profile addm3 -n radio_monitor -rssi -channels 11 14 -rperiod 1 -num 1 > /dev/null 2>&1
-    nodes="-l $4,m3,$(cat nodes_free.txt | head -n 1),build/iotlab/m3/coordinator.iotlab,radio_monitor "
+    nodes+="-l $4,m3,$(cat nodes_free.txt | head -n 1),build/iotlab/m3/coordinator.iotlab,radio_monitor "
 fi
 
 for i in $(seq 1 $(($3 - 1))); do

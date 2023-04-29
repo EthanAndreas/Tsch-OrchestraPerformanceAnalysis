@@ -10,7 +10,7 @@ echo "$(tput setaf 3)Compilation...$(tput setaf 7)"
 make > /dev/null 2>&1
 echo "$(tput setaf 2)Compiled$(tput setaf 7)"
 
-iotlab-status --nodes --archi m3 --state Alive --site $4 |grep network |cut -d"-" -f2 |cut -d"." -f1 > nodes_free.txt
+iotlab-status --nodes --archi m3 --state Alive --site $4 | grep network |cut -d"-" -f2 |cut -d"." -f1 > nodes_free.txt
 if [ $(cat nodes_free.txt | wc -l) -lt $3 ]; then
     echo "$(tput setaf 1)Not enough nodes available$(tput setaf 7)"
     exit 1
