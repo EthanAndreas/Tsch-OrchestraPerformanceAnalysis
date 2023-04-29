@@ -46,7 +46,7 @@ echo "$(tput setaf 2)Experiment start$(tput setaf 7)"
 
 if [ $4 == "power" ]; then
     echo "$(tput setaf 3)Retrieving power info...$(tput setaf 7)"
-    file="/senslab/users/wifi2023stras10/.iot-lab/last/consumption/m3_1.oml"
+    file="/senslab/users/wifi2023stras10/.iot-lab/$(id)/consumption/m3_1.oml"
     # wait for file to be created
     while [ ! -f file ]; do
         sleep 1
@@ -59,10 +59,9 @@ if [ $4 == "power" ]; then
     python3 monitor.py power
 elif [ $4 == "radio" ]; then
     echo "$(tput setaf 3)Retrieving radio info...$(tput setaf 7)"
-    file="/senslab/users/wifi2023stras10/.iot-lab/last/radio/m3_1.oml"
+    file="/senslab/users/wifi2023stras10/.iot-lab/$(id)/radio/m3_1.oml"
     while [ ! -f file ]; do
-	cat file	
-echo "test 1"
+	    cat file	
         sleep 1
     done
 	echo "test 2"
