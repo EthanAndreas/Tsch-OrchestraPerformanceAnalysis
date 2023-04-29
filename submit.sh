@@ -11,15 +11,17 @@ make > /dev/null 2>&1
 echo "$(tput setaf 2)Compiled$(tput setaf 7)"
 
 iotlab-status --nodes --archi m3 --state Alive --site strasbourg |grep network |cut -d"-" -f2 |cut -d"." -f1 > nodes_free.txt
-if [ $(wc -l nodes_free.txt ) -lt $2 ]; then
+if [ $(cat nodes_free.txt | wc -l) -lt $2 ]; then
     echo "$(tput setaf 1)Not enough nodes available$(tput setaf 7)"
     exit 1
 fi
 
-nodes="-l strasbourg,m3,$(cat nodes_free.txt | head -n 1),build/iotlab/m3/coordinator.iotlab "
 i = 1
-while [ i -lt $2 ]; do
-    nodes+="-l strasbourg,m3,$(cat nodes_free.txt | head -n $(i)),build/iotlab/m3/sender.iotlab "
+for node_id in $(cat nodes_free.txt | tail -n +2); do
+    if [ i -ge $2 ]; then
+        break
+    fi
+    nodes+="-l strasbourg,m3,$node_id,build/iotlab/m3/sender.iotlab "
     i=$((i+1))
 done
 
