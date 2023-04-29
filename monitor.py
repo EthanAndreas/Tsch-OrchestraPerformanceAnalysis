@@ -62,17 +62,25 @@ window_size = 10
 values_smooth = np.convolve(values, np.ones(window_size)/window_size, mode='valid')
 timestamps_smooth = timestamps[window_size//2:-(window_size//2)]
 
-# Plot the data using matplotlib
+# Set figure size and plot the data using matplotlib
+plt.figure(figsize=(8, 6))
 plt.plot(timestamps, values)
 plt.title(f"Consumption of experiment {sys.argv[2]}")
 plt.xlabel("Time (s)")
 plt.ylabel("Power (W)" if sys.argv[3] == 'power' else "Radio activity")
-# display the average power consumption aside the plot
+
+# display the average value aside the plot
 if sys.argv[3] == 'power':
-    plt.text(0.05, 0.95, f"Average power: {sum(values)/len(values)} W", transform=plt.gca().transAxes)
+    plt.text(0.95, 0.05, f"Average power: {sum(values)/len(values):.2f} W", 
+             transform=plt.gca().transAxes, ha='right')
 else:
-    plt.text(0.05, 0.95, f"Average radio activity: {sum(values)/len(values)}", transform=plt.gca().transAxes)
-plt.show()
+    plt.text(0.95, 0.05, f"Average radio activity: {sum(values)/len(values):.2f}", 
+             transform=plt.gca().transAxes, ha='right')
+
+# Set y-axis label and limit
+plt.ylabel("Power (W)" if sys.argv[3] == 'power' else "Radio activity")
+plt.ylim(bottom=0)
 
 # Save the plot to a file
 plt.savefig(f"plot/{sys.argv[2]}_{sys.argv[3]}_plot.png")
+plt.show(block=True)
