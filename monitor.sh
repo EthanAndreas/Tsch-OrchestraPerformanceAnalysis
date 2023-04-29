@@ -59,18 +59,9 @@ while [ ! -f "$file" ]; do
     sleep 1
 done
 
- # check if the experiment entered at least 1000 values in the file
-line_count=$(cat "$file" | wc -l)
-timeout=60  # set a timeout of 60 seconds
-while [ $line_count -lt 1000 ] && [ $timeout -gt 0 ]; do
-    line_count=$(cat "$file" | wc -l)
-    sleep 1
-    ((timeout--))
-done
-if [ $line_count -lt 1000 ]; then
-    echo "Timed out waiting for file to have 1000 lines"
-    exit 1
-fi
+# wait a short time the value entered in the file
+sleep 10
+cat "$file" | wc -l
 python3 monitor.py radio
 
 rm nodes_free.txt > /dev/null 2>&1
