@@ -40,7 +40,7 @@ if sys.argv[3] == 'power':
         except ValueError:
             continue  # skip over lines with non-numeric timestamp
         timestamps.append(timestamp)
-        values.append(float(parts[2]))
+        values.append(float(parts[4]))
 else:
     for line in data:
         if line.startswith('#'):
