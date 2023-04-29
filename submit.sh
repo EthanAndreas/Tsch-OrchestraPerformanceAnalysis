@@ -17,8 +17,10 @@ if [ $(wc -l nodes_free.txt ) -lt $2 ]; then
 fi
 
 nodes="-l strasbourg,m3,$(cat nodes_free.txt | head -n 1),build/iotlab/m3/coordinator.iotlab "
-for i in $(cat nodes_free.txt | tail -n +2); do
-    nodes+="-l strasbourg,m3,$i,build/iotlab/m3/sender.iotlab "
+i = 1
+while [ i -lt $2 ]; do
+    nodes+="-l strasbourg,m3,$(cat nodes_free.txt | head -n $(i)),build/iotlab/m3/sender.iotlab "
+    i=$((i+1))
 done
 
 rm nodes_free.txt > /dev/null 2>&1
