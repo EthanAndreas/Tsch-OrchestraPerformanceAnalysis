@@ -61,7 +61,11 @@ done
 
 # wait a short time the value entered in the file
 sleep 10
-cat "$file" | wc -l
-python3 monitor.py radio
+
+if [ $4 == "power" ]; then
+    python3 monitor.py $file $id power
+elif [ $4 == "radio" ]; then
+    python3 monitor.py $file $id radio
+fi
 
 rm nodes_free.txt > /dev/null 2>&1
