@@ -43,7 +43,7 @@ for line in data:
 
 # Plot the data using matplotlib
 plt.plot(timestamps, values)
-plt.title(f"Consumption of experiment sys.argv[2]")
+plt.title(f"Consumption of experiment {sys.argv[2]}")
 plt.xlabel("Time (s)")
 plt.ylabel("Power (W)" if sys.argv[3] == 'power' else "Radio activity")
 plt.show()
