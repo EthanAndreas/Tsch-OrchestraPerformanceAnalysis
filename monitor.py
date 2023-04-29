@@ -3,6 +3,7 @@ import os
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
+import matplotlib.patches as patches
 import numpy as np
 
 # Check that the correct number of arguments was given
@@ -71,16 +72,19 @@ plt.ylabel("Power (W)" if sys.argv[3] == 'power' else "Radio activity")
 
 # display the average value aside the plot
 if sys.argv[3] == 'power':
-    plt.text(0.95, 0.05, f"Average power: {sum(values)/len(values):.2f} W", 
-             transform=plt.gca().transAxes, ha='right')
+    text = f"Average power: {sum(values)/len(values):.2f} W"
 else:
-    plt.text(0.95, 0.05, f"Average radio activity: {sum(values)/len(values):.2f}", 
-             transform=plt.gca().transAxes, ha='right')
+    text = f"Radio activity: {max(values):.2f}"
+text_rect = patches.Rectangle((0.92, 0.02), 0.06, 0.07, fill=True, facecolor='white', transform=plt.gca().transAxes)
+plt.gca().add_patch(text_rect)
+plt.text(0.95, 0.05, text, transform=plt.gca().transAxes, ha='right')
 
 # Set y-axis label and limit
 plt.ylabel("Power (W)" if sys.argv[3] == 'power' else "Radio activity")
 plt.ylim(bottom=0)
 
+# Show the plot
+plt.show(block=True)
+
 # Save the plot to a file
 plt.savefig(f"plot/{sys.argv[2]}_{sys.argv[3]}_plot.png")
-plt.show(block=True)
