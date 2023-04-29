@@ -3,6 +3,7 @@ import os
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
+import numpy as np
 
 # Check that the correct number of arguments was given
 if len(sys.argv) != 4:
@@ -54,6 +55,11 @@ else:
             continue  # skip over lines with non-numeric timestamp
         timestamps.append(timestamp)
         values.append(float(parts[3]))
+
+# Apply a moving average to smooth the graph
+window_size = 10
+values_smooth = np.convolve(values, np.ones(window_size)/window_size, mode='valid')
+timestamps_smooth = timestamps[window_size//2:-(window_size//2)]
 
 # Plot the data using matplotlib
 plt.plot(timestamps, values)
