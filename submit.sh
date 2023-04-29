@@ -16,17 +16,16 @@ if [ $(cat nodes_free.txt | wc -l) -lt $2 ]; then
     exit 1
 fi
 
-nodes="-l strasbourg,m3,$(cat nodes_free.txt | head -n 1),build/iotlab/m3/coordinator.iotlab "
+nodes="-l strasbourg,m3,$(cat nodes_free.txt | head -n 1),build/iotlab/m3/coordinator.iotlab"
 
-i = 1
-nb_nodes = "$2"
-for node_id in $(cat nodes_free.txt | tail -n +2); do
-    if [ "$i" -gt "$nb_nodes" ]; then
-        break
-    fi
-    nodes+="-l strasbourg,m3,$node_id,build/iotlab/m3/sender.iotlab "
-    i=$((i+1))
-done
+for i in $(seq 2 $2); do
+    node_id=$(cat nodes_free.txt | tail -n +$((i + 1)) | head -n 1) 
+    nodes+=", -l strasbourg,m3,$node_id,build/iotlab/m3/sender.iotlab"
+    echo "$node_id" >> nodes.txt
+done 
+
+echo "$nodes"
+
 
 rm nodes_free.txt > /dev/null 2>&1
 
