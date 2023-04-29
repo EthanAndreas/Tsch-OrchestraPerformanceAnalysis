@@ -49,26 +49,28 @@ echo "$(tput setaf 2)Experiment start$(tput setaf 7)"
 if [ $4 == "power" ]; then
     echo "$(tput setaf 3)Retrieving power info...$(tput setaf 7)"
     file="/senslab/users/wifi2023stras10/.iot-lab/$id/consumption/m3_$(cat nodes_free.txt | head -n 1).oml"
-    # check if the experiment entered at least 1000  values in the file
-    line_count=$(cat file | wc -l)
-    while [ $line_count -lt 1000 ]; do
-        line_count=$(cat file | wc -l)
-        sleep 1
-    done
-    python3 monitor.py power
 elif [ $4 == "radio" ]; then
     echo "$(tput setaf 3)Retrieving radio info...$(tput setaf 7)"
     file="/senslab/users/wifi2023stras10/.iot-lab/$id/radio/m3_$(cat nodes_free.txt | head -n 1).oml"
-    while [ ! -f file ]; do
-	sleep 1
-    done
-    # check if the experiment entered at least 1000 values in the file
-    line_count=$(cat file | wc -l)
-    while [ $line_count -lt 1000 ]; do
-        line_count=$(cat file | wc -l)
-        sleep 1
-    done
-    python3 monitor.py radio
 fi
+
+# wait for the file to be created
+while [ ! -f "$file" ]; do
+    sleep 1
+done
+
+ # check if the experiment entered at least 1000 values in the file
+line_count=$(cat "$file" | wc -l)
+timeout=60  # set a timeout of 60 seconds
+while [ $line_count -lt 1000 ] && [ $timeout -gt 0 ]; do
+    line_count=$(cat "$file" | wc -l)
+    sleep 1
+    ((timeout--))
+done
+if [ $line_count -lt 1000 ]; then
+    echo "Timed out waiting for file to have 1000 lines"
+    exit 1
+fi
+python3 monitor.py radio
 
 rm nodes_free.txt > /dev/null 2>&1
