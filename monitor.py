@@ -42,6 +42,7 @@ if sys.argv[3] == 'power':
             continue  # skip over lines with non-numeric timestamp
         timestamps.append(timestamp)
         values.append(float(parts[4]))
+        
 else:
     for line in data:
         if line.startswith('#'):
@@ -66,6 +67,11 @@ plt.plot(timestamps, values)
 plt.title(f"Consumption of experiment {sys.argv[2]}")
 plt.xlabel("Time (s)")
 plt.ylabel("Power (W)" if sys.argv[3] == 'power' else "Radio activity")
+# display the average power consumption aside the plot
+if sys.argv[3] == 'power':
+    plt.text(0.05, 0.95, f"Average power: {sum(values)/len(values)} W", transform=plt.gca().transAxes)
+else:
+    plt.text(0.05, 0.95, f"Average radio activity: {sum(values)/len(values)}", transform=plt.gca().transAxes)
 plt.show()
 
 # Save the plot to a file
