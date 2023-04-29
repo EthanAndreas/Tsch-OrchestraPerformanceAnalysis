@@ -27,5 +27,16 @@ make
 
 - Flash the experiment with the two nodes on iotlab
 ```bash
-iotlab-experiment submit -n <alias-experiment> -d <time> -l <site>,m3,1,build/iotlab/m3/sender.iotlab -l <site>,m3,2,build/iotlab/m3/coordinator.iotlab
+./submit.sh <experiment_name> <duration> <nodes_number> <site>
 ```
+
+- Monitor power or radio consumption
+The monitoring is only possible on Strasbourg site because of the accessibility of data file
+```bash
+./monitor.sh <experiment_name> <duration> <nodes_number>
+```
+The graph are stored in ``plot`` folder
+
+## Remark
+
+One coordinator and one or several sender for each experiment 
