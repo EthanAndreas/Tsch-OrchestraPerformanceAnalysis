@@ -41,15 +41,14 @@ for i in $(seq 1 $(($3 - 1))); do
 done
 
 echo "$(tput setaf 3)Submitting experiment...$(tput setaf 7)"
-id=$(iotlab-experiment submit -n $1 -d $2 $nodes 2>&1 | grep id | cut -d":" -f2)
-echo "Experiment ID : $id"
+id=$(iotlab-experiment submit -n $1 -d $2 $nodes 2>&1 | grep id | cut -d":" -f2 | tr -d ' ')
+echo "Waiting for experiment $id to be in state RUNNING"
 iotlab-experiment wait -i $id > /dev/null 2>&1 
-echo "Waiting for experiment to start..."
 echo "$(tput setaf 2)Experiment start$(tput setaf 7)"
 
 if [ $4 == "power" ]; then
     echo "$(tput setaf 3)Retrieving power info...$(tput setaf 7)"
-    file="/senslab/users/wifi2023stras10/.iot-lab/$(id)/consumption/m3_1.oml"
+    file="/senslab/users/wifi2023stras10/.iot-lab/$id/consumption/m3_$(cat nodes_free.txt | head -n 1).oml"
     # check if the experiment entered at least 1000  values in the file
     line_count=$(cat file | wc -l)
     while [ $line_count -lt 1000 ]; do
@@ -59,11 +58,13 @@ if [ $4 == "power" ]; then
     python3 monitor.py power
 elif [ $4 == "radio" ]; then
     echo "$(tput setaf 3)Retrieving radio info...$(tput setaf 7)"
-    file="/senslab/users/wifi2023stras10/.iot-lab/$(id)/radio/m3_1.oml"
-	echo $file
+    file="/senslab/users/wifi2023stras10/.iot-lab/$id/radio/m3_$(cat nodes_free.txt | head -n 1).oml"
+    while [ ! -f file ]; do
+	sleep 1
+    done
     # check if the experiment entered at least 1000 values in the file
     line_count=$(cat file | wc -l)
-    while [ $line_count -lt 1000 ]; do  
+    while [ $line_count -lt 1000 ]; do
         line_count=$(cat file | wc -l)
         sleep 1
     done
