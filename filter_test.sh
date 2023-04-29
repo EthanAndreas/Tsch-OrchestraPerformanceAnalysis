@@ -1,4 +1,4 @@
-#!/bin/bash
+
 
 ./submit.sh $1 $2 $3 $4
 
@@ -14,7 +14,7 @@ do
     # retrieve TSCH & RPL info with netcat during 10s, simplify it and display it
     echo "$(tput setaf 3)Node $node :$(tput setaf 7)"
     # TODO: remove timeout and replace by thread, one thread per node that execute nc
-    timeout $2 nc $node 2000 | grep TSCH > .terminal_out/$node.txt )&
+    (nc $node 20000 | (grep "TSCH" & grep "RPL") > .terminal_out/$node.txt )&
 done
 
 rm nodes.txt > /dev/null 2>&1

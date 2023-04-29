@@ -60,16 +60,13 @@ if [ $4 == "power" ]; then
 elif [ $4 == "radio" ]; then
     echo "$(tput setaf 3)Retrieving radio info...$(tput setaf 7)"
     file="/senslab/users/wifi2023stras10/.iot-lab/$(id)/radio/m3_1.oml"
-    while [ ! -f file ]; do
-	    cat file	
-        sleep 1
-    done
-	echo "test 2"
+	echo $file
     # check if the experiment entered at least 100 values in the file
-    line_count=$(wc -l < file)
+    line_count=$(cat file | wc -l)
     while [ $line_count -lt 100 ]; do
 	echo "test 3"        
-line_count=$(wc -l < file)
+line_count=$(cat file | wc -l)
+	sleep 1
     done
 	echo "test 4"
     python3 monitor.py radio
