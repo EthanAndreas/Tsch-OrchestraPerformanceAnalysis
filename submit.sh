@@ -24,8 +24,9 @@ for i in $(seq 1 $(($3 - 1))); do
 done
 
 echo "$(tput setaf 3)Submitting experiment...$(tput setaf 7)"
-iotlab-experiment submit -n $1 -d $2 $nodes > /dev/null 2>&1
-iotlab-experiment wait
+id=$(iotlab-experiment submit -n $1 -d $2 $nodes 2>&1 |grep id |cut -d":" -f2)
+echo "Experiment ID : $id"
+iotlab-experiment wait -i $id
 echo "$(tput setaf 2)Experiment start$(tput setaf 7)"
 
 rm nodes_free.txt > /dev/null 2>&1

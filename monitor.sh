@@ -30,12 +30,17 @@ fi
 
 for i in $(seq 1 $(($3 - 1))); do
     node_id=$(cat nodes_free.txt | tail -n +$((i + 1)) | head -n 1)
-    nodes+=" -l $4,m3,$node_id,build/iotlab/m3/sender.iotlab"
+    if [ $5 == "power" ]; then
+        nodes+=" -l $4,m3,$node_id,build/iotlab/m3/sender.iotlab,power_monitor"
+    elif [ $5 == "radio" ]; then
+        nodes+=" -l $4,m3,$node_id,build/iotlab/m3/sender.iotlab,radio_monitor"
+    fi
 done
 
 echo "$(tput setaf 3)Submitting experiment...$(tput setaf 7)"
-iotlab-experiment submit -n $1 -d $2 $nodes > /dev/null 2>&1
-iotlab-experiment wait
+id=$(iotlab-experiment submit -n $1 -d $2 $nodes 2>&1 |grep id |cut -d":" -f2)
+echo "Experiment ID : $id"
+iotlab-experiment wait -i $id
 echo "$(tput setaf 2)Experiment start$(tput setaf 7)"
 
 if [ $5 == "power" ]; then
