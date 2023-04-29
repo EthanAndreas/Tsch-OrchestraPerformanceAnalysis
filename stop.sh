@@ -16,6 +16,6 @@ if [ $# -eq 1 ]; then
     exit 0
 else 
     iotlab-experiment stop > /dev/null 2>&1
-    echo "$(tput setaf 2)All experiments stopped$(tput setaf 7)"
+    echo "$(tput setaf 2)Last experiment stopped$(tput setaf 7)"
     exit 0
 fi

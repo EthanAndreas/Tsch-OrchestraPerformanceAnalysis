@@ -66,8 +66,10 @@ sleep $(($2 * 60))
 
 if [ $4 == "power" ]; then
     python3 monitor.py $file $id power
+    echo "$(tput setaf 2)Power consumption graph of experiment $id saved in plot folder$(tput setaf 7)"
 elif [ $4 == "radio" ]; then
     python3 monitor.py $file $id radio
+    echo "$(tput setaf 2)Radio activity graph of experiment $id saved in plot folder$(tput setaf 7)"
 fi
 
 rm nodes_free.txt > /dev/null 2>&1
