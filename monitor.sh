@@ -3,6 +3,7 @@
 if [ $# -ne 4 ]; then
 echo "Usage: ./monitor.sh <experiment_name> <duration> <nodes_number> <monitor>"
 echo "Example: ./monitor.sh my_experiment 10 2 strasbourg power"
+echo "<duration> : in minutes"
 echo "<monitor> : power or radio"
 echo "PS: Result of experiment is only accessible for Strasbourg site"
 exit 1
@@ -60,7 +61,8 @@ while [ ! -f "$file" ]; do
 done
 
 # wait a short time the value entered in the file
-sleep 10
+echo "Wait for the end of the experiment"
+sleep $(($2 * 60))
 
 if [ $4 == "power" ]; then
     python3 monitor.py $file $id power
