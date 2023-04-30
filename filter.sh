@@ -1,6 +1,5 @@
 function write_terminal(){
 	nc $1 20000  | while read line ; do echo $(date +%s) $line | grep -E "TSCH|RPL"; done >> netcat/$2_d$3_$1.txt
-	echo "$(tput setaf 2)Process $1 terminated$(tput setaf 7)"
 }
 
 if [ $# -ne 5 ]; then
