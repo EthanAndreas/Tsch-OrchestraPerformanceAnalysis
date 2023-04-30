@@ -22,8 +22,15 @@ sleep 3
 for node in $(cat nodes.txt)
 do
     # retrieve TSCH & RPL info with netcat of each node, simplify it and display it
-    echo "$(tput setaf 3)Node $node :$(tput setaf 7)"
     (write_terminal $node $2 $3)&
 done
+
+echo "$(tput setaf 3)Waiting for the end of the experiment...$(tput setaf 7)"
+sleep $2
+
+# kill netcat processes
+pkill -f write_terminal > /dev/null 2>&1
+
+echo "$(tput setaf 3)Data retrieved and stored in netcat folder$(tput setaf 7)"
 
 rm nodes.txt > /dev/null 2>&1
