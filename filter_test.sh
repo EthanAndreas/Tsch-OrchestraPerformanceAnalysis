@@ -1,4 +1,7 @@
-
+function write_terminal(){
+	nc $node 20000  | while read line ; do echo $(date +%s) $line | grep -E "TSCH|RPL"; done >>.terminal_out/$1.txt
+	echo End of process $1
+}
 
 ./submit.sh $1 $2 $3 $4
 
@@ -14,8 +17,8 @@ do
     # retrieve TSCH & RPL info with netcat during 10s, simplify it and display it
     echo "$(tput setaf 3)Node $node :$(tput setaf 7)"
     # TODO: remove timeout and replace by thread, one thread per node that execute nc
-    (nc $node 20000 | (grep "TSCH" & grep "RPL") > .terminal_out/$node.txt )&
-	(nc -l $node 20000 | while read input; do echo "$(date '+%Y-%m-%d %H:%M:%S') $input"; done >> bis_$node.txt)& 
+   (write_terminal $node)&
+
 done
 
 rm nodes.txt > /dev/null 2>&1
