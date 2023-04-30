@@ -1,5 +1,5 @@
 function write_terminal(){
-	nc $node 20000  | while read line ; do echo $(date +%s) $line | grep -E "TSCH|RPL"; done >>netcat/$1.txt
+	nc $1 20000  | while read line ; do echo $(date +%s) $line | grep -E "TSCH|RPL"; done >> netcat/$2_d$3_$1.txt
 	echo "$(tput setaf 2)Process $1 terminated$(tput setaf 7)"
 }
 
@@ -23,7 +23,7 @@ for node in $(cat nodes.txt)
 do
     # retrieve TSCH & RPL info with netcat of each node, simplify it and display it
     echo "$(tput setaf 3)Node $node :$(tput setaf 7)"
-    (write_terminal $node)&
+    (write_terminal $node $2 $3)&
 done
 
 rm nodes.txt > /dev/null 2>&1
