@@ -3,3 +3,4 @@ build/*
 *.iotlab
 *.txt
 .nfs*
+netcat/
