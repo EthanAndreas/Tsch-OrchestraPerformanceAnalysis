@@ -2,6 +2,7 @@
 
 if [ $# -ne 1 ]; then
     echo "Usage: $0 <filename>"
+    echo "<filename> : netcat/..."
     exit 1
 fi
 
