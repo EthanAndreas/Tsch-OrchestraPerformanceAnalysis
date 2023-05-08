@@ -87,4 +87,4 @@ plt.ylim(bottom=0)
 plt.show(block=True)
 
 # Save the plot to a file
-plt.savefig(f"plot/{sys.argv[3]}_d{sys.argv[2]}_n{sys.argv[4]}_plot.png")
+plt.savefig(f"../plot/{sys.argv[3]}_d{sys.argv[2]}_n{sys.argv[4]}_plot.png")
