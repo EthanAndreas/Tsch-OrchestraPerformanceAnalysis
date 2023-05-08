@@ -15,11 +15,11 @@ include $(CONTIKI)/Makefile.dir-variables
 
 
 ifeq ($(TSCH),1)
-    MAKE_MAC = MAKE_MAC_TSCH
-    MODULES += $(CONTIKI_NG_SERVICES_DIR)/orchestra
+	MAKE_MAC = MAKE_MAC_TSCH
+	MODULES += $(CONTIKI_NG_SERVICES_DIR)/orchestra
 	@echo "TSCH activated"
 else
-    MAKE_MAC = MAKE_MAC_CSMA
+	MAKE_MAC = MAKE_MAC_CSMA
 	@echo "CSMA activated (default)"
 endif
 
