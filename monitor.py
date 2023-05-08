@@ -8,7 +8,7 @@ import numpy as np
 
 # Check that the correct number of arguments was given
 if len(sys.argv) != 6:
-    print("Usage: python script.py <experiment_id> <architecture> <duration> <power|radio> <file_path>")
+    print("Usage: python script.py <experiment_id> <duration> <power|radio> <nodes_number> <file_path>")
     sys.exit()
 
 # Check that the file exists
@@ -16,7 +16,7 @@ if not os.path.isfile(sys.argv[5]):
     print(f"File {sys.argv[5]} does not exist")
     sys.exit()
 
-if sys.argv[4] not in ['power', 'radio']:
+if sys.argv[3] not in ['power', 'radio']:
     print("Invalid argument. Usage: python script.py [power | radio]")
     sys.exit()
 
@@ -68,7 +68,7 @@ plt.figure(figsize=(8, 6))
 plt.plot(timestamps, values)
 plt.title(f"Consumption of experiment {sys.argv[1]}")
 plt.xlabel("Time (s)")
-plt.ylabel("Power (W)" if sys.argv[4] == 'power' else "Radio activity")
+plt.ylabel("Power (W)" if sys.argv[3] == 'power' else "Radio activity")
 
 # display the average value aside the plot
 if sys.argv[4] == 'power':
@@ -80,11 +80,11 @@ plt.legend(loc='center right', bbox_to_anchor=(1.2, 0.5))
 plt.text(1.05, 0.5, text, transform=plt.gca().transAxes, ha='left')
 
 # Set y-axis label and limit
-plt.ylabel("Power (W)" if sys.argv[4] == 'power' else "Radio activity")
+plt.ylabel("Power (W)" if sys.argv[3] == 'power' else "Radio activity")
 plt.ylim(bottom=0)
 
 # Show the plot
 plt.show(block=True)
 
 # Save the plot to a file
-plt.savefig(f"plot/{sys.argv[2]}_{sys.argv[1]}_d{sys.argv[3]}_plot.png")
+plt.savefig(f"plot/{sys.argv[3]}_d{sys.argv[2]}_n{sys.argv[4]}_plot.png")
