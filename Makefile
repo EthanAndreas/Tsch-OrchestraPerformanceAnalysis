@@ -9,10 +9,10 @@ TARGET = iotlab
 BOARD = m3
 ARCH_PATH=/senslab/users/wifi2023stras10/iot-lab/parts/iot-lab-contiki-ng/arch/
 
-MAKE_MAC = MAKE_MAC_TSCH
+#MAKE_MAC = MAKE_MAC_TSCH
 
 include $(CONTIKI)/Makefile.dir-variables
 MODULES += $(CONTIKI_NG_SERVICES_DIR)/shell
-MODULES += $(CONTIKI_NG_SERVICES_DIR)/orchestra
+#MODULES += $(CONTIKI_NG_SERVICES_DIR)/orchestra
 
 include $(CONTIKI)/Makefile.include

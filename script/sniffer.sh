@@ -1,10 +1,5 @@
 #!/bin/bash
 
-function write_file(){
-    # write sniffer_agregator output to file
-    sniffer_aggregator -l $1,m3,$2 -o sniffer/$4_d$5_n$6.pcap > /dev/null 2>&1 &
-}
-
 if [ $# -ne 4 ]; then
 echo "Usage: ./netcat.sh <experiment_name> <duration> <nodes_number> <site>"
 echo "Example: ./netcat.sh my_experiment 10 2 strasbourg"
@@ -50,9 +45,9 @@ sleep 3
 for node in $(cat nodes.txt)
 do
     if [[ $node == *"sender"* ]]; then
-        (write_file $4 $id "sniffer" "sender" $2 $3)&
+        sniffer_aggregator -l $4,m3,$id -o sniffer/sender_d$2_n$3 > /dev/null 2>&1 &
     else
-        (write_file $4 $id "sniffer" "coordinator" $2 $3)&
+        sniffer_aggreator -l $4,m3,$id -o sniffer/coordinator_d$2_n$3 > /dev/null 2>&1 &
 done
 
 echo "$(tput setaf 3)Waiting for the end of the experiment...$(tput setaf 7)"
