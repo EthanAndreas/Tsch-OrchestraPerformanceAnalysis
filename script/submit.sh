@@ -8,6 +8,7 @@ exit 1
 fi
 
 echo "$(tput setaf 3)Compilation...$(tput setaf 7)"
+make clean
 make > /dev/null 2>&1
 echo "$(tput setaf 2)Compiled$(tput setaf 7)"
 
