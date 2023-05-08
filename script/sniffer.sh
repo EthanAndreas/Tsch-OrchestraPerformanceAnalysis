@@ -1,8 +1,13 @@
 #!/bin/bash
 
+function write_file(){
+    # write sniffer_agregator output to file
+    sniffer_aggregator -l $1,m3,$2 -o sniffer/$4_d$5_n$6.pcap > /dev/null 2>&1 &
+}
+
 if [ $# -ne 4 ]; then
-echo "Usage: ./monitor.sh <experiment_name> <duration> <nodes_number> <site>"
-echo "Example: ./monitor.sh my_experiment 10 2 strasbourg"
+echo "Usage: ./netcat.sh <experiment_name> <duration> <nodes_number> <site>"
+echo "Example: ./netcat.sh my_experiment 10 2 strasbourg"
 echo "<duration> : in minutes"
 exit 1
 fi
@@ -33,3 +38,29 @@ iotlab-experiment wait -i $id > /dev/null 2>&1
 echo "$(tput setaf 2)Experiment start$(tput setaf 7)"
 
 rm nodes_free.txt > /dev/null 2>&1
+
+# retrieve node names
+iotlab-experiment get -n | grep "network_address" | sed 's/.*: "\(.*\)".*/\1/' > nodes.txt
+
+echo "$(tput setaf 3)Retrieving info...$(tput setaf 7)"
+mkdir sniffer > /dev/null 2>&1
+sleep 3
+
+# launch sniffer_aggregator processes on nodes
+for node in $(cat nodes.txt)
+do
+    if [[ $node == *"sender"* ]]; then
+        (write_file $4 $id "sniffer" "sender" $2 $3)&
+    else
+        (write_file $4 $id "sniffer" "coordinator" $2 $3)&
+done
+
+echo "$(tput setaf 3)Waiting for the end of the experiment...$(tput setaf 7)"
+sleep $(($2 * 60))
+
+# kill sniffer_aggregator processes
+pkill -f sniffer_aggregator > /dev/null 2>&1
+
+echo "$(tput setaf 2)Data retrieved and stored in sniffer folder$(tput setaf 7)"
+
+rm nodes.txt > /dev/null 2>&1
