@@ -13,14 +13,11 @@ ARCH_PATH=/senslab/users/wifi2023stras10/iot-lab/parts/iot-lab-contiki-ng/arch/
 
 include $(CONTIKI)/Makefile.dir-variables
 
-
-ifeq ($(TSCH),1)
+tsch:
 	MAKE_MAC = MAKE_MAC_TSCH
 	MODULES += $(CONTIKI_NG_SERVICES_DIR)/orchestra
-else
+csma:
 	MAKE_MAC = MAKE_MAC_CSMA
-endif
-MAKE_MAC = MAKE_MAC_CSMA
 
 MODULES += $(CONTIKI_NG_SERVICES_DIR)/shell
 
