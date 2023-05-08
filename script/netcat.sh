@@ -44,14 +44,12 @@ echo "$(tput setaf 3)Retrieving info...$(tput setaf 7)"
 mkdir netcat > /dev/null 2>&1
 sleep 3
 
-# start netcat processes
-for node in $(cat nodes.txt)
-do
-    if [[ $node == *"sender"* ]]; then
-        (write_file $node "sender" $2 $3)&
-    else
-        (write_file $node "coordinator" $2 $3)&
-    fi
+# start netcat on coordinator
+(write_file $(cat nodes.txt | head -n 1) "coordinator" $2 $3)&
+
+# start netcat on sender and skip the first node
+for node in $(cat nodes.txt | tail -n +2); do
+    (write_file $node "sender" $2 $3)&
 done
 
 echo "$(tput setaf 3)Waiting for the end of the experiment...$(tput setaf 7)"

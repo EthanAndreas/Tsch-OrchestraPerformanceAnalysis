@@ -42,13 +42,7 @@ mkdir sniffer > /dev/null 2>&1
 sleep 3
 
 # launch sniffer_aggregator processes on nodes
-for node in $(cat nodes.txt)
-do
-    if [[ $node == *"sender"* ]]; then
-        sniffer_aggregator -l $4,m3,$id -o sniffer/sender_d$2_n$3 > /dev/null 2>&1 &
-    else
-        sniffer_aggreator -l $4,m3,$id -o sniffer/coordinator_d$2_n$3 > /dev/null 2>&1 &
-done
+sniffer_aggreator -l $4,m3,$id -o sniffer/d$2_n$3 > /dev/null 2>&1 &
 
 echo "$(tput setaf 3)Waiting for the end of the experiment...$(tput setaf 7)"
 sleep $(($2 * 60))
