@@ -14,7 +14,10 @@ if [[ $5 == TSCH ]]; then
 make TSCH=1 > /dev/null 2>&1
 else 
 make TSCH=0 >/dev/null 2>&1
+
 fi
+else 
+make TSCH=0 >/dev/null 2>&1
 fi
 echo "$(tput setaf 2)Compiled$(tput setaf 7)"
 

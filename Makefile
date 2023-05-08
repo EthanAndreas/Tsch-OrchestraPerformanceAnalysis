@@ -20,6 +20,7 @@ ifeq ($(TSCH),1)
 else
 	MAKE_MAC = MAKE_MAC_CSMA
 endif
+MAKE_MAC = MAKE_MAC_CSMA
 
 MODULES += $(CONTIKI_NG_SERVICES_DIR)/shell
 
