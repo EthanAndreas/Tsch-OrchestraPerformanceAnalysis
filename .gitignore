@@ -1,6 +1,5 @@
 build/
 build/*
 *.iotlab
-*.txt
 .nfs*
 *.tmp

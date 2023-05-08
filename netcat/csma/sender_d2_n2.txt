@@ -1,0 +1,193 @@
+1683574474 [INFO: RPL ] probing fe80::a484 (urgent) last tx 0 min ago
+1683574474 [INFO: RPL ] sending a unicast-DIO with rank 65535 to fe80::a484
+1683574474 [INFO: CSMA ] sending to 0200.0000.0000.a484, len 79, seqno 255, queue length 1, free packets 7
+1683574474 [INFO: CSMA ] preparing packet for 0200.0000.0000.a484, seqno 255, tx 0, queue 1
+1683574475 [INFO: Frame 15.4] Out: 1 0200.0000.0000.a484 21 79 (100)
+1683574475 [INFO: CSMA ] tx to 0200.0000.0000.a484, seqno 255, status 2, tx 0, coll 0
+1683574475 [INFO: CSMA ] preparing packet for 0200.0000.0000.a484, seqno 255, tx 1, queue 1
+1683574475 [INFO: Frame 15.4] Out: 1 0200.0000.0000.a484 21 79 (100)
+1683574475 [INFO: CSMA ] tx to 0200.0000.0000.a484, seqno 255, status 2, tx 1, coll 0
+1683574475 [INFO: CSMA ] preparing packet for 0200.0000.0000.a484, seqno 255, tx 2, queue 1
+1683574475 [INFO: Frame 15.4] Out: 1 0200.0000.0000.a484 21 79 (100)
+1683574475 [INFO: CSMA ] tx to 0200.0000.0000.a484, seqno 255, status 2, tx 2, coll 0
+1683574475 [INFO: CSMA ] preparing packet for 0200.0000.0000.a484, seqno 255, tx 3, queue 1
+1683574475 [INFO: Frame 15.4] Out: 1 0200.0000.0000.a484 21 79 (100)
+1683574475 [INFO: CSMA ] tx to 0200.0000.0000.a484, seqno 255, status 2, tx 3, coll 0
+1683574475 [INFO: CSMA ] preparing packet for 0200.0000.0000.a484, seqno 255, tx 4, queue 1
+1683574475 [INFO: Frame 15.4] Out: 1 0200.0000.0000.a484 21 79 (100)
+1683574475 [INFO: CSMA ] tx to 0200.0000.0000.a484, seqno 255, status 2, tx 4, coll 0
+1683574475 [INFO: CSMA ] preparing packet for 0200.0000.0000.a484, seqno 255, tx 5, queue 1
+1683574475 [INFO: Frame 15.4] Out: 1 0200.0000.0000.a484 21 79 (100)
+1683574475 [INFO: CSMA ] tx to 0200.0000.0000.a484, seqno 255, status 2, tx 5, coll 0
+1683574475 [INFO: CSMA ] preparing packet for 0200.0000.0000.a484, seqno 255, tx 6, queue 1
+1683574475 [INFO: Frame 15.4] Out: 1 0200.0000.0000.a484 21 79 (100)
+1683574475 [INFO: CSMA ] tx to 0200.0000.0000.a484, seqno 255, status 2, tx 6, coll 0
+1683574475 [INFO: CSMA ] preparing packet for 0200.0000.0000.a484, seqno 255, tx 7, queue 1
+1683574475 [INFO: Frame 15.4] Out: 1 0200.0000.0000.a484 21 79 (100)
+1683574475 [INFO: CSMA ] tx to 0200.0000.0000.a484, seqno 255, status 2, tx 7, coll 0
+1683574475 [INFO: CSMA ] packet sent to 0200.0000.0000.a484, seqno 255, status 2, tx 8, coll 0
+1683574475 [INFO: RPL ] packet sent to 0200.0000.0000.a484, status 2, tx 8, new link metric 486
+1683574475 [INFO: RPL ] parent switch: (NULL IP addr) -> fe80::a484
+1683574475 [WARN: RPL ] found parent: fe80::a484, staying in DAG
+1683574475 [INFO: RPL ] nbr: own state, addr fd00::a685, DAG state: joined, MOP 1 OCP 1 rank 614 max-rank 1638, dioint 0, nbr count 1 (Parent switch)
+1683574475 [INFO: RPL ] nbr: fe80::a484 128, 486 => 614 -- 8 rbafp (last tx 0 min ago)
+1683574475 [INFO: RPL ] nbr: end of list
+1683574475 [INFO: App ] Not reachable yet
+1683574479 [INFO: RPL ] sending a DAO seqno 241, tx count 1, lifetime 30, prefix fd00::a685 to fd00::a484, parent fe80::a484
+1683574479 [INFO: RPL ] creating hop-by-hop option
+1683574479 [INFO: CSMA ] sending to 0200.0000.0000.a484, len 62, seqno 1, queue length 1, free packets 7
+1683574479 [INFO: CSMA ] preparing packet for 0200.0000.0000.a484, seqno 1, tx 0, queue 1
+1683574479 [INFO: Frame 15.4] Out: 1 0200.0000.0000.a484 21 62 (83)
+1683574479 [INFO: CSMA ] tx to 0200.0000.0000.a484, seqno 1, status 2, tx 0, coll 0
+1683574479 [INFO: CSMA ] preparing packet for 0200.0000.0000.a484, seqno 1, tx 1, queue 1
+1683574479 [INFO: Frame 15.4] Out: 1 0200.0000.0000.a484 21 62 (83)
+1683574479 [INFO: CSMA ] tx to 0200.0000.0000.a484, seqno 1, status 1, tx 1, coll 0
+1683574479 [INFO: Frame 15.4] In: 1 0200.0000.0000.a484 0200.0000.0000.a685 21 20 (41)
+1683574479 [INFO: CSMA ] received packet from 0200.0000.0000.a484, seqno 188, len 20
+1683574479 [INFO: RPL ] received a DAO-ACK with seqno 241 (241 241) and status 0 from fd00::a484
+1683574479 [INFO: RPL ] reset DIO timer (Reachable)
+1683574479 [INFO: Frame 15.4] In: 1 0200.0000.0000.a484 0200.0000.0000.a685 21 20 (41)
+1683574479 [WARN: CSMA ] drop duplicate link layer packet from 0200.0000.0000.a484, seqno 188
+1683574479 [INFO: Frame 15.4] In: 1 0200.0000.0000.a484 0200.0000.0000.a685 21 20 (41)
+1683574479 [WARN: CSMA ] drop duplicate link layer packet from 0200.0000.0000.a484, seqno 188
+1683574479 [INFO: CSMA ] preparing packet for 0200.0000.0000.a484, seqno 1, tx 1, queue 1
+1683574479 [INFO: Frame 15.4] Out: 1 0200.0000.0000.a484 21 62 (83)
+1683574479 [INFO: CSMA ] tx to 0200.0000.0000.a484, seqno 1, status 1, tx 1, coll 1
+1683574479 [INFO: Frame 15.4] In: 1 0200.0000.0000.a484 0200.0000.0000.a685 21 20 (41)
+1683574479 [WARN: CSMA ] drop duplicate link layer packet from 0200.0000.0000.a484, seqno 188
+1683574479 [INFO: Frame 15.4] In: 1 0200.0000.0000.a484 0200.0000.0000.a685 21 20 (41)
+1683574479 [WARN: CSMA ] drop duplicate link layer packet from 0200.0000.0000.a484, seqno 188
+1683574479 [INFO: Frame 15.4] In: 1 0200.0000.0000.a484 0200.0000.0000.a685 21 20 (41)
+1683574479 [WARN: CSMA ] drop duplicate link layer packet from 0200.0000.0000.a484, seqno 188
+1683574479 [INFO: Frame 15.4] In: 1 0200.0000.0000.a484 0200.0000.0000.a685 21 20 (41)
+1683574479 [WARN: CSMA ] drop duplicate link layer packet from 0200.0000.0000.a484, seqno 188
+1683574480 [INFO: Frame 15.4] In: 1 0200.0000.0000.a484 0200.0000.0000.a685 21 20 (41)
+1683574480 [WARN: CSMA ] drop duplicate link layer packet from 0200.0000.0000.a484, seqno 188
+1683574480 [INFO: CSMA ] preparing packet for 0200.0000.0000.a484, seqno 1, tx 1, queue 1
+1683574480 [INFO: Frame 15.4] Out: 1 0200.0000.0000.a484 21 62 (83)
+1683574480 [INFO: CSMA ] tx to 0200.0000.0000.a484, seqno 1, status 2, tx 1, coll 2
+1683574480 [INFO: CSMA ] preparing packet for 0200.0000.0000.a484, seqno 1, tx 2, queue 1
+1683574480 [INFO: Frame 15.4] Out: 1 0200.0000.0000.a484 21 62 (83)
+1683574480 [INFO: CSMA ] tx to 0200.0000.0000.a484, seqno 1, status 2, tx 2, coll 0
+1683574480 [INFO: Frame 15.4] In: 1 0200.0000.0000.a484 0000.0000.0000.0000 15 80 (95)
+1683574480 [INFO: CSMA ] received packet from 0200.0000.0000.a484, seqno 189, len 80
+1683574480 [INFO: RPL ] received a multicast-DIO from fe80::a484, instance_id 0, DAG ID fd00::a484, version 240, dtsn 240, rank 128
+1683574480 [INFO: RPL ] refreshing lifetime
+1683574480 [INFO: CSMA ] preparing packet for 0200.0000.0000.a484, seqno 1, tx 3, queue 1
+1683574480 [INFO: Frame 15.4] Out: 1 0200.0000.0000.a484 21 62 (83)
+1683574480 [INFO: CSMA ] tx to 0200.0000.0000.a484, seqno 1, status 2, tx 3, coll 0
+1683574480 [INFO: CSMA ] preparing packet for 0200.0000.0000.a484, seqno 1, tx 4, queue 1
+1683574480 [INFO: Frame 15.4] Out: 1 0200.0000.0000.a484 21 62 (83)
+1683574480 [INFO: CSMA ] tx to 0200.0000.0000.a484, seqno 1, status 1, tx 4, coll 0
+1683574480 [INFO: CSMA ] preparing packet for 0200.0000.0000.a484, seqno 1, tx 4, queue 1
+1683574480 [INFO: Frame 15.4] Out: 1 0200.0000.0000.a484 21 62 (83)
+1683574480 [INFO: CSMA ] tx to 0200.0000.0000.a484, seqno 1, status 2, tx 4, coll 1
+1683574480 [INFO: CSMA ] preparing packet for 0200.0000.0000.a484, seqno 1, tx 5, queue 1
+1683574480 [INFO: Frame 15.4] Out: 1 0200.0000.0000.a484 21 62 (83)
+1683574480 [INFO: CSMA ] tx to 0200.0000.0000.a484, seqno 1, status 1, tx 5, coll 0
+1683574480 [INFO: CSMA ] preparing packet for 0200.0000.0000.a484, seqno 1, tx 5, queue 1
+1683574480 [INFO: Frame 15.4] Out: 1 0200.0000.0000.a484 21 62 (83)
+1683574480 [INFO: CSMA ] tx to 0200.0000.0000.a484, seqno 1, status 2, tx 5, coll 1
+1683574480 [INFO: CSMA ] preparing packet for 0200.0000.0000.a484, seqno 1, tx 6, queue 1
+1683574480 [INFO: Frame 15.4] Out: 1 0200.0000.0000.a484 21 62 (83)
+1683574480 [INFO: CSMA ] tx to 0200.0000.0000.a484, seqno 1, status 2, tx 6, coll 0
+1683574480 [INFO: CSMA ] preparing packet for 0200.0000.0000.a484, seqno 1, tx 7, queue 1
+1683574480 [INFO: Frame 15.4] Out: 1 0200.0000.0000.a484 21 62 (83)
+1683574480 [INFO: CSMA ] tx to 0200.0000.0000.a484, seqno 1, status 2, tx 7, coll 0
+1683574480 [INFO: CSMA ] packet sent to 0200.0000.0000.a484, seqno 1, status 2, tx 8, coll 0
+1683574480 [INFO: RPL ] packet sent to 0200.0000.0000.a484, status 2, tx 8, new link metric 693
+1683574480 [INFO: RPL ] parent switch: fe80::a484 -> (NULL IP addr)
+1683574480 [WARN: RPL ] no parent, scheduling periodic DIS, will leave if no parent is found
+1683574480 [INFO: RPL ] nbr: own state, addr fd00::a685, DAG state: initialized, MOP 1 OCP 1 rank 65535 max-rank 1638, dioint 12, nbr count 1 (Parent switch)
+1683574480 [INFO: RPL ] nbr: fe80::a484 128, 693 => 821 -- 16 r f (last tx 0 min ago, better since 0 min)
+1683574480 [INFO: RPL ] nbr: end of list
+1683574481 [INFO: App ] Not reachable yet
+1683574486 [INFO: RPL ] sending a DIS to ff02::1a
+1683574486 [INFO: CSMA ] sending to 0000.0000.0000.0000, len 10, seqno 2, queue length 1, free packets 7
+1683574486 [INFO: CSMA ] preparing packet for 0000.0000.0000.0000, seqno 2, tx 0, queue 1
+1683574486 [INFO: Frame 15.4] Out: 1 ffff.0000.0000.0000 15 10 (25)
+1683574486 [INFO: CSMA ] tx to 0000.0000.0000.0000, seqno 2, status 0, tx 0, coll 0
+1683574486 [INFO: CSMA ] packet sent to 0000.0000.0000.0000, seqno 2, status 0, tx 1, coll 0
+1683574487 [INFO: App ] Not reachable yet
+1683574488 [INFO: Frame 15.4] In: 1 0200.0000.0000.a484 0000.0000.0000.0000 15 80 (95)
+1683574488 [INFO: CSMA ] received packet from 0200.0000.0000.a484, seqno 190, len 80
+1683574488 [INFO: RPL ] received a multicast-DIO from fe80::a484, instance_id 0, DAG ID fd00::a484, version 240, dtsn 240, rank 128
+1683574493 [INFO: App ] Not reachable yet
+1683574496 [INFO: Frame 15.4] In: 1 0200.0000.0000.a484 0000.0000.0000.0000 15 80 (95)
+1683574496 [INFO: CSMA ] received packet from 0200.0000.0000.a484, seqno 191, len 80
+1683574496 [INFO: RPL ] received a multicast-DIO from fe80::a484, instance_id 0, DAG ID fd00::a484, version 240, dtsn 240, rank 128
+1683574499 [INFO: App ] Not reachable yet
+1683574505 [INFO: App ] Not reachable yet
+1683574507 [INFO: RPL ] sending a DIS to ff02::1a
+1683574507 [INFO: CSMA ] sending to 0000.0000.0000.0000, len 10, seqno 3, queue length 1, free packets 7
+1683574507 [INFO: CSMA ] preparing packet for 0000.0000.0000.0000, seqno 3, tx 0, queue 1
+1683574507 [INFO: Frame 15.4] Out: 1 ffff.0000.0000.0000 15 10 (25)
+1683574507 [INFO: CSMA ] tx to 0000.0000.0000.0000, seqno 3, status 0, tx 0, coll 0
+1683574507 [INFO: CSMA ] packet sent to 0000.0000.0000.0000, seqno 3, status 0, tx 1, coll 0
+1683574511 [INFO: Frame 15.4] In: 1 0200.0000.0000.a484 0000.0000.0000.0000 15 80 (95)
+1683574511 [INFO: CSMA ] received packet from 0200.0000.0000.a484, seqno 192, len 80
+1683574511 [INFO: RPL ] received a multicast-DIO from fe80::a484, instance_id 0, DAG ID fd00::a484, version 240, dtsn 240, rank 128
+1683574511 [INFO: App ] Not reachable yet
+1683574517 [INFO: App ] Not reachable yet
+1683574519 [INFO: Frame 15.4] In: 1 0200.0000.0000.a484 0000.0000.0000.0000 15 80 (95)
+1683574519 [INFO: CSMA ] received packet from 0200.0000.0000.a484, seqno 193, len 80
+1683574519 [INFO: RPL ] received a multicast-DIO from fe80::a484, instance_id 0, DAG ID fd00::a484, version 240, dtsn 240, rank 128
+1683574523 [INFO: App ] Not reachable yet
+1683574529 [INFO: RPL ] sending a DIS to ff02::1a
+1683574529 [INFO: CSMA ] sending to 0000.0000.0000.0000, len 10, seqno 4, queue length 1, free packets 7
+1683574529 [INFO: CSMA ] preparing packet for 0000.0000.0000.0000, seqno 4, tx 0, queue 1
+1683574529 [INFO: Frame 15.4] Out: 1 ffff.0000.0000.0000 15 10 (25)
+1683574529 [INFO: CSMA ] tx to 0000.0000.0000.0000, seqno 4, status 0, tx 0, coll 0
+1683574529 [INFO: CSMA ] packet sent to 0000.0000.0000.0000, seqno 4, status 0, tx 1, coll 0
+1683574529 [INFO: App ] Not reachable yet
+1683574530 [INFO: RPL ] nbr: own state, addr fd00::a685, DAG state: initialized, MOP 1 OCP 1 rank 65535 max-rank 65535, dioint 12, nbr count 1 (Periodic)
+1683574530 [INFO: RPL ] nbr: fe80::a484 128, 693 => 821 -- 16 r f (last tx 0 min ago, better since 0 min)
+1683574530 [INFO: RPL ] nbr: end of list
+1683574533 [INFO: Frame 15.4] In: 1 0200.0000.0000.a484 0000.0000.0000.0000 15 80 (95)
+1683574533 [INFO: CSMA ] received packet from 0200.0000.0000.a484, seqno 194, len 80
+1683574533 [INFO: RPL ] received a multicast-DIO from fe80::a484, instance_id 0, DAG ID fd00::a484, version 240, dtsn 240, rank 128
+1683574535 [INFO: App ] Not reachable yet
+1683574537 [INFO: Frame 15.4] In: 1 0200.0000.0000.a484 0000.0000.0000.0000 15 80 (95)
+1683574537 [INFO: CSMA ] received packet from 0200.0000.0000.a484, seqno 195, len 80
+1683574537 [INFO: RPL ] received a multicast-DIO from fe80::a484, instance_id 0, DAG ID fd00::a484, version 240, dtsn 240, rank 128
+1683574541 [INFO: App ] Not reachable yet
+1683574547 [INFO: App ] Not reachable yet
+1683574553 [INFO: App ] Not reachable yet
+1683574554 [INFO: Frame 15.4] In: 1 0200.0000.0000.a484 0000.0000.0000.0000 15 80 (95)
+1683574554 [INFO: CSMA ] received packet from 0200.0000.0000.a484, seqno 196, len 80
+1683574554 [INFO: RPL ] received a multicast-DIO from fe80::a484, instance_id 0, DAG ID fd00::a484, version 240, dtsn 240, rank 128
+1683574555 [INFO: RPL ] sending a DIS to ff02::1a
+1683574555 [INFO: CSMA ] sending to 0000.0000.0000.0000, len 10, seqno 5, queue length 1, free packets 7
+1683574555 [INFO: CSMA ] preparing packet for 0000.0000.0000.0000, seqno 5, tx 0, queue 1
+1683574555 [INFO: Frame 15.4] Out: 1 ffff.0000.0000.0000 15 10 (25)
+1683574555 [INFO: CSMA ] tx to 0000.0000.0000.0000, seqno 5, status 0, tx 0, coll 0
+1683574555 [INFO: CSMA ] packet sent to 0000.0000.0000.0000, seqno 5, status 0, tx 1, coll 0
+1683574558 [INFO: Frame 15.4] In: 1 0200.0000.0000.a484 0000.0000.0000.0000 15 80 (95)
+1683574558 [INFO: CSMA ] received packet from 0200.0000.0000.a484, seqno 197, len 80
+1683574558 [INFO: RPL ] received a multicast-DIO from fe80::a484, instance_id 0, DAG ID fd00::a484, version 240, dtsn 240, rank 128
+1683574559 [INFO: App ] Not reachable yet
+1683574565 [INFO: Frame 15.4] In: 1 0200.0000.0000.a484 0000.0000.0000.0000 15 80 (95)
+1683574565 [INFO: CSMA ] received packet from 0200.0000.0000.a484, seqno 198, len 80
+1683574565 [INFO: RPL ] received a multicast-DIO from fe80::a484, instance_id 0, DAG ID fd00::a484, version 240, dtsn 240, rank 128
+1683574565 [INFO: App ] Not reachable yet
+1683574571 [INFO: RPL ] no neighbor needs probing
+1683574571 [INFO: App ] Not reachable yet
+1683574575 [INFO: RPL ] sending a DIS to ff02::1a
+1683574575 [INFO: CSMA ] sending to 0000.0000.0000.0000, len 10, seqno 6, queue length 1, free packets 7
+1683574575 [INFO: CSMA ] preparing packet for 0000.0000.0000.0000, seqno 6, tx 0, queue 1
+1683574575 [INFO: Frame 15.4] Out: 1 ffff.0000.0000.0000 15 10 (25)
+1683574575 [INFO: CSMA ] tx to 0000.0000.0000.0000, seqno 6, status 0, tx 0, coll 0
+1683574575 [INFO: CSMA ] packet sent to 0000.0000.0000.0000, seqno 6, status 0, tx 1, coll 0
+1683574577 [INFO: App ] Not reachable yet
+1683574578 [INFO: Frame 15.4] In: 1 0200.0000.0000.a484 0000.0000.0000.0000 15 80 (95)
+1683574578 [INFO: CSMA ] received packet from 0200.0000.0000.a484, seqno 199, len 80
+1683574578 [INFO: RPL ] received a multicast-DIO from fe80::a484, instance_id 0, DAG ID fd00::a484, version 240, dtsn 240, rank 128
+1683574583 [INFO: App ] Not reachable yet
+1683574586 [INFO: Frame 15.4] In: 1 0200.0000.0000.a484 0000.0000.0000.0000 15 80 (95)
+1683574586 [INFO: CSMA ] received packet from 0200.0000.0000.a484, seqno 200, len 80
+1683574586 [INFO: RPL ] received a multicast-DIO from fe80::a484, instance_id 0, DAG ID fd00::a484, version 240, dtsn 240, rank 128
+1683574589 [INFO: App ] Not reachable yet
+1683574590 [INFO: RPL ] nbr: own state, addr fd00::a685, DAG state: initialized, MOP 1 OCP 1 rank 65535 max-rank 65535, dioint 12, nbr count 1 (Periodic)
+1683574590 [INFO: RPL ] nbr: fe80::a484 128, 693 => 821 -- 16 r f (last tx 1 min ago, better since 1 min)
+1683574590 [INFO: RPL ] nbr: end of list
+1683574595 [INFO: App ] Not reachable yet
