@@ -1,14 +1,24 @@
 #!/bin/bash
 
-if [ $# -ne 4 ]; then
-echo "Usage: ./monitor.sh <experiment_name> <duration> <nodes_number> <site>"
+if [ $# -lt 4 ]; then
+echo "Usage: ./monitor.sh <experiment_name> <duration> <nodes_number> <site> [mac_mode]"
 echo "Example: ./monitor.sh my_experiment 10 2 strasbourg"
 echo "<duration> : in minutes"
 exit 1
 fi
 
 echo "$(tput setaf 3)Compilation...$(tput setaf 7)"
-make > /dev/null 2>&1
+make clean
+if [ $# -ge 5 ]; then 
+if [[ $5 == TSCH ]]; then 
+make TSCH=1 > /dev/null 2>&1
+else 
+make TSCH=0 >/dev/null 2>&1
+
+fi
+else 
+make TSCH=0 >/dev/null 2>&1
+fi
 echo "$(tput setaf 2)Compiled$(tput setaf 7)"
 
 # check if there are enough nodes available
