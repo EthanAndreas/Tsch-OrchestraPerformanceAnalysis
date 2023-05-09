@@ -60,7 +60,13 @@ if sys.argv[3] == 'power':
         timestamps.append(timestamp)
         values.append(float(parts[-1]))
         
+    # Apply a moving average to smooth the graph
+    window_size = 10
+    values_smooth = np.convolve(values, np.ones(window_size)/window_size, mode='valid')
+    timestamps_smooth = timestamps[window_size//2:-(window_size//2)]
+        
 elif sys.argv[3] == 'radio':
+    freq = 0
     for line in data:
         if line.startswith('#'):
             continue
@@ -71,26 +77,31 @@ elif sys.argv[3] == 'radio':
             timestamp = float(parts[0])
         except ValueError:
             continue  # skip over lines with non-numeric timestamp
+        if float(parts[3]) > 0:
+            freq += 1
         timestamps.append(timestamp)
         values.append(float(parts[3]))
-
-# Apply a moving average to smooth the graph
-window_size = 10
-values_smooth = np.convolve(values, np.ones(window_size)/window_size, mode='valid')
-timestamps_smooth = timestamps[window_size//2:-(window_size//2)]
+    freq = freq / (timestamps[-1] - timestamps[0])
 
 # Set figure size and plot the data using matplotlib
 plt.figure(figsize=(8, 6))
-plt.plot(timestamps, values)
+if sys.argv[3] == 'power':
+    # plot the power consumption
+    plt.plot(timestamps_smooth, values_smooth)
+elif sys.argv[3] == 'radio':
+    # plot vertical bar when radio activity is detected
+    plt.bar(timestamps, values, width=0.1, color='red')
+    
 plt.title(f"Consumption of experiment {sys.argv[1]} for {sys.argv[4]}")
 plt.xlabel("Time (s)")
 plt.ylabel("Power (W)" if sys.argv[4] == 'power' else "Radio activity")
 
 # display the average value aside the plot
 if sys.argv[3] == 'power':
-    text = f"Average power: {sum(values)/len(values):.2f} W"
+    text = f"Average power: {sum(values)/len(values)*1000:.2f} mW"
 else:
-    text = f"Radio activity: {max(values):.2f}"
+    text = f"Radio activity: {freq:.2f} Hz"
+    
 text_rect = patches.Rectangle((0.92, 0.02), 0.06, 0.07, fill=True, facecolor='white', transform=plt.gca().transAxes)
 plt.gca().add_patch(text_rect)
 plt.text(0.95, 0.05, text, transform=plt.gca().transAxes, ha='right')

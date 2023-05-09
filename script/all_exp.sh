@@ -1,6 +1,5 @@
 #! /bin/bash
 
-
 for i in 2 4 10 25
 do
 mkdir netcat/$i"node"$1
