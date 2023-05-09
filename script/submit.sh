@@ -1,24 +1,20 @@
 #!/bin/bash
 
-if [ $# -lt 4 ]; then
-echo "Usage: ./monitor.sh <experiment_name> <duration> <nodes_number> <site> [mac_mode]"
-echo "Example: ./monitor.sh my_experiment 10 2 strasbourg"
+if [ $# -ne 5 ]; then
+echo "Usage: ./monitor.sh <experiment_name> <duration> <nodes_number> <site> <protocol>"
+echo "Example: ./monitor.sh my_experiment 10 2 strasbourg tsch"
 echo "<duration> : in minutes"
+echo "<protocol> : tsch or csma"
 exit 1
 fi
 
-echo "$(tput setaf 3)Compilation...$(tput setaf 7)"
-make clean
-if [ $# -ge 5 ]; then 
-if [[ $5 == TSCH ]]; then 
-make TSCH=1 > /dev/null 2>&1
-else 
-make TSCH=0 >/dev/null 2>&1
+if [ [ $5 != "tsch" ] && [ $5 != "csma" ] ]; then
+    echo "$(tput setaf 1)Please enter a valid protocol$(tput setaf 7)"
+    exit 1
+fi
 
-fi
-else 
-make TSCH=0 >/dev/null 2>&1
-fi
+echo "$(tput setaf 3)Compilation...$(tput setaf 7)"
+make $5 > /dev/null 2>&1
 echo "$(tput setaf 2)Compiled$(tput setaf 7)"
 
 # check if there are enough nodes available

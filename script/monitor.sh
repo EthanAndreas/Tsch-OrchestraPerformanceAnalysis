@@ -1,16 +1,22 @@
 #!/bin/bash
 
-if [ $# -ne 4 ]; then
-echo "Usage: ./monitor.sh <experiment_name> <duration> <nodes_number> <monitor>"
-echo "Example: ./monitor.sh my_experiment m3 10 2 power"
+if [ $# -ne 5 ]; then
+echo "Usage: ./monitor.sh <experiment_name> <duration> <nodes_number> <monitor> <protocol>"
+echo "Example: ./monitor.sh my_experiment m3 10 2 power tsch"
 echo "<duration> : in minutes"
 echo "<monitor> : power or radio"
+echo "<protocol> : tsch or csma"
 echo "PS: Result of experiment is only accessible for Strasbourg site"
 exit 1
 fi
 
+if [ [ $5 != "tsch" ] && [ $5 != "csma" ] ]; then
+    echo "$(tput setaf 1)Please enter a valid protocol$(tput setaf 7)"
+    exit 1
+fi
+
 echo "$(tput setaf 3)Compilation...$(tput setaf 7)"
-make > /dev/null 2>&1
+make $5 > /dev/null 2>&1
 echo "$(tput setaf 2)Compiled$(tput setaf 7)"
 
 # check if there are enough nodes available
