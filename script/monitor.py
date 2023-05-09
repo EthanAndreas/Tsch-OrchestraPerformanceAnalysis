@@ -72,16 +72,10 @@ elif sys.argv[3] == 'radio':
             timestamp = float(parts[0])
         except ValueError:
             continue  # skip over lines with non-numeric timestamp
-        if float(parts[3]) > 0:
-            freq += 1
         timestamps.append(timestamp)
-        value_str = parts[-1].replace('\x00', '')  # remove null byte from value string
-        try:
-            value = float(value_str)
-        except ValueError:
-            continue  # skip over lines with non-numeric value
-        values.append(value)
-        interval.append(1/(timestamps[-1] - timestamps[0]))
+        values.append(parts[4])
+        if timestamps[len(timestamps) - 1] != timestamps[len(timestamps) - 2]:
+            interval.append(1/(timestamps[len(timestamps) - 1]*1000 - timestamps[len(timestamps) - 2]*1000))
 
 # put the same size for timestamps and values
 if len(timestamps) > len(values):
@@ -106,7 +100,7 @@ plt.ylabel("Power (W)" if sys.argv[4] == 'power' else "Radio activity")
 if sys.argv[3] == 'power':
     text = f"Average power: {sum(values)/len(values)*1000:.2f} mW"
 elif sys.argv[3] == 'radio':
-    text = f"Average frequency of radio activity: {sum(interval)/len(interval):.2f} Hz"
+    text = f"Average frequency of radio activity: {sum(interval)/len(interval):.2f} kHz"
     
 text_rect = patches.Rectangle((0.92, 0.02), 0.06, 0.07, fill=True, facecolor='white', transform=plt.gca().transAxes)
 plt.gca().add_patch(text_rect)
