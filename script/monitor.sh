@@ -55,31 +55,4 @@ echo "Waiting for experiment $id to be in state RUNNING"
 iotlab-experiment wait -i $id > /dev/null 2>&1 
 echo "$(tput setaf 2)Experiment start$(tput setaf 7)"
 
-# retrieve file path of the monitoring type
-if [ $4 == "power" ]; then
-    echo "$(tput setaf 3)Retrieving power info...$(tput setaf 7)"
-    file="/senslab/users/wifi2023stras10/.iot-lab/$id/consumption/$2_$(cat nodes_free.txt | head -n 1).oml"
-elif [ $4 == "radio" ]; then
-    echo "$(tput setaf 3)Retrieving radio info...$(tput setaf 7)"
-    file="/senslab/users/wifi2023stras10/.iot-lab/$id/radio/$2_$(cat nodes_free.txt | head -n 1).oml"
-fi
-
-# wait for the file to be created
-while [ ! -f "$file" ]; do
-    sleep 1
-done
-
-# wait for the end of the experiment
-echo "Wait for the end of the experiment"
-sleep $(($2 * 60))
-
-# plot graph of the monitoring type with python script
-if [ $4 == "power" ]; then
-    python3 monitor.py $id $2 power $3 $file 
-    echo "$(tput setaf 2)Power consumption graph of experiment $id saved in plot folder$(tput setaf 7)"
-elif [ $4 == "radio" ]; then
-    python3 monitor.py $id m3 $2 radio $3 $file 
-    echo "$(tput setaf 2)Radio activity graph of experiment $id saved in plot folder$(tput setaf 7)"
-fi
-
 rm nodes_free.txt > /dev/null 2>&1
