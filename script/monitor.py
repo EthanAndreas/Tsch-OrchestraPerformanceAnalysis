@@ -60,11 +60,6 @@ if sys.argv[3] == 'power':
         timestamps.append(timestamp)
         values.append(float(parts[-1]))
         
-    # Apply a moving average to smooth the graph
-    window_size = 10
-    values_smooth = np.convolve(values, np.ones(window_size)/window_size, mode='valid')
-    timestamps_smooth = timestamps[window_size//2:-(window_size//2)]
-        
 elif sys.argv[3] == 'radio':
     freq = 0
     for line in data:
@@ -86,6 +81,10 @@ elif sys.argv[3] == 'radio':
 # Set figure size and plot the data using matplotlib
 plt.figure(figsize=(8, 6))
 if sys.argv[3] == 'power':
+     # Apply a moving average to smooth the graph
+    window_size = 10
+    values_smooth = np.convolve(values, np.ones(window_size)/window_size, mode='valid')
+    timestamps_smooth = timestamps[window_size//2:-(window_size//2)]
     # plot the power consumption
     plt.plot(timestamps_smooth, values_smooth)
 elif sys.argv[3] == 'radio':
