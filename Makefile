@@ -3,24 +3,26 @@ all: $(CONTIKI_PROJECT)
 
 PLATFORMS_EXCLUDE = sky nrf52dk native simplelink
 
-CONTIKI=/senslab/users/wifi2023stras10/iot-lab/parts/iot-lab-contiki-ng/contiki-ng
+CONTIKI = /senslab/users/wifi2023stras10/iot-lab/parts/iot-lab-contiki-ng/contiki-ng
 
 TARGET = iotlab
 BOARD = m3
-ARCH_PATH=/senslab/users/wifi2023stras10/iot-lab/parts/iot-lab-contiki-ng/arch/
+ARCH_PATH = /senslab/users/wifi2023stras10/iot-lab/parts/iot-lab-contiki-ng/arch/
 
-include $(CONTIKI)/Makefile.dir-variables
+MAKE_MAC ?= MAKE_MAC_CSMA
 
-tsch:
-        MAKE_MAC = MAKE_MAC_TSCH
-        MODULES += $(CONTIKI_NG_SERVICES_DIR)/orchestra
-        $(MAKE) -f Makefile
-
-csma:
-        MAKE_MAC = MAKE_MAC_CSMA
-        $(MAKE) -f Makefile
+ifeq ($(MAKE_MAC),MAKE_MAC_TSCH)
+	MODULES += $(CONTIKI_NG_SERVICES_DIR)/orchestra
+endif
 
 MODULES += $(CONTIKI_NG_SERVICES_DIR)/shell
 
+tsch:
+	$(MAKE) MAKE_MAC=MAKE_MAC_TSCH -f Makefile
+
+csma:
+	$(MAKE) MAKE_MAC=MAKE_MAC_CSMA -f Makefile
+
+include $(CONTIKI)/Makefile.dir-variables
 include $(CONTIKI)/Makefile.include
 

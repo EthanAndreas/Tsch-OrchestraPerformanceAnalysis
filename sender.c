@@ -73,7 +73,7 @@ PROCESS_THREAD (node_process, ev, data)
 
     if (!NETSTACK_ROUTING.node_is_reachable ())
 	LOG_INFO("Not reachable yet: !node_is_reachable\n");
-
+	else
 	if (NETSTACK_ROUTING.get_root_ipaddr (&dest_ipaddr)) {
       LOG_INFO ("Sending request %u to ", count);
       LOG_INFO ("\n");
