@@ -8,30 +8,34 @@ import numpy as np
 
 # Check that the correct number of arguments was given
 if len(sys.argv) != 5:
-    print("Usage: python3 monitor.py <experiment_id> <duration> <nodes_number> <power | radio> <coordinator | sender>")
+    print("Usage: python3 monitor.py <experiment_id> <duration> <power | radio> <coordinator | sender>")
     sys.exit()
-    
-if sys.argv[4] not in ['power', 'radio']:
+
+if sys.argv[3] not in ['power', 'radio']:
     print("Invalid argument : [power | radio]")
     sys.exit()
-    
-if sys.argv[5] not in ['coordinator', 'sender']:
+
+if sys.argv[4] not in ['coordinator', 'sender']:
     print("Invalid argument : [coordinator | sender]")
     sys.exit()
-    
+
 # get the first file of /senslab/users/wifi2023stras10/.iot-lab/$id/consumption/
 directory = '/senslab/users/wifi2023stras10/.iot-lab/' + sys.argv[1]
 
-if sys.argv[4] == 'power':
+if sys.argv[3] == 'power':
     directory = directory + '/consumption/'
-elif sys.argv[4] == 'radio':
+elif sys.argv[3] == 'radio':
     directory = directory + '/radio/'
 
 files = os.listdir(directory)
-file = files[0]
+if sys.argv[4] == 'coordinator':
+	file = files[-1]
+elif sys.argv[4] == 'sender':
+	file = files[-2]
+file_path = directory + file
 
 # Read the data from the file
-with open(file, 'r') as f:
+with open(file_path, 'r') as f:
     data = f.readlines()
 
 # Skip the 9 first lines
@@ -40,7 +44,7 @@ data = data[9:]
 # Extract the relevant values from the data
 timestamps = []
 values = []
-if sys.argv[4] == 'power':
+if sys.argv[3] == 'power':
     for line in data:
         if line.startswith('#'):
             continue
@@ -54,7 +58,7 @@ if sys.argv[4] == 'power':
         timestamps.append(timestamp)
         values.append(float(parts[4]))
         
-else:
+elif sys.argv[3] == 'radio':
     for line in data:
         if line.startswith('#'):
             continue
@@ -76,7 +80,7 @@ timestamps_smooth = timestamps[window_size//2:-(window_size//2)]
 # Set figure size and plot the data using matplotlib
 plt.figure(figsize=(8, 6))
 plt.plot(timestamps, values)
-plt.title(f"Consumption of experiment {sys.argv[1]} for {sys.argv[5]}")
+plt.title(f"Consumption of experiment {sys.argv[1]} for {sys.argv[4]}")
 plt.xlabel("Time (s)")
 plt.ylabel("Power (W)" if sys.argv[4] == 'power' else "Radio activity")
 
@@ -90,11 +94,11 @@ plt.gca().add_patch(text_rect)
 plt.text(0.95, 0.05, text, transform=plt.gca().transAxes, ha='right')
 
 # Set y-axis label and limit
-plt.ylabel("Power (W)" if sys.argv[4] == 'power' else "Radio activity")
+plt.ylabel("Power (W)" if sys.argv[3] == 'power' else "Radio activity")
 plt.ylim(bottom=0)
 
 # Show the plot
 plt.show(block=True)
 
 # Save the plot to a file
-plt.savefig(f"plot/{sys.argv[5]}_d{sys.argv[2]}_n{sys.argv[3]}_plot.png")
+plt.savefig(f"plot/{sys.argv[4]}_d{sys.argv[2]}_n{len(directory)}_plot.png")
