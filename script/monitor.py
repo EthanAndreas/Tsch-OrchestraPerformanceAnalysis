@@ -97,7 +97,7 @@ plt.text(0.95, 0.05, text, transform=plt.gca().transAxes, ha='right')
 
 # Set y-axis label and limit
 plt.ylabel("Power (W)" if sys.argv[3] == 'power' else "Radio activity")
-plt.ylim(bottom=0)
+plt.ylim(bottom=min(values))
 
 # Show the plot
 plt.show(block=True)
