@@ -75,7 +75,7 @@ if sys.argv[4] == 'power':
     text = f"Average power: {sum(values)/len(values):.2f} W"
 else:
     text = f"Average radio activity: {sum(values)/len(values):.2f}"
-plt.plot(x, y, label='Data')
+plt.plot(timestamps_smooth, values_smooth, label='Data')
 plt.legend(loc='center right', bbox_to_anchor=(1.2, 0.5))
 plt.text(1.05, 0.5, text, transform=plt.gca().transAxes, ha='left')
 
