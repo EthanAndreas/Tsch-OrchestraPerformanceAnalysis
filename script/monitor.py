@@ -28,6 +28,8 @@ elif sys.argv[3] == 'radio':
     directory = directory + '/radio/'
 
 files = os.listdir(directory)
+nodes_number = len(files)
+
 if sys.argv[4] == 'coordinator':
 	file = files[-1]
 elif sys.argv[4] == 'sender':
@@ -101,4 +103,4 @@ plt.ylim(bottom=0)
 plt.show(block=True)
 
 # Save the plot to a file
-plt.savefig(f"plot/{sys.argv[4]}_d{sys.argv[2]}_n{len(directory)}_plot.png")
+plt.savefig(f"plot/{sys.argv[4]}_d{sys.argv[2]}_n{nodes_number}_plot.png")
