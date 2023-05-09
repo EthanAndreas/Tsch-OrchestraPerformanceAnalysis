@@ -14,7 +14,6 @@ if [ $5 != "tsch" ] && [ $5 != "csma" ] && [ $5 != "orchestra" ]; then
 fi
 
 echo "$(tput setaf 3)Compilation...$(tput setaf 7)"
-make clean > /dev/null 2>&1
 make $5 > /dev/null 2>&1
 echo "$(tput setaf 2)Compiled$(tput setaf 7)"
 
