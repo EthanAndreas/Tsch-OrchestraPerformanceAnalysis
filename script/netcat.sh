@@ -11,12 +11,13 @@ echo "<protocol> : tsch or csma"
 exit 1
 fi
 
-if [ [ $5 != "tsch" ] && [ $5 != "csma" ] ]; then
+if [ $5 != "tsch" ] && [ $5 != "csma" ]; then
     echo "$(tput setaf 1)Please enter a valid protocol$(tput setaf 7)"
     exit 1
 fi
 
 echo "$(tput setaf 3)Compilation...$(tput setaf 7)"
+make clean > /dev/null 2>&1
 make $5 > /dev/null 2>&1
 echo "$(tput setaf 2)Compiled$(tput setaf 7)"
 
