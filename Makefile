@@ -18,6 +18,7 @@ endif
 MODULES += $(CONTIKI_NG_SERVICES_DIR)/shell
 
 tsch:
+	OCHESTRA=1
 	$(MAKE) MAKE_MAC=MAKE_MAC_TSCH -f Makefile
 
 orchestra:

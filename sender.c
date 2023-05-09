@@ -3,6 +3,7 @@
  *         A RPL+TSCH node acting as a UDP src
  */
 
+#include "stdlib.h"
 #include "contiki.h"
 #include "sys/node-id.h"
 #include "sys/log.h"
@@ -29,6 +30,8 @@
 
 static struct simple_udp_connection udp_conn;
 
+clock_time_t pings[1000];
+
 /*---------------------------------------------------------------------------*/
 PROCESS (node_process, "UDP SRC");
 AUTOSTART_PROCESSES (&node_process);
@@ -46,7 +49,12 @@ static void udp_rx_callback (struct simple_udp_connection *c,
 
   LOG_INFO ("Received response '%.*s' from ", datalen, (char *) data);
   LOG_INFO_6ADDR (sender_addr);
-  LOG_INFO_ ("\n");
+  int count_value = atoi((const char *)data+6);
+  pings[count_value] = clock_time() - pings[count_value];
+  char str[1000];
+  snprintf(str,1000,"--> With %d of ping (%d) \n",(int)pings[count_value],CLOCK_SECOND);
+  LOG_INFO_(str);
+
 
 }
 
@@ -60,6 +68,8 @@ PROCESS_THREAD (node_process, ev, data)
   PROCESS_BEGIN ();
 
   NETSTACK_MAC.on ();
+
+  clock_init();
 
   // init UDP connection
   simple_udp_register (&udp_conn, UDP_CLIENT_PORT, NULL,
@@ -79,6 +89,7 @@ PROCESS_THREAD (node_process, ev, data)
       LOG_INFO ("\n");
       snprintf (str, SIZE_STR, "hello %d", count);
       simple_udp_sendto (&udp_conn, str, strlen (str), &dest_ipaddr);
+      pings[count] = clock_time();
       count++;
     }
     else {
