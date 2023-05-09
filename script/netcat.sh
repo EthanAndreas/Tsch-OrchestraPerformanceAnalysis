@@ -1,6 +1,6 @@
 function write_file(){
     # write netcat output to file
-	nc $1 20000  | while read line ; do echo $(date +%s) $line; done >> netcat/$2_d$3_n$4.txt
+	nc $1 20000  | while read line ; do echo $(date +%s) $line; done >> netcat/$2_$1_d$3_n$4.txt
 }
 
 if [ $# -ne 5 ]; then

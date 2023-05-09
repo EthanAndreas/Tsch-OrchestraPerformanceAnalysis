@@ -75,9 +75,14 @@ elif sys.argv[3] == 'radio':
         if float(parts[3]) > 0:
             freq += 1
         timestamps.append(timestamp)
-        values.append(float(parts[4]))
+        value_str = parts[-1].replace('\x00', '')  # remove null byte from value string
+        try:
+            value = float(value_str)
+        except ValueError:
+            continue  # skip over lines with non-numeric value
+        values.append(value)
     freq = freq / (timestamps[-1] - timestamps[0])
-    
+
 # put the same size for timestamps and values
 if len(timestamps) > len(values):
     timestamps = timestamps[:len(values)]
@@ -91,8 +96,8 @@ if sys.argv[3] == 'power':
     plt.plot(timestamps, values, color='blue')
 elif sys.argv[3] == 'radio':
     # plot vertical bar when radio activity is detected
-    plt.bar(timestamps, values, width=0.1, color='blue')
-    
+    plt.plot(timestamps, values, color='blue')
+
 plt.title(f"Consumption of experiment {sys.argv[1]} for {sys.argv[4]}")
 plt.xlabel("Time (s)")
 plt.ylabel("Power (W)" if sys.argv[4] == 'power' else "Radio activity")
