@@ -75,7 +75,7 @@ elif sys.argv[3] == 'radio':
         if float(parts[3]) > 0:
             freq += 1
         timestamps.append(timestamp)
-        values.append(float(parts[3]))
+        values.append(float(parts[4]))
     freq = freq / (timestamps[-1] - timestamps[0])
     
 # put the same size for timestamps and values
@@ -100,7 +100,7 @@ plt.ylabel("Power (W)" if sys.argv[4] == 'power' else "Radio activity")
 # display the average value aside the plot
 if sys.argv[3] == 'power':
     text = f"Average power: {sum(values)/len(values)*1000:.2f} mW"
-else:
+elif sys.argv[3] == 'radio':
     text = f"Radio activity: {freq:.2f} Hz"
     
 text_rect = patches.Rectangle((0.92, 0.02), 0.06, 0.07, fill=True, facecolor='white', transform=plt.gca().transAxes)
