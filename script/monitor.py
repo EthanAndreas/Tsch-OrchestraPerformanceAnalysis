@@ -77,6 +77,12 @@ elif sys.argv[3] == 'radio':
         timestamps.append(timestamp)
         values.append(float(parts[3]))
     freq = freq / (timestamps[-1] - timestamps[0])
+    
+# put the same size for timestamps and values
+if len(timestamps) > len(values):
+    timestamps = timestamps[:len(values)]
+else:
+    values = values[:len(timestamps)]
 
 # Set figure size and plot the data using matplotlib
 plt.figure(figsize=(8, 6))
