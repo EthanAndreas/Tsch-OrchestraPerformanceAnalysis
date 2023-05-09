@@ -58,7 +58,7 @@ if sys.argv[3] == 'power':
         except ValueError:
             continue  # skip over lines with non-numeric timestamp
         timestamps.append(timestamp)
-        values.append(float(parts[4]))
+        values.append(float(parts[-1]))
         
 elif sys.argv[3] == 'radio':
     for line in data:
