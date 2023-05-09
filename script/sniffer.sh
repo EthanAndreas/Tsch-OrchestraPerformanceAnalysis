@@ -8,7 +8,7 @@ echo "<protocol> : tsch or csma"
 exit 1
 fi
 
-if [ $5 != "tsch" ] && [ $5 != "csma" ]; then
+if [ $5 != "tsch" ] && [ $5 != "csma" ] && [ $5 != "orchestra" ]; then
     echo "$(tput setaf 1)Please enter a valid protocol$(tput setaf 7)"
     exit 1
 fi
