@@ -87,15 +87,11 @@ else:
 # Set figure size and plot the data using matplotlib
 plt.figure(figsize=(8, 6))
 if sys.argv[3] == 'power':
-     # Apply a moving average to smooth the graph
-    window_size = 10
-    values_smooth = np.convolve(values, np.ones(window_size)/window_size, mode='valid')
-    timestamps_smooth = timestamps[window_size//2:-(window_size//2)]
     # plot the power consumption
-    plt.plot(timestamps_smooth, values_smooth)
+    plt.plot(timestamps, values, color='blue')
 elif sys.argv[3] == 'radio':
     # plot vertical bar when radio activity is detected
-    plt.bar(timestamps, values, width=0.1, color='red')
+    plt.bar(timestamps, values, width=0.1, color='blue')
     
 plt.title(f"Consumption of experiment {sys.argv[1]} for {sys.argv[4]}")
 plt.xlabel("Time (s)")
