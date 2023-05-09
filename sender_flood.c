@@ -32,6 +32,7 @@ static struct simple_udp_connection udp_conn;
 
 clock_time_t pings[1000];
 static unsigned count;
+static struct etimer periodic_timer;
 
 /*---------------------------------------------------------------------------*/
 PROCESS(node_process, "UDP SRC");
@@ -47,15 +48,17 @@ static void udp_rx_callback(struct simple_udp_connection *c,
                             const uint8_t *data,
                             uint16_t datalen)
 {
+ uip_ipaddr_t dest_ipaddr;
 
   LOG_INFO("Received response '%.*s' from ", datalen, (char *)data);
   LOG_INFO_6ADDR(sender_addr);
   int count_value = atoi((const char *)data + 6);
   pings[count_value] = clock_time() - pings[count_value];
-  char str[1000];
-  snprintf(str, 1000, "--> With %d of ping (%d) \n", (int)pings[count_value], CLOCK_SECOND);
+  char str[SIZE_STR];
+  snprintf(str, SIZE_STR, "--> With %d of ping (%d) \n", (int)pings[count_value], CLOCK_SECOND);
   LOG_INFO_(str);
-  while (!PROCESS_WAIT_EVENT_UNTIL(etimer_expired(&periodic_timer)) && !NETSTACK_ROUTING.get_root_ipaddr(&dest_ipaddr))
+
+  while (!NETSTACK_ROUTING.node_is_reachable () || !NETSTACK_ROUTING.get_root_ipaddr(&dest_ipaddr))
 
     PROCESS_WAIT_EVENT_UNTIL(etimer_expired(&periodic_timer));
 
@@ -69,7 +72,6 @@ static void udp_rx_callback(struct simple_udp_connection *c,
 
 PROCESS_THREAD(node_process, ev, data)
 {
-  static struct etimer periodic_timer;
   static char str[SIZE_STR];
   uip_ipaddr_t dest_ipaddr;
 
@@ -86,7 +88,7 @@ PROCESS_THREAD(node_process, ev, data)
   // set the periodic timer to send UDP datagram
   etimer_set(&periodic_timer, /*random_rand () %*/ SEND_INTERVAL);
 
-  while (!PROCESS_WAIT_EVENT_UNTIL(etimer_expired(&periodic_timer)) && !NETSTACK_ROUTING.get_root_ipaddr(&dest_ipaddr))
+  while (!NETSTACK_ROUTING.node_is_reachable () || !NETSTACK_ROUTING.get_root_ipaddr(&dest_ipaddr))
 
     PROCESS_WAIT_EVENT_UNTIL(etimer_expired(&periodic_timer));
 
