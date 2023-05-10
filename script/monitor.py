@@ -7,8 +7,9 @@ import matplotlib.patches as patches
 import numpy as np
 
 # Check that the correct number of arguments was given
-if len(sys.argv) != 5:
-    print("Usage: python3 monitor.py <experiment_id> <duration> <power | radio> <coordinator | sender>")
+if len(sys.argv) != 5 && len(sys.argv) != 6:
+    print("Usage: python3 monitor.py <experiment_id> <duration> <power | radio> <coordinator | sender> <plot>")
+    print("Usage: <plot> is not necessary")
     sys.exit()
 
 if sys.argv[3] not in ['power', 'radio']:
@@ -59,7 +60,7 @@ if sys.argv[3] == 'power':
             continue  # skip over lines with non-numeric timestamp
         timestamps.append(timestamp)
         values.append(float(parts[-1]))
-        
+
 elif sys.argv[3] == 'radio':
     interval = []
     for line in data:
@@ -101,8 +102,11 @@ if sys.argv[3] == 'power':
     text = f"Average power: {sum(values)/len(values)*1000:.2f} mW"
 elif sys.argv[3] == 'radio':
     text = f"Average frequency of radio activity: {sum(interval)/len(interval):.2f} kHz"
-    
+
+print(text)
+
 text_rect = patches.Rectangle((0.92, 0.02), 0.06, 0.07, fill=True, facecolor='white', transform=plt.gca().transAxes)
+
 plt.gca().add_patch(text_rect)
 plt.text(0.95, 0.05, text, transform=plt.gca().transAxes, ha='right')
 

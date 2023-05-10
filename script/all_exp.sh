@@ -1,6 +1,6 @@
 #! /bin/bash
 
-for i in 2 4 10 25
+for i in "2" "4" "10" "25"
 do
 mkdir netcat/$1
 ./script/netcat.sh $1$i 10 $i strasbourg $1
