@@ -1,0 +1,1334 @@
+1683710032 [WARN: RPL ] just joined, no parent yet, setting timer for leaving
+1683710032 [INFO: TSCH-LOG ] {asn 00.00000411 link 0 3 0 0 0 ch 25} bc-1-0 rx LL-a484->LL-NULL, len 94, seq 43, edr 1, dr -1
+1683710033 [INFO: App ] Not reachable yet: !node_is_reachable
+1683710034 [INFO: TSCH-LOG ] {asn 00.000004e6 link 0 3 0 0 0 ch 26} bc-0-0 rx LL-b184->LL-NULL, len 35, seq 119, edr -1
+1683710035 [INFO: TSCH-LOG ] {asn 00.00000567 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 100, seq 60, st 0 1, dr 0
+1683710035 [INFO: TSCH-LOG ] {asn 00.00000579 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-a484->LL-NULL, len 35, seq 192, edr 0, dr 0
+1683710037 [INFO: TSCH-LOG ] {asn 00.00000615 link 0 3 0 0 0 ch 25} bc-1-0 rx LL-a887->LL-NULL, len 24, seq 148, edr 1
+1683710038 [INFO: TSCH-LOG ] {asn 00.0000067b link 0 3 0 0 0 ch 20} drift 0 ppm (min/max delta seen: -1/0)
+1683710038 [INFO: TSCH-LOG ] {asn 00.0000067b link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 100, seq 61, st 0 1, dr 0
+1683710039 [INFO: App ] Not reachable yet: !node_is_reachable
+1683710040 [INFO: TSCH-LOG ] {asn 00.00000756 link 0 3 0 0 0 ch 26} bc-1-0 rx LL-a484->LL-NULL, len 94, seq 17, edr 1, dr -1
+1683710040 [INFO: TSCH-LOG ] {asn 00.0000075c link 0 3 0 0 0 ch 15} bc-1-0 rx LL-b184->LL-NULL, len 94, seq 222, edr 0
+1683710041 [INFO: TSCH-LOG ] {asn 00.000007b9 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a484, len 100, seq 62, st 0 1, dr 1
+1683710042 [INFO: TSCH-LOG ] {asn 00.000007da link 0 3 0 0 0 ch 26} bc-0-0 rx LL-9287->LL-NULL, len 35, seq 194, edr 1
+1683710044 [INFO: TSCH-LOG ] {asn 00.000008c7 link 0 3 0 0 0 ch 20} drift -2 ppm (min/max delta seen: -1/1)
+1683710044 [INFO: TSCH-LOG ] {asn 00.000008c7 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 100, seq 63, st 0 1, dr -1
+1683710044 [WARN: RPL ] found parent: fe80::a484, staying in DAG
+1683710044 [INFO: TSCH-LOG ] {asn 00.000008eb link 0 3 0 0 0 ch 20} bc-1-0 rx LL-9388->LL-NULL, len 94, seq 224, edr 0
+1683710045 [INFO: App ] Not reachable yet: !node_is_reachable
+1683710045 [INFO: TSCH-LOG ] {asn 00.00000918 link 0 3 0 0 0 ch 15} !failed to parse frame 0 0
+1683710045 [INFO: TSCH-LOG ] {asn 00.00000957 link 0 3 0 0 0 ch 20} bc-0-0 rx LL-a887->LL-NULL, len 35, seq 134, edr 0
+1683710046 [INFO: TSCH-LOG ] {asn 00.000009b7 link 0 3 0 0 0 ch 20} bc-1-0 rx LL-9787->LL-NULL, len 94, seq 230, edr 0
+1683710046 [INFO: TSCH-LOG ] {asn 00.000009c6 link 0 3 0 0 0 ch 26} bc-1-0 rx LL-9287->LL-NULL, len 94, seq 230, edr -1
+1683710047 [INFO: TSCH-LOG ] {asn 00.000009cc link 0 3 0 0 0 ch 15} bc-0-0 rx LL-9787->LL-NULL, len 35, seq 230, edr 0
+1683710047 [INFO: TSCH-LOG ] {asn 00.00000a08 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-9387->LL-NULL, len 35, seq 230, edr 0
+1683710047 [INFO: TSCH-LOG ] {asn 00.00000a14 link 0 3 0 0 0 ch 15} bc-1-0 rx LL-a484->LL-NULL, len 94, seq 230, edr 0, dr 0
+1683710047 [INFO: TSCH-LOG ] {asn 00.00000a1a link 0 3 0 0 0 ch 26} bc-1-0 rx LL-b184->LL-NULL, len 94, seq 230, edr 0
+1683710048 [INFO: TSCH-LOG ] {asn 00.00000a35 link 0 3 0 0 0 ch 25} bc-1-0 rx LL-a887->LL-NULL, len 94, seq 231, edr 0
+1683710048 [INFO: TSCH-LOG ] {asn 00.00000a41 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a484, len 83, seq 64, st 0 1, dr 0
+1683710048 [INFO: TSCH-LOG ] {asn 00.00000a44 link 0 3 0 0 0 ch 15} uc-1-0 rx LL-a484->LL-9889, len 41, seq 232, edr 0, dr 0
+1683710048 [INFO: TSCH-LOG ] {asn 00.00000a74 link 0 3 0 0 0 ch 15} bc-1-0 rx LL-9387->LL-NULL, len 94, seq 232, edr 0
+1683710049 [INFO: TSCH-LOG ] {asn 00.00000ab3 link 0 3 0 0 0 ch 20} bc-0-0 rx LL-a685->LL-NULL, len 35, seq 232, edr 0
+1683710049 [INFO: TSCH-LOG ] {asn 00.00000ab6 link 0 3 0 0 0 ch 26} bc-1-0 rx LL-9388->LL-NULL, len 94, seq 232, edr 1
+1683710049 [INFO: TSCH-LOG ] {asn 00.00000ab9 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-9388->LL-NULL, len 35, seq 232, edr 1
+1683710050 [INFO: TSCH-LOG ] {asn 00.00000b0d link 0 3 0 0 0 ch 25} bc-0-0 rx LL-9787->LL-NULL, len 35, seq 232, edr 0
+1683710050 [INFO: TSCH-LOG ] {asn 00.00000b22 link 0 3 0 0 0 ch 26} bc-0-0 tx LL-9889->LL-NULL, len 35, seq 156, st 0 1
+1683710050 [INFO: TSCH-LOG ] {asn 00.00000b25 link 0 3 0 0 0 ch 25} bc-1-0 rx LL-a685->LL-NULL, len 94, seq 232, edr 0
+1683710050 [INFO: TSCH-LOG ] {asn 00.00000b34 link 0 3 0 0 0 ch 15} drift -1 ppm (min/max delta seen: -1/1)
+1683710050 [INFO: TSCH-LOG ] {asn 00.00000b34 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-a484->LL-NULL, len 35, seq 232, edr -1, dr 1
+1683710050 [INFO: TSCH-LOG ] {asn 00.00000b55 link 0 3 0 0 0 ch 25} bc-1-0 tx LL-9889->LL-NULL, len 94, seq 157, st 0 1
+1683710051 [INFO: App ] Sending request 0 to [INFO: App ]
+1683710051 [INFO: TSCH-LOG ] {asn 00.00000b5e link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a484, len 46, seq 65, st 2 1
+1683710051 [INFO: TSCH-LOG ] {asn 00.00000b61 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a484, len 46, seq 65, st 0 2, dr 0
+1683710051 [INFO: TSCH-LOG ] {asn 00.00000b64 link 0 3 0 0 0 ch 15} !failed to parse frame 0 0
+1683710051 [INFO: App ] Received response 'hello 0' from fd00::a484--> With 83 of ping (100)
+1683710051 [INFO: TSCH-LOG ] {asn 00.00000baf link 0 3 0 0 0 ch 20} uc-1-0 rx LL-a484->LL-9889, len 46, seq 234, edr 0, dr 0
+1683710052 [INFO: TSCH-LOG ] {asn 00.00000be8 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-a685->LL-NULL, len 35, seq 240, edr 0
+1683710053 [INFO: TSCH-LOG ] {asn 00.00000c27 link 0 3 0 0 0 ch 20} bc-0-0 rx LL-b184->LL-NULL, len 35, seq 240, edr 0
+1683710053 [INFO: TSCH-LOG ] {asn 00.00000c3f link 0 3 0 0 0 ch 20} bc-1-0 rx LL-9287->LL-NULL, len 94, seq 240, edr 0
+1683710054 [INFO: TSCH-LOG ] {asn 00.00000ca5 link 0 3 0 0 0 ch 25} bc-1-0 rx LL-9787->LL-NULL, len 94, seq 180, edr 0
+1683710054 [INFO: TSCH-LOG ] {asn 00.00000cab link 0 3 0 0 0 ch 20} bc-0-0 tx LL-9889->LL-NULL, len 35, seq 158, st 0 1
+1683710054 [INFO: TSCH-LOG ] {asn 00.00000cdb link 0 3 0 0 0 ch 20} bc-1-0 rx LL-9387->LL-NULL, len 94, seq 180, edr 0
+1683710055 [INFO: TSCH-LOG ] {asn 00.00000d26 link 0 3 0 0 0 ch 26} bc-0-0 rx LL-9388->LL-NULL, len 35, seq 180, edr 1
+1683710057 [INFO: TSCH-LOG ] {asn 00.00000db0 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-9787->LL-NULL, len 35, seq 181, edr 0
+1683710057 [INFO: App ] Sending request 1 to [INFO: App ]
+1683710057 [INFO: TSCH-LOG ] {asn 00.00000db6 link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a484, len 46, seq 66, st 2 1
+1683710057 [INFO: TSCH-LOG ] {asn 00.00000db9 link 0 3 0 0 0 ch 25} drift -1 ppm (min/max delta seen: -1/1)
+1683710057 [INFO: TSCH-LOG ] {asn 00.00000db9 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a484, len 46, seq 66, st 0 2, dr 0
+1683710057 [INFO: TSCH-LOG ] {asn 00.00000dbc link 0 3 0 0 0 ch 15} !failed to parse frame 0 0
+1683710057 [INFO: TSCH-LOG ] {asn 00.00000dbf link 0 3 0 0 0 ch 20} !failed to parse frame 0 0
+1683710057 [INFO: App ] Received response 'hello 1' from fd00::a484--> With 30 of ping (100)
+1683710057 [INFO: TSCH-LOG ] {asn 00.00000dd1 link 0 3 0 0 0 ch 25} uc-1-0 rx LL-a484->LL-9889, len 46, seq 242, edr 0, dr 0
+1683710057 [INFO: TSCH-LOG ] {asn 00.00000de9 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-9287->LL-NULL, len 35, seq 244, edr 0
+1683710058 [INFO: TSCH-LOG ] {asn 00.00000e19 link 0 3 0 0 0 ch 25} bc-1-0 rx LL-a887->LL-NULL, len 94, seq 245, edr 0
+1683710058 [INFO: TSCH-LOG ] {asn 00.00000e40 link 0 3 0 0 0 ch 15} bc-1-0 tx LL-9889->LL-NULL, len 94, seq 159, st 0 1
+1683710059 [INFO: TSCH-LOG ] {asn 00.00000e76 link 0 3 0 0 0 ch 26} bc-0-0 rx LL-a887->LL-NULL, len 35, seq 248, edr 0
+1683710059 [INFO: TSCH-LOG ] {asn 00.00000ea9 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-9387->LL-NULL, len 35, seq 183, edr 0
+1683710059 [INFO: TSCH-LOG ] {asn 00.00000eaf link 0 3 0 0 0 ch 20} bc-0-0 rx LL-a685->LL-NULL, len 35, seq 183, edr 0
+1683710059 [INFO: TSCH-LOG ] {asn 00.00000ebb link 0 3 0 0 0 ch 20} bc-1-0 rx LL-a685->LL-NULL, len 94, seq 183, edr 0
+1683710062 [INFO: TSCH-LOG ] {asn 00.00000fc3 link 0 3 0 0 0 ch 20} bc-0-0 tx LL-9889->LL-NULL, len 35, seq 160, st 0 1
+1683710062 [INFO: TSCH-LOG ] {asn 00.00000ff9 link 0 3 0 0 0 ch 25} drift -2 ppm (min/max delta seen: -1/1)
+1683710062 [INFO: TSCH-LOG ] {asn 00.00000ff9 link 0 3 0 0 0 ch 25} bc-1-0 rx LL-a484->LL-NULL, len 94, seq 184, edr 1, dr -1
+1683710063 [INFO: App ] Sending request 2 to [INFO: App ]
+1683710063 [INFO: TSCH-LOG ] {asn 00.0000100b link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 46, seq 67, st 2 1
+1683710063 [INFO: TSCH-LOG ] {asn 00.00001017 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 46, seq 67, st 2 2
+1683710063 [INFO: TSCH-LOG ] {asn 00.00001020 link 0 3 0 0 0 ch 15} bc-1-0 rx LL-b184->LL-NULL, len 94, seq 251, edr -1
+1683710063 [INFO: TSCH-LOG ] {asn 00.00001023 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 46, seq 67, st 0 3, dr 1
+1683710063 [INFO: TSCH-LOG ] {asn 00.0000102c link 0 3 0 0 0 ch 15} bc-1-0 rx LL-b885->LL-NULL, len 24, seq 249, edr 0
+1683710063 [INFO: App ] Received response 'hello 2' from fd00::a484--> With 48 of ping (100)
+1683710063 [INFO: TSCH-LOG ] {asn 00.0000103b link 0 3 0 0 0 ch 20} uc-1-0 rx LL-a484->LL-9889, len 46, seq 252, edr 1, dr -1
+1683710064 [INFO: TSCH-LOG ] {asn 00.000010a1 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-a484->LL-NULL, len 35, seq 1, edr 0, dr 0
+1683710064 [INFO: TSCH-LOG ] {asn 00.000010ad link 0 3 0 0 0 ch 25} bc-1-0 rx LL-9787->LL-NULL, len 94, seq 1, edr 0
+1683710065 [INFO: TSCH-LOG ] {asn 00.0000110a link 0 3 0 0 0 ch 26} bc-1-0 rx LL-9287->LL-NULL, len 94, seq 185, edr 0
+1683710065 [INFO: TSCH-LOG ] {asn 00.0000111c link 0 3 0 0 0 ch 15} bc-0-0 rx LL-a685->LL-NULL, len 35, seq 185, edr 0
+1683710065 [INFO: TSCH-LOG ] {asn 00.0000111f link 0 3 0 0 0 ch 20} bc-1-0 rx LL-9387->LL-NULL, len 94, seq 185, edr 0
+1683710066 [INFO: TSCH-LOG ] {asn 00.00001140 link 0 3 0 0 0 ch 15} bc-1-0 rx LL-9388->LL-NULL, len 94, seq 186, edr 0
+1683710066 [INFO: TSCH-LOG ] {asn 00.0000118b link 0 3 0 0 0 ch 20} bc-1-0 tx LL-9889->LL-NULL, len 94, seq 161, st 0 1
+1683710066 [INFO: TSCH-LOG ] {asn 00.00001191 link 0 3 0 0 0 ch 25} bc-1-0 rx LL-a887->LL-NULL, len 94, seq 186, edr 0
+1683710067 [INFO: TSCH-LOG ] {asn 00.000011d3 link 0 3 0 0 0 ch 20} bc-0-0 rx LL-b184->LL-NULL, len 35, seq 186, edr 0
+1683710067 [INFO: TSCH-LOG ] {asn 00.000011e2 link 0 3 0 0 0 ch 26} bc-0-0 rx LL-9388->LL-NULL, len 35, seq 186, edr 0
+1683710069 [INFO: App ] Sending request 3 to [INFO: App ]
+1683710069 [INFO: TSCH-LOG ] {asn 00.00001263 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 46, seq 68, st 2 1
+1683710069 [INFO: TSCH-LOG ] {asn 00.00001266 link 0 3 0 0 0 ch 26} drift -1 ppm (min/max delta seen: -1/1)
+1683710069 [INFO: TSCH-LOG ] {asn 00.00001266 link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a484, len 46, seq 68, st 0 2, dr 1
+1683710069 [INFO: App ] Received response 'hello 3' from fd00::a484--> With 7 of ping (100)
+1683710069 [INFO: TSCH-LOG ] {asn 00.00001269 link 0 3 0 0 0 ch 25} uc-1-0 rx LL-a484->LL-9889, len 46, seq 3, edr 0, dr 0
+1683710069 [INFO: TSCH-LOG ] {asn 00.0000127e link 0 3 0 0 0 ch 26} !failed to parse frame 0 0
+1683710069 [INFO: TSCH-LOG ] {asn 00.00001284 link 0 3 0 0 0 ch 15} !failed to parse frame 0 0
+1683710069 [INFO: TSCH-LOG ] {asn 00.0000128a link 0 3 0 0 0 ch 26} bc-0-0 rx LL-9787->LL-NULL, len 35, seq 6, edr 0
+1683710070 [INFO: TSCH-LOG ] {asn 00.0000131a link 0 3 0 0 0 ch 26} bc-1-0 rx LL-a685->LL-NULL, len 94, seq 128, edr 0
+1683710071 [INFO: TSCH-LOG ] {asn 00.0000135c link 0 3 0 0 0 ch 15} bc-0-0 rx LL-a887->LL-NULL, len 35, seq 128, edr 0
+1683710071 [INFO: TSCH-LOG ] {asn 00.00001362 link 0 3 0 0 0 ch 26} bc-0-0 rx LL-9387->LL-NULL, len 35, seq 128, edr 0
+1683710072 [INFO: TSCH-LOG ] {asn 00.00001392 link 0 3 0 0 0 ch 26} bc-0-0 rx LL-9287->LL-NULL, len 35, seq 128, edr -1
+1683710072 [INFO: TSCH-LOG ] {asn 00.0000139b link 0 3 0 0 0 ch 20} bc-1-0 rx LL-a887->LL-NULL, len 94, seq 128, edr 0
+1683710072 [INFO: TSCH-LOG ] {asn 00.000013a7 link 0 3 0 0 0 ch 20} bc-1-0 rx LL-9287->LL-NULL, len 94, seq 128, edr -1
+1683710072 [INFO: TSCH-LOG ] {asn 00.000013e6 link 0 3 0 0 0 ch 26} bc-1-0 rx LL-9387->LL-NULL, len 94, seq 128, edr 0
+1683710073 [INFO: TSCH-LOG ] {asn 00.00001419 link 0 3 0 0 0 ch 25} bc-1-0 rx LL-b885->LL-NULL, len 94, seq 128, edr 1
+1683710073 [INFO: TSCH-LOG ] {asn 00.00001437 link 0 3 0 0 0 ch 20} bc-0-0 rx LL-b885->LL-NULL, len 35, seq 128, edr 1
+1683710073 [INFO: TSCH-LOG ] {asn 00.0000144f link 0 3 0 0 0 ch 20} bc-1-0 tx LL-9889->LL-NULL, len 94, seq 162, st 0 1
+1683710074 [INFO: TSCH-LOG ] {asn 00.0000148e link 0 3 0 0 0 ch 26} bc-0-0 tx LL-9889->LL-NULL, len 35, seq 163, st 0 1
+1683710075 [INFO: App ] Sending request 4 to [INFO: App ]
+1683710075 [INFO: TSCH-LOG ] {asn 00.000014bb link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 46, seq 69, st 2 1
+1683710075 [INFO: TSCH-LOG ] {asn 00.000014c7 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 46, seq 69, st 2 2
+1683710075 [INFO: TSCH-LOG ] {asn 00.000014cd link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a484, len 46, seq 69, st 2 3
+1683710075 [INFO: TSCH-LOG ] {asn 00.000014df link 0 3 0 0 0 ch 20} !failed to parse frame 0 0
+1683710075 [INFO: TSCH-LOG ] {asn 00.000014eb link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 46, seq 69, st 2 4
+1683710076 [INFO: TSCH-LOG ] {asn 00.00001524 link 0 3 0 0 0 ch 15} drift -1 ppm (min/max delta seen: -1/1)
+1683710076 [INFO: TSCH-LOG ] {asn 00.00001524 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a484, len 46, seq 69, st 0 5, dr 0
+1683710076 [INFO: App ] Received response 'hello 4' from fd00::a484--> With 109 of ping (100)
+1683710076 [INFO: TSCH-LOG ] {asn 00.00001527 link 0 3 0 0 0 ch 20} uc-1-0 rx LL-a484->LL-9889, len 46, seq 17, edr 0, dr 0
+1683710077 [INFO: TSCH-LOG ] {asn 00.000015b4 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-b885->LL-NULL, len 35, seq 19, edr 0
+1683710078 [INFO: TSCH-LOG ] {asn 00.000015e4 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-a887->LL-NULL, len 35, seq 19, edr 0
+1683710078 [INFO: TSCH-LOG ] {asn 00.000015ea link 0 3 0 0 0 ch 26} bc-0-0 rx LL-9387->LL-NULL, len 35, seq 19, edr 0
+1683710079 [INFO: TSCH-LOG ] {asn 00.00001689 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-a685->LL-NULL, len 35, seq 19, edr 1
+1683710079 [INFO: TSCH-LOG ] {asn 00.00001692 link 0 3 0 0 0 ch 26} bc-0-0 rx LL-9287->LL-NULL, len 35, seq 19, edr 1
+1683710079 [INFO: TSCH-LOG ] {asn 00.000016a7 link 0 3 0 0 0 ch 20} bc-0-0 rx LL-a484->LL-NULL, len 35, seq 19, edr 1, dr -1
+1683710080 [INFO: TSCH-LOG ] {asn 00.000016c8 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-9388->LL-NULL, len 35, seq 19, edr 0
+1683710081 [INFO: App ] Sending request 5 to [INFO: App ]
+1683710081 [INFO: TSCH-LOG ] {asn 00.00001713 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 46, seq 70, st 2 1
+1683710081 [INFO: TSCH-LOG ] {asn 00.0000171f link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 46, seq 70, st 2 2
+1683710081 [INFO: TSCH-LOG ] {asn 00.0000172b link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 46, seq 70, st 2 3
+1683710081 [INFO: TSCH-LOG ] {asn 00.00001740 link 0 3 0 0 0 ch 15} bc-0-0 tx LL-9889->LL-NULL, len 35, seq 164, st 0 1
+1683710081 [INFO: TSCH-LOG ] {asn 00.00001743 link 0 3 0 0 0 ch 20} drift -1 ppm (min/max delta seen: -1/1)
+1683710081 [INFO: TSCH-LOG ] {asn 00.00001743 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 46, seq 70, st 0 4, dr 1
+1683710081 [INFO: App ] Received response 'hello 5' from fd00::a484--> With 53 of ping (100)
+1683710081 [INFO: TSCH-LOG ] {asn 00.00001746 link 0 3 0 0 0 ch 26} uc-1-0 rx LL-a484->LL-9889, len 46, seq 24, edr 1, dr -1
+1683710084 [INFO: TSCH-LOG ] {asn 00.00001893 link 0 3 0 0 0 ch 20} bc-0-0 rx LL-b885->LL-NULL, len 35, seq 134, edr -1
+1683710085 [INFO: TSCH-LOG ] {asn 00.000018bd link 0 3 0 0 0 ch 25} bc-0-0 rx LL-9787->LL-NULL, len 35, seq 134, edr 0
+1683710085 [INFO: TSCH-LOG ] {asn 00.000018db link 0 3 0 0 0 ch 20} bc-1-0 tx LL-9889->LL-NULL, len 94, seq 165, st 0 1
+1683710086 [INFO: TSCH-LOG ] {asn 00.00001944 link 0 3 0 0 0 ch 15} bc-1-0 rx LL-a887->LL-NULL, len 94, seq 134, edr 0
+1683710086 [INFO: TSCH-LOG ] {asn 00.0000195f link 0 3 0 0 0 ch 20} bc-1-0 rx LL-9287->LL-NULL, len 94, seq 134, edr 0
+1683710087 [INFO: App ] Sending request 6 to [INFO: App ]
+1683710087 [INFO: TSCH-LOG ] {asn 00.0000196b link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 46, seq 71, st 2 1
+1683710087 [INFO: TSCH-LOG ] {asn 00.00001974 link 0 3 0 0 0 ch 15} drift -1 ppm (min/max delta seen: -1/1)
+1683710087 [INFO: TSCH-LOG ] {asn 00.00001974 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a484, len 46, seq 71, st 0 2, dr 0
+1683710087 [INFO: TSCH-LOG ] {asn 00.0000197a link 0 3 0 0 0 ch 26} !failed to parse frame 0 0
+1683710087 [INFO: TSCH-LOG ] {asn 00.0000197d link 0 3 0 0 0 ch 25} !failed to parse frame 0 0
+1683710087 [INFO: App ] Received response 'hello 6' from fd00::a484--> With 23 of ping (100)
+1683710087 [INFO: TSCH-LOG ] {asn 00.00001980 link 0 3 0 0 0 ch 15} uc-1-0 rx LL-a484->LL-9889, len 46, seq 30, edr 0, dr 0
+1683710087 [INFO: TSCH-LOG ] {asn 00.00001989 link 0 3 0 0 0 ch 25} !failed to parse frame 0 0
+1683710088 [INFO: TSCH-LOG ] {asn 00.000019d1 link 0 3 0 0 0 ch 25} !failed to parse frame 0 0
+1683710088 [INFO: TSCH-LOG ] {asn 00.000019da link 0 3 0 0 0 ch 26} bc-1-0 rx LL-9787->LL-NULL, len 94, seq 36, edr 0
+1683710089 [INFO: TSCH-LOG ] {asn 00.00001a3d link 0 3 0 0 0 ch 25} bc-1-0 rx LL-9388->LL-NULL, len 94, seq 55, edr -2
+1683710090 [INFO: TSCH-LOG ] {asn 00.00001abb link 0 3 0 0 0 ch 20} bc-1-0 rx LL-9387->LL-NULL, len 94, seq 55, edr 0
+1683710091 [INFO: TSCH-LOG ] {asn 00.00001b18 link 0 3 0 0 0 ch 15} bc-1-0 rx LL-b184->LL-NULL, len 94, seq 55, edr -2
+1683710091 [INFO: TSCH-LOG ] {asn 00.00001b42 link 0 3 0 0 0 ch 26} bc-0-0 rx LL-a887->LL-NULL, len 35, seq 55, edr 0
+1683710092 [INFO: TSCH-LOG ] {asn 00.00001b60 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-a685->LL-NULL, len 35, seq 55, edr 0
+1683710092 [INFO: TSCH-LOG ] {asn 00.00001b75 link 0 3 0 0 0 ch 25} drift -1 ppm (min/max delta seen: -1/1)
+1683710092 [INFO: TSCH-LOG ] {asn 00.00001b75 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-a484->LL-NULL, len 35, seq 55, edr -1, dr 1
+1683710092 [INFO: TSCH-LOG ] {asn 00.00001b78 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-9387->LL-NULL, len 35, seq 55, edr 1
+1683710092 [INFO: TSCH-LOG ] {asn 00.00001bae link 0 3 0 0 0 ch 26} bc-0-0 rx LL-9287->LL-NULL, len 35, seq 55, edr 0
+1683710093 [INFO: TSCH-LOG ] {asn 00.00001bc0 link 0 3 0 0 0 ch 15} !failed to parse frame 0 0
+1683710093 [INFO: App ] Sending request 7 to [INFO: App ]
+1683710093 [INFO: TSCH-LOG ] {asn 00.00001bc3 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 46, seq 72, st 2 1
+1683710093 [INFO: TSCH-LOG ] {asn 00.00001bc6 link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a484, len 46, seq 72, st 2 2
+1683710093 [INFO: TSCH-LOG ] {asn 00.00001bcc link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a484, len 46, seq 72, st 2 3
+1683710093 [INFO: TSCH-LOG ] {asn 00.00001bf3 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 46, seq 72, st 2 4
+1683710094 [INFO: TSCH-LOG ] {asn 00.00001c3e link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a484, len 46, seq 72, st 0 5, dr 0
+1683710094 [INFO: App ] Received response 'hello 7' from fd00::a484--> With 129 of ping (100)
+1683710094 [INFO: TSCH-LOG ] {asn 00.00001c41 link 0 3 0 0 0 ch 25} uc-1-0 rx LL-a484->LL-9889, len 46, seq 45, edr 0, dr 0
+1683710095 [INFO: TSCH-LOG ] {asn 00.00001c8f link 0 3 0 0 0 ch 20} bc-0-0 tx LL-9889->LL-NULL, len 35, seq 166, st 0 1
+1683710095 [INFO: TSCH-LOG ] {asn 00.00001ccb link 0 3 0 0 0 ch 20} bc-1-0 rx LL-a484->LL-NULL, len 94, seq 46, edr 0, dr 0
+1683710096 [INFO: TSCH-LOG ] {asn 00.00001cef link 0 3 0 0 0 ch 20} bc-0-0 rx LL-9388->LL-NULL, len 35, seq 204, edr 1
+1683710096 [INFO: TSCH-LOG ] {asn 00.00001d04 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-b184->LL-NULL, len 35, seq 204, edr 1
+1683710096 [INFO: TSCH-LOG ] {asn 00.00001d0a link 0 3 0 0 0 ch 26} bc-1-0 rx LL-a685->LL-NULL, len 94, seq 204, edr 1
+1683710097 [INFO: TSCH-LOG ] {asn 00.00001d85 link 0 3 0 0 0 ch 25} bc-1-0 rx LL-b885->LL-NULL, len 94, seq 141, edr 0
+1683710098 [INFO: TSCH-LOG ] {asn 00.00001db5 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-b885->LL-NULL, len 35, seq 141, edr 0
+1683710098 [INFO: TSCH-LOG ] {asn 00.00001dee link 0 3 0 0 0 ch 26} bc-0-0 rx LL-9787->LL-NULL, len 35, seq 141, edr 0
+1683710099 [INFO: App ] Sending request 8 to [INFO: App ]
+1683710099 [INFO: TSCH-LOG ] {asn 00.00001e18 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a484, len 46, seq 73, st 2 1
+1683710099 [INFO: TSCH-LOG ] {asn 00.00001e1e link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a484, len 46, seq 73, st 2 2
+1683710099 [INFO: TSCH-LOG ] {asn 00.00001e2d link 0 3 0 0 0 ch 25} drift -1 ppm (min/max delta seen: -1/1)
+1683710099 [INFO: TSCH-LOG ] {asn 00.00001e2d link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a484, len 46, seq 73, st 0 3, dr 0
+1683710099 [INFO: App ] Received response 'hello 8' from fd00::a484--> With 24 of ping (100)
+1683710099 [INFO: TSCH-LOG ] {asn 00.00001e30 link 0 3 0 0 0 ch 15} uc-1-0 rx LL-a484->LL-9889, len 46, seq 49, edr 0, dr 0
+1683710099 [INFO: TSCH-LOG ] {asn 00.00001e3f link 0 3 0 0 0 ch 20} !failed to parse frame 0 0
+1683710105 [INFO: App ] Sending request 9 to [INFO: App ]
+1683710105 [INFO: TSCH-LOG ] {asn 00.00002070 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a484, len 46, seq 74, st 2 1
+1683710105 [INFO: TSCH-LOG ] {asn 00.0000207c link 0 3 0 0 0 ch 15} drift -1 ppm (min/max delta seen: -1/1)
+1683710105 [INFO: TSCH-LOG ] {asn 00.0000207c link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a484, len 46, seq 74, st 0 2, dr -1
+1683710105 [INFO: App ] Received response 'hello 9' from fd00::a484--> With 22 of ping (100)
+1683710105 [INFO: TSCH-LOG ] {asn 00.00002085 link 0 3 0 0 0 ch 25} uc-1-0 rx LL-a484->LL-9889, len 46, seq 58, edr 0, dr 0
+1683710106 [INFO: TSCH-LOG ] {asn 00.000020fd link 0 3 0 0 0 ch 25} bc-0-0 rx LL-a685->LL-NULL, len 35, seq 64, edr 0
+1683710106 [INFO: TSCH-LOG ] {asn 00.00002106 link 0 3 0 0 0 ch 26} bc-0-0 rx LL-a887->LL-NULL, len 35, seq 64, edr 0
+1683710106 [INFO: TSCH-LOG ] {asn 00.0000211b link 0 3 0 0 0 ch 20} bc-0-0 rx LL-a484->LL-NULL, len 35, seq 64, edr 0, dr 0
+1683710106 [INFO: TSCH-LOG ] {asn 00.0000211e link 0 3 0 0 0 ch 26} bc-0-0 rx LL-9387->LL-NULL, len 35, seq 64, edr 0
+1683710108 [INFO: TSCH-LOG ] {asn 00.000021cf link 0 3 0 0 0 ch 20} bc-0-0 rx LL-9287->LL-NULL, len 35, seq 194, edr -1
+1683710108 [INFO: TSCH-LOG ] {asn 00.000021db link 0 3 0 0 0 ch 20} bc-0-0 rx LL-b184->LL-NULL, len 35, seq 194, edr 0
+1683710109 [INFO: TSCH-LOG ] {asn 00.00002259 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-9388->LL-NULL, len 35, seq 194, edr -1
+1683710110 [INFO: TSCH-LOG ] {asn 00.0000228c link 0 3 0 0 0 ch 15} bc-1-0 rx LL-9387->LL-NULL, len 94, seq 194, edr 0
+1683710110 [INFO: TSCH-LOG ] {asn 00.000022a1 link 0 3 0 0 0 ch 25} bc-0-0 tx LL-9889->LL-NULL, len 35, seq 167, st 0 1
+1683710110 [INFO: TSCH-LOG ] {asn 00.000022bc link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a685, len 100, seq 75, st 0 1
+1683710111 [INFO: App ] Sending request 10 to [INFO: App ]
+1683710111 [INFO: TSCH-LOG ] {asn 00.000022c8 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a484, len 47, seq 76, st 2 1
+1683710111 [INFO: TSCH-LOG ] {asn 00.000022d4 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a484, len 47, seq 76, st 2 2
+1683710111 [INFO: TSCH-LOG ] {asn 00.000022d7 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 47, seq 76, st 2 3
+1683710111 [INFO: TSCH-LOG ] {asn 00.000022e9 link 0 3 0 0 0 ch 25} drift -1 ppm (min/max delta seen: -1/1)
+1683710111 [INFO: TSCH-LOG ] {asn 00.000022e9 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a484, len 47, seq 76, st 0 4, dr 1
+1683710111 [INFO: App ] Received response 'hello 10' from fd00::a484--> With 37 of ping (100)
+1683710111 [INFO: TSCH-LOG ] {asn 00.000022ec link 0 3 0 0 0 ch 15} uc-1-0 rx LL-a484->LL-9889, len 47, seq 69, edr 0, dr 0
+1683710112 [INFO: TSCH-LOG ] {asn 00.00002328 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-b885->LL-NULL, len 35, seq 197, edr 0
+1683710113 [INFO: TSCH-LOG ] {asn 00.000023af link 0 3 0 0 0 ch 20} bc-0-0 rx LL-9787->LL-NULL, len 35, seq 73, edr 0
+1683710117 [INFO: TSCH-LOG ] {asn 00.0000251d link 0 3 0 0 0 ch 25} !failed to parse frame 0 0
+1683710117 [INFO: App ] Sending request 11 to [INFO: App ]
+1683710117 [INFO: TSCH-LOG ] {asn 00.00002520 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a484, len 47, seq 77, st 2 1
+1683710117 [INFO: TSCH-LOG ] {asn 00.00002526 link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a484, len 47, seq 77, st 2 2
+1683710117 [INFO: TSCH-LOG ] {asn 00.00002532 link 0 3 0 0 0 ch 26} drift -1 ppm (min/max delta seen: -1/1)
+1683710117 [INFO: TSCH-LOG ] {asn 00.00002532 link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a484, len 47, seq 77, st 0 3, dr 0
+1683710117 [INFO: TSCH-LOG ] {asn 00.00002538 link 0 3 0 0 0 ch 15} !failed to parse frame 0 0
+1683710117 [INFO: App ] Received response 'hello 11' from fd00::a484--> With 38 of ping (100)
+1683710117 [INFO: TSCH-LOG ] {asn 00.00002544 link 0 3 0 0 0 ch 15} uc-1-0 rx LL-a484->LL-9889, len 47, seq 77, edr 0, dr 0
+1683710118 [INFO: TSCH-LOG ] {asn 00.00002589 link 0 3 0 0 0 ch 25} bc-1-0 rx LL-9287->LL-NULL, len 94, seq 82, edr 0
+1683710118 [INFO: TSCH-LOG ] {asn 00.000025bc link 0 3 0 0 0 ch 15} bc-0-0 rx LL-a685->LL-NULL, len 35, seq 83, edr 1
+1683710118 [INFO: TSCH-LOG ] {asn 00.000025c5 link 0 3 0 0 0 ch 25} bc-1-0 rx LL-a887->LL-NULL, len 94, seq 83, edr 0
+1683710119 [INFO: TSCH-LOG ] {asn 00.0000262e link 0 3 0 0 0 ch 26} bc-1-0 tx LL-9889->LL-NULL, len 94, seq 168, st 0 1
+1683710120 [INFO: TSCH-LOG ] {asn 00.00002682 link 0 3 0 0 0 ch 26} bc-0-0 rx LL-9387->LL-NULL, len 35, seq 83, edr 1
+1683710121 [INFO: TSCH-LOG ] {asn 00.000026c7 link 0 3 0 0 0 ch 20} drift -2 ppm (min/max delta seen: -1/1)
+1683710121 [INFO: TSCH-LOG ] {asn 00.000026c7 link 0 3 0 0 0 ch 20} bc-0-0 rx LL-a484->LL-NULL, len 35, seq 83, edr 1, dr -1
+1683710122 [INFO: TSCH-LOG ] {asn 00.00002715 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-a887->LL-NULL, len 35, seq 83, edr -1
+1683710123 [INFO: App ] Sending request 12 to [INFO: App ]
+1683710123 [INFO: TSCH-LOG ] {asn 00.00002778 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a484, len 47, seq 78, st 2 1
+1683710123 [INFO: TSCH-LOG ] {asn 00.0000277b link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 47, seq 78, st 0 2, dr 1
+1683710123 [INFO: App ] Received response 'hello 12' from fd00::a484--> With 11 of ping (100)
+1683710123 [INFO: TSCH-LOG ] {asn 00.00002781 link 0 3 0 0 0 ch 25} uc-1-0 rx LL-a484->LL-9889, len 47, seq 85, edr 1, dr -1
+1683710123 [INFO: TSCH-LOG ] {asn 00.000027c3 link 0 3 0 0 0 ch 20} bc-0-0 tx LL-9889->LL-NULL, len 35, seq 169, st 0 1
+1683710123 [INFO: TSCH-LOG ] {asn 00.000027cf link 0 3 0 0 0 ch 20} bc-0-0 rx LL-9287->LL-NULL, len 35, seq 90, edr 0
+1683710125 [INFO: TSCH-LOG ] {asn 00.0000286e link 0 3 0 0 0 ch 26} bc-0-0 rx LL-9388->LL-NULL, len 35, seq 92, edr 0
+1683710125 [INFO: TSCH-LOG ] {asn 00.00002895 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-b885->LL-NULL, len 35, seq 92, edr 0
+1683710126 [INFO: TSCH-LOG ] {asn 00.0000289e link 0 3 0 0 0 ch 26} bc-0-0 rx LL-9787->LL-NULL, len 35, seq 92, edr -1
+1683710128 [INFO: TSCH-LOG ] {asn 00.0000299d link 0 3 0 0 0 ch 25} bc-1-0 rx LL-b885->LL-NULL, len 94, seq 92, edr 0
+1683710129 [INFO: App ] Sending request 13 to [INFO: App ]
+1683710129 [INFO: TSCH-LOG ] {asn 00.000029d0 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a484, len 47, seq 79, st 2 1
+1683710129 [INFO: TSCH-LOG ] {asn 00.000029d3 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 47, seq 79, st 2 2
+1683710129 [INFO: TSCH-LOG ] {asn 00.000029eb link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 47, seq 79, st 2 3
+1683710129 [INFO: TSCH-LOG ] {asn 00.000029f4 link 0 3 0 0 0 ch 15} drift -2 ppm (min/max delta seen: -1/1)
+1683710129 [INFO: TSCH-LOG ] {asn 00.000029f4 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a484, len 47, seq 79, st 0 4, dr 1
+1683710129 [INFO: App ] Received response 'hello 13' from fd00::a484--> With 42 of ping (100)
+1683710129 [INFO: TSCH-LOG ] {asn 00.000029f7 link 0 3 0 0 0 ch 20} uc-1-0 rx LL-a484->LL-9889, len 47, seq 96, edr 0, dr 0
+1683710130 [INFO: TSCH-LOG ] {asn 00.00002a72 link 0 3 0 0 0 ch 26} bc-0-0 rx LL-a685->LL-NULL, len 35, seq 101, edr 0
+1683710134 [INFO: TSCH-LOG ] {asn 00.00002bda link 0 3 0 0 0 ch 26} bc-0-0 rx LL-a887->LL-NULL, len 35, seq 101, edr 1
+1683710134 [INFO: TSCH-LOG ] {asn 00.00002bf8 link 0 3 0 0 0 ch 15} drift -1 ppm (min/max delta seen: -1/1)
+1683710134 [INFO: TSCH-LOG ] {asn 00.00002bf8 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-a484->LL-NULL, len 35, seq 101, edr 0, dr 0
+1683710135 [INFO: App ] Sending request 14 to [INFO: App ]
+1683710135 [INFO: TSCH-LOG ] {asn 00.00002c25 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a484, len 47, seq 80, st 2 1
+1683710135 [INFO: TSCH-LOG ] {asn 00.00002c2b link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 47, seq 80, st 2 2
+1683710135 [INFO: TSCH-LOG ] {asn 00.00002c34 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a484, len 47, seq 80, st 2 3
+1683710135 [INFO: TSCH-LOG ] {asn 00.00002c3d link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a484, len 47, seq 80, st 0 4, dr 0
+1683710135 [INFO: App ] Received response 'hello 14' from fd00::a484--> With 30 of ping (100)
+1683710135 [INFO: TSCH-LOG ] {asn 00.00002c43 link 0 3 0 0 0 ch 20} uc-1-0 rx LL-a484->LL-9889, len 47, seq 104, edr 0, dr 0
+1683710136 [INFO: TSCH-LOG ] {asn 00.00002c91 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-b184->LL-NULL, len 35, seq 108, edr 0
+1683710136 [INFO: TSCH-LOG ] {asn 00.00002c9d link 0 3 0 0 0 ch 25} bc-0-0 rx LL-9387->LL-NULL, len 35, seq 109, edr 1
+1683710137 [INFO: TSCH-LOG ] {asn 00.00002d0f link 0 3 0 0 0 ch 20} bc-0-0 tx LL-9889->LL-NULL, len 35, seq 170, st 0 1
+1683710139 [INFO: TSCH-LOG ] {asn 00.00002dff link 0 3 0 0 0 ch 20} bc-0-0 rx LL-9287->LL-NULL, len 35, seq 110, edr 1
+1683710140 [INFO: TSCH-LOG ] {asn 00.00002e2c link 0 3 0 0 0 ch 15} bc-0-0 rx LL-9787->LL-NULL, len 35, seq 110, edr 1
+1683710141 [INFO: App ] Sending request 15 to [INFO: App ]
+1683710141 [INFO: TSCH-LOG ] {asn 00.00002e7d link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a484, len 47, seq 81, st 2 1
+1683710141 [INFO: TSCH-LOG ] {asn 00.00002e86 link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a484, len 47, seq 81, st 2 2
+1683710141 [INFO: TSCH-LOG ] {asn 00.00002e8c link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a484, len 47, seq 81, st 2 3
+1683710141 [INFO: TSCH-LOG ] {asn 00.00002e8f link 0 3 0 0 0 ch 20} !failed to parse frame 0 0
+1683710141 [INFO: TSCH-LOG ] {asn 00.00002eb0 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-b885->LL-NULL, len 35, seq 203, edr 0
+1683710141 [INFO: TSCH-LOG ] {asn 00.00002ebc link 0 3 0 0 0 ch 15} drift -2 ppm (min/max delta seen: -1/1)
+1683710141 [INFO: TSCH-LOG ] {asn 00.00002ebc link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a484, len 47, seq 81, st 0 4, dr -1
+1683710141 [INFO: TSCH-LOG ] {asn 00.00002ebf link 0 3 0 0 0 ch 20} !failed to parse frame 0 0
+1683710141 [INFO: App ] Received response 'hello 15' from fd00::a484--> With 73 of ping (100)
+1683710141 [INFO: TSCH-LOG ] {asn 00.00002ec5 link 0 3 0 0 0 ch 25} uc-1-0 rx LL-a484->LL-9889, len 47, seq 116, edr 0, dr 0
+1683710143 [INFO: TSCH-LOG ] {asn 00.00002f5e link 0 3 0 0 0 ch 26} bc-0-0 rx LL-a685->LL-NULL, len 35, seq 119, edr -1
+1683710146 [INFO: TSCH-LOG ] {asn 00.000030bd link 0 3 0 0 0 ch 25} bc-1-0 rx LL-b184->LL-NULL, len 94, seq 119, edr -2
+1683710147 [INFO: App ] Sending request 16 to [INFO: App ]
+1683710147 [INFO: TSCH-LOG ] {asn 00.000030d5 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a484, len 47, seq 82, st 2 1
+1683710147 [INFO: TSCH-LOG ] {asn 00.000030de link 0 3 0 0 0 ch 26} drift -2 ppm (min/max delta seen: -1/1)
+1683710147 [INFO: TSCH-LOG ] {asn 00.000030de link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a484, len 47, seq 82, st 0 2, dr 1
+1683710147 [INFO: TSCH-LOG ] {asn 00.000030e1 link 0 3 0 0 0 ch 25} bc-1-0 rx LL-a484->LL-NULL, len 94, seq 170, edr 0, dr 0
+1683710147 [INFO: App ] Received response 'hello 16' from fd00::a484--> With 50 of ping (100)
+1683710147 [INFO: TSCH-LOG ] {asn 00.00003105 link 0 3 0 0 0 ch 25} uc-1-0 rx LL-a484->LL-9889, len 47, seq 121, edr 0, dr 0
+1683710148 [INFO: TSCH-LOG ] {asn 00.0000316b link 0 3 0 0 0 ch 20} bc-0-0 rx LL-a887->LL-NULL, len 35, seq 128, edr 0
+1683710148 [INFO: TSCH-LOG ] {asn 00.00003189 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-a484->LL-NULL, len 35, seq 128, edr 0, dr 0
+1683710150 [INFO: TSCH-LOG ] {asn 00.00003213 link 0 3 0 0 0 ch 20} bc-1-0 rx LL-a685->LL-NULL, len 94, seq 128, edr 1
+1683710150 [INFO: TSCH-LOG ] {asn 00.00003249 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-b184->LL-NULL, len 35, seq 128, edr 1
+1683710151 [INFO: TSCH-LOG ] {asn 00.0000326a link 0 3 0 0 0 ch 26} bc-0-0 tx LL-9889->LL-NULL, len 35, seq 171, st 0 1
+1683710152 [INFO: TSCH-LOG ] {asn 00.000032f1 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-9787->LL-NULL, len 35, seq 66, edr 1
+1683710153 [INFO: App ] Sending request 17 to [INFO: App ]
+1683710153 [INFO: TSCH-LOG ] {asn 00.0000332d link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a484, len 47, seq 83, st 2 1
+1683710153 [INFO: TSCH-LOG ] {asn 00.00003336 link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a484, len 47, seq 83, st 2 2
+1683710153 [INFO: TSCH-LOG ] {asn 00.0000334b link 0 3 0 0 0 ch 20} drift -1 ppm (min/max delta seen: -1/1)
+1683710153 [INFO: TSCH-LOG ] {asn 00.0000334b link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 47, seq 83, st 0 3, dr 0
+1683710153 [INFO: App ] Received response 'hello 17' from fd00::a484--> With 38 of ping (100)
+1683710153 [INFO: TSCH-LOG ] {asn 00.00003351 link 0 3 0 0 0 ch 25} uc-1-0 rx LL-a484->LL-9889, len 47, seq 132, edr 0, dr 0
+1683710153 [INFO: TSCH-LOG ] {asn 00.00003369 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-9388->LL-NULL, len 35, seq 134, edr 0
+1683710155 [INFO: TSCH-LOG ] {asn 00.000033ff link 0 3 0 0 0 ch 20} bc-0-0 rx LL-9287->LL-NULL, len 35, seq 130, edr 0
+1683710155 [INFO: TSCH-LOG ] {asn 00.0000342f link 0 3 0 0 0 ch 20} bc-0-0 rx LL-a685->LL-NULL, len 35, seq 130, edr 1
+1683710156 [INFO: TSCH-LOG ] {asn 00.00003474 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-b885->LL-NULL, len 35, seq 130, edr 1
+1683710158 [INFO: TSCH-LOG ] {asn 00.00003543 link 0 3 0 0 0 ch 20} bc-1-0 rx LL-9787->LL-NULL, len 94, seq 130, edr 1
+1683710159 [INFO: App ] Sending request 18 to [INFO: App ]
+1683710159 [INFO: TSCH-LOG ] {asn 00.00003585 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a484, len 47, seq 84, st 2 1
+1683710159 [INFO: TSCH-LOG ] {asn 00.0000358b link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 47, seq 84, st 2 2
+1683710159 [INFO: TSCH-LOG ] {asn 00.0000359a link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a484, len 47, seq 84, st 2 3
+1683710159 [INFO: TSCH-LOG ] {asn 00.000035ac link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a484, len 47, seq 84, st 2 4
+1683710159 [INFO: TSCH-LOG ] {asn 00.000035be link 0 3 0 0 0 ch 26} uc-1-0 rx LL-b885->LL-9889, len 100, seq 207, edr 0
+1683710159 [INFO: TSCH-LOG ] {asn 00.000035d0 link 0 3 0 0 0 ch 15} drift -1 ppm (min/max delta seen: -1/1)
+1683710159 [INFO: TSCH-LOG ] {asn 00.000035d0 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a484, len 47, seq 84, st 0 5, dr 1
+1683710159 [INFO: App ] Received response 'hello 18' from fd00::a484--> With 84 of ping (100)
+1683710159 [INFO: TSCH-LOG ] {asn 00.000035d6 link 0 3 0 0 0 ch 26} uc-1-0 rx LL-a484->LL-9889, len 47, seq 144, edr 0, dr 0
+1683710161 [INFO: TSCH-LOG ] {asn 00.0000367b link 0 3 0 0 0 ch 20} bc-0-0 rx LL-a484->LL-NULL, len 35, seq 161, edr 1, dr -1
+1683710162 [INFO: TSCH-LOG ] {asn 00.0000370b link 0 3 0 0 0 ch 20} bc-0-0 rx LL-a887->LL-NULL, len 35, seq 161, edr 0
+1683710163 [INFO: TSCH-LOG ] {asn 00.00003726 link 0 3 0 0 0 ch 26} bc-0-0 rx LL-9387->LL-NULL, len 35, seq 161, edr 0
+1683710163 [INFO: TSCH-LOG ] {asn 00.00003735 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-b184->LL-NULL, len 35, seq 161, edr 0
+1683710164 [INFO: TSCH-LOG ] {asn 00.0000379b link 0 3 0 0 0 ch 20} bc-0-0 tx LL-9889->LL-NULL, len 35, seq 172, st 0 1
+1683710164 [INFO: TSCH-LOG ] {asn 00.000037ce link 0 3 0 0 0 ch 26} bc-0-0 rx LL-9787->LL-NULL, len 35, seq 161, edr 0
+1683710165 [INFO: App ] Sending request 19 to [INFO: App ]
+1683710165 [INFO: TSCH-LOG ] {asn 00.000037da link 0 3 0 0 0 ch 26} !failed to parse frame 0 0
+1683710165 [INFO: TSCH-LOG ] {asn 00.000037dd link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a484, len 47, seq 85, st 2 1
+1683710165 [INFO: TSCH-LOG ] {asn 00.000037e6 link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a484, len 47, seq 85, st 2 2
+1683710165 [INFO: TSCH-LOG ] {asn 00.000037f8 link 0 3 0 0 0 ch 15} drift -1 ppm (min/max delta seen: -1/1)
+1683710165 [INFO: TSCH-LOG ] {asn 00.000037f8 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a484, len 47, seq 85, st 0 3, dr 1
+1683710165 [INFO: App ] Received response 'hello 19' from fd00::a484--> With 42 of ping (100)
+1683710165 [INFO: TSCH-LOG ] {asn 00.00003804 link 0 3 0 0 0 ch 15} uc-1-0 rx LL-a484->LL-9889, len 47, seq 150, edr 1, dr -1
+1683710167 [INFO: TSCH-LOG ] {asn 00.000038a3 link 0 3 0 0 0 ch 20} bc-0-0 rx LL-9388->LL-NULL, len 35, seq 164, edr 0
+1683710167 [INFO: TSCH-LOG ] {asn 00.000038e2 link 0 3 0 0 0 ch 26} bc-0-0 rx LL-9287->LL-NULL, len 35, seq 164, edr 0
+1683710167 [INFO: TSCH-LOG ] {asn 00.00003900 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-a685->LL-NULL, len 35, seq 164, edr 0
+1683710168 [INFO: TSCH-LOG ] {asn 00.00003945 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-b885->LL-NULL, len 35, seq 164, edr 1
+1683710171 [INFO: App ] Sending request 20 to [INFO: App ]
+1683710171 [INFO: TSCH-LOG ] {asn 00.00003a32 link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a484, len 47, seq 86, st 2 1
+1683710171 [INFO: TSCH-LOG ] {asn 00.00003a3b link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 47, seq 86, st 2 2
+1683710171 [INFO: TSCH-LOG ] {asn 00.00003a3e link 0 3 0 0 0 ch 26} !failed to parse frame 0 0
+1683710171 [INFO: TSCH-LOG ] {asn 00.00003a44 link 0 3 0 0 0 ch 15} drift -1 ppm (min/max delta seen: -1/1)
+1683710171 [INFO: TSCH-LOG ] {asn 00.00003a44 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a484, len 47, seq 86, st 0 3, dr 0
+1683710171 [INFO: App ] Received response 'hello 20' from fd00::a484--> With 25 of ping (100)
+1683710171 [INFO: TSCH-LOG ] {asn 00.00003a4a link 0 3 0 0 0 ch 26} uc-1-0 rx LL-a484->LL-9889, len 47, seq 158, edr 0, dr 0
+1683710174 [INFO: TSCH-LOG ] {asn 00.00003b67 link 0 3 0 0 0 ch 20} bc-0-0 rx LL-a484->LL-NULL, len 35, seq 158, edr 0, dr 0
+1683710174 [INFO: TSCH-LOG ] {asn 00.00003ba0 link 0 3 0 0 0 ch 15} bc-1-0 tx LL-9889->LL-NULL, len 94, seq 173, st 0 1
+1683710176 [INFO: TSCH-LOG ] {asn 00.00003c7e link 0 3 0 0 0 ch 26} bc-1-0 rx LL-b885->LL-NULL, len 94, seq 158, edr 1
+1683710177 [INFO: TSCH-LOG ] {asn 00.00003c84 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-9387->LL-NULL, len 35, seq 158, edr 0
+1683710177 [INFO: TSCH-LOG ] {asn 00.00003c87 link 0 3 0 0 0 ch 20} !failed to parse frame 0 0
+1683710177 [INFO: App ] Sending request 21 to [INFO: App ]
+1683710177 [INFO: TSCH-LOG ] {asn 00.00003c8a link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a484, len 47, seq 87, st 2 1
+1683710177 [INFO: TSCH-LOG ] {asn 00.00003c93 link 0 3 0 0 0 ch 20} drift -1 ppm (min/max delta seen: -1/1)
+1683710177 [INFO: TSCH-LOG ] {asn 00.00003c93 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 47, seq 87, st 0 2, dr 0
+1683710177 [INFO: App ] Received response 'hello 21' from fd00::a484--> With 16 of ping (100)
+1683710177 [INFO: TSCH-LOG ] {asn 00.00003c99 link 0 3 0 0 0 ch 25} uc-1-0 rx LL-a484->LL-9889, len 47, seq 167, edr 0, dr 0
+1683710177 [INFO: TSCH-LOG ] {asn 00.00003cb7 link 0 3 0 0 0 ch 20} bc-0-0 rx LL-a887->LL-NULL, len 35, seq 175, edr 0
+1683710177 [INFO: TSCH-LOG ] {asn 00.00003ce1 link 0 3 0 0 0 ch 25} bc-0-0 tx LL-9889->LL-NULL, len 35, seq 174, st 0 1
+1683710178 [INFO: TSCH-LOG ] {asn 00.00003d3b link 0 3 0 0 0 ch 20} bc-0-0 rx LL-b184->LL-NULL, len 35, seq 174, edr 1
+1683710179 [INFO: TSCH-LOG ] {asn 00.00003d7d link 0 3 0 0 0 ch 25} bc-1-0 rx LL-9287->LL-NULL, len 94, seq 174, edr 0
+1683710180 [INFO: TSCH-LOG ] {asn 00.00003dc5 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-9787->LL-NULL, len 35, seq 174, edr 1
+1683710181 [INFO: TSCH-LOG ] {asn 00.00003e64 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-a685->LL-NULL, len 35, seq 42, edr 1
+1683710182 [INFO: TSCH-LOG ] {asn 00.00003e85 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-9287->LL-NULL, len 35, seq 42, edr -1
+1683710182 [INFO: TSCH-LOG ] {asn 00.00003ea3 link 0 3 0 0 0 ch 20} bc-0-0 rx LL-b885->LL-NULL, len 35, seq 42, edr -1
+1683710182 [INFO: TSCH-LOG ] {asn 00.00003ec4 link 0 3 0 0 0 ch 15} bc-1-0 rx LL-a887->LL-NULL, len 94, seq 42, edr 1
+1683710183 [INFO: TSCH-LOG ] {asn 00.00003edc link 0 3 0 0 0 ch 15} bc-0-0 rx LL-9388->LL-NULL, len 35, seq 42, edr 0
+1683710183 [INFO: TSCH-LOG ] {asn 00.00003edf link 0 3 0 0 0 ch 20} !failed to parse frame 0 0
+1683710183 [INFO: App ] Sending request 22 to [INFO: App ]
+1683710183 [INFO: TSCH-LOG ] {asn 00.00003ee2 link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a484, len 47, seq 88, st 2 1
+1683710183 [INFO: TSCH-LOG ] {asn 00.00003ee8 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a484, len 47, seq 88, st 2 2
+1683710183 [INFO: TSCH-LOG ] {asn 00.00003ef7 link 0 3 0 0 0 ch 20} drift -1 ppm (min/max delta seen: -1/1)
+1683710183 [INFO: TSCH-LOG ] {asn 00.00003ef7 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 47, seq 88, st 0 3, dr 1
+1683710183 [INFO: App ] Received response 'hello 22' from fd00::a484--> With 26 of ping (100)
+1683710183 [INFO: TSCH-LOG ] {asn 00.00003efa link 0 3 0 0 0 ch 26} uc-1-0 rx LL-a484->LL-9889, len 47, seq 178, edr 1, dr -1
+1683710189 [INFO: App ] Sending request 23 to [INFO: App ]
+1683710189 [INFO: TSCH-LOG ] {asn 00.0000413a link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a484, len 47, seq 89, st 2 1
+1683710189 [INFO: TSCH-LOG ] {asn 00.0000413d link 0 3 0 0 0 ch 25} !failed to parse frame 0 0
+1683710189 [INFO: TSCH-LOG ] {asn 00.00004140 link 0 3 0 0 0 ch 15} drift -1 ppm (min/max delta seen: -1/1)
+1683710189 [INFO: TSCH-LOG ] {asn 00.00004140 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a484, len 47, seq 89, st 0 2, dr 0
+1683710189 [INFO: App ] Received response 'hello 23' from fd00::a484--> With 14 of ping (100)
+1683710189 [INFO: TSCH-LOG ] {asn 00.00004146 link 0 3 0 0 0 ch 26} uc-1-0 rx LL-a484->LL-9889, len 47, seq 185, edr 0, dr 0
+1683710189 [INFO: TSCH-LOG ] {asn 00.0000415b link 0 3 0 0 0 ch 20} !failed to parse frame 0 0
+1683710190 [INFO: TSCH-LOG ] {asn 00.000041c7 link 0 3 0 0 0 ch 20} bc-0-0 rx LL-a887->LL-NULL, len 35, seq 74, edr 0
+1683710192 [INFO: TSCH-LOG ] {asn 00.000042b1 link 0 3 0 0 0 ch 25} bc-0-0 tx LL-9889->LL-NULL, len 35, seq 175, st 0 1
+1683710192 [INFO: TSCH-LOG ] {asn 00.000042b7 link 0 3 0 0 0 ch 20} bc-0-0 rx LL-b184->LL-NULL, len 35, seq 176, edr 1
+1683710193 [INFO: TSCH-LOG ] {asn 00.00004323 link 0 3 0 0 0 ch 20} bc-0-0 rx LL-9787->LL-NULL, len 35, seq 176, edr 0
+1683710194 [INFO: TSCH-LOG ] {asn 00.00004338 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-a685->LL-NULL, len 35, seq 176, edr 1
+1683710195 [INFO: TSCH-LOG ] {asn 00.0000438f link 0 3 0 0 0 ch 20} !failed to parse frame 0 0
+1683710195 [INFO: App ] Sending request 24 to [INFO: App ]
+1683710195 [INFO: TSCH-LOG ] {asn 00.00004392 link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a484, len 47, seq 90, st 2 1
+1683710195 [INFO: TSCH-LOG ] {asn 00.0000439e link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a484, len 47, seq 90, st 2 2
+1683710195 [INFO: TSCH-LOG ] {asn 00.000043a1 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a484, len 47, seq 90, st 2 3
+1683710195 [INFO: TSCH-LOG ] {asn 00.000043aa link 0 3 0 0 0 ch 26} drift -1 ppm (min/max delta seen: -1/1)
+1683710195 [INFO: TSCH-LOG ] {asn 00.000043aa link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a484, len 47, seq 90, st 0 4, dr 0
+1683710195 [INFO: App ] Received response 'hello 24' from fd00::a484--> With 45 of ping (100)
+1683710195 [INFO: TSCH-LOG ] {asn 00.000043bc link 0 3 0 0 0 ch 15} uc-1-0 rx LL-a484->LL-9889, len 47, seq 196, edr 0, dr 0
+1683710196 [INFO: TSCH-LOG ] {asn 00.00004443 link 0 3 0 0 0 ch 20} bc-0-0 rx LL-b885->LL-NULL, len 35, seq 200, edr 1
+1683710197 [INFO: TSCH-LOG ] {asn 00.00004476 link 0 3 0 0 0 ch 26} bc-0-0 rx LL-9388->LL-NULL, len 35, seq 201, edr 1
+1683710198 [INFO: TSCH-LOG ] {asn 00.000044be link 0 3 0 0 0 ch 26} bc-0-0 rx LL-9287->LL-NULL, len 35, seq 201, edr 1
+1683710201 [INFO: App ] Sending request 25 to [INFO: App ]
+1683710201 [INFO: TSCH-LOG ] {asn 00.000045e7 link 0 3 0 0 0 ch 20} !failed to parse frame 0 0
+1683710201 [INFO: TSCH-LOG ] {asn 00.000045ea link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a484, len 47, seq 91, st 2 1
+1683710201 [INFO: TSCH-LOG ] {asn 00.000045f0 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a484, len 47, seq 91, st 2 2
+1683710201 [INFO: TSCH-LOG ] {asn 00.00004605 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a484, len 47, seq 91, st 2 3
+1683710201 [INFO: TSCH-LOG ] {asn 00.0000462f link 0 3 0 0 0 ch 20} drift -1 ppm (min/max delta seen: -1/1)
+1683710201 [INFO: TSCH-LOG ] {asn 00.0000462f link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 47, seq 91, st 0 4, dr -1
+1683710201 [INFO: App ] Received response 'hello 25' from fd00::a484--> With 75 of ping (100)
+1683710201 [INFO: TSCH-LOG ] {asn 00.00004632 link 0 3 0 0 0 ch 26} uc-1-0 rx LL-a484->LL-9889, len 47, seq 209, edr 0, dr 0
+1683710202 [INFO: TSCH-LOG ] {asn 00.00004686 link 0 3 0 0 0 ch 26} bc-0-0 rx LL-9387->LL-NULL, len 35, seq 211, edr 1
+1683710203 [INFO: TSCH-LOG ] {asn 00.000046bf link 0 3 0 0 0 ch 20} bc-0-0 rx LL-a484->LL-NULL, len 35, seq 211, edr 0, dr 0
+1683710204 [INFO: TSCH-LOG ] {asn 00.0000472b link 0 3 0 0 0 ch 20} bc-0-0 rx LL-a887->LL-NULL, len 35, seq 211, edr 0
+1683710205 [INFO: TSCH-LOG ] {asn 00.00004776 link 0 3 0 0 0 ch 26} bc-0-0 tx LL-9889->LL-NULL, len 35, seq 176, st 0 1
+1683710205 [INFO: TSCH-LOG ] {asn 00.000047bb link 0 3 0 0 0 ch 20} bc-0-0 rx LL-b184->LL-NULL, len 35, seq 183, edr -1
+1683710207 [INFO: App ] Sending request 26 to [INFO: App ]
+1683710207 [INFO: TSCH-LOG ] {asn 00.0000483f link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 47, seq 92, st 2 1
+1683710207 [INFO: TSCH-LOG ] {asn 00.0000484b link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 47, seq 92, st 2 2
+1683710207 [INFO: TSCH-LOG ] {asn 00.0000485a link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a484, len 47, seq 92, st 2 3
+1683710207 [INFO: TSCH-LOG ] {asn 00.00004881 link 0 3 0 0 0 ch 25} drift -1 ppm (min/max delta seen: -1/1)
+1683710207 [INFO: TSCH-LOG ] {asn 00.00004881 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a484, len 47, seq 92, st 0 4, dr 1
+1683710207 [INFO: App ] Received response 'hello 26' from fd00::a484--> With 85 of ping (100)
+1683710207 [INFO: TSCH-LOG ] {asn 00.00004893 link 0 3 0 0 0 ch 20} uc-1-0 rx LL-a484->LL-9889, len 47, seq 218, edr 0, dr 0
+1683710208 [INFO: TSCH-LOG ] {asn 00.000048c9 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-a685->LL-NULL, len 35, seq 77, edr 0
+1683710208 [INFO: TSCH-LOG ] {asn 00.000048ff link 0 3 0 0 0 ch 20} bc-0-0 rx LL-9787->LL-NULL, len 35, seq 77, edr 0
+1683710210 [INFO: TSCH-LOG ] {asn 00.000049c2 link 0 3 0 0 0 ch 26} bc-0-0 rx LL-9388->LL-NULL, len 35, seq 77, edr 0
+1683710210 [INFO: TSCH-LOG ] {asn 00.000049c5 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-b885->LL-NULL, len 35, seq 77, edr 1
+1683710212 [INFO: TSCH-LOG ] {asn 00.00004a64 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-9287->LL-NULL, len 35, seq 78, edr 1
+1683710213 [INFO: App ] Sending request 27 to [INFO: App ]
+1683710213 [INFO: TSCH-LOG ] {asn 00.00004a97 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 47, seq 93, st 2 1
+1683710213 [INFO: TSCH-LOG ] {asn 00.00004a9d link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a484, len 47, seq 93, st 2 2
+1683710213 [INFO: TSCH-LOG ] {asn 00.00004aac link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a484, len 47, seq 93, st 2 3
+1683710213 [INFO: TSCH-LOG ] {asn 00.00004ad3 link 0 3 0 0 0 ch 20} drift -1 ppm (min/max delta seen: -1/1)
+1683710213 [INFO: TSCH-LOG ] {asn 00.00004ad3 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 47, seq 93, st 0 4, dr 0
+1683710213 [INFO: App ] Received response 'hello 27' from fd00::a484--> With 64 of ping (100)
+1683710213 [INFO: TSCH-LOG ] {asn 00.00004ad6 link 0 3 0 0 0 ch 26} uc-1-0 rx LL-a484->LL-9889, len 47, seq 225, edr 0, dr 0
+1683710218 [INFO: TSCH-LOG ] {asn 00.00004c89 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-9387->LL-NULL, len 35, seq 82, edr 0
+1683710218 [INFO: TSCH-LOG ] {asn 00.00004caa link 0 3 0 0 0 ch 26} drift -1 ppm (min/max delta seen: -1/1)
+1683710218 [INFO: TSCH-LOG ] {asn 00.00004caa link 0 3 0 0 0 ch 26} bc-0-0 rx LL-a484->LL-NULL, len 35, seq 82, edr 0, dr 0
+1683710219 [INFO: App ] Sending request 28 to [INFO: App ]
+1683710219 [INFO: TSCH-LOG ] {asn 00.00004cef link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 47, seq 94, st 2 1
+1683710219 [INFO: TSCH-LOG ] {asn 00.00004cf8 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a484, len 47, seq 94, st 2 2
+1683710219 [INFO: TSCH-LOG ] {asn 00.00004d0d link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a484, len 47, seq 94, st 2 3
+1683710219 [INFO: TSCH-LOG ] {asn 00.00004d1c link 0 3 0 0 0 ch 15} bc-0-0 tx LL-9889->LL-NULL, len 35, seq 177, st 0 1
+1683710219 [INFO: TSCH-LOG ] {asn 00.00004d2b link 0 3 0 0 0 ch 20} bc-0-0 rx LL-a887->LL-NULL, len 35, seq 191, edr 0
+1683710219 [INFO: TSCH-LOG ] {asn 00.00004d31 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a484, len 47, seq 94, st 0 4, dr -1
+1683710219 [INFO: App ] Received response 'hello 28' from fd00::a484--> With 71 of ping (100)
+1683710219 [INFO: TSCH-LOG ] {asn 00.00004d34 link 0 3 0 0 0 ch 15} uc-1-0 rx LL-a484->LL-9889, len 47, seq 235, edr 0, dr 0
+1683710223 [INFO: TSCH-LOG ] {asn 00.00004e8d link 0 3 0 0 0 ch 25} bc-0-0 rx LL-a685->LL-NULL, len 35, seq 179, edr -2
+1683710224 [INFO: TSCH-LOG ] {asn 00.00004ef3 link 0 3 0 0 0 ch 20} bc-0-0 rx LL-9787->LL-NULL, len 35, seq 179, edr -1
+1683710225 [INFO: App ] Sending request 29 to [INFO: App ]
+1683710225 [INFO: TSCH-LOG ] {asn 00.00004f47 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 47, seq 95, st 2 1
+1683710225 [INFO: TSCH-LOG ] {asn 00.00004f4a link 0 3 0 0 0 ch 26} drift -1 ppm (min/max delta seen: -1/1)
+1683710225 [INFO: TSCH-LOG ] {asn 00.00004f4a link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a484, len 47, seq 95, st 0 2, dr 1
+1683710225 [INFO: App ] Received response 'hello 29' from fd00::a484--> With 11 of ping (100)
+1683710225 [INFO: TSCH-LOG ] {asn 00.00004f50 link 0 3 0 0 0 ch 15} uc-1-0 rx LL-a484->LL-9889, len 47, seq 241, edr 0, dr 0
+1683710226 [INFO: TSCH-LOG ] {asn 00.00004fe3 link 0 3 0 0 0 ch 20} bc-0-0 rx LL-b885->LL-NULL, len 35, seq 248, edr 0
+1683710227 [INFO: TSCH-LOG ] {asn 00.00005007 link 0 3 0 0 0 ch 20} bc-0-0 rx LL-9287->LL-NULL, len 35, seq 248, edr 1
+1683710230 [INFO: TSCH-LOG ] {asn 00.00005166 link 0 3 0 0 0 ch 26} bc-0-0 rx LL-9387->LL-NULL, len 35, seq 248, edr 1
+1683710231 [INFO: App ] Sending request 30 to [INFO: App ]
+1683710231 [INFO: TSCH-LOG ] {asn 00.0000519f link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 47, seq 96, st 2 1
+1683710231 [INFO: TSCH-LOG ] {asn 00.000051a2 link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a484, len 47, seq 96, st 2 2
+1683710231 [INFO: TSCH-LOG ] {asn 00.000051a8 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a484, len 47, seq 96, st 2 3
+1683710231 [INFO: TSCH-LOG ] {asn 00.000051bd link 0 3 0 0 0 ch 25} drift -1 ppm (min/max delta seen: -1/1)
+1683710231 [INFO: TSCH-LOG ] {asn 00.000051bd link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a484, len 47, seq 96, st 0 4, dr 0
+1683710231 [INFO: App ] Received response 'hello 30' from fd00::a484--> With 36 of ping (100)
+1683710231 [INFO: TSCH-LOG ] {asn 00.000051c0 link 0 3 0 0 0 ch 15} uc-1-0 rx LL-a484->LL-9889, len 47, seq 251, edr 0, dr 0
+1683710232 [INFO: TSCH-LOG ] {asn 00.00005226 link 0 3 0 0 0 ch 26} bc-0-0 rx LL-a484->LL-NULL, len 35, seq 1, edr 0, dr 0
+1683710232 [INFO: TSCH-LOG ] {asn 00.0000524d link 0 3 0 0 0 ch 25} bc-0-0 rx LL-b184->LL-NULL, len 35, seq 2, edr 1
+1683710233 [INFO: TSCH-LOG ] {asn 00.0000529e link 0 3 0 0 0 ch 26} bc-0-0 tx LL-9889->LL-NULL, len 35, seq 178, st 0 1
+1683710234 [INFO: TSCH-LOG ] {asn 00.00005313 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a685, len 100, seq 97, st 0 1
+1683710235 [INFO: TSCH-LOG ] {asn 00.00005340 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-a887->LL-NULL, len 35, seq 2, edr 1
+1683710235 [INFO: TSCH-LOG ] {asn 00.0000535e link 0 3 0 0 0 ch 26} bc-0-0 rx LL-a685->LL-NULL, len 35, seq 2, edr 0
+1683710237 [INFO: App ] Sending request 31 to [INFO: App ]
+1683710237 [INFO: TSCH-LOG ] {asn 00.000053f7 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 47, seq 98, st 2 1
+1683710237 [INFO: TSCH-LOG ] {asn 00.00005400 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a484, len 47, seq 98, st 2 2
+1683710237 [INFO: TSCH-LOG ] {asn 00.00005403 link 0 3 0 0 0 ch 20} !failed to parse frame 0 0
+1683710237 [INFO: TSCH-LOG ] {asn 00.00005406 link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a484, len 47, seq 98, st 2 3
+1683710237 [INFO: TSCH-LOG ] {asn 00.0000540c link 0 3 0 0 0 ch 15} !failed to parse frame 0 0
+1683710237 [INFO: TSCH-LOG ] {asn 00.00005424 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a484, len 47, seq 98, st 2 4
+1683710237 [INFO: TSCH-LOG ] {asn 00.00005445 link 0 3 0 0 0 ch 25} drift -1 ppm (min/max delta seen: -1/1)
+1683710237 [INFO: TSCH-LOG ] {asn 00.00005445 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a484, len 47, seq 98, st 0 5, dr 0
+1683710237 [INFO: TSCH-LOG ] {asn 00.00005448 link 0 3 0 0 0 ch 15} !failed to parse frame 0 0
+1683710237 [INFO: App ] Received response 'hello 31' from fd00::a484--> With 93 of ping (100)
+1683710237 [INFO: TSCH-LOG ] {asn 00.00005451 link 0 3 0 0 0 ch 25} uc-1-0 rx LL-a484->LL-9889, len 47, seq 7, edr 1, dr -1
+1683710238 [INFO: TSCH-LOG ] {asn 00.00005475 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-9787->LL-NULL, len 35, seq 10, edr -1
+1683710241 [INFO: TSCH-LOG ] {asn 00.000055c8 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-9287->LL-NULL, len 35, seq 186, edr -1
+1683710242 [INFO: TSCH-LOG ] {asn 00.000055e6 link 0 3 0 0 0 ch 26} bc-0-0 rx LL-b885->LL-NULL, len 35, seq 186, edr 0
+1683710242 [INFO: TSCH-LOG ] {asn 00.00005607 link 0 3 0 0 0 ch 20} bc-1-0 rx LL-9787->LL-NULL, len 94, seq 186, edr -2
+1683710243 [INFO: App ] Sending request 32 to [INFO: App ]
+1683710243 [INFO: TSCH-LOG ] {asn 00.0000564c link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a484, len 47, seq 99, st 2 1
+1683710243 [INFO: TSCH-LOG ] {asn 00.00005655 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a484, len 47, seq 99, st 2 2
+1683710243 [INFO: TSCH-LOG ] {asn 00.0000565b link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 47, seq 99, st 2 3
+1683710243 [INFO: TSCH-LOG ] {asn 00.00005667 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 47, seq 99, st 2 4
+1683710243 [INFO: TSCH-LOG ] {asn 00.0000568b link 0 3 0 0 0 ch 20} !failed to parse frame 0 0
+1683710243 [INFO: TSCH-LOG ] {asn 00.0000568e link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a484, len 47, seq 99, st 2 5
+1683710244 [INFO: TSCH-LOG ] {asn 00.000056be link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a484, len 47, seq 99, st 2 6
+1683710244 [INFO: TSCH-LOG ] {asn 00.000056c1 link 0 3 0 0 0 ch 25} drift -1 ppm (min/max delta seen: -1/1)
+1683710244 [INFO: TSCH-LOG ] {asn 00.000056c1 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a484, len 47, seq 99, st 0 7, dr 1
+1683710244 [INFO: App ] Received response 'hello 32' from fd00::a484--> With 124 of ping (100)
+1683710244 [INFO: TSCH-LOG ] {asn 00.000056c7 link 0 3 0 0 0 ch 20} uc-1-0 rx LL-a484->LL-9889, len 47, seq 17, edr 0, dr 0
+1683710244 [INFO: TSCH-LOG ] {asn 00.000056fa link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a685, len 100, seq 100, st 2 1
+1683710244 [INFO: TSCH-LOG ] {asn 00.000056fd link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a685, len 100, seq 100, st 0 2
+1683710246 [INFO: TSCH-LOG ] {asn 00.00005787 link 0 3 0 0 0 ch 20} bc-0-0 tx LL-9889->LL-NULL, len 35, seq 179, st 0 1
+1683710246 [INFO: TSCH-LOG ] {asn 00.00005799 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-9387->LL-NULL, len 35, seq 21, edr -1
+1683710247 [INFO: TSCH-LOG ] {asn 00.000057de link 0 3 0 0 0 ch 26} bc-0-0 rx LL-b184->LL-NULL, len 35, seq 21, edr 0
+1683710247 [INFO: TSCH-LOG ] {asn 00.00005817 link 0 3 0 0 0 ch 20} bc-0-0 rx LL-a685->LL-NULL, len 35, seq 54, edr 0, dr 0
+1683710248 [INFO: TSCH-LOG ] {asn 00.00005862 link 0 3 0 0 0 ch 26} bc-0-0 rx LL-a484->LL-NULL, len 35, seq 54, edr 0
+1683710249 [INFO: App ] Sending request 33 to [INFO: App ]
+1683710249 [INFO: TSCH-LOG ] {asn 00.000058a4 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a685, len 55, seq 101, st 2 1
+1683710249 [INFO: TSCH-LOG ] {asn 00.000058a7 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a685, len 55, seq 101, st 2 2
+1683710249 [INFO: TSCH-LOG ] {asn 00.000058aa link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a685, len 55, seq 101, st 2 3
+1683710249 [INFO: TSCH-LOG ] {asn 00.000058d7 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a685, len 55, seq 101, st 2 4
+1683710249 [INFO: TSCH-LOG ] {asn 00.000058fe link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a685, len 55, seq 101, st 0 5, dr 0
+1683710249 [INFO: TSCH-LOG ] {asn 00.000058ff link 0 3 1 1 0 ch 26} uc-1-0 tx LL-9889->LL-a685, len 91, seq 102, st 2 1
+1683710250 [INFO: App ] Received response 'hello 33' from fd00::a484--> With 97 of ping (100)
+1683710250 [INFO: TSCH-LOG ] {asn 00.00005904 link 0 3 0 0 0 ch 15} uc-1-0 rx LL-a484->LL-9889, len 47, seq 29, edr 0
+1683710250 [INFO: TSCH-LOG ] {asn 00.00005907 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a685, len 91, seq 102, st 0 2, dr -1
+1683710250 [INFO: TSCH-LOG ] {asn 00.00005910 link 0 3 0 0 0 ch 15} uc-1-0 rx LL-a685->LL-9889, len 58, seq 213, edr 0, dr 0
+1683710251 [INFO: TSCH-LOG ] {asn 00.00005970 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-9388->LL-NULL, len 35, seq 216, edr -1
+1683710252 [INFO: TSCH-LOG ] {asn 00.00005a0c link 0 3 0 0 0 ch 15} bc-0-0 rx LL-9787->LL-NULL, len 35, seq 216, edr -1
+1683710254 [INFO: TSCH-LOG ] {asn 00.00005aa8 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-9287->LL-NULL, len 35, seq 216, edr 0
+1683710254 [INFO: TSCH-LOG ] {asn 00.00005ade link 0 3 0 0 0 ch 26} bc-1-0 rx LL-9388->LL-NULL, len 94, seq 216, edr -1
+1683710255 [INFO: App ] Sending request 34 to [INFO: App ]
+1683710255 [INFO: TSCH-LOG ] {asn 00.00005afc link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a685, len 55, seq 103, st 2 1
+1683710255 [INFO: TSCH-LOG ] {asn 00.00005b02 link 0 3 0 0 0 ch 26} !failed to parse frame 0 0
+1683710255 [INFO: TSCH-LOG ] {asn 00.00005b08 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a685, len 55, seq 103, st 2 2
+1683710255 [INFO: TSCH-LOG ] {asn 00.00005b0b link 0 3 0 0 0 ch 20} !failed to parse frame 0 0
+1683710255 [INFO: TSCH-LOG ] {asn 00.00005b0e link 0 3 0 0 0 ch 26} drift 0 ppm (min/max delta seen: -1/1)
+1683710255 [INFO: TSCH-LOG ] {asn 00.00005b0e link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a685, len 55, seq 103, st 0 3, dr 1
+1683710255 [INFO: App ] Received response 'hello 34' from fd00::a484--> With 65 of ping (100)
+1683710255 [INFO: TSCH-LOG ] {asn 00.00005b3b link 0 3 0 0 0 ch 20} uc-1-0 rx LL-a685->LL-9889, len 64, seq 221, edr 0, dr 0
+1683710257 [INFO: TSCH-LOG ] {asn 00.00005bc2 link 0 3 0 0 0 ch 26} bc-1-0 rx LL-9287->LL-NULL, len 94, seq 227, edr 0
+1683710257 [INFO: TSCH-LOG ] {asn 00.00005bf8 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-b885->LL-NULL, len 35, seq 227, edr 1
+1683710259 [INFO: TSCH-LOG ] {asn 00.00005c97 link 0 3 0 0 0 ch 20} bc-0-0 tx LL-9889->LL-NULL, len 35, seq 180, st 0 1
+1683710259 [INFO: TSCH-LOG ] {asn 00.00005cd6 link 0 3 0 0 0 ch 26} bc-1-0 rx LL-b184->LL-NULL, len 94, seq 227, edr 0
+1683710260 [INFO: TSCH-LOG ] {asn 00.00005ce8 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-b184->LL-NULL, len 35, seq 227, edr 1
+1683710260 [INFO: TSCH-LOG ] {asn 00.00005d12 link 0 3 0 0 0 ch 26} drift -2 ppm (min/max delta seen: -1/1)
+1683710260 [INFO: TSCH-LOG ] {asn 00.00005d12 link 0 3 0 0 0 ch 26} bc-0-0 rx LL-a685->LL-NULL, len 35, seq 227, edr 1, dr -1
+1683710260 [INFO: TSCH-LOG ] {asn 00.00005d3f link 0 3 0 0 0 ch 20} bc-0-0 rx LL-a887->LL-NULL, len 35, seq 227, edr 0
+1683710260 [INFO: TSCH-LOG ] {asn 00.00005d42 link 0 3 0 0 0 ch 26} bc-0-0 rx LL-a484->LL-NULL, len 35, seq 227, edr 0
+1683710261 [INFO: App ] Sending request 35 to [INFO: App ]
+1683710261 [INFO: TSCH-LOG ] {asn 00.00005d54 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a685, len 55, seq 104, st 2 1
+1683710261 [INFO: TSCH-LOG ] {asn 00.00005d5a link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a685, len 55, seq 104, st 2 2
+1683710261 [INFO: TSCH-LOG ] {asn 00.00005d5d link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a685, len 55, seq 104, st 2 3
+1683710261 [INFO: TSCH-LOG ] {asn 00.00005d60 link 0 3 0 0 0 ch 15} !failed to parse frame 0 0
+1683710261 [INFO: TSCH-LOG ] {asn 00.00005d7e link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a685, len 55, seq 104, st 0 4, dr 0
+1683710261 [INFO: App ] Received response 'hello 35' from fd00::a484--> With 86 of ping (100)
+1683710261 [INFO: TSCH-LOG ] {asn 00.00005da8 link 0 3 0 0 0 ch 15} uc-1-0 rx LL-a685->LL-9889, len 64, seq 233, edr 0, dr 0
+1683710263 [INFO: TSCH-LOG ] {asn 00.00005e56 link 0 3 0 0 0 ch 26} bc-0-0 rx LL-9388->LL-NULL, len 35, seq 238, edr 1
+1683710267 [INFO: App ] Sending request 36 to [INFO: App ]
+1683710267 [INFO: TSCH-LOG ] {asn 00.00005fac link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a685, len 55, seq 105, st 2 1
+1683710267 [INFO: TSCH-LOG ] {asn 00.00005fb2 link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a685, len 55, seq 105, st 2 2
+1683710267 [INFO: TSCH-LOG ] {asn 00.00005fca link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a685, len 55, seq 105, st 2 3
+1683710267 [INFO: TSCH-LOG ] {asn 00.00005ff7 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a685, len 55, seq 105, st 2 4
+1683710268 [INFO: TSCH-LOG ] {asn 00.00006039 link 0 3 0 0 0 ch 25} drift -1 ppm (min/max delta seen: -1/1)
+1683710268 [INFO: TSCH-LOG ] {asn 00.00006039 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a685, len 55, seq 105, st 0 5, dr 1
+1683710268 [INFO: TSCH-LOG ] {asn 00.00006042 link 0 3 0 0 0 ch 26} bc-0-0 rx LL-9787->LL-NULL, len 35, seq 58, edr 1
+1683710268 [INFO: App ] Received response 'hello 36' from fd00::a484--> With 162 of ping (100)
+1683710268 [INFO: TSCH-LOG ] {asn 00.0000604b link 0 3 0 0 0 ch 20} uc-1-0 rx LL-a685->LL-9889, len 64, seq 247, edr 0, dr 0
+1683710269 [INFO: TSCH-LOG ] {asn 00.000060b4 link 0 3 0 0 0 ch 15} bc-1-0 tx LL-9889->LL-NULL, len 94, seq 181, st 0 1
+1683710269 [INFO: TSCH-LOG ] {asn 00.000060b7 link 0 3 0 0 0 ch 20} bc-0-0 rx LL-9287->LL-NULL, len 35, seq 249, edr 0
+1683710272 [INFO: TSCH-LOG ] {asn 00.000061c5 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-b885->LL-NULL, len 35, seq 249, edr 1
+1683710272 [INFO: TSCH-LOG ] {asn 00.000061ce link 0 3 0 0 0 ch 26} drift -1 ppm (min/max delta seen: -1/1)
+1683710272 [INFO: TSCH-LOG ] {asn 00.000061ce link 0 3 0 0 0 ch 26} bc-0-0 rx LL-a685->LL-NULL, len 35, seq 249, edr 0, dr 0
+1683710272 [INFO: TSCH-LOG ] {asn 00.000061ec link 0 3 0 0 0 ch 15} bc-0-0 rx LL-b184->LL-NULL, len 35, seq 249, edr 0
+1683710273 [INFO: App ] Sending request 37 to [INFO: App ]
+1683710273 [INFO: TSCH-LOG ] {asn 00.00006201 link 0 3 0 0 0 ch 25} !failed to parse frame 0 0
+1683710273 [INFO: TSCH-LOG ] {asn 00.00006204 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a685, len 55, seq 106, st 2 1
+1683710273 [INFO: TSCH-LOG ] {asn 00.00006210 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a685, len 55, seq 106, st 2 2
+1683710273 [INFO: TSCH-LOG ] {asn 00.0000621c link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a685, len 55, seq 106, st 2 3
+1683710273 [INFO: TSCH-LOG ] {asn 00.00006222 link 0 3 0 0 0 ch 26} !failed to parse frame 0 0
+1683710273 [INFO: TSCH-LOG ] {asn 00.00006240 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a685, len 55, seq 106, st 2 4
+1683710273 [INFO: TSCH-LOG ] {asn 00.00006252 link 0 3 0 0 0 ch 26} bc-0-0 tx LL-9889->LL-NULL, len 35, seq 182, st 0 1
+1683710274 [INFO: TSCH-LOG ] {asn 00.00006261 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a685, len 55, seq 106, st 0 5, dr 0
+1683710274 [INFO: App ] Received response 'hello 37' from fd00::a484--> With 105 of ping (100)
+1683710274 [INFO: TSCH-LOG ] {asn 00.0000626a link 0 3 0 0 0 ch 26} uc-1-0 rx LL-a685->LL-9889, len 64, seq 4, edr 1, dr -1
+1683710275 [INFO: TSCH-LOG ] {asn 00.000062fa link 0 3 0 0 0 ch 26} bc-0-0 rx LL-9387->LL-NULL, len 35, seq 68, edr 0
+1683710276 [INFO: TSCH-LOG ] {asn 00.0000633c link 0 3 0 0 0 ch 15} bc-0-0 rx LL-9388->LL-NULL, len 35, seq 68, edr 0
+1683710276 [INFO: TSCH-LOG ] {asn 00.00006369 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-a484->LL-NULL, len 35, seq 68, edr 0
+1683710279 [INFO: App ] Sending request 38 to [INFO: App ]
+1683710279 [INFO: TSCH-LOG ] {asn 00.00006459 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a685, len 55, seq 107, st 2 1
+1683710279 [INFO: TSCH-LOG ] {asn 00.00006465 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a685, len 55, seq 107, st 2 2
+1683710279 [INFO: TSCH-LOG ] {asn 00.00006468 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a685, len 55, seq 107, st 2 3
+1683710279 [INFO: TSCH-LOG ] {asn 00.0000646b link 0 3 0 0 0 ch 20} !failed to parse frame 0 0
+1683710279 [INFO: TSCH-LOG ] {asn 00.0000648c link 0 3 0 0 0 ch 15} drift -1 ppm (min/max delta seen: -1/1)
+1683710279 [INFO: TSCH-LOG ] {asn 00.0000648c link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a685, len 55, seq 107, st 0 4, dr 1
+1683710280 [INFO: App ] Received response 'hello 38' from fd00::a484--> With 106 of ping (100)
+1683710280 [INFO: TSCH-LOG ] {asn 00.000064c2 link 0 3 0 0 0 ch 26} uc-1-0 rx LL-a685->LL-9889, len 64, seq 15, edr 0, dr 0
+1683710283 [INFO: TSCH-LOG ] {asn 00.000065fa link 0 3 0 0 0 ch 26} bc-0-0 rx LL-9787->LL-NULL, len 35, seq 77, edr 1
+1683710283 [INFO: TSCH-LOG ] {asn 00.000065fd link 0 3 0 0 0 ch 25} bc-0-0 rx LL-9287->LL-NULL, len 35, seq 77, edr 1
+1683710283 [INFO: TSCH-LOG ] {asn 00.0000661b link 0 3 0 0 0 ch 20} bc-1-0 rx LL-a484->LL-NULL, len 94, seq 77, edr 1
+1683710284 [INFO: TSCH-LOG ] {asn 00.0000669f link 0 3 0 0 0 ch 20} drift -1 ppm (min/max delta seen: -1/1)
+1683710284 [INFO: TSCH-LOG ] {asn 00.0000669f link 0 3 0 0 0 ch 20} bc-0-0 rx LL-a685->LL-NULL, len 35, seq 77, edr 1, dr -1
+1683710285 [INFO: App ] Sending request 39 to [INFO: App ]
+1683710285 [INFO: TSCH-LOG ] {asn 00.000066b1 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a685, len 55, seq 108, st 2 1
+1683710285 [INFO: TSCH-LOG ] {asn 00.000066b4 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a685, len 55, seq 108, st 2 2
+1683710285 [INFO: TSCH-LOG ] {asn 00.000066b7 link 0 3 0 0 0 ch 20} !failed to parse frame 0 0
+1683710285 [INFO: TSCH-LOG ] {asn 00.000066c0 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a685, len 55, seq 108, st 2 3
+1683710285 [INFO: TSCH-LOG ] {asn 00.000066d2 link 0 3 0 0 0 ch 26} bc-0-0 rx LL-b184->LL-NULL, len 35, seq 229, edr 0
+1683710285 [INFO: TSCH-LOG ] {asn 00.000066db link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a685, len 55, seq 108, st 2 4
+1683710285 [INFO: TSCH-LOG ] {asn 00.000066e7 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a685, len 55, seq 108, st 0 5, dr 0
+1683710286 [INFO: App ] Received response 'hello 39' from fd00::a484--> With 97 of ping (100)
+1683710286 [INFO: TSCH-LOG ] {asn 00.00006711 link 0 3 0 0 0 ch 25} uc-1-0 rx LL-a685->LL-9889, len 64, seq 23, edr 0, dr 0
+1683710287 [INFO: TSCH-LOG ] {asn 00.00006795 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-a887->LL-NULL, len 35, seq 27, edr 0
+1683710287 [INFO: TSCH-LOG ] {asn 00.0000679e link 0 3 0 0 0 ch 26} bc-0-0 tx LL-9889->LL-NULL, len 35, seq 183, st 0 1
+1683710287 [INFO: TSCH-LOG ] {asn 00.000067bf link 0 3 0 0 0 ch 20} bc-0-0 rx LL-b885->LL-NULL, len 35, seq 27, edr 0
+1683710288 [INFO: TSCH-LOG ] {asn 00.000067e6 link 0 3 0 0 0 ch 26} bc-0-0 rx LL-9387->LL-NULL, len 35, seq 27, edr 0
+1683710291 [INFO: App ] Sending request 40 to [INFO: App ]
+1683710291 [INFO: TSCH-LOG ] {asn 00.00006909 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a685, len 55, seq 109, st 2 1
+1683710291 [INFO: TSCH-LOG ] {asn 00.0000690f link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a685, len 55, seq 109, st 2 2
+1683710291 [INFO: TSCH-LOG ] {asn 00.00006921 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a685, len 55, seq 109, st 2 3
+1683710291 [INFO: TSCH-LOG ] {asn 00.00006930 link 0 3 0 0 0 ch 15} drift -1 ppm (min/max delta seen: -1/1)
+1683710291 [INFO: TSCH-LOG ] {asn 00.00006930 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a685, len 55, seq 109, st 0 4, dr 1
+1683710292 [INFO: App ] Received response 'hello 40' from fd00::a484--> With 140 of ping (100)
+1683710292 [INFO: TSCH-LOG ] {asn 00.00006993 link 0 3 0 0 0 ch 20} uc-1-0 rx LL-a685->LL-9889, len 64, seq 33, edr 0, dr 0
+1683710292 [INFO: TSCH-LOG ] {asn 00.000069b1 link 0 3 0 0 0 ch 25} bc-1-0 rx LL-b885->LL-NULL, len 94, seq 35, edr 1
+1683710295 [INFO: TSCH-LOG ] {asn 00.00006ae0 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-9287->LL-NULL, len 35, seq 241, edr 0
+1683710296 [INFO: TSCH-LOG ] {asn 00.00006b22 link 0 3 0 0 0 ch 26} drift -1 ppm (min/max delta seen: -1/1)
+1683710296 [INFO: TSCH-LOG ] {asn 00.00006b22 link 0 3 0 0 0 ch 26} bc-1-0 rx LL-a685->LL-NULL, len 94, seq 241, edr 0, dr 0
+1683710296 [INFO: TSCH-LOG ] {asn 00.00006b5b link 0 3 0 0 0 ch 15} !get lock delay 88
+1683710297 [INFO: TSCH-LOG ] {asn 00.00006b5b link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-9387, len 100, seq 110, st 0 1
+1683710297 [INFO: App ] Sending request 41 to [INFO: App ]
+1683710297 [INFO: TSCH-LOG ] {asn 00.00006b61 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a685, len 55, seq 111, st 2 1
+1683710297 [INFO: TSCH-LOG ] {asn 00.00006b67 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a685, len 55, seq 111, st 2 2
+1683710297 [INFO: TSCH-LOG ] {asn 00.00006b7c link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a685, len 55, seq 111, st 2 3
+1683710297 [INFO: TSCH-LOG ] {asn 00.00006b8b link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a685, len 55, seq 111, st 2 4
+1683710297 [INFO: TSCH-LOG ] {asn 00.00006baf link 0 3 0 0 0 ch 20} bc-0-0 rx LL-9787->LL-NULL, len 35, seq 100, edr 1
+1683710298 [INFO: TSCH-LOG ] {asn 00.00006bdf link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a685, len 55, seq 111, st 0 5, dr -1
+1683710298 [INFO: App ] Received response 'hello 41' from fd00::a484--> With 137 of ping (100)
+1683710298 [INFO: TSCH-LOG ] {asn 00.00006be8 link 0 3 0 0 0 ch 15} uc-1-0 rx LL-a685->LL-9889, len 64, seq 49, edr 0, dr 0
+1683710300 [INFO: TSCH-LOG ] {asn 00.00006cba link 0 3 0 0 0 ch 26} bc-0-0 rx LL-b184->LL-NULL, len 35, seq 104, edr -1
+1683710301 [INFO: TSCH-LOG ] {asn 00.00006d38 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-a887->LL-NULL, len 35, seq 104, edr 0
+1683710301 [INFO: TSCH-LOG ] {asn 00.00006d3e link 0 3 0 0 0 ch 26} bc-0-0 rx LL-9387->LL-NULL, len 35, seq 104, edr 0
+1683710301 [INFO: TSCH-LOG ] {asn 00.00006d44 link 0 3 0 0 0 ch 15} bc-0-0 tx LL-9889->LL-NULL, len 35, seq 184, st 0 1
+1683710302 [INFO: TSCH-LOG ] {asn 00.00006d8c link 0 3 0 0 0 ch 15} bc-0-0 rx LL-b885->LL-NULL, len 35, seq 104, edr -1
+1683710303 [INFO: App ] Sending request 42 to [INFO: App ]
+1683710303 [INFO: TSCH-LOG ] {asn 00.00006db9 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a685, len 55, seq 112, st 2 1
+1683710303 [INFO: TSCH-LOG ] {asn 00.00006dc5 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a685, len 55, seq 112, st 2 2
+1683710303 [INFO: TSCH-LOG ] {asn 00.00006dd1 link 0 3 0 0 0 ch 25} drift -2 ppm (min/max delta seen: -1/1)
+1683710303 [INFO: TSCH-LOG ] {asn 00.00006dd1 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a685, len 55, seq 112, st 0 3, dr 0
+1683710303 [INFO: App ] Received response 'hello 42' from fd00::a484--> With 45 of ping (100)
+1683710303 [INFO: TSCH-LOG ] {asn 00.00006de3 link 0 3 0 0 0 ch 20} uc-1-0 rx LL-a685->LL-9889, len 64, seq 53, edr 0, dr 0
+1683710304 [INFO: TSCH-LOG ] {asn 00.00006e64 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-9388->LL-NULL, len 35, seq 60, edr 0
+1683710306 [INFO: TSCH-LOG ] {asn 00.00006f33 link 0 3 0 0 0 ch 20} bc-0-0 rx LL-a484->LL-NULL, len 35, seq 60, edr -1
+1683710309 [INFO: TSCH-LOG ] {asn 00.0000700b link 0 3 0 0 0 ch 20} !failed to parse frame 0 0
+1683710309 [INFO: App ] Sending request 43 to [INFO: App ]
+1683710309 [INFO: TSCH-LOG ] {asn 00.0000700e link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a685, len 55, seq 113, st 2 1
+1683710309 [INFO: TSCH-LOG ] {asn 00.00007014 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a685, len 55, seq 113, st 2 2
+1683710309 [INFO: TSCH-LOG ] {asn 00.00007017 link 0 3 0 0 0 ch 20} !failed to parse frame 0 0
+1683710309 [INFO: TSCH-LOG ] {asn 00.00007029 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a685, len 55, seq 113, st 2 3
+1683710309 [INFO: TSCH-LOG ] {asn 00.00007035 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-9287->LL-NULL, len 35, seq 201, edr 0
+1683710309 [INFO: TSCH-LOG ] {asn 00.0000704d link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a685, len 55, seq 113, st 2 4
+1683710310 [INFO: TSCH-LOG ] {asn 00.00007092 link 0 3 0 0 0 ch 26} drift -1 ppm (min/max delta seen: -1/1)
+1683710310 [INFO: TSCH-LOG ] {asn 00.00007092 link 0 3 0 0 0 ch 26} bc-0-0 rx LL-a685->LL-NULL, len 35, seq 121, edr 0, dr 0
+1683710310 [INFO: TSCH-LOG ] {asn 00.000070a1 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a685, len 55, seq 113, st 0 5, dr 1
+1683710310 [INFO: App ] Received response 'hello 43' from fd00::a484--> With 156 of ping (100)
+1683710310 [INFO: TSCH-LOG ] {asn 00.000070aa link 0 3 0 0 0 ch 26} uc-1-0 rx LL-a685->LL-9889, len 64, seq 72, edr 0, dr 0
+1683710310 [INFO: TSCH-LOG ] {asn 00.000070bf link 0 3 0 0 0 ch 20} bc-1-0 rx LL-9387->LL-NULL, len 94, seq 72, edr 0
+1683710311 [INFO: TSCH-LOG ] {asn 00.000070d1 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-9787->LL-NULL, len 35, seq 72, edr 0
+1683710315 [INFO: App ] Sending request 44 to [INFO: App ]
+1683710315 [INFO: TSCH-LOG ] {asn 00.00007266 link 0 3 0 0 0 ch 26} bc-0-0 tx LL-9889->LL-NULL, len 35, seq 185, st 0 1
+1683710315 [INFO: TSCH-LOG ] {asn 00.00007269 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a685, len 55, seq 114, st 2 1
+1683710315 [INFO: TSCH-LOG ] {asn 00.00007272 link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a685, len 55, seq 114, st 2 2
+1683710315 [INFO: TSCH-LOG ] {asn 00.00007275 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a685, len 55, seq 114, st 2 3
+1683710315 [INFO: TSCH-LOG ] {asn 00.00007290 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a685, len 55, seq 114, st 2 4
+1683710315 [INFO: TSCH-LOG ] {asn 00.000072b1 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-b184->LL-NULL, len 35, seq 79, edr 1
+1683710316 [INFO: TSCH-LOG ] {asn 00.000072cc link 0 3 0 0 0 ch 15} drift -1 ppm (min/max delta seen: -1/1)
+1683710316 [INFO: TSCH-LOG ] {asn 00.000072cc link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a685, len 55, seq 114, st 0 5, dr 0
+1683710316 [INFO: App ] Received response 'hello 44' from fd00::a484--> With 127 of ping (100)
+1683710316 [INFO: TSCH-LOG ] {asn 00.000072e4 link 0 3 0 0 0 ch 15} uc-1-0 rx LL-a685->LL-9889, len 64, seq 81, edr 0, dr 0
+1683710316 [INFO: TSCH-LOG ] {asn 00.000072f6 link 0 3 0 0 0 ch 26} bc-0-0 rx LL-b885->LL-NULL, len 35, seq 81, edr 1
+1683710319 [INFO: TSCH-LOG ] {asn 00.00007446 link 0 3 0 0 0 ch 26} bc-0-0 rx LL-9388->LL-NULL, len 35, seq 211, edr 1
+1683710321 [INFO: TSCH-LOG ] {asn 00.000074bb link 0 3 0 0 0 ch 20} !failed to parse frame 0 0
+1683710321 [INFO: App ] Sending request 45 to [INFO: App ]
+1683710321 [INFO: TSCH-LOG ] {asn 00.000074be link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a685, len 55, seq 115, st 2 1
+1683710321 [INFO: TSCH-LOG ] {asn 00.000074c7 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a685, len 55, seq 115, st 2 2
+1683710321 [INFO: TSCH-LOG ] {asn 00.000074cd link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a685, len 55, seq 115, st 2 3
+1683710321 [INFO: TSCH-LOG ] {asn 00.000074e8 link 0 3 0 0 0 ch 15} drift -2 ppm (min/max delta seen: -1/1)
+1683710321 [INFO: TSCH-LOG ] {asn 00.000074e8 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a685, len 55, seq 115, st 0 4, dr -2
+1683710321 [INFO: TSCH-LOG ] {asn 00.000074f1 link 0 3 0 0 0 ch 25} !failed to parse frame 0 0
+1683710322 [INFO: App ] Received response 'hello 45' from fd00::a484--> With 173 of ping (100)
+1683710322 [INFO: TSCH-LOG ] {asn 00.00007569 link 0 3 0 0 0 ch 25} uc-1-0 rx LL-a685->LL-9889, len 64, seq 86, edr -1, dr 1
+1683710322 [INFO: TSCH-LOG ] {asn 00.0000757e link 0 3 0 0 0 ch 26} bc-0-0 rx LL-9287->LL-NULL, len 35, seq 86, edr 0
+1683710325 [INFO: TSCH-LOG ] {asn 00.0000765f link 0 3 0 0 0 ch 20} bc-0-0 rx LL-9787->LL-NULL, len 35, seq 86, edr -1
+1683710325 [INFO: TSCH-LOG ] {asn 00.000076a1 link 0 3 0 0 0 ch 25} drift -1 ppm (min/max delta seen: -2/1)
+1683710325 [INFO: TSCH-LOG ] {asn 00.000076a1 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-a685->LL-NULL, len 35, seq 102, edr -1, dr 1
+1683710327 [INFO: App ] Sending request 46 to [INFO: App ]
+1683710327 [INFO: TSCH-LOG ] {asn 00.00007716 link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a685, len 55, seq 116, st 2 1
+1683710327 [INFO: TSCH-LOG ] {asn 00.00007719 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a685, len 55, seq 116, st 0 2, dr 0
+1683710327 [INFO: TSCH-LOG ] {asn 00.00007722 link 0 3 0 0 0 ch 26} !failed to parse frame 0 0
+1683710327 [INFO: App ] Received response 'hello 46' from fd00::a484--> With 53 of ping (100)
+1683710327 [INFO: TSCH-LOG ] {asn 00.00007749 link 0 3 0 0 0 ch 25} uc-1-0 rx LL-a685->LL-9889, len 64, seq 93, edr 0, dr 0
+1683710327 [INFO: TSCH-LOG ] {asn 00.00007761 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-b184->LL-NULL, len 35, seq 95, edr 0
+1683710329 [INFO: TSCH-LOG ] {asn 00.000077f7 link 0 3 0 0 0 ch 20} bc-0-0 tx LL-9889->LL-NULL, len 35, seq 186, st 0 1
+1683710330 [INFO: TSCH-LOG ] {asn 00.00007869 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-9387->LL-NULL, len 35, seq 151, edr 0
+1683710330 [INFO: TSCH-LOG ] {asn 00.00007890 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-a887->LL-NULL, len 35, seq 151, edr 0
+1683710331 [INFO: TSCH-LOG ] {asn 00.000078c3 link 0 3 0 0 0 ch 20} bc-0-0 rx LL-b885->LL-NULL, len 35, seq 151, edr 1
+1683710333 [INFO: App ] Sending request 47 to [INFO: App ]
+1683710333 [INFO: TSCH-LOG ] {asn 00.0000796e link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a685, len 55, seq 117, st 2 1
+1683710333 [INFO: TSCH-LOG ] {asn 00.00007971 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a685, len 55, seq 117, st 2 2
+1683710333 [INFO: TSCH-LOG ] {asn 00.00007977 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a685, len 55, seq 117, st 2 3
+1683710333 [INFO: TSCH-LOG ] {asn 00.00007986 link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a685, len 55, seq 117, st 2 4
+1683710334 [INFO: TSCH-LOG ] {asn 00.000079e6 link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a685, len 55, seq 117, st 2 5
+1683710335 [INFO: TSCH-LOG ] {asn 00.00007a43 link 0 3 0 0 0 ch 20} drift 0 ppm (min/max delta seen: -2/1)
+1683710335 [INFO: TSCH-LOG ] {asn 00.00007a43 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a685, len 55, seq 117, st 0 6, dr 0
+1683710335 [INFO: App ] Received response 'hello 47' from fd00::a484--> With 225 of ping (100)
+1683710335 [INFO: TSCH-LOG ] {asn 00.00007a4c link 0 3 0 0 0 ch 15} uc-1-0 rx LL-a685->LL-9889, len 64, seq 105, edr 1, dr -1
+1683710337 [INFO: TSCH-LOG ] {asn 00.00007b33 link 0 3 0 0 0 ch 20} bc-0-0 rx LL-9787->LL-NULL, len 35, seq 105, edr 0
+1683710338 [INFO: TSCH-LOG ] {asn 00.00007ba2 link 0 3 0 0 0 ch 26} bc-0-0 rx LL-9287->LL-NULL, len 35, seq 105, edr -1
+1683710339 [INFO: App ] Sending request 48 to [INFO: App ]
+1683710339 [INFO: TSCH-LOG ] {asn 00.00007bc6 link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a685, len 55, seq 118, st 2 1
+1683710339 [INFO: TSCH-LOG ] {asn 00.00007bcc link 0 3 0 0 0 ch 15} !failed to parse frame 0 0
+1683710339 [INFO: TSCH-LOG ] {asn 00.00007bd2 link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a685, len 55, seq 118, st 0 2, dr 1
+1683710339 [INFO: App ] Received response 'hello 48' from fd00::a484--> With 60 of ping (100)
+1683710339 [INFO: TSCH-LOG ] {asn 00.00007bff link 0 3 0 0 0 ch 20} drift 0 ppm (min/max delta seen: -2/1)
+1683710339 [INFO: TSCH-LOG ] {asn 00.00007bff link 0 3 0 0 0 ch 20} uc-1-0 rx LL-a685->LL-9889, len 64, seq 109, edr 0, dr 0
+1683710341 [INFO: TSCH-LOG ] {asn 00.00007cb9 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-b184->LL-NULL, len 35, seq 231, edr 1
+1683710341 [INFO: TSCH-LOG ] {asn 00.00007cbc link 0 3 0 0 0 ch 15} bc-0-0 rx LL-a685->LL-NULL, len 35, seq 231, edr 0, dr 0
+1683710342 [INFO: TSCH-LOG ] {asn 00.00007d37 link 0 3 0 0 0 ch 20} bc-0-0 rx LL-9387->LL-NULL, len 35, seq 231, edr 1
+1683710343 [INFO: TSCH-LOG ] {asn 00.00007d94 link 0 3 0 0 0 ch 15} bc-0-0 tx LL-9889->LL-NULL, len 35, seq 187, st 0 1
+1683710344 [INFO: TSCH-LOG ] {asn 00.00007de5 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-a887->LL-NULL, len 35, seq 231, edr 1
+1683710345 [INFO: App ] Sending request 49 to [INFO: App ]
+1683710345 [INFO: TSCH-LOG ] {asn 00.00007e1b link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a685, len 55, seq 119, st 2 1
+1683710345 [INFO: TSCH-LOG ] {asn 00.00007e1e link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a685, len 55, seq 119, st 2 2
+1683710345 [INFO: TSCH-LOG ] {asn 00.00007e2a link 0 3 0 0 0 ch 26} drift -1 ppm (min/max delta seen: -2/1)
+1683710345 [INFO: TSCH-LOG ] {asn 00.00007e2a link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a685, len 55, seq 119, st 0 3, dr 0
+1683710345 [INFO: TSCH-LOG ] {asn 00.00007e36 link 0 3 0 0 0 ch 26} !failed to parse frame 0 0
+1683710345 [INFO: App ] Received response 'hello 49' from fd00::a484--> With 48 of ping (100)
+1683710345 [INFO: TSCH-LOG ] {asn 00.00007e4b link 0 3 0 0 0 ch 20} uc-1-0 rx LL-a685->LL-9889, len 64, seq 116, edr 0, dr 0
+1683710348 [INFO: TSCH-LOG ] {asn 00.00007f89 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-9388->LL-NULL, len 35, seq 236, edr 1
+1683710348 [INFO: TSCH-LOG ] {asn 00.00007f8f link 0 3 0 0 0 ch 20} bc-0-0 rx LL-a484->LL-NULL, len 35, seq 236, edr 0
+1683710351 [INFO: App ] Sending request 50 to [INFO: App ]
+1683710351 [INFO: TSCH-LOG ] {asn 00.00008073 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a685, len 55, seq 120, st 2 1
+1683710351 [INFO: TSCH-LOG ] {asn 00.0000807c link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a685, len 55, seq 120, st 2 2
+1683710351 [INFO: TSCH-LOG ] {asn 00.00008094 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a685, len 55, seq 120, st 2 3
+1683710351 [INFO: TSCH-LOG ] {asn 00.0000809d link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a685, len 55, seq 120, st 2 4
+1683710352 [INFO: TSCH-LOG ] {asn 00.000080d6 link 0 3 0 0 0 ch 26} drift -1 ppm (min/max delta seen: -2/1)
+1683710352 [INFO: TSCH-LOG ] {asn 00.000080d6 link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a685, len 55, seq 120, st 0 5, dr 0
+1683710352 [INFO: App ] Received response 'hello 50' from fd00::a484--> With 109 of ping (100)
+1683710352 [INFO: TSCH-LOG ] {asn 00.000080df link 0 3 0 0 0 ch 20} uc-1-0 rx LL-a685->LL-9889, len 64, seq 125, edr 0, dr 0
+1683710354 [INFO: TSCH-LOG ] {asn 00.000081d5 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-9287->LL-NULL, len 35, seq 242, edr 0
+1683710354 [INFO: TSCH-LOG ] {asn 00.000081ed link 0 3 0 0 0 ch 25} bc-0-0 rx LL-a685->LL-NULL, len 35, seq 243, edr 0, dr 0
+1683710354 [INFO: TSCH-LOG ] {asn 00.000081f3 link 0 3 0 0 0 ch 20} bc-0-0 rx LL-b184->LL-NULL, len 35, seq 243, edr 0
+1683710357 [INFO: App ] Sending request 51 to [INFO: App ]
+1683710357 [INFO: TSCH-LOG ] {asn 00.000082cb link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a685, len 55, seq 121, st 2 1
+1683710357 [INFO: TSCH-LOG ] {asn 00.000082ce link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a685, len 55, seq 121, st 2 2
+1683710357 [INFO: TSCH-LOG ] {asn 00.000082e0 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a685, len 55, seq 121, st 2 3
+1683710357 [INFO: TSCH-LOG ] {asn 00.000082f2 link 0 3 0 0 0 ch 26} drift -1 ppm (min/max delta seen: -2/1)
+1683710357 [INFO: TSCH-LOG ] {asn 00.000082f2 link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a685, len 55, seq 121, st 0 4, dr -1
+1683710357 [INFO: App ] Received response 'hello 51' from fd00::a484--> With 49 of ping (100)
+1683710357 [INFO: TSCH-LOG ] {asn 00.000082fb link 0 3 0 0 0 ch 20} uc-1-0 rx LL-a685->LL-9889, len 64, seq 131, edr 0, dr 0
+1683710357 [INFO: TSCH-LOG ] {asn 00.00008301 link 0 3 0 0 0 ch 25} bc-0-0 tx LL-9889->LL-NULL, len 35, seq 188, st 0 1
+1683710358 [INFO: TSCH-LOG ] {asn 00.0000834c link 0 3 0 0 0 ch 15} bc-0-0 rx LL-a887->LL-NULL, len 35, seq 194, edr 0
+1683710360 [INFO: TSCH-LOG ] {asn 00.0000844e link 0 3 0 0 0 ch 26} bc-0-0 rx LL-b885->LL-NULL, len 35, seq 249, edr 0
+1683710362 [INFO: TSCH-LOG ] {asn 00.0000850e link 0 3 0 0 0 ch 26} bc-0-0 rx LL-a484->LL-NULL, len 35, seq 249, edr 0
+1683710363 [INFO: App ] Sending request 52 to [INFO: App ]
+1683710363 [INFO: TSCH-LOG ] {asn 00.00008523 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a685, len 55, seq 122, st 2 1
+1683710363 [INFO: TSCH-LOG ] {asn 00.0000852c link 0 3 0 0 0 ch 15} drift -1 ppm (min/max delta seen: -2/1)
+1683710363 [INFO: TSCH-LOG ] {asn 00.0000852c link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a685, len 55, seq 122, st 0 2, dr 0
+1683710363 [INFO: App ] Received response 'hello 52' from fd00::a484--> With 59 of ping (100)
+1683710363 [INFO: TSCH-LOG ] {asn 00.0000855c link 0 3 0 0 0 ch 15} uc-1-0 rx LL-a685->LL-9889, len 64, seq 141, edr -1, dr 1
+1683710363 [INFO: TSCH-LOG ] {asn 00.0000855f link 0 3 0 0 0 ch 20} bc-0-0 rx LL-9388->LL-NULL, len 35, seq 141, edr 1
+1683710364 [INFO: TSCH-LOG ] {asn 00.000085a7 link 0 3 0 0 0 ch 20} bc-0-0 rx LL-9787->LL-NULL, len 35, seq 145, edr 1
+1683710367 [INFO: TSCH-LOG ] {asn 00.00008709 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-b184->LL-NULL, len 35, seq 254, edr 0
+1683710368 [INFO: TSCH-LOG ] {asn 00.00008748 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-9287->LL-NULL, len 35, seq 254, edr 0
+1683710369 [INFO: App ] Sending request 53 to [INFO: App ]
+1683710369 [INFO: TSCH-LOG ] {asn 00.0000877b link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a685, len 55, seq 123, st 2 1
+1683710369 [INFO: TSCH-LOG ] {asn 00.00008787 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a685, len 55, seq 123, st 2 2
+1683710369 [INFO: TSCH-LOG ] {asn 00.00008793 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a685, len 55, seq 123, st 2 3
+1683710369 [INFO: TSCH-LOG ] {asn 00.000087b1 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a685, len 55, seq 123, st 2 4
+1683710370 [INFO: TSCH-LOG ] {asn 00.00008805 link 0 3 0 0 0 ch 25} drift 0 ppm (min/max delta seen: -2/1)
+1683710370 [INFO: TSCH-LOG ] {asn 00.00008805 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a685, len 55, seq 123, st 0 5, dr 0
+1683710370 [INFO: App ] Received response 'hello 53' from fd00::a484--> With 150 of ping (100)
+1683710370 [INFO: TSCH-LOG ] {asn 00.0000880e link 0 3 0 0 0 ch 26} uc-1-0 rx LL-a685->LL-9889, len 64, seq 155, edr 0, dr 0
+1683710373 [INFO: TSCH-LOG ] {asn 00.0000890d link 0 3 0 0 0 ch 25} bc-0-0 rx LL-9387->LL-NULL, len 35, seq 155, edr 0
+1683710373 [INFO: TSCH-LOG ] {asn 00.0000892e link 0 3 0 0 0 ch 26} bc-0-0 tx LL-9889->LL-NULL, len 35, seq 189, st 0 1
+1683710375 [INFO: App ] Sending request 54 to [INFO: App ]
+1683710375 [INFO: TSCH-LOG ] {asn 00.000089d3 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a685, len 55, seq 124, st 2 1
+1683710375 [INFO: TSCH-LOG ] {asn 00.000089d6 link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a685, len 55, seq 124, st 2 2
+1683710375 [INFO: TSCH-LOG ] {asn 00.000089dc link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a685, len 55, seq 124, st 2 3
+1683710375 [INFO: TSCH-LOG ] {asn 00.000089e5 link 0 3 0 0 0 ch 25} !failed to parse frame 0 0
+1683710375 [INFO: TSCH-LOG ] {asn 00.000089eb link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a685, len 55, seq 124, st 2 4
+1683710375 [INFO: TSCH-LOG ] {asn 00.00008a06 link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a685, len 55, seq 124, st 2 5
+1683710376 [INFO: TSCH-LOG ] {asn 00.00008a60 link 0 3 0 0 0 ch 15} drift -2 ppm (min/max delta seen: -2/1)
+1683710376 [INFO: TSCH-LOG ] {asn 00.00008a60 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a685, len 55, seq 124, st 0 6, dr -1
+1683710376 [INFO: App ] Received response 'hello 54' from fd00::a484--> With 153 of ping (100)
+1683710376 [INFO: TSCH-LOG ] {asn 00.00008a69 link 0 3 0 0 0 ch 25} uc-1-0 rx LL-a685->LL-9889, len 64, seq 164, edr 0
+1683710376 [INFO: TSCH-LOG ] {asn 00.00008a84 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-9388->LL-NULL, len 35, seq 164, edr -1
+1683710376 [INFO: TSCH-LOG ] {asn 00.00008a8a link 0 3 0 0 0 ch 26} bc-0-0 rx LL-b885->LL-NULL, len 35, seq 164, edr 0
+1683710377 [INFO: TSCH-LOG ] {asn 00.00008ac6 link 0 3 0 0 0 ch 26} bc-0-0 rx LL-a484->LL-NULL, len 35, seq 80, edr 0, dr 0
+1683710378 [INFO: TSCH-LOG ] {asn 00.00008b11 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-9787->LL-NULL, len 35, seq 80, edr 0
+1683710381 [INFO: App ] Sending request 55 to [INFO: App ]
+1683710381 [INFO: TSCH-LOG ] {asn 00.00008c28 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a484, len 47, seq 125, st 2 1
+1683710381 [INFO: TSCH-LOG ] {asn 00.00008c2e link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a484, len 47, seq 125, st 2 2
+1683710381 [INFO: TSCH-LOG ] {asn 00.00008c34 link 0 3 0 0 0 ch 15} !failed to parse frame 0 0
+1683710381 [INFO: TSCH-LOG ] {asn 00.00008c46 link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a484, len 47, seq 125, st 2 3
+1683710381 [INFO: TSCH-LOG ] {asn 00.00008c4c link 0 3 0 0 0 ch 15} bc-0-0 rx LL-b184->LL-NULL, len 35, seq 168, edr -1
+1683710381 [INFO: TSCH-LOG ] {asn 00.00008c73 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 47, seq 125, st 2 4
+1683710382 [INFO: TSCH-LOG ] {asn 00.00008caf link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 47, seq 125, st 2 5
+1683710382 [INFO: TSCH-LOG ] {asn 00.00008cca link 0 3 0 0 0 ch 26} bc-0-0 rx LL-9287->LL-NULL, len 35, seq 14, edr 0
+1683710382 [INFO: TSCH-LOG ] {asn 00.00008ce8 link 0 3 0 0 0 ch 15} drift 0 ppm (min/max delta seen: -2/1)
+1683710382 [INFO: TSCH-LOG ] {asn 00.00008ce8 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a484, len 47, seq 125, st 0 6, dr 0
+1683710383 [INFO: TSCH-LOG ] {asn 00.00008ce9 link 0 3 1 1 0 ch 15} uc-1-0 tx LL-9889->LL-a484, len 83, seq 126, st 2 1
+1683710383 [INFO: TSCH-LOG ] {asn 00.00008cf1 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a484, len 83, seq 126, st 0 2, dr 0
+1683710383 [INFO: TSCH-LOG ] {asn 00.00008cf7 link 0 3 0 0 0 ch 20} uc-1-0 rx LL-a484->LL-9889, len 41, seq 235, edr 0, dr 0
+1683710383 [INFO: App ] Received response 'hello 55' from fd00::a484--> With 214 of ping (100)
+1683710383 [INFO: TSCH-LOG ] {asn 00.00008cfd link 0 3 0 0 0 ch 25} uc-1-0 rx LL-a685->LL-9889, len 64, seq 172, edr 0
+1683710385 [INFO: TSCH-LOG ] {asn 00.00008dc6 link 0 3 0 0 0 ch 26} bc-0-0 rx LL-a685->LL-NULL, len 35, seq 16, edr 0
+1683710387 [INFO: App ] Sending request 56 to [INFO: App ]
+1683710387 [INFO: TSCH-LOG ] {asn 00.00008e80 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a484, len 47, seq 127, st 2 1
+1683710387 [INFO: TSCH-LOG ] {asn 00.00008e89 link 0 3 0 0 0 ch 25} drift 0 ppm (min/max delta seen: -2/1)
+1683710387 [INFO: TSCH-LOG ] {asn 00.00008e89 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a484, len 47, seq 127, st 0 2, dr 0
+1683710387 [INFO: TSCH-LOG ] {asn 00.00008ea7 link 0 3 0 0 0 ch 20} !failed to parse frame 0 0
+1683710387 [INFO: App ] Received response 'hello 56' from fd00::a484--> With 49 of ping (100)
+1683710387 [INFO: TSCH-LOG ] {asn 00.00008eb0 link 0 3 0 0 0 ch 15} uc-1-0 rx LL-a484->LL-9889, len 47, seq 238, edr 0, dr 0
+1683710387 [INFO: TSCH-LOG ] {asn 00.00008ec8 link 0 3 0 0 0 ch 15} bc-0-0 tx LL-9889->LL-NULL, len 35, seq 190, st 0 1
+1683710387 [INFO: TSCH-LOG ] {asn 00.00008ecb link 0 3 0 0 0 ch 20} bc-0-0 rx LL-9387->LL-NULL, len 35, seq 238, edr 0
+1683710389 [INFO: TSCH-LOG ] {asn 00.00008f97 link 0 3 0 0 0 ch 20} bc-0-0 rx LL-9388->LL-NULL, len 35, seq 177, edr 0
+1683710391 [INFO: TSCH-LOG ] {asn 00.00009030 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-b885->LL-NULL, len 35, seq 115, edr 1
+1683710391 [INFO: TSCH-LOG ] {asn 00.0000905a link 0 3 0 0 0 ch 26} drift -2 ppm (min/max delta seen: -2/1)
+1683710391 [INFO: TSCH-LOG ] {asn 00.0000905a link 0 3 0 0 0 ch 26} bc-0-0 rx LL-a484->LL-NULL, len 35, seq 115, edr 1, dr -1
+1683710392 [INFO: TSCH-LOG ] {asn 00.00009081 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-9787->LL-NULL, len 35, seq 115, edr -1
+1683710393 [INFO: App ] Sending request 57 to [INFO: App ]
+1683710393 [INFO: TSCH-LOG ] {asn 00.000090d8 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a484, len 47, seq 128, st 2 1
+1683710393 [INFO: TSCH-LOG ] {asn 00.000090e1 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a484, len 47, seq 128, st 0 2, dr 1
+1683710393 [INFO: App ] Received response 'hello 57' from fd00::a484--> With 34 of ping (100)
+1683710393 [INFO: TSCH-LOG ] {asn 00.000090f9 link 0 3 0 0 0 ch 25} uc-1-0 rx LL-a484->LL-9889, len 47, seq 247, edr 1, dr -1
+1683710393 [INFO: TSCH-LOG ] {asn 00.000090fc link 0 3 0 0 0 ch 15} !failed to parse frame 0 0
+1683710394 [INFO: TSCH-LOG ] {asn 00.00009183 link 0 3 0 0 0 ch 20} bc-0-0 rx LL-b184->LL-NULL, len 35, seq 182, edr -1
+1683710395 [INFO: TSCH-LOG ] {asn 00.000091a1 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-9287->LL-NULL, len 35, seq 29, edr -1
+1683710397 [INFO: TSCH-LOG ] {asn 00.0000929d link 0 3 0 0 0 ch 25} bc-0-0 rx LL-a685->LL-NULL, len 35, seq 31, edr 0
+1683710398 [INFO: TSCH-LOG ] {asn 00.000092d9 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a887, len 100, seq 129, st 0 1
+1683710399 [INFO: App ] Sending request 58 to [INFO: App ]
+1683710399 [INFO: TSCH-LOG ] {asn 00.00009330 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a484, len 47, seq 130, st 2 1
+1683710399 [INFO: TSCH-LOG ] {asn 00.00009339 link 0 3 0 0 0 ch 25} drift -1 ppm (min/max delta seen: -2/1)
+1683710399 [INFO: TSCH-LOG ] {asn 00.00009339 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a484, len 47, seq 130, st 0 2, dr 0
+1683710399 [INFO: App ] Received response 'hello 58' from fd00::a484--> With 20 of ping (100)
+1683710399 [INFO: TSCH-LOG ] {asn 00.00009342 link 0 3 0 0 0 ch 26} uc-1-0 rx LL-a484->LL-9889, len 47, seq 2, edr 0, dr 0
+1683710400 [INFO: TSCH-LOG ] {asn 00.000093de link 0 3 0 0 0 ch 26} bc-0-0 tx LL-9889->LL-NULL, len 35, seq 191, st 0 1
+1683710403 [INFO: TSCH-LOG ] {asn 00.000094fe link 0 3 0 0 0 ch 26} bc-0-0 rx LL-9387->LL-NULL, len 35, seq 187, edr 0
+1683710403 [INFO: TSCH-LOG ] {asn 00.0000950d link 0 3 0 0 0 ch 25} bc-0-0 rx LL-a887->LL-NULL, len 35, seq 187, edr -1
+1683710404 [INFO: TSCH-LOG ] {asn 00.00009546 link 0 3 0 0 0 ch 26} drift -1 ppm (min/max delta seen: -2/1)
+1683710404 [INFO: TSCH-LOG ] {asn 00.00009546 link 0 3 0 0 0 ch 26} bc-0-0 rx LL-a484->LL-NULL, len 35, seq 187, edr -1, dr 1
+1683710405 [INFO: App ] Sending request 59 to [INFO: App ]
+1683710405 [INFO: TSCH-LOG ] {asn 00.00009588 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a484, len 47, seq 131, st 2 1
+1683710405 [INFO: TSCH-LOG ] {asn 00.00009591 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a484, len 47, seq 131, st 2 2
+1683710405 [INFO: TSCH-LOG ] {asn 00.000095a6 link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a484, len 47, seq 131, st 2 3
+1683710405 [INFO: TSCH-LOG ] {asn 00.000095cd link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a484, len 47, seq 131, st 2 4
+1683710405 [INFO: TSCH-LOG ] {asn 00.000095d9 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a484, len 47, seq 131, st 0 5, dr 0
+1683710405 [INFO: App ] Received response 'hello 59' from fd00::a484--> With 87 of ping (100)
+1683710405 [INFO: TSCH-LOG ] {asn 00.000095dc link 0 3 0 0 0 ch 15} uc-1-0 rx LL-a484->LL-9889, len 47, seq 16, edr 0, dr 0
+1683710407 [INFO: TSCH-LOG ] {asn 00.00009657 link 0 3 0 0 0 ch 20} bc-0-0 rx LL-b184->LL-NULL, len 35, seq 17, edr 2
+1683710407 [INFO: TSCH-LOG ] {asn 00.00009660 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-b885->LL-NULL, len 35, seq 17, edr 1
+1683710407 [INFO: TSCH-LOG ] {asn 00.0000967b link 0 3 0 0 0 ch 20} bc-0-0 rx LL-9787->LL-NULL, len 35, seq 94, edr 1
+1683710410 [INFO: TSCH-LOG ] {asn 00.00009798 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-9287->LL-NULL, len 35, seq 94, edr 0
+1683710411 [INFO: App ] Sending request 60 to [INFO: App ]
+1683710411 [INFO: TSCH-LOG ] {asn 00.000097e0 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a484, len 47, seq 132, st 2 1
+1683710411 [INFO: TSCH-LOG ] {asn 00.000097e3 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 47, seq 132, st 2 2
+1683710411 [INFO: TSCH-LOG ] {asn 00.000097e6 link 0 3 0 0 0 ch 26} drift -1 ppm (min/max delta seen: -2/1)
+1683710411 [INFO: TSCH-LOG ] {asn 00.000097e6 link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a484, len 47, seq 132, st 0 3, dr 0
+1683710411 [INFO: TSCH-LOG ] {asn 00.000097f5 link 0 3 0 0 0 ch 25} !failed to parse frame 0 0
+1683710411 [INFO: App ] Received response 'hello 60' from fd00::a484--> With 33 of ping (100)
+1683710411 [INFO: TSCH-LOG ] {asn 00.000097fe link 0 3 0 0 0 ch 26} uc-1-0 rx LL-a484->LL-9889, len 47, seq 20, edr 1, dr -1
+1683710411 [INFO: TSCH-LOG ] {asn 00.00009804 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-a685->LL-NULL, len 35, seq 19, edr -1
+1683710414 [INFO: TSCH-LOG ] {asn 00.0000993f link 0 3 0 0 0 ch 20} bc-0-0 tx LL-9889->LL-NULL, len 35, seq 192, st 0 1
+1683710417 [INFO: App ] Sending request 61 to [INFO: App ]
+1683710417 [INFO: TSCH-LOG ] {asn 00.00009a35 link 0 3 0 0 0 ch 25} drift -1 ppm (min/max delta seen: -2/1)
+1683710417 [INFO: TSCH-LOG ] {asn 00.00009a35 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a484, len 47, seq 133, st 0 1, dr 0
+1683710418 [INFO: App ] Received response 'hello 61' from fd00::a484--> With 127 of ping (100)
+1683710418 [INFO: TSCH-LOG ] {asn 00.00009ab3 link 0 3 0 0 0 ch 20} uc-1-0 rx LL-a484->LL-9889, len 47, seq 29, edr 0, dr 0
+1683710418 [INFO: TSCH-LOG ] {asn 00.00009ab6 link 0 3 0 0 0 ch 26} bc-0-0 rx LL-a484->LL-NULL, len 35, seq 29, edr 0, dr 0
+1683710419 [INFO: TSCH-LOG ] {asn 00.00009b0a link 0 3 0 0 0 ch 26} !failed to parse frame 0 0
+1683710419 [INFO: TSCH-LOG ] {asn 00.00009b0d link 0 3 0 0 0 ch 25} bc-0-0 rx LL-b184->LL-NULL, len 35, seq 34, edr 0
+1683710419 [INFO: TSCH-LOG ] {asn 00.00009b28 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-a887->LL-NULL, len 35, seq 36, edr 0
+1683710420 [INFO: TSCH-LOG ] {asn 00.00009b6a link 0 3 0 0 0 ch 26} bc-0-0 rx LL-9388->LL-NULL, len 35, seq 104, edr 1
+1683710420 [INFO: TSCH-LOG ] {asn 00.00009baf link 0 3 0 0 0 ch 20} bc-0-0 rx LL-b885->LL-NULL, len 35, seq 104, edr 0
+1683710423 [INFO: App ] Sending request 62 to [INFO: App ]
+1683710423 [INFO: TSCH-LOG ] {asn 00.00009c8d link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a484, len 47, seq 134, st 2 1
+1683710423 [INFO: TSCH-LOG ] {asn 00.00009c93 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 47, seq 134, st 2 2
+1683710423 [INFO: TSCH-LOG ] {asn 00.00009ca8 link 0 3 0 0 0 ch 15} drift -1 ppm (min/max delta seen: -2/1)
+1683710423 [INFO: TSCH-LOG ] {asn 00.00009ca8 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a484, len 47, seq 134, st 0 3, dr 1
+1683710423 [INFO: TSCH-LOG ] {asn 00.00009cb1 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-9787->LL-NULL, len 35, seq 69, edr 1
+1683710424 [INFO: TSCH-LOG ] {asn 00.00009cf3 link 0 3 0 0 0 ch 20} bc-0-0 rx LL-9287->LL-NULL, len 35, seq 109, edr 0
+1683710424 [INFO: App ] Received response 'hello 62' from fd00::a484--> With 163 of ping (100)
+1683710424 [INFO: TSCH-LOG ] {asn 00.00009d2f link 0 3 0 0 0 ch 20} uc-1-0 rx LL-a484->LL-9889, len 47, seq 41, edr 0, dr 0
+1683710426 [INFO: TSCH-LOG ] {asn 00.00009dcb link 0 3 0 0 0 ch 20} bc-0-0 rx LL-a685->LL-NULL, len 35, seq 41, edr 1
+1683710429 [INFO: App ] Sending request 63 to [INFO: App ]
+1683710429 [INFO: TSCH-LOG ] {asn 00.00009ee5 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a484, len 47, seq 135, st 2 1
+1683710429 [INFO: TSCH-LOG ] {asn 00.00009eeb link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 47, seq 135, st 2 2
+1683710429 [INFO: TSCH-LOG ] {asn 00.00009f00 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a484, len 47, seq 135, st 2 3
+1683710429 [INFO: TSCH-LOG ] {asn 00.00009f27 link 0 3 0 0 0 ch 20} drift -1 ppm (min/max delta seen: -2/1)
+1683710429 [INFO: TSCH-LOG ] {asn 00.00009f27 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 47, seq 135, st 0 4, dr 0
+1683710429 [INFO: App ] Received response 'hello 63' from fd00::a484--> With 71 of ping (100)
+1683710429 [INFO: TSCH-LOG ] {asn 00.00009f2a link 0 3 0 0 0 ch 26} uc-1-0 rx LL-a484->LL-9889, len 47, seq 52, edr 1, dr -1
+1683710430 [INFO: TSCH-LOG ] {asn 00.00009f5a link 0 3 0 0 0 ch 26} bc-0-0 tx LL-9889->LL-NULL, len 35, seq 193, st 0 1
+1683710431 [INFO: TSCH-LOG ] {asn 00.00009fed link 0 3 0 0 0 ch 25} bc-0-0 rx LL-9387->LL-NULL, len 35, seq 114, edr 0
+1683710432 [INFO: TSCH-LOG ] {asn 00.0000a056 link 0 3 0 0 0 ch 26} bc-0-0 rx LL-a887->LL-NULL, len 35, seq 114, edr -1
+1683710432 [INFO: TSCH-LOG ] {asn 00.0000a05f link 0 3 0 0 0 ch 20} bc-0-0 rx LL-a484->LL-NULL, len 35, seq 114, edr 0, dr 0
+1683710432 [INFO: TSCH-LOG ] {asn 00.0000a06b link 0 3 0 0 0 ch 20} bc-0-0 rx LL-9388->LL-NULL, len 35, seq 114, edr 0
+1683710434 [INFO: TSCH-LOG ] {asn 00.0000a113 link 0 3 0 0 0 ch 20} bc-0-0 rx LL-b184->LL-NULL, len 35, seq 114, edr 0
+1683710434 [INFO: TSCH-LOG ] {asn 00.0000a116 link 0 3 0 0 0 ch 26} bc-0-0 rx LL-b885->LL-NULL, len 35, seq 114, edr -1
+1683710435 [INFO: App ] Sending request 64 to [INFO: App ]
+1683710435 [INFO: TSCH-LOG ] {asn 00.0000a13d link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a484, len 47, seq 136, st 2 1
+1683710435 [INFO: TSCH-LOG ] {asn 00.0000a146 link 0 3 0 0 0 ch 26} drift -1 ppm (min/max delta seen: -2/1)
+1683710435 [INFO: TSCH-LOG ] {asn 00.0000a146 link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a484, len 47, seq 136, st 0 2, dr 1
+1683710435 [INFO: App ] Received response 'hello 64' from fd00::a484--> With 17 of ping (100)
+1683710435 [INFO: TSCH-LOG ] {asn 00.0000a14c link 0 3 0 0 0 ch 15} uc-1-0 rx LL-a484->LL-9889, len 47, seq 58, edr 1, dr -1
+1683710437 [INFO: TSCH-LOG ] {asn 00.0000a22a link 0 3 0 0 0 ch 26} bc-0-0 rx LL-9787->LL-NULL, len 35, seq 64, edr 0
+1683710437 [INFO: TSCH-LOG ] {asn 00.0000a230 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-9287->LL-NULL, len 35, seq 64, edr 0
+1683710441 [INFO: TSCH-LOG ] {asn 00.0000a392 link 0 3 0 0 0 ch 26} !failed to parse frame 0 0
+1683710441 [INFO: App ] Sending request 65 to [INFO: App ]
+1683710441 [INFO: TSCH-LOG ] {asn 00.0000a395 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a484, len 47, seq 137, st 2 1
+1683710441 [INFO: TSCH-LOG ] {asn 00.0000a39b link 0 3 0 0 0 ch 20} drift -1 ppm (min/max delta seen: -2/1)
+1683710441 [INFO: TSCH-LOG ] {asn 00.0000a39b link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 47, seq 137, st 0 2, dr 0
+1683710441 [INFO: TSCH-LOG ] {asn 00.0000a3a1 link 0 3 0 0 0 ch 25} !failed to parse frame 0 0
+1683710441 [INFO: App ] Received response 'hello 65' from fd00::a484--> With 48 of ping (100)
+1683710441 [INFO: TSCH-LOG ] {asn 00.0000a3c2 link 0 3 0 0 0 ch 26} uc-1-0 rx LL-a484->LL-9889, len 47, seq 67, edr 0, dr 0
+1683710442 [INFO: TSCH-LOG ] {asn 00.0000a416 link 0 3 0 0 0 ch 26} bc-0-0 tx LL-9889->LL-NULL, len 35, seq 194, st 0 1
+1683710446 [INFO: TSCH-LOG ] {asn 00.0000a58a link 0 3 0 0 0 ch 26} bc-0-0 rx LL-9387->LL-NULL, len 35, seq 124, edr 0
+1683710447 [INFO: App ] Sending request 66 to [INFO: App ]
+1683710447 [INFO: TSCH-LOG ] {asn 00.0000a5ed link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a484, len 47, seq 138, st 2 1
+1683710447 [INFO: TSCH-LOG ] {asn 00.0000a5f3 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 47, seq 138, st 2 2
+1683710447 [INFO: TSCH-LOG ] {asn 00.0000a5f6 link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a484, len 47, seq 138, st 2 3
+1683710447 [INFO: TSCH-LOG ] {asn 00.0000a60e link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a484, len 47, seq 138, st 2 4
+1683710447 [INFO: TSCH-LOG ] {asn 00.0000a623 link 0 3 0 0 0 ch 20} bc-1-0 rx LL-a685->LL-NULL, len 94, seq 127, edr 0
+1683710447 [INFO: TSCH-LOG ] {asn 00.0000a629 link 0 3 0 0 0 ch 25} drift -1 ppm (min/max delta seen: -2/1)
+1683710447 [INFO: TSCH-LOG ] {asn 00.0000a629 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a484, len 47, seq 138, st 0 5, dr 1
+1683710448 [INFO: TSCH-LOG ] {asn 00.0000a650 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-b184->LL-NULL, len 35, seq 105, edr 1
+1683710448 [INFO: TSCH-LOG ] {asn 00.0000a65c link 0 3 0 0 0 ch 15} bc-0-0 rx LL-a484->LL-NULL, len 35, seq 105, edr 0, dr 0
+1683710448 [INFO: App ] Received response 'hello 66' from fd00::a484--> With 117 of ping (100)
+1683710448 [INFO: TSCH-LOG ] {asn 00.0000a65f link 0 3 0 0 0 ch 20} uc-1-0 rx LL-a484->LL-9889, len 47, seq 78, edr 0, dr 0
+1683710448 [INFO: TSCH-LOG ] {asn 00.0000a680 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-a887->LL-NULL, len 35, seq 80, edr 0
+1683710448 [INFO: TSCH-LOG ] {asn 00.0000a695 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-9388->LL-NULL, len 35, seq 109, edr 1
+1683710450 [INFO: TSCH-LOG ] {asn 00.0000a710 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-b885->LL-NULL, len 35, seq 129, edr 1
+1683710451 [INFO: TSCH-LOG ] {asn 00.0000a779 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-9287->LL-NULL, len 35, seq 129, edr 1
+1683710452 [INFO: TSCH-LOG ] {asn 00.0000a815 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-9787->LL-NULL, len 35, seq 129, edr 1
+1683710453 [INFO: TSCH-LOG ] {asn 00.0000a83f link 0 3 0 0 0 ch 20} !failed to parse frame 0 0
+1683710453 [INFO: App ] Sending request 67 to [INFO: App ]
+1683710453 [INFO: TSCH-LOG ] {asn 00.0000a842 link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a484, len 47, seq 139, st 2 1
+1683710453 [INFO: TSCH-LOG ] {asn 00.0000a84e link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a484, len 47, seq 139, st 2 2
+1683710453 [INFO: TSCH-LOG ] {asn 00.0000a866 link 0 3 0 0 0 ch 26} drift -1 ppm (min/max delta seen: -2/1)
+1683710453 [INFO: TSCH-LOG ] {asn 00.0000a866 link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a484, len 47, seq 139, st 0 3, dr -1
+1683710453 [INFO: App ] Received response 'hello 67' from fd00::a484--> With 40 of ping (100)
+1683710453 [INFO: TSCH-LOG ] {asn 00.0000a869 link 0 3 0 0 0 ch 25} uc-1-0 rx LL-a484->LL-9889, len 47, seq 85, edr 0, dr 0
+1683710454 [INFO: TSCH-LOG ] {asn 00.0000a8ed link 0 3 0 0 0 ch 25} bc-0-0 tx LL-9889->LL-NULL, len 35, seq 195, st 0 1
+1683710455 [INFO: TSCH-LOG ] {asn 00.0000a941 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-a685->LL-NULL, len 35, seq 119, edr 1
+1683710459 [INFO: TSCH-LOG ] {asn 00.0000aa97 link 0 3 0 0 0 ch 20} !failed to parse frame 0 0
+1683710459 [INFO: App ] Sending request 68 to [INFO: App ]
+1683710459 [INFO: TSCH-LOG ] {asn 00.0000aa9a link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a484, len 47, seq 140, st 2 1
+1683710459 [INFO: TSCH-LOG ] {asn 00.0000aaa0 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a484, len 47, seq 140, st 2 2
+1683710459 [INFO: TSCH-LOG ] {asn 00.0000aaa3 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 47, seq 140, st 2 3
+1683710459 [INFO: TSCH-LOG ] {asn 00.0000aaa9 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a484, len 47, seq 140, st 2 4
+1683710459 [INFO: TSCH-LOG ] {asn 00.0000aaee link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a484, len 47, seq 140, st 2 5
+1683710460 [INFO: TSCH-LOG ] {asn 00.0000aafa link 0 3 0 0 0 ch 26} bc-0-0 rx LL-9387->LL-NULL, len 35, seq 126, edr 0
+1683710460 [INFO: TSCH-LOG ] {asn 00.0000ab06 link 0 3 0 0 0 ch 26} drift -1 ppm (min/max delta seen: -2/1)
+1683710460 [INFO: TSCH-LOG ] {asn 00.0000ab06 link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a484, len 47, seq 140, st 0 6, dr 0
+1683710460 [INFO: App ] Received response 'hello 68' from fd00::a484--> With 112 of ping (100)
+1683710460 [INFO: TSCH-LOG ] {asn 00.0000ab09 link 0 3 0 0 0 ch 25} uc-1-0 rx LL-a484->LL-9889, len 47, seq 98, edr 0, dr 0
+1683710460 [INFO: TSCH-LOG ] {asn 00.0000ab57 link 0 3 0 0 0 ch 20} bc-0-0 rx LL-a484->LL-NULL, len 35, seq 100, edr 0, dr 0
+1683710461 [INFO: TSCH-LOG ] {asn 00.0000ab9f link 0 3 0 0 0 ch 20} bc-0-0 rx LL-a887->LL-NULL, len 35, seq 100, edr 0
+1683710461 [INFO: TSCH-LOG ] {asn 00.0000aba8 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-9388->LL-NULL, len 35, seq 100, edr 1
+1683710463 [INFO: TSCH-LOG ] {asn 00.0000ac71 link 0 3 0 0 0 ch 25} bc-1-0 rx LL-b184->LL-NULL, len 94, seq 100, edr 0
+1683710464 [INFO: TSCH-LOG ] {asn 00.0000ac9e link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-b184, len 100, seq 141, st 0 1
+1683710464 [INFO: TSCH-LOG ] {asn 00.0000acbc link 0 3 0 0 0 ch 15} bc-0-0 rx LL-b885->LL-NULL, len 35, seq 100, edr 0
+1683710465 [INFO: TSCH-LOG ] {asn 00.0000acef link 0 3 0 0 0 ch 20} !failed to parse frame 0 0
+1683710465 [INFO: App ] Sending request 69 to [INFO: App ]
+1683710465 [INFO: TSCH-LOG ] {asn 00.0000acf2 link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a484, len 47, seq 142, st 2 1
+1683710465 [INFO: TSCH-LOG ] {asn 00.0000acf8 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a484, len 47, seq 142, st 2 2
+1683710465 [INFO: TSCH-LOG ] {asn 00.0000ad01 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a484, len 47, seq 142, st 2 3
+1683710465 [INFO: TSCH-LOG ] {asn 00.0000ad1f link 0 3 0 0 0 ch 20} bc-0-0 rx LL-9287->LL-NULL, len 35, seq 133, edr -1
+1683710465 [INFO: TSCH-LOG ] {asn 00.0000ad2b link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 47, seq 142, st 2 4
+1683710465 [INFO: TSCH-LOG ] {asn 00.0000ad3d link 0 3 0 0 0 ch 25} bc-0-0 rx LL-9787->LL-NULL, len 35, seq 106, edr 0
+1683710466 [INFO: TSCH-LOG ] {asn 00.0000ad61 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a484, len 47, seq 142, st 2 5
+1683710466 [INFO: TSCH-LOG ] {asn 00.0000ad6d link 0 3 0 0 0 ch 25} drift -1 ppm (min/max delta seen: -2/1)
+1683710466 [INFO: TSCH-LOG ] {asn 00.0000ad6d link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a484, len 47, seq 142, st 0 6, dr 1
+1683710466 [INFO: App ] Received response 'hello 69' from fd00::a484--> With 128 of ping (100)
+1683710466 [INFO: TSCH-LOG ] {asn 00.0000ad70 link 0 3 0 0 0 ch 15} uc-1-0 rx LL-a484->LL-9889, len 47, seq 108, edr 0, dr 0
+1683710466 [INFO: TSCH-LOG ] {asn 00.0000adaf link 0 3 0 0 0 ch 20} bc-1-0 rx LL-9387->LL-NULL, len 94, seq 144, edr 0
+1683710469 [INFO: TSCH-LOG ] {asn 00.0000aea2 link 0 3 0 0 0 ch 26} bc-0-0 tx LL-9889->LL-NULL, len 35, seq 196, st 0 1
+1683710471 [INFO: App ] Sending request 70 to [INFO: App ]
+1683710471 [INFO: TSCH-LOG ] {asn 00.0000af4a link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a484, len 47, seq 143, st 2 1
+1683710471 [INFO: TSCH-LOG ] {asn 00.0000af50 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a484, len 47, seq 143, st 2 2
+1683710471 [INFO: TSCH-LOG ] {asn 00.0000af56 link 0 3 0 0 0 ch 26} !failed to parse frame 0 0
+1683710471 [INFO: TSCH-LOG ] {asn 00.0000af5c link 0 3 0 0 0 ch 15} drift -2 ppm (min/max delta seen: -2/1)
+1683710471 [INFO: TSCH-LOG ] {asn 00.0000af5c link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a484, len 47, seq 143, st 0 3, dr -1
+1683710471 [INFO: App ] Received response 'hello 70' from fd00::a484--> With 23 of ping (100)
+1683710471 [INFO: TSCH-LOG ] {asn 00.0000af5f link 0 3 0 0 0 ch 20} uc-1-0 rx LL-a484->LL-9889, len 47, seq 112, edr 0, dr 0
+1683710471 [INFO: TSCH-LOG ] {asn 00.0000af68 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-a685->LL-NULL, len 35, seq 112, edr 0
+1683710472 [INFO: TSCH-LOG ] {asn 00.0000b00a link 0 3 0 0 0 ch 26} bc-0-0 rx LL-b184->LL-NULL, len 35, seq 149, edr 1
+1683710473 [INFO: TSCH-LOG ] {asn 00.0000b05b link 0 3 0 0 0 ch 20} bc-0-0 rx LL-9387->LL-NULL, len 35, seq 149, edr 0
+1683710474 [INFO: TSCH-LOG ] {asn 00.0000b0af link 0 3 0 0 0 ch 20} bc-0-0 rx LL-a484->LL-NULL, len 35, seq 149, edr 0, dr 0
+1683710475 [INFO: TSCH-LOG ] {asn 00.0000b11e link 0 3 0 0 0 ch 26} bc-0-0 rx LL-a887->LL-NULL, len 35, seq 149, edr 0
+1683710476 [INFO: TSCH-LOG ] {asn 00.0000b175 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-9388->LL-NULL, len 35, seq 149, edr 0
+1683710477 [INFO: App ] Sending request 71 to [INFO: App ]
+1683710477 [INFO: TSCH-LOG ] {asn 00.0000b1a2 link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a484, len 47, seq 144, st 2 1
+1683710477 [INFO: TSCH-LOG ] {asn 00.0000b1ae link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a484, len 47, seq 144, st 2 2
+1683710477 [INFO: TSCH-LOG ] {asn 00.0000b1b7 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 47, seq 144, st 2 3
+1683710477 [INFO: TSCH-LOG ] {asn 00.0000b1bd link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a484, len 47, seq 144, st 2 4
+1683710477 [INFO: TSCH-LOG ] {asn 00.0000b1db link 0 3 0 0 0 ch 20} bc-0-0 rx LL-b885->LL-NULL, len 35, seq 121, edr -1
+1683710477 [INFO: TSCH-LOG ] {asn 00.0000b1de link 0 3 0 0 0 ch 26} bc-0-0 rx LL-9287->LL-NULL, len 35, seq 121, edr 0
+1683710478 [INFO: TSCH-LOG ] {asn 00.0000b20b link 0 3 0 0 0 ch 20} drift -2 ppm (min/max delta seen: -2/1)
+1683710478 [INFO: TSCH-LOG ] {asn 00.0000b20b link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 47, seq 144, st 0 5, dr 0
+1683710478 [INFO: App ] Received response 'hello 71' from fd00::a484--> With 111 of ping (100)
+1683710478 [INFO: TSCH-LOG ] {asn 00.0000b20e link 0 3 0 0 0 ch 26} uc-1-0 rx LL-a484->LL-9889, len 47, seq 123, edr 0, dr 0
+1683710478 [INFO: TSCH-LOG ] {asn 00.0000b244 link 0 3 0 0 0 ch 15} !failed to parse frame 0 0
+1683710479 [INFO: TSCH-LOG ] {asn 00.0000b268 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-9787->LL-NULL, len 35, seq 155, edr 0
+1683710482 [INFO: TSCH-LOG ] {asn 00.0000b391 link 0 3 0 0 0 ch 25} bc-1-0 rx LL-9287->LL-NULL, len 94, seq 200, edr -1
+1683710483 [INFO: App ] Sending request 72 to [INFO: App ]
+1683710483 [INFO: TSCH-LOG ] {asn 00.0000b3fa link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a484, len 47, seq 145, st 2 1
+1683710483 [INFO: TSCH-LOG ] {asn 00.0000b400 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a484, len 47, seq 145, st 2 2
+1683710483 [INFO: TSCH-LOG ] {asn 00.0000b415 link 0 3 0 0 0 ch 25} drift -2 ppm (min/max delta seen: -2/1)
+1683710483 [INFO: TSCH-LOG ] {asn 00.0000b415 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a484, len 47, seq 145, st 0 3, dr 1
+1683710483 [INFO: App ] Received response 'hello 72' from fd00::a484--> With 42 of ping (100)
+1683710483 [INFO: TSCH-LOG ] {asn 00.0000b421 link 0 3 0 0 0 ch 25} uc-1-0 rx LL-a484->LL-9889, len 47, seq 130, edr 0, dr 0
+1683710483 [INFO: TSCH-LOG ] {asn 00.0000b44b link 0 3 0 0 0 ch 20} !failed to parse frame 0 0
+1683710484 [INFO: TSCH-LOG ] {asn 00.0000b4ab link 0 3 0 0 0 ch 20} bc-0-0 tx LL-9889->LL-NULL, len 35, seq 197, st 0 1
+1683710485 [INFO: TSCH-LOG ] {asn 00.0000b51a link 0 3 0 0 0 ch 26} bc-0-0 rx LL-9387->LL-NULL, len 35, seq 159, edr 0
+1683710487 [INFO: TSCH-LOG ] {asn 00.0000b5b6 link 0 3 0 0 0 ch 26} bc-0-0 rx LL-b184->LL-NULL, len 35, seq 16, edr 0
+1683710489 [INFO: App ] Sending request 73 to [INFO: App ]
+1683710489 [INFO: TSCH-LOG ] {asn 00.0000b64f link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 47, seq 146, st 2 1
+1683710489 [INFO: TSCH-LOG ] {asn 00.0000b652 link 0 3 0 0 0 ch 26} !failed to parse frame 0 0
+1683710489 [INFO: TSCH-LOG ] {asn 00.0000b65b link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 47, seq 146, st 2 2
+1683710489 [INFO: TSCH-LOG ] {asn 00.0000b661 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a484, len 47, seq 146, st 2 3
+1683710489 [INFO: TSCH-LOG ] {asn 00.0000b66a link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a484, len 47, seq 146, st 2 4
+1683710489 [INFO: TSCH-LOG ] {asn 00.0000b66d link 0 3 0 0 0 ch 25} bc-0-0 rx LL-9388->LL-NULL, len 35, seq 167, edr 1
+1683710489 [INFO: TSCH-LOG ] {asn 00.0000b688 link 0 3 0 0 0 ch 15} drift -2 ppm (min/max delta seen: -2/1)
+1683710489 [INFO: TSCH-LOG ] {asn 00.0000b688 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a484, len 47, seq 146, st 0 5, dr -1
+1683710489 [INFO: App ] Received response 'hello 73' from fd00::a484--> With 61 of ping (100)
+1683710489 [INFO: TSCH-LOG ] {asn 00.0000b68b link 0 3 0 0 0 ch 20} uc-1-0 rx LL-a484->LL-9889, len 47, seq 141, edr 0, dr 0
+1683710489 [INFO: TSCH-LOG ] {asn 00.0000b68e link 0 3 0 0 0 ch 26} !failed to parse frame 0 0
+1683710489 [INFO: TSCH-LOG ] {asn 00.0000b694 link 0 3 0 0 0 ch 15} !failed to parse frame 0 0
+1683710490 [INFO: TSCH-LOG ] {asn 00.0000b6b5 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-a484->LL-NULL, len 35, seq 19, edr 0, dr 0
+1683710490 [INFO: TSCH-LOG ] {asn 00.0000b6f4 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-a887->LL-NULL, len 35, seq 145, edr -1
+1683710491 [INFO: TSCH-LOG ] {asn 00.0000b763 link 0 3 0 0 0 ch 20} bc-0-0 rx LL-9287->LL-NULL, len 35, seq 162, edr -1
+1683710492 [INFO: TSCH-LOG ] {asn 00.0000b799 link 0 3 0 0 0 ch 25} bc-1-0 rx LL-9787->LL-NULL, len 94, seq 162, edr -1
+1683710492 [INFO: TSCH-LOG ] {asn 00.0000b7a8 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-b885->LL-NULL, len 35, seq 162, edr 0
+1683710492 [INFO: TSCH-LOG ] {asn 00.0000b7cc link 0 3 0 0 0 ch 15} bc-0-0 rx LL-9787->LL-NULL, len 35, seq 162, edr -1
+1683710493 [INFO: TSCH-LOG ] {asn 00.0000b7ea link 0 3 0 0 0 ch 26} bc-1-0 rx LL-9388->LL-NULL, len 94, seq 162, edr 0
+1683710495 [INFO: App ] Sending request 74 to [INFO: App ]
+1683710495 [INFO: TSCH-LOG ] {asn 00.0000b8a7 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 47, seq 147, st 2 1
+1683710495 [INFO: TSCH-LOG ] {asn 00.0000b8b0 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a484, len 47, seq 147, st 2 2
+1683710495 [INFO: TSCH-LOG ] {asn 00.0000b8b6 link 0 3 0 0 0 ch 26} !failed to parse frame 0 0
+1683710495 [INFO: TSCH-LOG ] {asn 00.0000b8b9 link 0 3 0 0 0 ch 25} drift -2 ppm (min/max delta seen: -2/1)
+1683710495 [INFO: TSCH-LOG ] {asn 00.0000b8b9 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a484, len 47, seq 147, st 0 3, dr 1
+1683710495 [INFO: App ] Received response 'hello 74' from fd00::a484--> With 31 of ping (100)
+1683710495 [INFO: TSCH-LOG ] {asn 00.0000b8c5 link 0 3 0 0 0 ch 25} uc-1-0 rx LL-a484->LL-9889, len 47, seq 149, edr 0, dr 0
+1683710499 [INFO: TSCH-LOG ] {asn 00.0000ba5a link 0 3 0 0 0 ch 26} bc-0-0 rx LL-a685->LL-NULL, len 35, seq 139, edr 0
+1683710499 [INFO: TSCH-LOG ] {asn 00.0000ba69 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-9387->LL-NULL, len 35, seq 139, edr 0
+1683710500 [INFO: TSCH-LOG ] {asn 00.0000baab link 0 3 0 0 0 ch 20} bc-0-0 tx LL-9889->LL-NULL, len 35, seq 198, st 0 1
+1683710501 [INFO: App ] Sending request 75 to [INFO: App ]
+1683710501 [INFO: TSCH-LOG ] {asn 00.0000baff link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 47, seq 148, st 2 1
+1683710501 [INFO: TSCH-LOG ] {asn 00.0000bb0b link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 47, seq 148, st 2 2
+1683710501 [INFO: TSCH-LOG ] {asn 00.0000bb1d link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a484, len 47, seq 148, st 2 3
+1683710501 [INFO: TSCH-LOG ] {asn 00.0000bb20 link 0 3 0 0 0 ch 15} !failed to parse frame 0 0
+1683710501 [INFO: TSCH-LOG ] {asn 00.0000bb2f link 0 3 0 0 0 ch 20} drift -1 ppm (min/max delta seen: -2/1)
+1683710501 [INFO: TSCH-LOG ] {asn 00.0000bb2f link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 47, seq 148, st 0 4, dr 0
+1683710501 [INFO: App ] Received response 'hello 75' from fd00::a484--> With 53 of ping (100)
+1683710501 [INFO: TSCH-LOG ] {asn 00.0000bb32 link 0 3 0 0 0 ch 26} uc-1-0 rx LL-a484->LL-9889, len 47, seq 161, edr 0, dr 0
+1683710501 [INFO: TSCH-LOG ] {asn 00.0000bb38 link 0 3 0 0 0 ch 15} !failed to parse frame 0 0
+1683710502 [INFO: TSCH-LOG ] {asn 00.0000bb8f link 0 3 0 0 0 ch 20} bc-1-0 rx LL-a484->LL-NULL, len 94, seq 190, edr 0, dr 0
+1683710503 [INFO: TSCH-LOG ] {asn 00.0000bbc2 link 0 3 0 0 0 ch 26} bc-0-0 rx LL-a484->LL-NULL, len 35, seq 192, edr 0, dr 0
+1683710503 [INFO: TSCH-LOG ] {asn 00.0000bc10 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-9388->LL-NULL, len 35, seq 192, edr 1
+1683710505 [INFO: TSCH-LOG ] {asn 00.0000bcb8 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-9287->LL-NULL, len 35, seq 192, edr 1
+1683710506 [INFO: TSCH-LOG ] {asn 00.0000bcf1 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-a887->LL-NULL, len 35, seq 192, edr 1
+1683710507 [INFO: App ] Sending request 76 to [INFO: App ]
+1683710507 [INFO: TSCH-LOG ] {asn 00.0000bd57 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 47, seq 149, st 2 1
+1683710507 [INFO: TSCH-LOG ] {asn 00.0000bd60 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a484, len 47, seq 149, st 2 2
+1683710507 [INFO: TSCH-LOG ] {asn 00.0000bd63 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 47, seq 149, st 2 3
+1683710507 [INFO: TSCH-LOG ] {asn 00.0000bd66 link 0 3 0 0 0 ch 26} !failed to parse frame 0 0
+1683710507 [INFO: TSCH-LOG ] {asn 00.0000bd87 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 47, seq 149, st 2 4
+1683710507 [INFO: TSCH-LOG ] {asn 00.0000bd8d link 0 3 0 0 0 ch 25} bc-0-0 rx LL-b885->LL-NULL, len 35, seq 172, edr 0
+1683710508 [INFO: TSCH-LOG ] {asn 00.0000bdd5 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-9787->LL-NULL, len 35, seq 174, edr 0
+1683710508 [INFO: TSCH-LOG ] {asn 00.0000bde7 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 47, seq 149, st 2 5
+1683710509 [INFO: TSCH-LOG ] {asn 00.0000be1d link 0 3 0 0 0 ch 25} drift -1 ppm (min/max delta seen: -2/1)
+1683710509 [INFO: TSCH-LOG ] {asn 00.0000be1d link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a484, len 47, seq 149, st 0 6, dr -1
+1683710509 [INFO: App ] Received response 'hello 76' from fd00::a484--> With 203 of ping (100)
+1683710509 [INFO: TSCH-LOG ] {asn 00.0000be20 link 0 3 0 0 0 ch 15} uc-1-0 rx LL-a484->LL-9889, len 47, seq 175, edr 0, dr 0
+1683710512 [INFO: TSCH-LOG ] {asn 00.0000bf64 link 0 3 0 0 0 ch 15} bc-0-0 tx LL-9889->LL-NULL, len 35, seq 199, st 0 1
+1683710512 [INFO: TSCH-LOG ] {asn 00.0000bf91 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-a685->LL-NULL, len 35, seq 143, edr 1
+1683710512 [INFO: TSCH-LOG ] {asn 00.0000bfa3 link 0 3 0 0 0 ch 20} bc-0-0 rx LL-9387->LL-NULL, len 35, seq 144, edr -2
+1683710513 [INFO: App ] Sending request 77 to [INFO: App ]
+1683710513 [INFO: TSCH-LOG ] {asn 00.0000bfaf link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 47, seq 150, st 2 1
+1683710513 [INFO: TSCH-LOG ] {asn 00.0000bfb8 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a484, len 47, seq 150, st 2 2
+1683710513 [INFO: TSCH-LOG ] {asn 00.0000bfbb link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 47, seq 150, st 2 3
+1683710513 [INFO: TSCH-LOG ] {asn 00.0000bfbe link 0 3 0 0 0 ch 26} drift -1 ppm (min/max delta seen: -2/1)
+1683710513 [INFO: TSCH-LOG ] {asn 00.0000bfbe link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a484, len 47, seq 150, st 0 4, dr 1
+1683710513 [INFO: App ] Received response 'hello 77' from fd00::a484--> With 45 of ping (100)
+1683710513 [INFO: TSCH-LOG ] {asn 00.0000bfd9 link 0 3 0 0 0 ch 25} uc-1-0 rx LL-a484->LL-9889, len 47, seq 176, edr 0, dr 0
+1683710513 [INFO: TSCH-LOG ] {asn 00.0000bffd link 0 3 0 0 0 ch 25} !failed to parse frame 0 0
+1683710516 [INFO: TSCH-LOG ] {asn 00.0000c0d2 link 0 3 0 0 0 ch 26} bc-0-0 rx LL-b184->LL-NULL, len 35, seq 173, edr 0
+1683710516 [INFO: TSCH-LOG ] {asn 00.0000c120 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-a484->LL-NULL, len 35, seq 173, edr 0, dr 0
+1683710519 [INFO: App ] Sending request 78 to [INFO: App ]
+1683710519 [INFO: TSCH-LOG ] {asn 00.0000c207 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 47, seq 151, st 2 1
+1683710519 [INFO: TSCH-LOG ] {asn 00.0000c210 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a484, len 47, seq 151, st 2 2
+1683710519 [INFO: TSCH-LOG ] {asn 00.0000c21c link 0 3 0 0 0 ch 15} drift -1 ppm (min/max delta seen: -2/1)
+1683710519 [INFO: TSCH-LOG ] {asn 00.0000c21c link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a484, len 47, seq 151, st 0 3, dr 0
+1683710519 [INFO: App ] Received response 'hello 78' from fd00::a484--> With 30 of ping (100)
+1683710519 [INFO: TSCH-LOG ] {asn 00.0000c222 link 0 3 0 0 0 ch 26} uc-1-0 rx LL-a484->LL-9889, len 47, seq 187, edr 0, dr 0
+1683710519 [INFO: TSCH-LOG ] {asn 00.0000c243 link 0 3 0 0 0 ch 20} bc-0-0 rx LL-b885->LL-NULL, len 35, seq 214, edr 0
+1683710519 [INFO: TSCH-LOG ] {asn 00.0000c24f link 0 3 0 0 0 ch 20} bc-0-0 rx LL-9287->LL-NULL, len 35, seq 216, edr 0
+1683710520 [INFO: TSCH-LOG ] {asn 00.0000c29a link 0 3 0 0 0 ch 26} bc-0-0 rx LL-a887->LL-NULL, len 35, seq 193, edr 0
+1683710523 [INFO: TSCH-LOG ] {asn 00.0000c3c0 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-9787->LL-NULL, len 35, seq 193, edr 0
+1683710524 [INFO: TSCH-LOG ] {asn 00.0000c420 link 0 3 0 0 0 ch 15} bc-0-0 tx LL-9889->LL-NULL, len 35, seq 200, st 0 1
+1683710525 [INFO: App ] Sending request 79 to [INFO: App ]
+1683710525 [INFO: TSCH-LOG ] {asn 00.0000c45c link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a484, len 47, seq 152, st 2 1
+1683710525 [INFO: TSCH-LOG ] {asn 00.0000c45f link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 47, seq 152, st 2 2
+1683710525 [INFO: TSCH-LOG ] {asn 00.0000c46b link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 47, seq 152, st 2 3
+1683710525 [INFO: TSCH-LOG ] {asn 00.0000c492 link 0 3 0 0 0 ch 26} drift -1 ppm (min/max delta seen: -2/1)
+1683710525 [INFO: TSCH-LOG ] {asn 00.0000c492 link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a484, len 47, seq 152, st 0 4, dr 0
+1683710525 [INFO: App ] Received response 'hello 79' from fd00::a484--> With 58 of ping (100)
+1683710525 [INFO: TSCH-LOG ] {asn 00.0000c495 link 0 3 0 0 0 ch 25} uc-1-0 rx LL-a484->LL-9889, len 47, seq 198, edr 1, dr -1
+1683710527 [INFO: TSCH-LOG ] {asn 00.0000c57c link 0 3 0 0 0 ch 15} bc-0-0 rx LL-9387->LL-NULL, len 35, seq 221, edr 0
+1683710528 [INFO: TSCH-LOG ] {asn 00.0000c5a3 link 0 3 0 0 0 ch 20} bc-0-0 rx LL-a685->LL-NULL, len 35, seq 221, edr -1
+1683710530 [INFO: TSCH-LOG ] {asn 00.0000c67b link 0 3 0 0 0 ch 20} drift -1 ppm (min/max delta seen: -2/1)
+1683710530 [INFO: TSCH-LOG ] {asn 00.0000c67b link 0 3 0 0 0 ch 20} bc-0-0 rx LL-a484->LL-NULL, len 35, seq 221, edr 0, dr 0
+1683710531 [INFO: App ] Sending request 80 to [INFO: App ]
+1683710531 [INFO: TSCH-LOG ] {asn 00.0000c6b4 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a484, len 47, seq 153, st 2 1
+1683710531 [INFO: TSCH-LOG ] {asn 00.0000c6ba link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a484, len 47, seq 153, st 2 2
+1683710531 [INFO: TSCH-LOG ] {asn 00.0000c6bd link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-a484, len 47, seq 153, st 2 3
+1683710531 [INFO: TSCH-LOG ] {asn 00.0000c6c3 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 47, seq 153, st 2 4
+1683710531 [INFO: TSCH-LOG ] {asn 00.0000c6ea link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a484, len 47, seq 153, st 0 5, dr 0
+1683710531 [INFO: App ] Received response 'hello 80' from fd00::a484--> With 58 of ping (100)
+1683710531 [INFO: TSCH-LOG ] {asn 00.0000c6ed link 0 3 0 0 0 ch 25} uc-1-0 rx LL-a484->LL-9889, len 47, seq 206, edr 0, dr 0
+1683710531 [INFO: TSCH-LOG ] {asn 00.0000c6ff link 0 3 0 0 0 ch 20} bc-0-0 rx LL-9287->LL-NULL, len 35, seq 207, edr 1
+1683710531 [INFO: TSCH-LOG ] {asn 00.0000c708 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-b184->LL-NULL, len 35, seq 207, edr 1
+1683710532 [INFO: TSCH-LOG ] {asn 00.0000c747 link 0 3 0 0 0 ch 20} bc-0-0 rx LL-9388->LL-NULL, len 35, seq 223, edr 0
+1683710532 [INFO: TSCH-LOG ] {asn 00.0000c759 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-b885->LL-NULL, len 35, seq 35, edr 0
+1683710535 [INFO: TSCH-LOG ] {asn 00.0000c87f link 0 3 0 0 0 ch 20} bc-0-0 rx LL-9787->LL-NULL, len 35, seq 35, edr 1
+1683710536 [INFO: TSCH-LOG ] {asn 00.0000c8e2 link 0 3 0 0 0 ch 26} bc-0-0 tx LL-9889->LL-NULL, len 35, seq 201, st 0 1
+1683710537 [INFO: App ] Sending request 81 to [INFO: App ]
+1683710537 [INFO: TSCH-LOG ] {asn 00.0000c90c link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a484, len 47, seq 154, st 2 1
+1683710537 [INFO: TSCH-LOG ] {asn 00.0000c918 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a484, len 47, seq 154, st 2 2
+1683710537 [INFO: TSCH-LOG ] {asn 00.0000c924 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a484, len 47, seq 154, st 2 3
+1683710537 [INFO: TSCH-LOG ] {asn 00.0000c933 link 0 3 0 0 0 ch 20} !failed to parse frame 0 0
+1683710537 [INFO: TSCH-LOG ] {asn 00.0000c93c link 0 3 0 0 0 ch 15} drift -1 ppm (min/max delta seen: -2/1)
+1683710537 [INFO: TSCH-LOG ] {asn 00.0000c93c link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a484, len 47, seq 154, st 0 4, dr 1
+1683710537 [INFO: App ] Received response 'hello 81' from fd00::a484--> With 53 of ping (100)
+1683710537 [INFO: TSCH-LOG ] {asn 00.0000c93f link 0 3 0 0 0 ch 20} uc-1-0 rx LL-a484->LL-9889, len 47, seq 216, edr 0, dr 0
+1683710541 [INFO: TSCH-LOG ] {asn 00.0000caf5 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-a685->LL-NULL, len 35, seq 33, edr 0
+1683710542 [INFO: TSCH-LOG ] {asn 00.0000cb58 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-9387->LL-NULL, len 35, seq 33, edr 1
+1683710543 [INFO: App ] Sending request 82 to [INFO: App ]
+1683710543 [INFO: TSCH-LOG ] {asn 00.0000cb64 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a484, len 47, seq 155, st 2 1
+1683710543 [INFO: TSCH-LOG ] {asn 00.0000cb70 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a484, len 47, seq 155, st 2 2
+1683710543 [INFO: TSCH-LOG ] {asn 00.0000cb7f link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 47, seq 155, st 2 3
+1683710543 [INFO: TSCH-LOG ] {asn 00.0000cb88 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a484, len 47, seq 155, st 2 4
+1683710544 [INFO: TSCH-LOG ] {asn 00.0000cbd3 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a484, len 47, seq 155, st 2 5
+1683710544 [INFO: TSCH-LOG ] {asn 00.0000cbf7 link 0 3 0 0 0 ch 20} bc-0-0 rx LL-9287->LL-NULL, len 35, seq 228, edr 0
+1683710545 [INFO: TSCH-LOG ] {asn 00.0000cc24 link 0 3 0 0 0 ch 15} drift -1 ppm (min/max delta seen: -2/1)
+1683710545 [INFO: TSCH-LOG ] {asn 00.0000cc24 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a484, len 47, seq 155, st 0 6, dr 0
+1683710545 [INFO: App ] Received response 'hello 82' from fd00::a484--> With 197 of ping (100)
+1683710545 [INFO: TSCH-LOG ] {asn 00.0000cc27 link 0 3 0 0 0 ch 20} uc-1-0 rx LL-a484->LL-9889, len 47, seq 229, edr 1
+1683710545 [INFO: TSCH-LOG ] {asn 00.0000cc48 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-9787, len 100, seq 156, st 0 1
+1683710545 [INFO: TSCH-LOG ] {asn 00.0000cc5a link 0 3 0 0 0 ch 26} bc-0-0 rx LL-a484->LL-NULL, len 35, seq 229, edr 1
+1683710545 [INFO: TSCH-LOG ] {asn 00.0000cc6c link 0 3 0 0 0 ch 15} bc-0-0 rx LL-b885->LL-NULL, len 35, seq 229, edr 1
+1683710546 [INFO: TSCH-LOG ] {asn 00.0000cca8 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-b184->LL-NULL, len 35, seq 229, edr 1
+1683710547 [INFO: TSCH-LOG ] {asn 00.0000cd17 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-9787, len 100, seq 157, st 0 1
+1683710547 [INFO: TSCH-LOG ] {asn 00.0000cd20 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-a887->LL-NULL, len 35, seq 229, edr 1
+1683710547 [INFO: TSCH-LOG ] {asn 00.0000cd23 link 0 3 0 0 0 ch 20} bc-0-0 rx LL-9388->LL-NULL, len 35, seq 229, edr 1
+1683710549 [INFO: TSCH-LOG ] {asn 00.0000cdb9 link 0 3 0 0 0 ch 25} !failed to parse frame 0 0
+1683710549 [INFO: App ] Sending request 83 to [INFO: App ]
+1683710549 [INFO: TSCH-LOG ] {asn 00.0000cdbc link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a685, len 55, seq 158, st 2 1
+1683710549 [INFO: TSCH-LOG ] {asn 00.0000cdbf link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a685, len 55, seq 158, st 2 2
+1683710549 [INFO: TSCH-LOG ] {asn 00.0000cdce link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a685, len 55, seq 158, st 2 3
+1683710549 [INFO: App ] Received response 'hello 83' from fd00::a484--> With 24 of ping (100)
+1683710549 [INFO: TSCH-LOG ] {asn 00.0000cdd1 link 0 3 0 0 0 ch 25} uc-1-0 rx LL-a484->LL-9889, len 47, seq 232, edr 1
+1683710549 [INFO: TSCH-LOG ] {asn 00.0000cdd7 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-a685, len 55, seq 158, st 2 4
+1683710549 [INFO: TSCH-LOG ] {asn 00.0000cdf8 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-a685, len 55, seq 158, st 2 5
+1683710549 [INFO: TSCH-LOG ] {asn 00.0000cdfe link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-a685, len 55, seq 158, st 0 6, dr 0
+1683710549 [INFO: TSCH-LOG ] {asn 00.0000ce13 link 0 3 0 0 0 ch 20} bc-0-0 tx LL-9889->LL-NULL, len 35, seq 202, st 0 1
+1683710550 [INFO: TSCH-LOG ] {asn 00.0000ce25 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-9787->LL-NULL, len 35, seq 249, edr 1, dr -1
+1683710550 [INFO: TSCH-LOG ] {asn 00.0000ce67 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-9787, len 100, seq 159, st 0 1, dr 0
+1683710551 [INFO: TSCH-LOG ] {asn 00.0000ceb5 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-9787, len 100, seq 160, st 0 1, dr 0
+1683710552 [INFO: TSCH-LOG ] {asn 00.0000cf18 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-9787, len 91, seq 161, st 0 1, dr 0
+1683710552 [INFO: TSCH-LOG ] {asn 00.0000cf21 link 0 3 0 0 0 ch 25} uc-1-0 rx LL-9787->LL-9889, len 58, seq 251, edr 0, dr 0
+1683710553 [INFO: TSCH-LOG ] {asn 00.0000cf5a link 0 3 0 0 0 ch 26} bc-1-0 rx LL-b885->LL-NULL, len 94, seq 251, edr 0
+1683710555 [INFO: App ] Sending request 84 to [INFO: App ]
+1683710555 [INFO: TSCH-LOG ] {asn 00.0000d011 link 0 3 0 0 0 ch 25} drift 6 ppm (min/max delta seen: -2/1)
+1683710555 [INFO: TSCH-LOG ] {asn 00.0000d011 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-9787, len 55, seq 162, st 0 1, dr 1
+1683710555 [INFO: TSCH-LOG ] {asn 00.0000d026 link 0 3 0 0 0 ch 26} !failed to parse frame 0 0
+1683710555 [INFO: TSCH-LOG ] {asn 00.0000d032 link 0 3 0 0 0 ch 26} !failed to parse frame 0 0
+1683710556 [INFO: App ] Received response 'hello 84' from fd00::a484--> With 141 of ping (100)
+1683710556 [INFO: TSCH-LOG ] {asn 00.0000d09e link 0 3 0 0 0 ch 26} uc-1-0 rx LL-9787->LL-9889, len 64, seq 2, edr 0, dr 0
+1683710557 [INFO: TSCH-LOG ] {asn 00.0000d0d7 link 0 3 0 0 0 ch 20} bc-0-0 rx LL-9287->LL-NULL, len 35, seq 5, edr 1
+1683710557 [INFO: TSCH-LOG ] {asn 00.0000d113 link 0 3 0 0 0 ch 20} bc-0-0 rx LL-9387->LL-NULL, len 35, seq 5, edr 1
+1683710558 [INFO: TSCH-LOG ] {asn 00.0000d146 link 0 3 0 0 0 ch 26} uc-1-0 rx LL-b184->LL-9889, len 100, seq 154, edr 1
+1683710559 [INFO: TSCH-LOG ] {asn 00.0000d1d3 link 0 3 0 0 0 ch 20} bc-0-0 rx LL-b184->LL-NULL, len 35, seq 154, edr 3
+1683710561 [INFO: TSCH-LOG ] {asn 00.0000d263 link 0 3 0 0 0 ch 20} bc-0-0 rx LL-a484->LL-NULL, len 35, seq 154, edr 3
+1683710561 [INFO: App ] Sending request 85 to [INFO: App ]
+1683710561 [INFO: TSCH-LOG ] {asn 00.0000d269 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-9787, len 55, seq 163, st 2 1
+1683710561 [INFO: TSCH-LOG ] {asn 00.0000d26f link 0 3 0 0 0 ch 20} !failed to parse frame 0 0
+1683710561 [INFO: TSCH-LOG ] {asn 00.0000d275 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-9787, len 55, seq 163, st 2 2
+1683710561 [INFO: TSCH-LOG ] {asn 00.0000d287 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-9787, len 55, seq 163, st 2 3
+1683710561 [INFO: TSCH-LOG ] {asn 00.0000d293 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-9787, len 55, seq 163, st 2 4
+1683710561 [INFO: TSCH-LOG ] {asn 00.0000d2a2 link 0 3 0 0 0 ch 26} bc-0-0 rx LL-9388->LL-NULL, len 35, seq 8, edr 1
+1683710561 [INFO: TSCH-LOG ] {asn 00.0000d2a5 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-b885->LL-NULL, len 35, seq 8, edr 3
+1683710561 [INFO: TSCH-LOG ] {asn 00.0000d2ab link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-9787, len 55, seq 163, st 2 5
+1683710561 [INFO: TSCH-LOG ] {asn 00.0000d2b4 link 0 3 0 0 0 ch 15} !failed to parse frame 0 0
+1683710562 [INFO: TSCH-LOG ] {asn 00.0000d2e1 link 0 3 0 0 0 ch 25} bc-0-0 tx LL-9889->LL-NULL, len 35, seq 203, st 0 1
+1683710562 [INFO: TSCH-LOG ] {asn 00.0000d2e7 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-9787, len 55, seq 163, st 2 6
+1683710562 [INFO: TSCH-LOG ] {asn 00.0000d2fc link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-9787, len 55, seq 163, st 2 7
+1683710562 [INFO: TSCH-LOG ] {asn 00.0000d302 link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-9787, len 55, seq 163, st 2 8
+1683710562 [INFO: TSCH-LOG ] {asn 00.0000d30e link 0 3 0 0 0 ch 26} !failed to parse frame 0 0
+1683710562 [INFO: TSCH-LOG ] {asn 00.0000d323 link 0 3 0 0 0 ch 20} bc-0-0 rx LL-a887->LL-NULL, len 35, seq 249, edr 3
+1683710563 [INFO: TSCH-LOG ] {asn 00.0000d37d link 0 3 0 0 0 ch 25} drift 0 ppm (min/max delta seen: -2/1)
+1683710563 [INFO: TSCH-LOG ] {asn 00.0000d37d link 0 3 0 0 0 ch 25} bc-0-0 rx LL-9787->LL-NULL, len 35, seq 238, edr 3, dr -3
+1683710567 [INFO: App ] Sending request 86 to [INFO: App ]
+1683710567 [INFO: TSCH-LOG ] {asn 00.0000d4c1 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-9787, len 55, seq 164, st 0 1, dr 0
+1683710567 [INFO: TSCH-LOG ] {asn 00.0000d4ca link 0 3 0 0 0 ch 26} !failed to parse frame 0 0
+1683710567 [INFO: App ] Received response 'hello 86' from fd00::a484--> With 49 of ping (100)
+1683710567 [INFO: TSCH-LOG ] {asn 00.0000d4f1 link 0 3 0 0 0 ch 25} uc-1-0 rx LL-9787->LL-9889, len 64, seq 17, edr 0, dr 0
+1683710570 [INFO: TSCH-LOG ] {asn 00.0000d60e link 0 3 0 0 0 ch 26} bc-0-0 rx LL-a685->LL-NULL, len 35, seq 16, edr 1
+1683710571 [INFO: TSCH-LOG ] {asn 00.0000d6aa link 0 3 0 0 0 ch 26} bc-0-0 rx LL-9287->LL-NULL, len 35, seq 16, edr 1
+1683710572 [INFO: TSCH-LOG ] {asn 00.0000d6b0 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-9387->LL-NULL, len 35, seq 16, edr 1
+1683710573 [INFO: App ] Sending request 87 to [INFO: App ]
+1683710573 [INFO: TSCH-LOG ] {asn 00.0000d719 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-9787, len 55, seq 165, st 2 1
+1683710573 [INFO: TSCH-LOG ] {asn 00.0000d71f link 0 3 0 0 0 ch 20} drift 0 ppm (min/max delta seen: -3/1)
+1683710573 [INFO: TSCH-LOG ] {asn 00.0000d71f link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-9787, len 55, seq 165, st 0 2, dr 0
+1683710573 [INFO: TSCH-LOG ] {asn 00.0000d725 link 0 3 0 0 0 ch 25} !failed to parse frame 0 0
+1683710573 [INFO: TSCH-LOG ] {asn 00.0000d737 link 0 3 0 0 0 ch 20} bc-0-0 rx LL-a484->LL-NULL, len 35, seq 86, edr 0
+1683710574 [INFO: TSCH-LOG ] {asn 00.0000d779 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-b885->LL-NULL, len 35, seq 34, edr 0
+1683710574 [INFO: App ] Received response 'hello 87' from fd00::a484--> With 164 of ping (100)
+1683710574 [INFO: TSCH-LOG ] {asn 00.0000d7bb link 0 3 0 0 0 ch 20} uc-1-0 rx LL-9787->LL-9889, len 64, seq 26, edr 0, dr 0
+1683710574 [INFO: TSCH-LOG ] {asn 00.0000d7c4 link 0 3 0 0 0 ch 15} bc-0-0 tx LL-9889->LL-NULL, len 35, seq 204, st 0 1
+1683710575 [INFO: TSCH-LOG ] {asn 00.0000d7e2 link 0 3 0 0 0 ch 26} bc-0-0 rx LL-9388->LL-NULL, len 35, seq 27, edr 0
+1683710577 [INFO: TSCH-LOG ] {asn 00.0000d8c9 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-a887->LL-NULL, len 35, seq 255, edr 0
+1683710577 [INFO: TSCH-LOG ] {asn 00.0000d8de link 0 3 0 0 0 ch 26} bc-1-0 tx LL-9889->LL-NULL, len 94, seq 205, st 0 1
+1683710579 [INFO: App ] Sending request 88 to [INFO: App ]
+1683710579 [INFO: TSCH-LOG ] {asn 00.0000d971 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-9787, len 55, seq 166, st 2 1
+1683710579 [INFO: TSCH-LOG ] {asn 00.0000d97a link 0 3 0 0 0 ch 26} drift 0 ppm (min/max delta seen: -3/1)
+1683710579 [INFO: TSCH-LOG ] {asn 00.0000d97a link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-9787, len 55, seq 166, st 0 2, dr 0
+1683710580 [INFO: App ] Received response 'hello 88' from fd00::a484--> With 131 of ping (100)
+1683710580 [INFO: TSCH-LOG ] {asn 00.0000d9f2 link 0 3 0 0 0 ch 26} uc-1-0 rx LL-9787->LL-9889, len 64, seq 33, edr 1, dr -1
+1683710583 [INFO: TSCH-LOG ] {asn 00.0000db33 link 0 3 0 0 0 ch 20} bc-0-0 rx LL-a685->LL-NULL, len 35, seq 35, edr 1
+1683710584 [INFO: TSCH-LOG ] {asn 00.0000dbab link 0 3 0 0 0 ch 20} bc-0-0 rx LL-9287->LL-NULL, len 35, seq 35, edr 0
+1683710585 [INFO: App ] Sending request 89 to [INFO: App ]
+1683710585 [INFO: TSCH-LOG ] {asn 00.0000dbc9 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-9787, len 55, seq 167, st 2 1
+1683710585 [INFO: TSCH-LOG ] {asn 00.0000dbd5 link 0 3 0 0 0 ch 25} drift -1 ppm (min/max delta seen: -3/1)
+1683710585 [INFO: TSCH-LOG ] {asn 00.0000dbd5 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-9787, len 55, seq 167, st 0 2, dr 0
+1683710585 [INFO: App ] Received response 'hello 89' from fd00::a484--> With 69 of ping (100)
+1683710585 [INFO: TSCH-LOG ] {asn 00.0000dc0b link 0 3 0 0 0 ch 20} uc-1-0 rx LL-9787->LL-9889, len 64, seq 39, edr 0, dr 0
+1683710587 [INFO: TSCH-LOG ] {asn 00.0000dc92 link 0 3 0 0 0 ch 26} bc-0-0 rx LL-a484->LL-NULL, len 35, seq 39, edr 0
+1683710587 [INFO: TSCH-LOG ] {asn 00.0000dca7 link 0 3 0 0 0 ch 20} bc-0-0 rx LL-b885->LL-NULL, len 35, seq 39, edr 0
+1683710587 [INFO: TSCH-LOG ] {asn 00.0000dcb3 link 0 3 0 0 0 ch 20} bc-0-0 rx LL-b184->LL-NULL, len 35, seq 39, edr -1
+1683710587 [INFO: TSCH-LOG ] {asn 00.0000dccb link 0 3 0 0 0 ch 20} uc-1-0 rx LL-9388->LL-9889, len 100, seq 186, edr 0
+1683710590 [INFO: TSCH-LOG ] {asn 00.0000ddd9 link 0 3 0 0 0 ch 25} bc-0-0 tx LL-9889->LL-NULL, len 35, seq 206, st 0 1
+1683710590 [INFO: TSCH-LOG ] {asn 00.0000dddf link 0 3 0 0 0 ch 20} bc-0-0 rx LL-9388->LL-NULL, len 35, seq 186, edr 0
+1683710590 [INFO: TSCH-LOG ] {asn 00.0000de15 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-a887->LL-NULL, len 35, seq 186, edr 0
+1683710591 [INFO: TSCH-LOG ] {asn 00.0000de1b link 0 3 0 0 0 ch 20} !failed to parse frame 0 0
+1683710591 [INFO: App ] Sending request 90 to [INFO: App ]
+1683710591 [INFO: TSCH-LOG ] {asn 00.0000de1e link 0 3 0 0 0 ch 26} drift 0 ppm (min/max delta seen: -3/1)
+1683710591 [INFO: TSCH-LOG ] {asn 00.0000de1e link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-9787, len 55, seq 168, st 0 1, dr 0
+1683710591 [INFO: App ] Received response 'hello 90' from fd00::a484--> With 24 of ping (100)
+1683710591 [INFO: TSCH-LOG ] {asn 00.0000de36 link 0 3 0 0 0 ch 26} uc-1-0 rx LL-9787->LL-9889, len 64, seq 46, edr 0, dr 0
+1683710593 [INFO: TSCH-LOG ] {asn 00.0000def0 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-9787->LL-NULL, len 35, seq 49, edr 0, dr 0
+1683710597 [INFO: TSCH-LOG ] {asn 00.0000e073 link 0 3 0 0 0 ch 20} !failed to parse frame 0 0
+1683710597 [INFO: App ] Sending request 91 to [INFO: App ]
+1683710597 [INFO: TSCH-LOG ] {asn 00.0000e076 link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-9787, len 55, seq 169, st 2 1
+1683710597 [INFO: TSCH-LOG ] {asn 00.0000e07f link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-9787, len 55, seq 169, st 2 2
+1683710597 [INFO: TSCH-LOG ] {asn 00.0000e082 link 0 3 0 0 0 ch 26} drift 0 ppm (min/max delta seen: -3/1)
+1683710597 [INFO: TSCH-LOG ] {asn 00.0000e082 link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-9787, len 55, seq 169, st 0 3, dr 0
+1683710597 [INFO: TSCH-LOG ] {asn 00.0000e097 link 0 3 0 0 0 ch 20} bc-0-0 rx LL-9287->LL-NULL, len 35, seq 11, edr 0
+1683710597 [INFO: TSCH-LOG ] {asn 00.0000e0c7 link 0 3 0 0 0 ch 20} bc-0-0 rx LL-a685->LL-NULL, len 35, seq 51, edr 0
+1683710598 [INFO: App ] Received response 'hello 91' from fd00::a484--> With 163 of ping (100)
+1683710598 [INFO: TSCH-LOG ] {asn 00.0000e118 link 0 3 0 0 0 ch 15} uc-1-0 rx LL-9787->LL-9889, len 64, seq 55, edr 0, dr 0
+1683710601 [INFO: TSCH-LOG ] {asn 00.0000e244 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-9387->LL-NULL, len 35, seq 126, edr 0
+1683710601 [INFO: TSCH-LOG ] {asn 00.0000e253 link 0 3 0 0 0 ch 20} bc-0-0 rx LL-b184->LL-NULL, len 35, seq 126, edr 0
+1683710602 [INFO: TSCH-LOG ] {asn 00.0000e283 link 0 3 0 0 0 ch 20} bc-0-0 rx LL-b885->LL-NULL, len 35, seq 126, edr 1
+1683710602 [INFO: TSCH-LOG ] {asn 00.0000e2b0 link 0 3 0 0 0 ch 15} bc-0-0 tx LL-9889->LL-NULL, len 35, seq 207, st 0 1
+1683710602 [INFO: TSCH-LOG ] {asn 00.0000e2b6 link 0 3 0 0 0 ch 26} bc-0-0 rx LL-a484->LL-NULL, len 35, seq 126, edr 1
+1683710603 [INFO: TSCH-LOG ] {asn 00.0000e2cb link 0 3 0 0 0 ch 20} !failed to parse frame 0 0
+1683710603 [INFO: App ] Sending request 92 to [INFO: App ]
+1683710603 [INFO: TSCH-LOG ] {asn 00.0000e2ce link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-9787, len 55, seq 170, st 2 1
+1683710603 [INFO: TSCH-LOG ] {asn 00.0000e2d1 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-9787, len 55, seq 170, st 2 2
+1683710603 [INFO: TSCH-LOG ] {asn 00.0000e2d4 link 0 3 0 0 0 ch 15} !failed to parse frame 0 0
+1683710603 [INFO: TSCH-LOG ] {asn 00.0000e2d7 link 0 3 0 0 0 ch 20} !failed to parse frame 0 0
+1683710603 [INFO: TSCH-LOG ] {asn 00.0000e2da link 0 3 0 0 0 ch 26} bc-0-0 rx LL-a887->LL-NULL, len 35, seq 126, edr 1
+1683710603 [INFO: TSCH-LOG ] {asn 00.0000e2e9 link 0 3 0 0 0 ch 25} drift 0 ppm (min/max delta seen: -3/1)
+1683710603 [INFO: TSCH-LOG ] {asn 00.0000e2e9 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9889->LL-9787, len 55, seq 170, st 0 3, dr 0
+1683710604 [INFO: App ] Received response 'hello 92' from fd00::a484--> With 98 of ping (100)
+1683710604 [INFO: TSCH-LOG ] {asn 00.0000e32e link 0 3 0 0 0 ch 26} uc-1-0 rx LL-9787->LL-9889, len 64, seq 61, edr 1, dr -1
+1683710605 [INFO: TSCH-LOG ] {asn 00.0000e3ca link 0 3 0 0 0 ch 26} bc-0-0 rx LL-9787->LL-NULL, len 35, seq 138, edr 0, dr 0
+1683710609 [INFO: App ] Sending request 93 to [INFO: App ]
+1683710609 [INFO: TSCH-LOG ] {asn 00.0000e526 link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-9787, len 55, seq 171, st 2 1
+1683710609 [INFO: TSCH-LOG ] {asn 00.0000e529 link 0 3 0 0 0 ch 25} !failed to parse frame 0 0
+1683710609 [INFO: TSCH-LOG ] {asn 00.0000e532 link 0 3 0 0 0 ch 26} drift -2 ppm (min/max delta seen: -3/1)
+1683710609 [INFO: TSCH-LOG ] {asn 00.0000e532 link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-9787, len 55, seq 171, st 0 2, dr 0
+1683710609 [INFO: TSCH-LOG ] {asn 00.0000e556 link 0 3 0 0 0 ch 26} bc-0-0 rx LL-9287->LL-NULL, len 35, seq 47, edr -1
+1683710610 [INFO: App ] Received response 'hello 93' from fd00::a484--> With 158 of ping (100)
+1683710610 [INFO: TSCH-LOG ] {asn 00.0000e5c2 link 0 3 0 0 0 ch 26} uc-1-0 rx LL-9787->LL-9889, len 64, seq 69, edr 0, dr 0
+1683710612 [INFO: TSCH-LOG ] {asn 00.0000e65e link 0 3 0 0 0 ch 26} bc-0-0 rx LL-a685->LL-NULL, len 35, seq 42, edr -2
+1683710613 [INFO: TSCH-LOG ] {asn 00.0000e6f1 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-9387->LL-NULL, len 35, seq 42, edr -1
+1683710615 [INFO: TSCH-LOG ] {asn 00.0000e778 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-b184->LL-NULL, len 35, seq 42, edr 0
+1683710615 [INFO: App ] Sending request 94 to [INFO: App ]
+1683710615 [INFO: TSCH-LOG ] {asn 00.0000e77e link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-9787, len 55, seq 172, st 2 1
+1683710615 [INFO: TSCH-LOG ] {asn 00.0000e784 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-9787, len 55, seq 172, st 2 2
+1683710615 [INFO: TSCH-LOG ] {asn 00.0000e793 link 0 3 0 0 0 ch 20} drift -1 ppm (min/max delta seen: -3/1)
+1683710615 [INFO: TSCH-LOG ] {asn 00.0000e793 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-9787, len 55, seq 172, st 0 3, dr 1
+1683710615 [INFO: App ] Received response 'hello 94' from fd00::a484--> With 41 of ping (100)
+1683710615 [INFO: TSCH-LOG ] {asn 00.0000e7a5 link 0 3 0 0 0 ch 25} uc-1-0 rx LL-9787->LL-9889, len 64, seq 74, edr 0, dr 0
+1683710615 [INFO: TSCH-LOG ] {asn 00.0000e7c0 link 0 3 0 0 0 ch 15} !failed to parse frame 0 0
+1683710616 [INFO: TSCH-LOG ] {asn 00.0000e7ea link 0 3 0 0 0 ch 26} bc-0-0 rx LL-a887->LL-NULL, len 35, seq 82, edr 0
+1683710616 [INFO: TSCH-LOG ] {asn 00.0000e83b link 0 3 0 0 0 ch 20} bc-0-0 tx LL-9889->LL-NULL, len 35, seq 208, st 0 1
+1683710617 [INFO: TSCH-LOG ] {asn 00.0000e862 link 0 3 0 0 0 ch 26} bc-0-0 rx LL-a484->LL-NULL, len 35, seq 159, edr 0
+1683710618 [INFO: TSCH-LOG ] {asn 00.0000e8d1 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-9388->LL-NULL, len 35, seq 21, edr 0
+1683710619 [INFO: TSCH-LOG ] {asn 00.0000e92e link 0 3 0 0 0 ch 26} uc-1-0 rx LL-b184->LL-9889, len 100, seq 166, edr 0
+1683710619 [INFO: TSCH-LOG ] {asn 00.0000e940 link 0 3 0 0 0 ch 15} uc-1-0 rx LL-b184->LL-9889, len 100, seq 167, edr 0
+1683710619 [INFO: TSCH-LOG ] {asn 00.0000e955 link 0 3 0 0 0 ch 25} drift -1 ppm (min/max delta seen: -3/1)
+1683710619 [INFO: TSCH-LOG ] {asn 00.0000e955 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-9787->LL-NULL, len 35, seq 167, edr 0, dr 0
+1683710619 [INFO: TSCH-LOG ] {asn 00.0000e958 link 0 3 0 0 0 ch 15} uc-1-0 rx LL-b184->LL-9889, len 100, seq 168, edr 0
+1683710621 [INFO: App ] Sending request 95 to [INFO: App ]
+1683710621 [INFO: TSCH-LOG ] {asn 00.0000e9d6 link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-9787, len 55, seq 173, st 2 1
+1683710621 [INFO: TSCH-LOG ] {asn 00.0000e9df link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-9787, len 55, seq 173, st 0 2, dr 0
+1683710621 [INFO: TSCH-LOG ] {asn 00.0000e9eb link 0 3 0 0 0 ch 20} !failed to parse frame 0 0
+1683710621 [INFO: TSCH-LOG ] {asn 00.0000ea0c link 0 3 0 0 0 ch 15} uc-1-0 rx LL-b184->LL-9889, len 55, seq 169, edr 1
+1683710621 [INFO: TSCH-LOG ] {asn 00.0000ea0f link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-9787, len 64, seq 174, st 0 1, dr 0
+1683710622 [INFO: TSCH-LOG ] {asn 00.0000ea69 link 0 3 0 0 0 ch 25} uc-1-0 rx LL-b184->LL-9889, len 91, seq 170, edr 0
+1683710622 [INFO: TSCH-LOG ] {asn 00.0000ea6c link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-9787, len 100, seq 175, st 2 1
+1683710622 [INFO: TSCH-LOG ] {asn 00.0000ea78 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-9787, len 100, seq 175, st 2 2
+1683710622 [INFO: TSCH-LOG ] {asn 00.0000ea7e link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-9787, len 100, seq 175, st 0 3, dr 0
+1683710622 [INFO: TSCH-LOG ] {asn 00.0000ea81 link 0 3 0 0 0 ch 25} !failed to parse frame 0 0
+1683710623 [INFO: TSCH-LOG ] {asn 00.0000eacf link 0 3 0 0 0 ch 20} uc-1-0 rx LL-9287->LL-9889, len 100, seq 24, edr 0
+1683710623 [INFO: App ] Received response 'hello 95' from fd00::a484--> With 264 of ping (100)
+1683710623 [INFO: TSCH-LOG ] {asn 00.0000eadb link 0 3 0 0 0 ch 20} uc-1-0 rx LL-9787->LL-9889, len 64, seq 81, edr 0, dr 0
+1683710623 [INFO: TSCH-LOG ] {asn 00.0000eadc link 0 3 1 1 0 ch 20} uc-1-0 rx LL-9787->LL-9889, len 58, seq 82, edr 0, dr 0
+1683710623 [INFO: TSCH-LOG ] {asn 00.0000eade link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9889->LL-b184, len 58, seq 176, st 0 1
+1683710624 [INFO: TSCH-LOG ] {asn 00.0000eb0e link 0 3 0 0 0 ch 26} bc-0-0 rx LL-9287->LL-NULL, len 35, seq 82, edr 0
+1683710626 [INFO: TSCH-LOG ] {asn 00.0000ec1c link 0 3 0 0 0 ch 15} bc-0-0 rx LL-9387->LL-NULL, len 35, seq 82, edr 1
+1683710627 [INFO: App ] Sending request 96 to [INFO: App ]
+1683710627 [INFO: TSCH-LOG ] {asn 00.0000ec2b link 0 3 0 0 0 ch 20} drift -1 ppm (min/max delta seen: -3/1)
+1683710627 [INFO: TSCH-LOG ] {asn 00.0000ec2b link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9889->LL-9787, len 55, seq 177, st 0 1, dr 0
+1683710627 [INFO: TSCH-LOG ] {asn 00.0000ec2e link 0 3 0 0 0 ch 26} !failed to parse frame 0 0
+1683710627 [INFO: TSCH-LOG ] {asn 00.0000ec49 link 0 3 0 0 0 ch 25} !failed to parse frame 0 0
+1683710627 [INFO: App ] Received response 'hello 96' from fd00::a484--> With 43 of ping (100)
+1683710627 [INFO: TSCH-LOG ] {asn 00.0000ec55 link 0 3 0 0 0 ch 25} uc-1-0 rx LL-9787->LL-9889, len 64, seq 85, edr 1, dr -1
+1683710628 [INFO: TSCH-LOG ] {asn 00.0000ec91 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-a685->LL-NULL, len 35, seq 45, edr 0
+1683710628 [INFO: TSCH-LOG ] {asn 00.0000ec94 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-b184->LL-NULL, len 35, seq 45, edr 1
+1683710628 [INFO: TSCH-LOG ] {asn 00.0000ec9a link 0 3 0 0 0 ch 26} !failed to parse frame 0 0
+1683710628 [INFO: TSCH-LOG ] {asn 00.0000eca9 link 0 3 0 0 0 ch 25} uc-1-0 rx LL-b184->LL-9889, len 55, seq 171, edr 1
+1683710628 [INFO: TSCH-LOG ] {asn 00.0000ecac link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-9787, len 64, seq 178, st 0 1, dr 0
+1683710628 [INFO: TSCH-LOG ] {asn 00.0000ecb5 link 0 3 0 0 0 ch 25} uc-1-0 rx LL-9787->LL-9889, len 64, seq 89, edr 0, dr 0
+1683710628 [INFO: TSCH-LOG ] {asn 00.0000ecb8 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9889->LL-b184, len 64, seq 179, st 0 1
+1683710628 [INFO: TSCH-LOG ] {asn 00.0000ece8 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-a887->LL-NULL, len 35, seq 180, edr 0

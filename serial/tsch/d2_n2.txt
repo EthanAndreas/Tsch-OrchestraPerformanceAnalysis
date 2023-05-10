@@ -1,0 +1,1588 @@
+1683740544.525083;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000336 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740544.527893;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000336 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740544.636910;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000342 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740544.639801;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000342 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740544.765033;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000034e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740544.767947;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000034e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740544.876904;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000035a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740544.879796;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000035a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740545.004868;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000366 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740545.007751;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000366 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740545.244839;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000037e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740545.247762;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000037e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740545.356826;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000038a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740545.359815;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000038a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740545.487765;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000396 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740545.596723;m3-4;[INFO: TSCH-LOG  ] {asn 00.000003a2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740545.599769;m3-5;[INFO: TSCH-LOG  ] {asn 00.000003a2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740545.724896;m3-4;[INFO: TSCH-LOG  ] {asn 00.000003ae link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740545.727912;m3-5;[INFO: TSCH-LOG  ] {asn 00.000003ae link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740545.836797;m3-4;[INFO: TSCH-LOG  ] {asn 00.000003ba link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740545.839648;m3-5;[INFO: TSCH-LOG  ] {asn 00.000003ba link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740545.964788;m3-4;[INFO: TSCH-LOG  ] {asn 00.000003c6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740545.967667;m3-5;[INFO: TSCH-LOG  ] {asn 00.000003c6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740546.079635;m3-5;[INFO: TSCH-LOG  ] {asn 00.000003d2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740546.092729;m3-4;[INFO: TSCH-LOG  ] {asn 00.000003d2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740546.204705;m3-4;[INFO: TSCH-LOG  ] {asn 00.000003de link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740546.207579;m3-5;[INFO: TSCH-LOG  ] {asn 00.000003de link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740546.319566;m3-5;[INFO: TSCH-LOG  ] {asn 00.000003ea link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740546.332731;m3-4;[INFO: TSCH-LOG  ] {asn 00.000003ea link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740546.444719;m3-4;[INFO: TSCH-LOG  ] {asn 00.000003f6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740546.447608;m3-5;[INFO: TSCH-LOG  ] {asn 00.000003f6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740546.559604;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000402 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740546.572693;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000402 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740546.799712;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000041a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740546.812631;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000041a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740546.831638;m3-5;[WARN: RPL       ] just joined, no parent yet, setting timer for leaving
+1683740546.844554;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000041d link  0   3   0  0  0 ch 25} bc-1-0 tx LL-9388->LL-NULL, len  94, seq  75, st 0  1
+1683740546.847599;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000041d link  0   3   0  0  0 ch 25} bc-1-0 rx LL-9388->LL-NULL, len  94, seq  86, edr   1, dr  -1
+1683740547.039614;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000432 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740547.052576;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000432 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740547.164634;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000043e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740547.167449;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000043e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740547.279461;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000044a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740547.292594;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000044a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740547.295452;m3-5;[INFO: App       ] Not reachable yet: !node_is_reachable
+1683740547.519569;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000462 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740547.532654;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000462 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740547.772811;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000047a link  0   3   0  0  0 ch 26} !failed to parse frame 0 0
+1683740547.999686;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000492 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740548.012702;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000492 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740548.239611;m3-5;[INFO: TSCH-LOG  ] {asn 00.000004aa link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740548.252566;m3-4;[INFO: TSCH-LOG  ] {asn 00.000004aa link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740548.479594;m3-5;[INFO: TSCH-LOG  ] {asn 00.000004c2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740548.492564;m3-4;[INFO: TSCH-LOG  ] {asn 00.000004c2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740548.604543;m3-4;[INFO: TSCH-LOG  ] {asn 00.000004ce link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740548.607399;m3-5;[INFO: TSCH-LOG  ] {asn 00.000004ce link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740548.844622;m3-4;[INFO: TSCH-LOG  ] {asn 00.000004e6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740548.847519;m3-5;[INFO: TSCH-LOG  ] {asn 00.000004e6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740548.959402;m3-5;[INFO: TSCH-LOG  ] {asn 00.000004f2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740548.972540;m3-4;[INFO: TSCH-LOG  ] {asn 00.000004f2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740549.084502;m3-4;[INFO: TSCH-LOG  ] {asn 00.000004fe link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740549.087362;m3-5;[INFO: TSCH-LOG  ] {asn 00.000004fe link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740549.212560;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000050a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740549.215348;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000050a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740549.324565;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000516 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740549.327435;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000516 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740549.564604;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000052e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740549.567444;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000052e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740549.804586;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000546 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740549.807587;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000546 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740550.044484;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000055e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740550.047347;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000055e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740550.172539;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000056a link  0   3   0  0  0 ch 26} !dl-miss RxBeforeAck 131 133
+1683740550.172765;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000056a link  0   3   0  0  0 ch 26} uc-1-0 rx LL-9889->LL-9388, len 100, seq  60, edr   0
+1683740550.175288;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000056a link  0   3   0  0  0 ch 26} uc-1-0 tx LL-9889->LL-9388, len 100, seq  60, st 0  1, dr   0
+1683740550.284464;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000576 link  0   3   0  0  0 ch 26} bc-0-0 tx LL-9388->LL-NULL, len  35, seq  76, st 0  1
+1683740550.287317;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000576 link  0   3   0  0  0 ch 26} bc-0-0 rx LL-9388->LL-NULL, len  35, seq  88, edr   1, dr  -1
+1683740550.412502;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000582 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740550.415284;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000582 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740550.652512;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000059a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740550.655270;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000059a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740550.764600;m3-4;[INFO: TSCH-LOG  ] {asn 00.000005a6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740550.767412;m3-5;[INFO: TSCH-LOG  ] {asn 00.000005a6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740551.004533;m3-4;[INFO: TSCH-LOG  ] {asn 00.000005be link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740551.007392;m3-5;[INFO: TSCH-LOG  ] {asn 00.000005be link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740551.132328;m3-4;[INFO: TSCH-LOG  ] {asn 00.000005ca link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740551.135289;m3-5;[INFO: TSCH-LOG  ] {asn 00.000005ca link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740551.244411;m3-4;[INFO: TSCH-LOG  ] {asn 00.000005d6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740551.247302;m3-5;[INFO: TSCH-LOG  ] {asn 00.000005d6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740551.612419;m3-4;[INFO: TSCH-LOG  ] {asn 00.000005fa link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740551.615295;m3-5;[INFO: TSCH-LOG  ] {asn 00.000005fa link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740551.852486;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000612 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740551.855348;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000612 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740551.964395;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000061e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740551.967236;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000061e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740552.092344;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000062a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740552.095190;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000062a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740552.204346;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000636 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740552.207199;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000636 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740552.332391;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000642 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740552.335243;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000642 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740552.444324;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000064e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740552.447209;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000064e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740552.572324;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000065a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740552.575187;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000065a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740552.959204;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000681 link  0   3   0  0  0 ch 25} drift 0 ppm (min/max delta seen: -1/0)
+1683740552.972253;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000681 link  0   3   0  0  0 ch 25} !dl-miss RxBeforeAck 131 133
+1683740552.972477;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000681 link  0   3   0  0  0 ch 25} uc-1-0 rx LL-9889->LL-9388, len 100, seq  61, edr   1
+1683740552.975078;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000681 link  0   3   0  0  0 ch 25} uc-1-0 tx LL-9889->LL-9388, len 100, seq  61, st 0  1, dr   1
+1683740553.052214;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000068a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740553.055073;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000068a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740553.164289;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000696 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740553.167055;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000696 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740553.292249;m3-4;[INFO: TSCH-LOG  ] {asn 00.000006a2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740553.295065;m3-5;[INFO: TSCH-LOG  ] {asn 00.000006a2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740553.295291;m3-5;[INFO: App       ] Not reachable yet: !node_is_reachable
+1683740553.404290;m3-4;[INFO: TSCH-LOG  ] {asn 00.000006ae link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740553.407101;m3-5;[INFO: TSCH-LOG  ] {asn 00.000006ae link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740553.532166;m3-4;[INFO: TSCH-LOG  ] {asn 00.000006ba link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740553.535068;m3-5;[INFO: TSCH-LOG  ] {asn 00.000006ba link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740553.644255;m3-4;[INFO: TSCH-LOG  ] {asn 00.000006c6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740553.647138;m3-5;[INFO: TSCH-LOG  ] {asn 00.000006c6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740553.772303;m3-4;[INFO: TSCH-LOG  ] {asn 00.000006d2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740553.775208;m3-5;[INFO: TSCH-LOG  ] {asn 00.000006d2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740553.884202;m3-4;[INFO: TSCH-LOG  ] {asn 00.000006de link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740553.887125;m3-5;[INFO: TSCH-LOG  ] {asn 00.000006de link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740554.127085;m3-5;[INFO: TSCH-LOG  ] {asn 00.000006f6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740554.140107;m3-4;[INFO: TSCH-LOG  ] {asn 00.000006f6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740554.252113;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000702 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740554.254949;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000702 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740554.367004;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000070e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740554.380084;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000070e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740554.492117;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000071a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740554.494970;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000071a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740554.606884;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000726 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740554.620099;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000726 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740554.732268;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000732 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740554.735075;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000732 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740554.846928;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000073e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740554.860124;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000073e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740554.972126;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000074a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740554.974971;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000074a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740555.086964;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000756 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740555.100173;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000756 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740555.327021;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000076e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740555.340144;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000076e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740555.452145;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000077a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740555.454967;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000077a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740555.566964;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000786 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740555.580096;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000786 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740555.692163;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000792 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740555.695011;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000792 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740555.806885;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000079e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740555.820024;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000079e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740555.932050;m3-4;[INFO: TSCH-LOG  ] {asn 00.000007aa link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740555.934898;m3-5;[INFO: TSCH-LOG  ] {asn 00.000007aa link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740556.046784;m3-5;[INFO: TSCH-LOG  ] {asn 00.000007b6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740556.060020;m3-4;[INFO: TSCH-LOG  ] {asn 00.000007b6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740556.142902;m3-5;[INFO: TSCH-LOG  ] {asn 00.000007bf link  0   3   0  0  0 ch 20} uc-1-0 tx LL-9889->LL-9388, len 100, seq  62, st 0  1, dr  -1
+1683740556.155909;m3-4;[INFO: TSCH-LOG  ] {asn 00.000007bf link  0   3   0  0  0 ch 20} uc-1-0 rx LL-9889->LL-9388, len 100, seq  62, edr  -1
+1683740556.172009;m3-4;[INFO: TSCH-LOG  ] {asn 00.000007c2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740556.174852;m3-5;[INFO: TSCH-LOG  ] {asn 00.000007c2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740556.412075;m3-4;[INFO: TSCH-LOG  ] {asn 00.000007da link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740556.414890;m3-5;[INFO: TSCH-LOG  ] {asn 00.000007da link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740556.526854;m3-5;[INFO: TSCH-LOG  ] {asn 00.000007e6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740556.540014;m3-4;[INFO: TSCH-LOG  ] {asn 00.000007e6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740556.767002;m3-5;[INFO: TSCH-LOG  ] {asn 00.000007fe link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740556.780172;m3-4;[INFO: TSCH-LOG  ] {asn 00.000007fe link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740556.892069;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000080a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740556.894912;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000080a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740556.988052;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000813 link  0   3   0  0  0 ch 20} uc-1-0 rx LL-9889->LL-9388, len 100, seq  63, edr   0
+1683740556.990952;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000813 link  0   3   0  0  0 ch 20} drift -3 ppm (min/max delta seen: -1/1)
+1683740556.991178;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000813 link  0   3   0  0  0 ch 20} uc-1-0 tx LL-9889->LL-9388, len 100, seq  63, st 0  1, dr   0
+1683740556.991335;m3-5;[WARN: RPL       ] found parent: fe80::9388, staying in DAG
+1683740557.019952;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000816 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740557.022887;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000816 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740557.500001;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000846 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740557.502798;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000846 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740557.611919;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000852 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740557.614788;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000852 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740557.740051;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000085e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740557.742725;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000085e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740557.851938;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000086a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740557.854738;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000086a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740557.979905;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000876 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740557.982763;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000876 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740558.091913;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000882 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740558.094725;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000882 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740558.459972;m3-4;[INFO: TSCH-LOG  ] {asn 00.000008a6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740558.462768;m3-5;[INFO: TSCH-LOG  ] {asn 00.000008a6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740558.571925;m3-4;[INFO: TSCH-LOG  ] {asn 00.000008b2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740558.574608;m3-5;[INFO: TSCH-LOG  ] {asn 00.000008b2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740558.699927;m3-4;[INFO: TSCH-LOG  ] {asn 00.000008be link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740558.702839;m3-5;[INFO: TSCH-LOG  ] {asn 00.000008be link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740558.939836;m3-4;[INFO: TSCH-LOG  ] {asn 00.000008d6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740558.942603;m3-5;[INFO: TSCH-LOG  ] {asn 00.000008d6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740559.179849;m3-4;[INFO: TSCH-LOG  ] {asn 00.000008ee link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740559.182595;m3-5;[INFO: TSCH-LOG  ] {asn 00.000008ee link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740559.291810;m3-4;[INFO: TSCH-LOG  ] {asn 00.000008fa link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740559.294628;m3-5;[INFO: TSCH-LOG  ] {asn 00.000008fa link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740559.294853;m3-5;[INFO: App       ] Not reachable yet: !node_is_reachable
+1683740559.419863;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000906 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740559.422619;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000906 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740559.531818;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000912 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740559.534622;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000912 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740559.659798;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000091e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740559.662663;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000091e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740559.771935;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000092a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740559.774781;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000092a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740559.899849;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000936 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740559.902634;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000936 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740560.139803;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000094e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740560.142501;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000094e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740560.251697;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000095a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740560.254497;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000095a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740560.379778;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000966 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740560.382554;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000966 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740560.491733;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000972 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740560.494545;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000972 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740560.734663;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000098a link  0   3   0  0  0 ch 26} uc-1-0 tx LL-9889->LL-9388, len  83, seq  64, st 0  1, dr   0
+1683740560.747754;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000098a link  0   3   0  0  0 ch 26} uc-1-0 rx LL-9889->LL-9388, len  83, seq  64, edr   0
+1683740560.763726;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000098d link  0   3   0  0  0 ch 25} uc-1-0 tx LL-9388->LL-9889, len  41, seq  13, st 0  1
+1683740560.766571;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000098d link  0   3   0  0  0 ch 25} uc-1-0 rx LL-9388->LL-9889, len  41, seq  13, edr   0, dr   0
+1683740560.971756;m3-4;[INFO: TSCH-LOG  ] {asn 00.000009a2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740560.974553;m3-5;[INFO: TSCH-LOG  ] {asn 00.000009a2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740561.099719;m3-4;[INFO: TSCH-LOG  ] {asn 00.000009ae link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740561.102543;m3-5;[INFO: TSCH-LOG  ] {asn 00.000009ae link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740561.211744;m3-4;[INFO: TSCH-LOG  ] {asn 00.000009ba link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740561.214550;m3-5;[INFO: TSCH-LOG  ] {asn 00.000009ba link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740561.339778;m3-4;[INFO: TSCH-LOG  ] {asn 00.000009c6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740561.342471;m3-5;[INFO: TSCH-LOG  ] {asn 00.000009c6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740561.451764;m3-4;[INFO: TSCH-LOG  ] {asn 00.000009d2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740561.454437;m3-5;[INFO: TSCH-LOG  ] {asn 00.000009d2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740561.579728;m3-4;[INFO: TSCH-LOG  ] {asn 00.000009de link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740561.582436;m3-5;[INFO: TSCH-LOG  ] {asn 00.000009de link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740561.691587;m3-4;[INFO: TSCH-LOG  ] {asn 00.000009ea link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740561.694446;m3-5;[INFO: TSCH-LOG  ] {asn 00.000009ea link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740562.171749;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000a1a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740562.174562;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000a1a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740562.299653;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000a26 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740562.302457;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000a26 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740562.539654;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000a3e link  0   3   0  0  0 ch 26} bc-0-0 tx LL-9388->LL-NULL, len  35, seq  77, st 0  1
+1683740562.542495;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000a3e link  0   3   0  0  0 ch 26} drift -2 ppm (min/max delta seen: -1/1)
+1683740562.542740;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000a3e link  0   3   0  0  0 ch 26} bc-0-0 rx LL-9388->LL-NULL, len  35, seq  21, edr  -1, dr   1
+1683740562.654423;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000a4a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740562.667619;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000a4a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740562.779750;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000a56 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740562.782429;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000a56 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740562.891656;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000a62 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740562.894455;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000a62 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740563.134380;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000a7a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740563.147473;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000a7a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740563.259540;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000a86 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740563.262356;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000a86 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740563.374366;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000a92 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740563.387507;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000a92 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740563.499516;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000a9e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740563.502362;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000a9e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740563.614358;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000aaa link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740563.627486;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000aaa link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740563.739645;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000ab6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740563.742471;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000ab6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740563.854370;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000ac2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740563.867383;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000ac2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740564.075534;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000ad7 link  0   3   0  0  0 ch 20} bc-1-0 rx LL-9889->LL-NULL, len  94, seq 142, edr   0
+1683740564.078383;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000ad7 link  0   3   0  0  0 ch 20} bc-1-0 tx LL-9889->LL-NULL, len  94, seq 156, st 0  1
+1683740564.094364;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000ada link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740564.107455;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000ada link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740564.315514;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000aef link  0   3   0  0  0 ch 20} bc-1-0 tx LL-9388->LL-NULL, len  94, seq  78, st 0  1
+1683740564.318281;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000aef link  0   3   0  0  0 ch 20} bc-1-0 rx LL-9388->LL-NULL, len  94, seq 160, edr   0, dr   0
+1683740564.334302;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000af2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740564.347517;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000af2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740564.459314;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000afe link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740564.462184;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000afe link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740564.574187;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000b0a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740564.587503;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000b0a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740564.699388;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000b16 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740564.702178;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000b16 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740564.939534;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000b2e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740564.942389;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000b2e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740565.179562;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000b46 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740565.182289;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000b46 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740565.294322;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000b52 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740565.294580;m3-5;[INFO: App       ] Sending request 0 to [INFO: App       ] 
+1683740565.307434;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000b52 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740565.339473;m3-4;[INFO: App       ] Received request 'hello 0' from fd00::9889
+1683740565.339694;m3-4;[INFO: App       ] sending response
+1683740565.339819;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000b55 link  0   3   0  0  0 ch 25} uc-1-0 rx LL-9889->LL-9388, len  46, seq  65, edr   0
+1683740565.342309;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000b55 link  0   3   0  0  0 ch 25} uc-1-0 tx LL-9889->LL-9388, len  46, seq  65, st 0  1, dr   0
+1683740565.358303;m3-5;[INFO: App       ] Received response 'hello 0' from fd00::9388--> With 6 of ping (100) 
+1683740565.371407;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000b58 link  0   3   0  0  0 ch 15} uc-1-0 tx LL-9388->LL-9889, len  46, seq  14, st 0  1
+1683740565.374186;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000b58 link  0   3   0  0  0 ch 15} uc-1-0 rx LL-9388->LL-9889, len  46, seq  14, edr   0, dr   0
+1683740565.534196;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000b6a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740565.547391;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000b6a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740565.659395;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000b76 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740565.662254;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000b76 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740565.787555;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000b82 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740565.790124;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000b82 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740566.014166;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000b9a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740566.027484;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000b9a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740566.139451;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000ba6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740566.142131;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000ba6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740566.267309;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000bb2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740566.270069;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000bb2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740566.379327;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000bbe link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740566.382285;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000bbe link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740566.619288;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000bd6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740566.622145;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000bd6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740566.734350;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000be2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740566.747452;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000be2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740566.987326;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000bfa link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740567.227386;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000c12 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740567.230072;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000c12 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740567.339359;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000c1e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740567.342062;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000c1e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740567.467336;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000c2a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740567.469965;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000c2a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740567.579307;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000c36 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740567.581961;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000c36 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740567.819339;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000c4e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740567.822155;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000c4e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740568.427187;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000c8a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740568.429767;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000c8a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740568.539117;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000c96 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740568.541740;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000c96 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740568.749912;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000cab link  0   3   0  0  0 ch 20} !failed to parse frame 21 63
+1683740568.762983;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000cab link  0   3   0  0  0 ch 20} !failed to parse frame 21 63
+1683740568.779042;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000cae link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740568.781788;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000cae link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740568.907108;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000cba link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740568.909775;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000cba link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740569.259063;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000cde link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740569.261778;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000cde link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740569.387176;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000cea link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740569.389840;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000cea link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740569.499032;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000cf6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740569.501783;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000cf6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740569.739176;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000d0e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740569.741936;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000d0e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740569.867036;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000d1a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740569.869704;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000d1a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740570.219075;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000d3e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740570.221667;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000d3e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740570.283032;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000d44 link  0   3   0  0  0 ch 15} !failed to parse frame 21 63
+1683740570.285644;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000d44 link  0   3   0  0  0 ch 15} !failed to parse frame 21 63
+1683740570.347036;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000d4a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740570.349706;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000d4a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740570.826943;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000d7a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740570.829798;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000d7a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740570.890941;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000d80 link  0   3   0  0  0 ch 15} bc-0-0 rx LL-9889->LL-NULL, len  35, seq 175, edr  -1
+1683740570.893666;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000d80 link  0   3   0  0  0 ch 15} bc-0-0 tx LL-9889->LL-NULL, len  35, seq 157, st 0  1
+1683740570.938896;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000d86 link  0   3   0  0  0 ch 26} !failed to parse frame 0 0
+1683740570.941654;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000d86 link  0   3   0  0  0 ch 26} bc-1-0 tx LL-9889->LL-NULL, len  94, seq 158, st 0  1
+1683740571.178897;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000d9e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740571.181709;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000d9e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740571.293529;m3-5;[INFO: App       ] Sending request 1 to [INFO: App       ] 
+1683740571.306916;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000daa link  0   3   0  0  0 ch 26} !failed to parse frame 0 0
+1683740571.309533;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000daa link  0   3   0  0  0 ch 26} uc-1-0 tx LL-9889->LL-9388, len  46, seq  66, st 2  1
+1683740571.402986;m3-4;[INFO: App       ] Received request 'hello 1' from fd00::9889
+1683740571.403207;m3-4;[INFO: App       ] sending response
+1683740571.403327;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000db3 link  0   3   0  0  0 ch 20} uc-1-0 rx LL-9889->LL-9388, len  46, seq  66, edr  -1
+1683740571.405581;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000db3 link  0   3   0  0  0 ch 20} drift -2 ppm (min/max delta seen: -1/1)
+1683740571.405805;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000db3 link  0   3   0  0  0 ch 20} uc-1-0 tx LL-9889->LL-9388, len  46, seq  66, st 0  2, dr  -1
+1683740571.421535;m3-5;[INFO: App       ] Received response 'hello 1' from fd00::9388--> With 12 of ping (100) 
+1683740571.434915;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000db6 link  0   3   0  0  0 ch 26} uc-1-0 tx LL-9388->LL-9889, len  46, seq  15, st 0  1
+1683740571.437526;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000db6 link  0   3   0  0  0 ch 26} uc-1-0 rx LL-9388->LL-9889, len  46, seq  15, edr   0, dr   0
+1683740571.787138;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000dda link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740571.789710;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000dda link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740571.901611;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000de6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740571.914909;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000de6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740572.138896;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000dfe link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740572.141571;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000dfe link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740572.266776;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000e0a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740572.269551;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000e0a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740572.506835;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000e22 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740572.509599;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000e22 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740572.621594;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000e2e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740572.634771;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000e2e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740572.861566;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000e46 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740572.874725;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000e46 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740572.986810;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000e52 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740572.989457;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000e52 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740573.114775;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000e5e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740573.341554;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000e76 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740573.354800;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000e76 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740573.581457;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000e8e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740573.594774;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000e8e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740573.706676;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000e9a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740573.709532;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000e9a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740573.821600;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000ea6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740573.834834;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000ea6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740573.946743;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000eb2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740573.949499;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000eb2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740574.074712;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000ebe link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740574.077419;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000ebe link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740574.301322;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000ed6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740574.314698;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000ed6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740574.426762;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000ee2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740574.429366;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000ee2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740574.554718;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000eee link  0   3   0  0  0 ch 26} !failed to parse frame 0 0
+1683740574.666708;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000efa link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740574.669372;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000efa link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740574.794837;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000f06 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740574.797340;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000f06 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740574.906662;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000f12 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740574.909362;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000f12 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740575.146566;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000f2a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740575.149322;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000f2a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740575.274610;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000f36 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740575.277309;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000f36 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740575.386634;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000f42 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740575.389349;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000f42 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740575.514608;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000f4e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740575.517293;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000f4e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740575.626593;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000f5a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740575.629151;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000f5a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740575.754738;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000f66 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740575.757239;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000f66 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740575.866615;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000f72 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740575.869220;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000f72 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740575.994577;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000f7e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740575.997200;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000f7e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740576.106586;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000f8a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740576.109208;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000f8a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740576.234566;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000f96 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740576.237196;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000f96 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740576.346621;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000fa2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740576.349226;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000fa2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740576.474605;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000fae link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740576.477212;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000fae link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740576.826630;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000fd2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740576.829355;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000fd2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740576.954520;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000fde link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740576.957093;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000fde link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740577.066471;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000fea link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740577.194528;m3-4;[INFO: TSCH-LOG  ] {asn 00.00000ff6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740577.197099;m3-5;[INFO: TSCH-LOG  ] {asn 00.00000ff6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740577.293085;m3-5;[INFO: App       ] Sending request 2 to [INFO: App       ] 
+1683740577.306429;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001002 link  0   3   0  0  0 ch 26} !failed to parse frame 0 0
+1683740577.309116;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001002 link  0   3   0  0  0 ch 26} uc-1-0 tx LL-9889->LL-9388, len  46, seq  67, st 2  1
+1683740577.402579;m3-4;[INFO: App       ] Received request 'hello 2' from fd00::9889
+1683740577.402798;m3-4;[INFO: App       ] sending response
+1683740577.402918;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000100b link  0   3   0  0  0 ch 20} uc-1-0 rx LL-9889->LL-9388, len  46, seq  67, edr   1
+1683740577.405189;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000100b link  0   3   0  0  0 ch 20} drift -2 ppm (min/max delta seen: -1/1)
+1683740577.405413;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000100b link  0   3   0  0  0 ch 20} uc-1-0 tx LL-9889->LL-9388, len  46, seq  67, st 0  2, dr   1
+1683740577.434423;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000100e link  0   3   0  0  0 ch 26} uc-1-0 tx LL-9388->LL-9889, len  46, seq  16, st 0  1
+1683740577.437139;m3-5;[INFO: App       ] Received response 'hello 2' from fd00::9388--> With 13 of ping (100) 
+1683740577.437362;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000100e link  0   3   0  0  0 ch 26} uc-1-0 rx LL-9388->LL-9889, len  46, seq  16, edr   0, dr   0
+1683740577.546466;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000101a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740577.549092;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000101a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740577.674506;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001026 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740577.677144;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001026 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740577.757261;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000102f link  0   3   0  0  0 ch 20} bc-0-0 rx LL-9388->LL-NULL, len  35, seq 198, edr   0, dr   0
+1683740577.770518;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000102f link  0   3   0  0  0 ch 20} bc-0-0 tx LL-9388->LL-NULL, len  35, seq  79, st 0  1
+1683740577.786548;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001032 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740577.789145;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001032 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740578.026509;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000104a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740578.029162;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000104a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740578.154388;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001056 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740578.157113;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001056 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740578.506420;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000107a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740578.509027;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000107a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740578.634383;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001086 link  0   3   0  0  0 ch 26} bc-0-0 rx LL-9889->LL-NULL, len  35, seq   9, edr   0
+1683740578.636984;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001086 link  0   3   0  0  0 ch 26} bc-0-0 tx LL-9889->LL-NULL, len  35, seq 159, st 0  1
+1683740578.746499;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001092 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740578.749135;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001092 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740578.874414;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000109e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740578.877042;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000109e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740578.986384;m3-4;[INFO: TSCH-LOG  ] {asn 00.000010aa link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740578.988991;m3-5;[INFO: TSCH-LOG  ] {asn 00.000010aa link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740579.466471;m3-4;[INFO: TSCH-LOG  ] {asn 00.000010da link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740579.469042;m3-5;[INFO: TSCH-LOG  ] {asn 00.000010da link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740579.709070;m3-5;[INFO: TSCH-LOG  ] {asn 00.000010f2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740579.722288;m3-4;[INFO: TSCH-LOG  ] {asn 00.000010f2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740579.834414;m3-4;[INFO: TSCH-LOG  ] {asn 00.000010fe link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740579.837013;m3-5;[INFO: TSCH-LOG  ] {asn 00.000010fe link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740579.946370;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000110a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740579.948923;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000110a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740580.074330;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001116 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740580.076893;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001116 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740580.314348;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000112e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740580.316890;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000112e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740580.426367;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000113a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740580.428844;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000113a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740580.554347;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001146 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740580.556813;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001146 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740580.668882;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001152 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740580.682318;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001152 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740581.034379;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001176 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740581.036933;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001176 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740581.148830;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001182 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740581.162279;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001182 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740581.274328;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000118e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740581.276782;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000118e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740581.388792;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000119a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740581.402268;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000119a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740581.754314;m3-4;[INFO: TSCH-LOG  ] {asn 00.000011be link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740581.756948;m3-5;[INFO: TSCH-LOG  ] {asn 00.000011be link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740581.868834;m3-5;[INFO: TSCH-LOG  ] {asn 00.000011ca link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740581.882337;m3-4;[INFO: TSCH-LOG  ] {asn 00.000011ca link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740581.932847;m3-5;[INFO: TSCH-LOG  ] {asn 00.000011d0 link  0   3   0  0  0 ch 15} drift -1 ppm (min/max delta seen: -1/1)
+1683740581.946283;m3-4;[INFO: TSCH-LOG  ] {asn 00.000011d0 link  0   3   0  0  0 ch 15} bc-1-0 tx LL-9388->LL-NULL, len  94, seq  80, st 0  1
+1683740581.948745;m3-5;[INFO: TSCH-LOG  ] {asn 00.000011d0 link  0   3   0  0  0 ch 15} bc-1-0 rx LL-9388->LL-NULL, len  94, seq  16, edr   0, dr   0
+1683740582.234132;m3-4;[INFO: TSCH-LOG  ] {asn 00.000011ee link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740582.236760;m3-5;[INFO: TSCH-LOG  ] {asn 00.000011ee link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740582.348802;m3-5;[INFO: TSCH-LOG  ] {asn 00.000011fa link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740582.362188;m3-4;[INFO: TSCH-LOG  ] {asn 00.000011fa link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740582.474185;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001206 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740582.476763;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001206 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740582.714085;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000121e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740582.716640;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000121e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740582.828796;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000122a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740582.842110;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000122a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740582.954091;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001236 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740582.956627;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001236 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740583.194145;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000124e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740583.196656;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000124e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740583.308613;m3-5;[INFO: App       ] Sending request 3 to [INFO: App       ] 
+1683740583.322175;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000125a link  0   3   0  0  0 ch 26} !failed to parse frame 0 0
+1683740583.324655;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000125a link  0   3   0  0  0 ch 26} uc-1-0 tx LL-9889->LL-9388, len  46, seq  68, st 2  1
+1683740583.434160;m3-4;[INFO: App       ] Received request 'hello 3' from fd00::9889
+1683740583.434444;m3-4;[INFO: App       ] sending response
+1683740583.436724;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001266 link  0   3   0  0  0 ch 26} uc-1-0 tx LL-9889->LL-9388, len  46, seq  68, st 0  2, dr   0
+1683740583.450087;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001266 link  0   3   0  0  0 ch 26} uc-1-0 rx LL-9889->LL-9388, len  46, seq  68, edr   0
+1683740583.466100;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001269 link  0   3   0  0  0 ch 25} uc-1-0 tx LL-9388->LL-9889, len  46, seq  17, st 0  1
+1683740583.468707;m3-5;[INFO: App       ] Received response 'hello 3' from fd00::9388--> With 16 of ping (100) 
+1683740583.468930;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001269 link  0   3   0  0  0 ch 25} uc-1-0 rx LL-9388->LL-9889, len  46, seq  17, edr   0, dr   0
+1683740583.802343;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000128a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740583.804713;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000128a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740584.042190;m3-4;[INFO: TSCH-LOG  ] {asn 00.000012a2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740584.044574;m3-5;[INFO: TSCH-LOG  ] {asn 00.000012a2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740584.153975;m3-4;[INFO: TSCH-LOG  ] {asn 00.000012ae link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740584.156550;m3-5;[INFO: TSCH-LOG  ] {asn 00.000012ae link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740584.394054;m3-4;[INFO: TSCH-LOG  ] {asn 00.000012c6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740584.396609;m3-5;[INFO: TSCH-LOG  ] {asn 00.000012c6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740584.521976;m3-4;[INFO: TSCH-LOG  ] {asn 00.000012d2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740584.524541;m3-5;[INFO: TSCH-LOG  ] {asn 00.000012d2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740584.762123;m3-4;[INFO: TSCH-LOG  ] {asn 00.000012ea link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740584.764562;m3-5;[INFO: TSCH-LOG  ] {asn 00.000012ea link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740584.874040;m3-4;[INFO: TSCH-LOG  ] {asn 00.000012f6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740584.876544;m3-5;[INFO: TSCH-LOG  ] {asn 00.000012f6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740585.001960;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001302 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740585.004523;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001302 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740585.113966;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000130e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740585.116540;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000130e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740585.242078;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000131a link  0   3   0  0  0 ch 26} !failed to parse frame 0 0
+1683740585.482062;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001332 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740585.484474;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001332 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740585.594027;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000133e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740585.596461;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000133e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740585.721841;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000134a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740585.724424;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000134a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740585.834015;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001356 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740585.836562;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001356 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740585.961903;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001362 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740585.964343;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001362 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740586.073866;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000136e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740586.076437;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000136e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740586.201840;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000137a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740586.204419;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000137a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740586.313857;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001386 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740586.316429;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001386 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740586.553906;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000139e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740586.556388;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000139e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740586.681871;m3-4;[INFO: TSCH-LOG  ] {asn 00.000013aa link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740586.684448;m3-5;[INFO: TSCH-LOG  ] {asn 00.000013aa link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740586.793933;m3-4;[INFO: TSCH-LOG  ] {asn 00.000013b6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740586.796483;m3-5;[INFO: TSCH-LOG  ] {asn 00.000013b6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740587.033914;m3-4;[INFO: TSCH-LOG  ] {asn 00.000013ce link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740587.036350;m3-5;[INFO: TSCH-LOG  ] {asn 00.000013ce link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740587.161811;m3-4;[INFO: TSCH-LOG  ] {asn 00.000013da link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740587.164349;m3-5;[INFO: TSCH-LOG  ] {asn 00.000013da link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740587.401846;m3-4;[INFO: TSCH-LOG  ] {asn 00.000013f2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740587.404398;m3-5;[INFO: TSCH-LOG  ] {asn 00.000013f2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740587.513778;m3-4;[INFO: TSCH-LOG  ] {asn 00.000013fe link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740587.516336;m3-5;[INFO: TSCH-LOG  ] {asn 00.000013fe link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740587.641762;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000140a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740587.644386;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000140a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740587.753914;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001416 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740587.756491;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001416 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740587.881812;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001422 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740587.884372;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001422 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740587.993780;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000142e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740587.996344;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000142e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740588.121776;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000143a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740588.124337;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000143a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740588.233767;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001446 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740588.236354;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001446 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740588.361829;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001452 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740588.364256;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001452 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740588.473799;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000145e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740588.476236;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000145e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740588.809817;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000147f link  0   3   0  0  0 ch 20} bc-1-0 rx LL-9889->LL-NULL, len  94, seq  21, edr   1
+1683740588.812407;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000147f link  0   3   0  0  0 ch 20} bc-1-0 tx LL-9889->LL-NULL, len  94, seq 160, st 0  1
+1683740588.841742;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001482 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740588.844255;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001482 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740588.953645;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000148e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740588.956247;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000148e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740589.081672;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000149a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740589.084227;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000149a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740589.193713;m3-4;[INFO: TSCH-LOG  ] {asn 00.000014a6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740589.196223;m3-5;[INFO: TSCH-LOG  ] {asn 00.000014a6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740589.308194;m3-5;[INFO: App       ] Sending request 4 to [INFO: App       ] 
+1683740589.321753;m3-4;[INFO: TSCH-LOG  ] {asn 00.000014b2 link  0   3   0  0  0 ch 26} !failed to parse frame 0 0
+1683740589.324220;m3-5;[INFO: TSCH-LOG  ] {asn 00.000014b2 link  0   3   0  0  0 ch 26} uc-1-0 tx LL-9889->LL-9388, len  46, seq  69, st 2  1
+1683740589.417664;m3-4;[INFO: App       ] Received request 'hello 4' from fd00::9889
+1683740589.417884;m3-4;[INFO: App       ] sending response
+1683740589.418037;m3-4;[INFO: TSCH-LOG  ] {asn 00.000014bb link  0   3   0  0  0 ch 20} uc-1-0 rx LL-9889->LL-9388, len  46, seq  69, edr   0
+1683740589.420284;m3-5;[INFO: TSCH-LOG  ] {asn 00.000014bb link  0   3   0  0  0 ch 20} drift -2 ppm (min/max delta seen: -1/1)
+1683740589.420509;m3-5;[INFO: TSCH-LOG  ] {asn 00.000014bb link  0   3   0  0  0 ch 20} uc-1-0 tx LL-9889->LL-9388, len  46, seq  69, st 0  2, dr   0
+1683740589.449677;m3-4;[INFO: TSCH-LOG  ] {asn 00.000014be link  0   3   0  0  0 ch 26} uc-1-0 tx LL-9388->LL-9889, len  46, seq  18, st 0  1
+1683740589.452235;m3-5;[INFO: App       ] Received response 'hello 4' from fd00::9388--> With 14 of ping (100) 
+1683740589.452458;m3-5;[INFO: TSCH-LOG  ] {asn 00.000014be link  0   3   0  0  0 ch 26} uc-1-0 rx LL-9388->LL-9889, len  46, seq  18, edr   0, dr   0
+1683740589.801830;m3-4;[INFO: TSCH-LOG  ] {asn 00.000014e2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740589.804294;m3-5;[INFO: TSCH-LOG  ] {asn 00.000014e2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740590.188022;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001509 link  0   3   0  0  0 ch 25} !failed to parse frame 21 64
+1683740590.201547;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001509 link  0   3   0  0  0 ch 25} !failed to parse frame 21 64
+1683740590.396152;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000151e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740590.409543;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000151e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740590.889692;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000154e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740590.892078;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000154e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740591.001568;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000155a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740591.004111;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000155a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740591.129558;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001566 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740591.132071;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001566 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740591.369653;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000157e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740591.371730;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000157e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740591.481593;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000158a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740591.484006;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000158a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740591.609566;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001596 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740591.612006;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001596 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740591.836147;m3-5;[INFO: TSCH-LOG  ] {asn 00.000015ae link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740591.849490;m3-4;[INFO: TSCH-LOG  ] {asn 00.000015ae link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740591.961402;m3-4;[INFO: TSCH-LOG  ] {asn 00.000015ba link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740591.963974;m3-5;[INFO: TSCH-LOG  ] {asn 00.000015ba link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740592.089442;m3-4;[INFO: TSCH-LOG  ] {asn 00.000015c6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740592.091985;m3-5;[INFO: TSCH-LOG  ] {asn 00.000015c6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740592.201455;m3-4;[INFO: TSCH-LOG  ] {asn 00.000015d2 link  0   3   0  0  0 ch 26} bc-0-0 tx LL-9388->LL-NULL, len  35, seq  81, st 0  1
+1683740592.204005;m3-5;[INFO: TSCH-LOG  ] {asn 00.000015d2 link  0   3   0  0  0 ch 26} bc-0-0 rx LL-9388->LL-NULL, len  35, seq  44, edr   0, dr   0
+1683740592.329371;m3-4;[INFO: TSCH-LOG  ] {asn 00.000015de link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740592.331876;m3-5;[INFO: TSCH-LOG  ] {asn 00.000015de link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740592.441441;m3-4;[INFO: TSCH-LOG  ] {asn 00.000015ea link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740592.444000;m3-5;[INFO: TSCH-LOG  ] {asn 00.000015ea link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740592.569427;m3-4;[INFO: TSCH-LOG  ] {asn 00.000015f6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740592.571832;m3-5;[INFO: TSCH-LOG  ] {asn 00.000015f6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740592.681437;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001602 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740592.683795;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001602 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740592.745451;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001608 link  0   3   0  0  0 ch 15} bc-0-0 rx LL-9889->LL-NULL, len  35, seq  90, edr   1
+1683740592.747849;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001608 link  0   3   0  0  0 ch 15} bc-0-0 tx LL-9889->LL-NULL, len  35, seq 161, st 0  1
+1683740592.809568;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000160e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740592.811889;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000160e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740592.921481;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000161a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740592.923884;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000161a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740593.161444;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001632 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740593.163878;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001632 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740593.289369;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000163e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740593.291772;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000163e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740593.401384;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000164a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740593.403940;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000164a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740593.529344;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001656 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740593.531873;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001656 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740593.641341;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001662 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740593.643921;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001662 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740593.881481;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000167a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740593.884073;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000167a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740594.009381;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001686 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740594.011800;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001686 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740594.249381;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000169e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740594.251785;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000169e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740594.281331;m3-4;[INFO: TSCH-LOG  ] {asn 00.000016a1 link  0   3   0  0  0 ch 25} !failed to parse frame 21 64
+1683740594.283747;m3-5;[INFO: TSCH-LOG  ] {asn 00.000016a1 link  0   3   0  0  0 ch 25} !failed to parse frame 21 64
+1683740594.361380;m3-4;[INFO: TSCH-LOG  ] {asn 00.000016aa link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740594.363812;m3-5;[INFO: TSCH-LOG  ] {asn 00.000016aa link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740594.601350;m3-4;[INFO: TSCH-LOG  ] {asn 00.000016c2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740594.603787;m3-5;[INFO: TSCH-LOG  ] {asn 00.000016c2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740594.841306;m3-4;[INFO: TSCH-LOG  ] {asn 00.000016da link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740594.843903;m3-5;[INFO: TSCH-LOG  ] {asn 00.000016da link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740594.969265;m3-4;[INFO: TSCH-LOG  ] {asn 00.000016e6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740594.971804;m3-5;[INFO: TSCH-LOG  ] {asn 00.000016e6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740595.081229;m3-4;[INFO: TSCH-LOG  ] {asn 00.000016f2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740595.083779;m3-5;[INFO: TSCH-LOG  ] {asn 00.000016f2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740595.307783;m3-5;[INFO: App       ] Sending request 5 to [INFO: App       ] 
+1683740595.321404;m3-4;[INFO: App       ] Received request 'hello 5' from fd00::9889
+1683740595.323795;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000170a link  0   3   0  0  0 ch 26} drift -1 ppm (min/max delta seen: -1/1)
+1683740595.337322;m3-4;[INFO: App       ] sending response
+1683740595.337537;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000170a link  0   3   0  0  0 ch 26} uc-1-0 rx LL-9889->LL-9388, len  46, seq  70, edr   0
+1683740595.339823;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000170a link  0   3   0  0  0 ch 26} uc-1-0 tx LL-9889->LL-9388, len  46, seq  70, st 0  1, dr   0
+1683740595.353267;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000170d link  0   3   0  0  0 ch 25} uc-1-0 tx LL-9388->LL-9889, len  46, seq  19, st 0  1
+1683740595.355835;m3-5;[INFO: App       ] Received response 'hello 5' from fd00::9388--> With 5 of ping (100) 
+1683740595.356057;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000170d link  0   3   0  0  0 ch 25} uc-1-0 rx LL-9388->LL-9889, len  46, seq  19, edr   0, dr   0
+1683740595.449260;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001716 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740595.451673;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001716 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740595.689229;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000172e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740595.691720;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000172e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740595.929402;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001746 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740595.931785;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001746 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740596.169118;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000175e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740596.171718;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000175e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740596.313148;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000176d link  0   3   0  0  0 ch 25} !failed to parse frame 21 64
+1683740596.315671;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000176d link  0   3   0  0  0 ch 25} !failed to parse frame 21 64
+1683740596.521198;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001782 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740596.523729;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001782 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740596.649150;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000178e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740596.651684;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000178e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740596.889285;m3-4;[INFO: TSCH-LOG  ] {asn 00.000017a6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740596.891599;m3-5;[INFO: TSCH-LOG  ] {asn 00.000017a6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740597.003570;m3-5;[INFO: TSCH-LOG  ] {asn 00.000017b2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740597.017117;m3-4;[INFO: TSCH-LOG  ] {asn 00.000017b2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740597.129124;m3-4;[INFO: TSCH-LOG  ] {asn 00.000017be link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740597.131545;m3-5;[INFO: TSCH-LOG  ] {asn 00.000017be link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740597.369251;m3-4;[INFO: TSCH-LOG  ] {asn 00.000017d6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740597.371621;m3-5;[INFO: TSCH-LOG  ] {asn 00.000017d6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740597.609189;m3-4;[INFO: TSCH-LOG  ] {asn 00.000017ee link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740597.611650;m3-5;[INFO: TSCH-LOG  ] {asn 00.000017ee link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740597.721042;m3-4;[INFO: TSCH-LOG  ] {asn 00.000017fa link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740597.723583;m3-5;[INFO: TSCH-LOG  ] {asn 00.000017fa link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740597.849175;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001806 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740597.851695;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001806 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740598.089081;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000181e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740598.091599;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000181e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740598.201041;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000182a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740598.203585;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000182a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740598.329097;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001836 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740598.331466;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001836 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740598.443449;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001842 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740598.457043;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001842 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740598.569040;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000184e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740598.571426;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000184e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740598.809193;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001866 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740598.811610;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001866 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740599.049088;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000187e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740599.051479;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000187e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740599.288964;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001896 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740599.291450;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001896 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740599.403501;m3-5;[INFO: TSCH-LOG  ] {asn 00.000018a2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740599.416947;m3-4;[INFO: TSCH-LOG  ] {asn 00.000018a2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740599.643399;m3-5;[INFO: TSCH-LOG  ] {asn 00.000018ba link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740599.656722;m3-4;[INFO: TSCH-LOG  ] {asn 00.000018ba link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740599.769718;m3-4;[INFO: TSCH-LOG  ] {asn 00.000018c6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740599.771277;m3-5;[INFO: TSCH-LOG  ] {asn 00.000018c6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740599.883464;m3-5;[INFO: TSCH-LOG  ] {asn 00.000018d2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740599.896969;m3-4;[INFO: TSCH-LOG  ] {asn 00.000018d2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740600.248996;m3-4;[INFO: TSCH-LOG  ] {asn 00.000018f6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740600.251360;m3-5;[INFO: TSCH-LOG  ] {asn 00.000018f6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740600.489031;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000190e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740600.491389;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000190e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740600.728829;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001926 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740600.731344;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001926 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740600.856974;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001932 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740600.859356;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001932 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740600.968854;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000193e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740600.971329;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000193e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740601.083359;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000194a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740601.096853;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000194a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740601.208863;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001956 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740601.211189;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001956 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740601.307182;m3-5;[INFO: App       ] Sending request 6 to [INFO: App       ] 
+1683740601.336910;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001962 link  0   3   0  0  0 ch 26} !failed to parse frame 0 0
+1683740601.339246;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001962 link  0   3   0  0  0 ch 26} uc-1-0 tx LL-9889->LL-9388, len  46, seq  71, st 2  1
+1683740601.387085;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001968 link  0   3   0  0  0 ch 15} drift -1 ppm (min/max delta seen: -1/1)
+1683740601.400872;m3-4;[INFO: App       ] Received request 'hello 6' from fd00::9889
+1683740601.401092;m3-4;[INFO: App       ] sending response
+1683740601.401213;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001968 link  0   3   0  0  0 ch 15} uc-1-0 rx LL-9889->LL-9388, len  46, seq  71, edr   0
+1683740601.403207;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001968 link  0   3   0  0  0 ch 15} uc-1-0 tx LL-9889->LL-9388, len  46, seq  71, st 0  2, dr   0
+1683740601.419219;m3-5;[INFO: App       ] Received response 'hello 6' from fd00::9388--> With 12 of ping (100) 
+1683740601.432827;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000196b link  0   3   0  0  0 ch 20} uc-1-0 tx LL-9388->LL-9889, len  46, seq  20, st 0  1
+1683740601.435101;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000196b link  0   3   0  0  0 ch 20} uc-1-0 rx LL-9388->LL-9889, len  46, seq  20, edr   0, dr   0
+1683740601.448828;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000196e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740601.451182;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000196e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740601.688852;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001986 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740601.691274;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001986 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740601.928999;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000199e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740601.931142;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000199e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740602.408780;m3-4;[INFO: TSCH-LOG  ] {asn 00.000019ce link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740602.411307;m3-5;[INFO: TSCH-LOG  ] {asn 00.000019ce link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740602.648746;m3-4;[INFO: TSCH-LOG  ] {asn 00.000019e6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740602.651109;m3-5;[INFO: TSCH-LOG  ] {asn 00.000019e6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740602.776921;m3-4;[INFO: TSCH-LOG  ] {asn 00.000019f2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740602.779291;m3-5;[INFO: TSCH-LOG  ] {asn 00.000019f2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740602.888778;m3-4;[INFO: TSCH-LOG  ] {asn 00.000019fe link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740602.891135;m3-5;[INFO: TSCH-LOG  ] {asn 00.000019fe link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740603.016746;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001a0a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740603.019106;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001a0a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740603.128744;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001a16 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740603.131114;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001a16 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740603.368826;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001a2e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740603.371085;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001a2e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740603.496771;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001a3a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740603.499110;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001a3a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740603.608761;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001a46 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740603.611149;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001a46 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740603.736620;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001a52 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740603.739167;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001a52 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740603.848746;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001a5e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740603.851250;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001a5e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740604.328727;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001a8e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740604.331067;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001a8e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740604.456642;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001a9a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740604.459014;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001a9a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740604.808786;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001abe link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740604.811130;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001abe link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740605.048664;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001ad6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740605.051046;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001ad6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740605.208629;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001ae5 link  0   3   0  0  0 ch 25} bc-0-0 rx LL-9889->LL-NULL, len  35, seq  34, edr   1
+1683740605.211016;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001ae5 link  0   3   0  0  0 ch 25} bc-0-0 tx LL-9889->LL-NULL, len  35, seq 162, st 0  1
+1683740605.416591;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001afa link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740605.418935;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001afa link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740605.768552;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001b1e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740605.770990;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001b1e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740605.896658;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001b2a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740605.899013;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001b2a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740606.250869;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001b4e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740606.264521;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001b4e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740606.616607;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001b72 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740606.618944;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001b72 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740606.730926;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001b7e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740606.744411;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001b7e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740606.856573;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001b8a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740606.858922;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001b8a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740606.968462;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001b96 link  0   3   0  0  0 ch 26} !failed to parse frame 0 0
+1683740607.034902;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001b9c link  0   3   0  0  0 ch 15} bc-1-0 tx LL-9889->LL-NULL, len  94, seq 163, st 0  1
+1683740607.048399;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001b9c link  0   3   0  0  0 ch 15} bc-1-0 rx LL-9889->LL-NULL, len  94, seq 174, edr   1
+1683740607.208476;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001bae link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740607.210714;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001bae link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740607.304464;m3-4;[INFO: App       ] Received request 'hello 7' from fd00::9889
+1683740607.304683;m3-4;[INFO: App       ] sending response
+1683740607.306871;m3-5;[INFO: App       ] Sending request 7 to [INFO: App       ] 
+1683740607.307091;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001bb7 link  0   3   0  0  0 ch 20} drift 0 ppm (min/max delta seen: -1/1)
+1683740607.307220;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001bb7 link  0   3   0  0  0 ch 20} uc-1-0 tx LL-9889->LL-9388, len  46, seq  72, st 0  1, dr   1
+1683740607.320477;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001bb7 link  0   3   0  0  0 ch 20} uc-1-0 rx LL-9889->LL-9388, len  46, seq  72, edr   1
+1683740607.336449;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001bba link  0   3   0  0  0 ch 26} uc-1-0 tx LL-9388->LL-9889, len  46, seq  21, st 0  1
+1683740607.338861;m3-5;[INFO: App       ] Received response 'hello 7' from fd00::9388--> With 3 of ping (100) 
+1683740607.339104;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001bba link  0   3   0  0  0 ch 26} uc-1-0 rx LL-9388->LL-9889, len  46, seq  21, edr   0, dr   0
+1683740607.450810;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001bc6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740607.464409;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001bc6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740607.578809;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001bd2 link  0   3   0  0  0 ch 26} !failed to parse frame 0 0
+1683740607.816607;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001bea link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740607.818967;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001bea link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740608.024498;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001bff link  0   3   0  0  0 ch 20} bc-0-0 tx LL-9388->LL-NULL, len  35, seq  82, st 0  1
+1683740608.026862;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001bff link  0   3   0  0  0 ch 20} bc-0-0 rx LL-9388->LL-NULL, len  35, seq 250, edr   1, dr  -1
+1683740608.056238;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001c02 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740608.058849;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001c02 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740608.170790;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001c0e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740608.184300;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001c0e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740608.296309;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001c1a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740608.298597;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001c1a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740608.410688;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001c26 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740608.424324;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001c26 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740608.536327;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001c32 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740608.538683;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001c32 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740608.650676;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001c3e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740608.664321;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001c3e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740608.776325;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001c4a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740608.778720;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001c4a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740608.904456;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001c56 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740608.906723;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001c56 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740609.016376;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001c62 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740609.018736;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001c62 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740609.384434;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001c86 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740609.386655;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001c86 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740609.496366;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001c92 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740609.498695;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001c92 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740609.624338;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001c9e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740609.626559;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001c9e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740609.736217;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001caa link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740609.738562;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001caa link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740609.864358;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001cb6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740609.866605;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001cb6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740609.976273;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001cc2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740609.978590;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001cc2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740610.104228;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001cce link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740610.106578;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001cce link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740610.216258;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001cda link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740610.218500;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001cda link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740610.344249;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001ce6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740610.346564;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001ce6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740610.456247;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001cf2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740610.458567;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001cf2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740610.584226;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001cfe link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740610.586547;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001cfe link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740610.696217;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001d0a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740610.698568;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001d0a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740610.824379;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001d16 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740610.826591;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001d16 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740611.064300;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001d2e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740611.066510;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001d2e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740611.304198;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001d46 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740611.306461;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001d46 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740611.416171;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001d52 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740611.418483;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001d52 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740611.658484;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001d6a link  0   3   0  0  0 ch 26} !failed to parse frame 0 0
+1683740611.896281;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001d82 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740611.898614;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001d82 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740612.135919;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001d9a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740612.138501;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001d9a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740612.376176;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001db2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740612.378505;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001db2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740612.503900;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001dbe link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740612.506357;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001dbe link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740612.616097;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001dca link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740612.618319;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001dca link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740612.743978;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001dd6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740612.746366;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001dd6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740612.856117;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001de2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740612.858468;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001de2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740612.984033;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001dee link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740612.986360;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001dee link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740613.096001;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001dfa link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740613.098354;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001dfa link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740613.224026;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001e06 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740613.226422;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001e06 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740613.306314;m3-5;[INFO: App       ] Sending request 8 to [INFO: App       ] 
+1683740613.320109;m3-4;[INFO: App       ] Received request 'hello 8' from fd00::9889
+1683740613.320329;m3-4;[INFO: App       ] sending response
+1683740613.320450;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001e0f link  0   3   0  0  0 ch 20} uc-1-0 rx LL-9889->LL-9388, len  46, seq  73, edr   1
+1683740613.322352;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001e0f link  0   3   0  0  0 ch 20} drift 0 ppm (min/max delta seen: -1/1)
+1683740613.322575;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001e0f link  0   3   0  0  0 ch 20} uc-1-0 tx LL-9889->LL-9388, len  46, seq  73, st 0  1, dr   1
+1683740613.338372;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001e12 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740613.351884;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001e12 link  0   3   0  0  0 ch 26} uc-1-0 tx LL-9388->LL-9889, len  46, seq  22, st 2  1
+1683740613.399983;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001e18 link  0   3   0  0  0 ch 15} uc-1-0 tx LL-9388->LL-9889, len  46, seq  22, st 0  2
+1683740613.402371;m3-5;[INFO: App       ] Received response 'hello 8' from fd00::9388--> With 10 of ping (100) 
+1683740613.402595;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001e18 link  0   3   0  0  0 ch 15} uc-1-0 rx LL-9388->LL-9889, len  46, seq  22, edr   1, dr  -1
+1683740613.463981;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001e1e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740613.466358;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001e1e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740613.576010;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001e2a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740613.578366;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001e2a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740613.703812;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001e36 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740613.706433;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001e36 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740613.816180;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001e42 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740613.818509;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001e42 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740613.944081;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001e4e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740613.946325;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001e4e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740614.056051;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001e5a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740614.058290;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001e5a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740614.186292;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001e66 link  0   3   0  0  0 ch 26} !failed to parse frame 21 64
+1683740614.295892;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001e72 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740614.298283;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001e72 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740614.423920;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001e7e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740614.426311;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001e7e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740614.538289;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001e8a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740614.551889;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001e8a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740615.258387;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001ed2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740615.271956;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001ed2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740615.383985;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001ede link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740615.386277;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001ede link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740615.623953;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001ef6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740615.626258;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001ef6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740615.863949;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001f0e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740615.866307;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001f0e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740615.978187;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001f1a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740615.991808;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001f1a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740616.103823;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001f26 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740616.106179;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001f26 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740616.218156;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001f32 link  0   3   0  0  0 ch 26} !failed to parse frame 0 0
+1683740616.231584;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001f32 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740616.343826;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001f3e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740616.346255;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001f3e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740616.458093;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001f4a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740616.471799;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001f4a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740616.698058;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001f62 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740616.711847;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001f62 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740616.951943;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001f7a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740616.954040;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001f7a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740617.063839;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001f86 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740617.066032;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001f86 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740617.303748;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001f9e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740617.306034;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001f9e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740617.543754;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001fb6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740617.546110;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001fb6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740617.671706;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001fc2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740617.674044;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001fc2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740617.719713;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001fc8 link  0   3   0  0  0 ch 15} bc-0-0 rx LL-9889->LL-NULL, len  35, seq 253, edr   0
+1683740617.722062;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001fc8 link  0   3   0  0  0 ch 15} bc-0-0 tx LL-9889->LL-NULL, len  35, seq 164, st 0  1
+1683740617.783651;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001fce link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740617.786057;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001fce link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740617.911677;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001fda link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740617.914092;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001fda link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740618.023758;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001fe6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740618.026068;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001fe6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740618.151706;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001ff2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740618.153848;m3-5;[INFO: TSCH-LOG  ] {asn 00.00001ff2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740618.263719;m3-4;[INFO: TSCH-LOG  ] {asn 00.00001ffe link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740618.391666;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000200a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740618.393876;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000200a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740618.503707;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002016 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740618.505877;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002016 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740618.631724;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002022 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740618.633883;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002022 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740618.871751;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000203a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740618.873962;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000203a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740618.983531;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002046 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740618.985919;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002046 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740619.111508;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002052 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740619.113906;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002052 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740619.305877;m3-5;[INFO: App       ] Sending request 9 to [INFO: App       ] 
+1683740619.319725;m3-4;[INFO: App       ] Received request 'hello 9' from fd00::9889
+1683740619.319945;m3-4;[INFO: App       ] sending response
+1683740619.320067;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002067 link  0   3   0  0  0 ch 20} uc-1-0 rx LL-9889->LL-9388, len  46, seq  74, edr   0
+1683740619.321932;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002067 link  0   3   0  0  0 ch 20} drift -1 ppm (min/max delta seen: -1/1)
+1683740619.322189;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002067 link  0   3   0  0  0 ch 20} uc-1-0 tx LL-9889->LL-9388, len  46, seq  74, st 0  1, dr   0
+1683740619.351615;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000206a link  0   3   0  0  0 ch 26} uc-1-0 tx LL-9388->LL-9889, len  46, seq  23, st 2  1
+1683740619.353900;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000206a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740619.415589;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002070 link  0   3   0  0  0 ch 15} uc-1-0 tx LL-9388->LL-9889, len  46, seq  23, st 0  2
+1683740619.417839;m3-5;[INFO: App       ] Received response 'hello 9' from fd00::9388--> With 10 of ping (100) 
+1683740619.418099;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002070 link  0   3   0  0  0 ch 15} uc-1-0 rx LL-9388->LL-9889, len  46, seq  23, edr   0, dr   0
+1683740619.463574;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002076 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740619.465876;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002076 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740619.591575;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002082 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740619.593810;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002082 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740619.831719;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000209a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740619.833812;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000209a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740620.071636;m3-4;[INFO: TSCH-LOG  ] {asn 00.000020b2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740620.073762;m3-5;[INFO: TSCH-LOG  ] {asn 00.000020b2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740620.183525;m3-4;[INFO: TSCH-LOG  ] {asn 00.000020be link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740620.185771;m3-5;[INFO: TSCH-LOG  ] {asn 00.000020be link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740620.311387;m3-4;[INFO: TSCH-LOG  ] {asn 00.000020ca link  0   3   0  0  0 ch 26} !failed to parse frame 21 64
+1683740620.313775;m3-5;[INFO: TSCH-LOG  ] {asn 00.000020ca link  0   3   0  0  0 ch 26} !failed to parse frame 21 64
+1683740620.423518;m3-4;[INFO: TSCH-LOG  ] {asn 00.000020d6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740620.425874;m3-5;[INFO: TSCH-LOG  ] {asn 00.000020d6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740620.551519;m3-4;[INFO: TSCH-LOG  ] {asn 00.000020e2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740620.553803;m3-5;[INFO: TSCH-LOG  ] {asn 00.000020e2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740620.663508;m3-4;[INFO: TSCH-LOG  ] {asn 00.000020ee link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740620.665793;m3-5;[INFO: TSCH-LOG  ] {asn 00.000020ee link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740620.727500;m3-4;[INFO: TSCH-LOG  ] {asn 00.000020f4 link  0   3   0  0  0 ch 15} bc-0-0 tx LL-9388->LL-NULL, len  35, seq  83, st 0  1
+1683740620.729800;m3-5;[INFO: TSCH-LOG  ] {asn 00.000020f4 link  0   3   0  0  0 ch 15} bc-0-0 rx LL-9388->LL-NULL, len  35, seq 231, edr   0, dr   0
+1683740620.791494;m3-4;[INFO: TSCH-LOG  ] {asn 00.000020fa link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740620.793784;m3-5;[INFO: TSCH-LOG  ] {asn 00.000020fa link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740620.903639;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002106 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740620.905925;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002106 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740621.143562;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000211e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740621.145727;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000211e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740621.271571;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000212a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740621.273684;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000212a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740621.383570;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002136 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740621.385639;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002136 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740621.751398;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000215a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740621.753763;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000215a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740621.991515;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002172 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740621.993810;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002172 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740622.231436;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000218a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740622.233719;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000218a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740622.343428;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002196 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740622.345728;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002196 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740622.711435;m3-4;[INFO: TSCH-LOG  ] {asn 00.000021ba link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740622.713591;m3-5;[INFO: TSCH-LOG  ] {asn 00.000021ba link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740623.063526;m3-4;[INFO: TSCH-LOG  ] {asn 00.000021de link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740623.065702;m3-5;[INFO: TSCH-LOG  ] {asn 00.000021de link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740623.191362;m3-4;[INFO: TSCH-LOG  ] {asn 00.000021ea link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740623.193624;m3-5;[INFO: TSCH-LOG  ] {asn 00.000021ea link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740623.303284;m3-4;[INFO: TSCH-LOG  ] {asn 00.000021f6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740623.305590;m3-5;[INFO: TSCH-LOG  ] {asn 00.000021f6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740623.545731;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000220e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740623.559259;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000220e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740623.671278;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000221a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740623.673663;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000221a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740623.785665;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002226 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740623.799260;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002226 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740623.911367;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002232 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740623.913626;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002232 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740624.025508;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000223e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740624.039260;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000223e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740624.151283;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000224a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740624.153391;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000224a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740624.263269;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002256 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740624.265462;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002256 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740624.391337;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002262 link  0   3   0  0  0 ch 26} !failed to parse frame 21 64
+1683740624.393565;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002262 link  0   3   0  0  0 ch 26} !failed to parse frame 21 64
+1683740624.503318;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000226e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740624.505488;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000226e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740624.631229;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000227a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740624.633477;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000227a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740624.871305;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002292 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740624.873602;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002292 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740625.111164;m3-4;[INFO: TSCH-LOG  ] {asn 00.000022aa link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740625.113502;m3-5;[INFO: TSCH-LOG  ] {asn 00.000022aa link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740625.305350;m3-5;[INFO: App       ] Sending request 10 to [INFO: App       ] 
+1683740625.319486;m3-4;[INFO: App       ] Received request 'hello 10' from fd00::9889
+1683740625.319706;m3-4;[INFO: App       ] sending response
+1683740625.321383;m3-5;[INFO: TSCH-LOG  ] {asn 00.000022bf link  0   3   0  0  0 ch 20} drift -1 ppm (min/max delta seen: -1/1)
+1683740625.321608;m3-5;[INFO: TSCH-LOG  ] {asn 00.000022bf link  0   3   0  0  0 ch 20} uc-1-0 tx LL-9889->LL-9388, len  47, seq  75, st 0  1, dr   0
+1683740625.335259;m3-4;[INFO: TSCH-LOG  ] {asn 00.000022bf link  0   3   0  0  0 ch 20} uc-1-0 rx LL-9889->LL-9388, len  47, seq  75, edr   0
+1683740625.351178;m3-4;[INFO: TSCH-LOG  ] {asn 00.000022c2 link  0   3   0  0  0 ch 26} uc-1-0 tx LL-9388->LL-9889, len  47, seq  24, st 0  1
+1683740625.353424;m3-5;[INFO: App       ] Received response 'hello 10' from fd00::9388--> With 5 of ping (100) 
+1683740625.353647;m3-5;[INFO: TSCH-LOG  ] {asn 00.000022c2 link  0   3   0  0  0 ch 26} uc-1-0 rx LL-9388->LL-9889, len  47, seq  24, edr   0, dr   0
+1683740625.479211;m3-4;[INFO: TSCH-LOG  ] {asn 00.000022ce link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740625.481367;m3-5;[INFO: TSCH-LOG  ] {asn 00.000022ce link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740625.831355;m3-4;[INFO: TSCH-LOG  ] {asn 00.000022f2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740625.833454;m3-5;[INFO: TSCH-LOG  ] {asn 00.000022f2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740625.959225;m3-4;[INFO: TSCH-LOG  ] {asn 00.000022fe link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740625.961104;m3-5;[INFO: TSCH-LOG  ] {asn 00.000022fe link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740626.071193;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000230a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740626.073365;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000230a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740626.199056;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002316 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740626.201303;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002316 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740626.311046;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002322 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740626.313348;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002322 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740626.439106;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000232e link  0   3   0  0  0 ch 26} !failed to parse frame 21 64
+1683740626.441340;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000232e link  0   3   0  0  0 ch 26} !failed to parse frame 21 64
+1683740626.551085;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000233a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740626.553348;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000233a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740626.791084;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002352 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740626.793228;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002352 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740626.919203;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000235e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740626.921266;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000235e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740627.271155;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002382 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740627.273262;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002382 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740627.511152;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000239a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740627.513196;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000239a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740627.879110;m3-4;[INFO: TSCH-LOG  ] {asn 00.000023be link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740627.881203;m3-5;[INFO: TSCH-LOG  ] {asn 00.000023be link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740628.119002;m3-4;[INFO: TSCH-LOG  ] {asn 00.000023d6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740628.121113;m3-5;[INFO: TSCH-LOG  ] {asn 00.000023d6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740628.230967;m3-4;[INFO: TSCH-LOG  ] {asn 00.000023e2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740628.233087;m3-5;[INFO: TSCH-LOG  ] {asn 00.000023e2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740628.359022;m3-4;[INFO: TSCH-LOG  ] {asn 00.000023ee link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740628.361102;m3-5;[INFO: TSCH-LOG  ] {asn 00.000023ee link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740628.470971;m3-4;[INFO: TSCH-LOG  ] {asn 00.000023fa link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740628.473114;m3-5;[INFO: TSCH-LOG  ] {asn 00.000023fa link  0   3   0  0  0 ch 26} !failed to parse frame 0 0
+1683740628.598916;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002406 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740628.601123;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002406 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740628.839116;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000241e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740628.841307;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000241e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740629.190937;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002442 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740629.193187;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002442 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740629.318936;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000244e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740629.321158;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000244e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740629.430935;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000245a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740629.433190;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000245a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740629.558884;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002466 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740629.561024;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002466 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740629.798896;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000247e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740629.801085;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000247e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740630.151025;m3-4;[INFO: TSCH-LOG  ] {asn 00.000024a2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740630.153070;m3-5;[INFO: TSCH-LOG  ] {asn 00.000024a2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740630.519001;m3-4;[INFO: TSCH-LOG  ] {asn 00.000024c6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740630.521106;m3-5;[INFO: TSCH-LOG  ] {asn 00.000024c6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740630.870830;m3-4;[INFO: TSCH-LOG  ] {asn 00.000024ea link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740630.873198;m3-5;[INFO: TSCH-LOG  ] {asn 00.000024ea link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740630.998834;m3-4;[INFO: TSCH-LOG  ] {asn 00.000024f6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740631.000956;m3-5;[INFO: TSCH-LOG  ] {asn 00.000024f6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740631.304925;m3-5;[INFO: App       ] Sending request 11 to [INFO: App       ] 
+1683740631.334903;m3-4;[INFO: App       ] Received request 'hello 11' from fd00::9889
+1683740631.335125;m3-4;[INFO: App       ] sending response
+1683740631.335248;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002517 link  0   3   0  0  0 ch 20} uc-1-0 rx LL-9889->LL-9388, len  47, seq  76, edr   1
+1683740631.337018;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002517 link  0   3   0  0  0 ch 20} drift -1 ppm (min/max delta seen: -1/1)
+1683740631.337243;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002517 link  0   3   0  0  0 ch 20} uc-1-0 tx LL-9889->LL-9388, len  47, seq  76, st 0  1, dr   1
+1683740631.352849;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000251a link  0   3   0  0  0 ch 26} bc-0-0 tx LL-9889->LL-NULL, len  35, seq 165, st 0  1
+1683740631.366786;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000251a link  0   3   0  0  0 ch 26} uc-1-0 tx LL-9388->LL-9889, len  47, seq  25, st 2  1
+1683740631.414781;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002520 link  0   3   0  0  0 ch 15} uc-1-0 tx LL-9388->LL-9889, len  47, seq  25, st 0  2
+1683740631.416943;m3-5;[INFO: App       ] Received response 'hello 11' from fd00::9388--> With 11 of ping (100) 
+1683740631.417166;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002520 link  0   3   0  0  0 ch 15} uc-1-0 rx LL-9388->LL-9889, len  47, seq  25, edr   1, dr  -1
+1683740631.590787;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002532 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740631.593053;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002532 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740631.718789;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000253e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740631.720922;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000253e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740631.830990;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000254a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740631.833625;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000254a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740631.958829;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002556 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740631.960972;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002556 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740632.072969;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002562 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740632.086792;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002562 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740632.198662;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000256e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740632.200914;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000256e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740632.312825;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000257a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740632.326705;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000257a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740632.550663;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002592 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740632.552868;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002592 link  0   3   0  0  0 ch 26} !failed to parse frame 0 0
+1683740632.678683;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000259e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740632.680810;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000259e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740632.918839;m3-4;[INFO: TSCH-LOG  ] {asn 00.000025b6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740632.920931;m3-5;[INFO: TSCH-LOG  ] {asn 00.000025b6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740633.032894;m3-5;[INFO: TSCH-LOG  ] {asn 00.000025c2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740633.046658;m3-4;[INFO: TSCH-LOG  ] {asn 00.000025c2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740633.272828;m3-5;[INFO: TSCH-LOG  ] {asn 00.000025da link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740633.286655;m3-4;[INFO: TSCH-LOG  ] {asn 00.000025da link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740633.398753;m3-4;[INFO: TSCH-LOG  ] {asn 00.000025e6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740633.400862;m3-5;[INFO: TSCH-LOG  ] {asn 00.000025e6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740633.513004;m3-5;[INFO: TSCH-LOG  ] {asn 00.000025f2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740633.526668;m3-4;[INFO: TSCH-LOG  ] {asn 00.000025f2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740633.752946;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000260a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740633.766555;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000260a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740633.992897;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002622 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740634.006589;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002622 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740634.182590;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002634 link  0   3   0  0  0 ch 15} bc-0-0 tx LL-9388->LL-NULL, len  35, seq  84, st 0  1
+1683740634.184744;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002634 link  0   3   0  0  0 ch 15} bc-0-0 rx LL-9388->LL-NULL, len  35, seq 249, edr   0, dr   0
+1683740634.246514;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000263a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740634.248699;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000263a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740634.358634;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002646 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740634.360755;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002646 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740634.598607;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000265e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740634.600721;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000265e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740634.838776;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002676 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740634.840893;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002676 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740634.966630;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002682 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740634.968709;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002682 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740635.318559;m3-4;[INFO: TSCH-LOG  ] {asn 00.000026a6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740635.320573;m3-5;[INFO: TSCH-LOG  ] {asn 00.000026a6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740635.446539;m3-4;[INFO: TSCH-LOG  ] {asn 00.000026b2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740635.448586;m3-5;[INFO: TSCH-LOG  ] {asn 00.000026b2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740635.558489;m3-4;[INFO: TSCH-LOG  ] {asn 00.000026be link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740635.560559;m3-5;[INFO: TSCH-LOG  ] {asn 00.000026be link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740635.798492;m3-4;[INFO: TSCH-LOG  ] {asn 00.000026d6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740635.800622;m3-5;[INFO: TSCH-LOG  ] {asn 00.000026d6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740635.926596;m3-4;[INFO: TSCH-LOG  ] {asn 00.000026e2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740635.928603;m3-5;[INFO: TSCH-LOG  ] {asn 00.000026e2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740636.166535;m3-4;[INFO: TSCH-LOG  ] {asn 00.000026fa link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740636.168567;m3-5;[INFO: TSCH-LOG  ] {asn 00.000026fa link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740636.406475;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002712 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740636.408642;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002712 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740636.518619;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000271e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740636.520596;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000271e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740636.758416;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002736 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740636.760461;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002736 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740636.886533;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002742 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740636.888541;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002742 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740637.126427;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000275a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740637.128489;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000275a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740637.238422;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002766 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740637.240459;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002766 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740637.304460;m3-5;[INFO: App       ] Sending request 12 to [INFO: App       ] 
+1683740637.334352;m3-4;[INFO: App       ] Received request 'hello 12' from fd00::9889
+1683740637.334572;m3-4;[INFO: App       ] sending response
+1683740637.334694;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000276f link  0   3   0  0  0 ch 20} uc-1-0 rx LL-9889->LL-9388, len  47, seq  77, edr   0
+1683740637.336544;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000276f link  0   3   0  0  0 ch 20} drift -1 ppm (min/max delta seen: -1/1)
+1683740637.336769;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000276f link  0   3   0  0  0 ch 20} uc-1-0 tx LL-9889->LL-9388, len  47, seq  77, st 0  1, dr   0
+1683740637.366399;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002772 link  0   3   0  0  0 ch 26} uc-1-0 tx LL-9388->LL-9889, len  47, seq  26, st 0  1
+1683740637.368518;m3-5;[INFO: App       ] Received response 'hello 12' from fd00::9388--> With 6 of ping (100) 
+1683740637.368741;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002772 link  0   3   0  0  0 ch 26} uc-1-0 rx LL-9388->LL-9889, len  47, seq  26, edr   0, dr   0
+1683740637.606394;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000278a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740637.608532;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000278a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740637.718374;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002796 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740637.720490;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002796 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740637.958538;m3-4;[INFO: TSCH-LOG  ] {asn 00.000027ae link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740637.960618;m3-5;[INFO: TSCH-LOG  ] {asn 00.000027ae link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740638.086442;m3-4;[INFO: TSCH-LOG  ] {asn 00.000027ba link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740638.088400;m3-5;[INFO: TSCH-LOG  ] {asn 00.000027ba link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740638.168115;m3-5;[INFO: TSCH-LOG  ] {asn 00.000027c3 link  0   3   0  0  0 ch 20} !failed to parse frame 21 64
+1683740638.182277;m3-4;[INFO: TSCH-LOG  ] {asn 00.000027c3 link  0   3   0  0  0 ch 20} !failed to parse frame 21 64
+1683740638.326374;m3-4;[INFO: TSCH-LOG  ] {asn 00.000027d2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740638.328197;m3-5;[INFO: TSCH-LOG  ] {asn 00.000027d2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740638.438322;m3-4;[INFO: TSCH-LOG  ] {asn 00.000027de link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740638.440362;m3-5;[INFO: TSCH-LOG  ] {asn 00.000027de link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740638.566308;m3-4;[INFO: TSCH-LOG  ] {asn 00.000027ea link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740638.568353;m3-5;[INFO: TSCH-LOG  ] {asn 00.000027ea link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740638.678294;m3-4;[INFO: TSCH-LOG  ] {asn 00.000027f6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740638.680354;m3-5;[INFO: TSCH-LOG  ] {asn 00.000027f6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740638.806297;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002802 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740638.808403;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002802 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740638.918413;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000280e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740638.920497;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000280e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740639.046363;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000281a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740639.048399;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000281a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740639.158379;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002826 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740639.160383;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002826 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740639.286320;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002832 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740639.288361;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002832 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740639.526371;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000284a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740639.528289;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000284a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740639.638341;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002856 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740639.640295;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002856 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740639.766191;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002862 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740639.768022;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002862 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740639.878359;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000286e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740639.880160;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000286e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740640.006278;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000287a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740640.008296;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000287a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740640.118202;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002886 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740640.120248;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002886 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740640.214289;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000288f link  0   3   0  0  0 ch 20} !failed to parse frame 21 64
+1683740640.216261;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000288f link  0   3   0  0  0 ch 20} !failed to parse frame 21 64
+1683740640.486282;m3-4;[INFO: TSCH-LOG  ] {asn 00.000028aa link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740640.488296;m3-5;[INFO: TSCH-LOG  ] {asn 00.000028aa link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740640.600256;m3-5;[INFO: TSCH-LOG  ] {asn 00.000028b6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740640.614183;m3-4;[INFO: TSCH-LOG  ] {asn 00.000028b6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740640.726193;m3-4;[INFO: TSCH-LOG  ] {asn 00.000028c2 link  0   3   0  0  0 ch 26} bc-1-0 tx LL-9388->LL-NULL, len  94, seq  85, st 0  1
+1683740640.728252;m3-5;[INFO: TSCH-LOG  ] {asn 00.000028c2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740640.840241;m3-5;[INFO: TSCH-LOG  ] {asn 00.000028ce link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740640.854323;m3-4;[INFO: TSCH-LOG  ] {asn 00.000028ce link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740640.966295;m3-4;[INFO: TSCH-LOG  ] {asn 00.000028da link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740640.968263;m3-5;[INFO: TSCH-LOG  ] {asn 00.000028da link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740641.320152;m3-5;[INFO: TSCH-LOG  ] {asn 00.000028fe link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740641.334056;m3-4;[INFO: TSCH-LOG  ] {asn 00.000028fe link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740641.446093;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000290a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740641.448166;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000290a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740641.560052;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002916 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740641.573925;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002916 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740641.685964;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002922 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740641.688226;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002922 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740641.926301;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000293a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740641.928325;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000293a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740642.262153;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000295b link  0   3   0  0  0 ch 20} !failed to parse frame 21 64
+1683740642.264085;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000295b link  0   3   0  0  0 ch 20} !failed to parse frame 21 64
+1683740642.279929;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000295e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740642.294096;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000295e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740642.646166;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002982 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740642.648077;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002982 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740642.773958;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000298e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740642.775914;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000298e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740642.886121;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000299a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740642.888170;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000299a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740643.000065;m3-5;[INFO: TSCH-LOG  ] {asn 00.000029a6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740643.013965;m3-4;[INFO: TSCH-LOG  ] {asn 00.000029a6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740643.125962;m3-4;[INFO: TSCH-LOG  ] {asn 00.000029b2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740643.128043;m3-5;[INFO: TSCH-LOG  ] {asn 00.000029b2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740643.239963;m3-5;[INFO: TSCH-LOG  ] {asn 00.000029be link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740643.253942;m3-4;[INFO: TSCH-LOG  ] {asn 00.000029be link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740643.301942;m3-4;[INFO: App       ] Received request 'hello 13' from fd00::9889
+1683740643.304060;m3-5;[INFO: App       ] Sending request 13 to [INFO: App       ] 
+1683740643.304282;m3-5;[INFO: TSCH-LOG  ] {asn 00.000029c4 link  0   3   0  0  0 ch 15} drift -1 ppm (min/max delta seen: -1/1)
+1683740643.317959;m3-4;[INFO: App       ] sending response
+1683740643.318245;m3-4;[INFO: TSCH-LOG  ] {asn 00.000029c4 link  0   3   0  0  0 ch 15} uc-1-0 rx LL-9889->LL-9388, len  47, seq  78, edr   0
+1683740643.320051;m3-5;[INFO: TSCH-LOG  ] {asn 00.000029c4 link  0   3   0  0  0 ch 15} uc-1-0 tx LL-9889->LL-9388, len  47, seq  78, st 0  1, dr   0
+1683740643.334045;m3-4;[INFO: TSCH-LOG  ] {asn 00.000029c7 link  0   3   0  0  0 ch 20} uc-1-0 tx LL-9388->LL-9889, len  47, seq  27, st 0  1
+1683740643.336104;m3-5;[INFO: App       ] Received response 'hello 13' from fd00::9388--> With 3 of ping (100) 
+1683740643.336327;m3-5;[INFO: TSCH-LOG  ] {asn 00.000029c7 link  0   3   0  0  0 ch 20} uc-1-0 rx LL-9388->LL-9889, len  47, seq  27, edr   0, dr   0
+1683740643.494026;m3-4;[INFO: TSCH-LOG  ] {asn 00.000029d6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740643.496025;m3-5;[INFO: TSCH-LOG  ] {asn 00.000029d6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740643.605961;m3-4;[INFO: TSCH-LOG  ] {asn 00.000029e2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740643.608078;m3-5;[INFO: TSCH-LOG  ] {asn 00.000029e2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740643.733953;m3-4;[INFO: TSCH-LOG  ] {asn 00.000029ee link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740643.735903;m3-5;[INFO: TSCH-LOG  ] {asn 00.000029ee link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740643.845926;m3-4;[INFO: TSCH-LOG  ] {asn 00.000029fa link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740643.847888;m3-5;[INFO: TSCH-LOG  ] {asn 00.000029fa link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740644.086052;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002a12 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740644.088045;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002a12 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740644.293874;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002a27 link  0   3   0  0  0 ch 20} !failed to parse frame 21 64
+1683740644.295942;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002a27 link  0   3   0  0  0 ch 20} !failed to parse frame 21 64
+1683740644.325826;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002a2a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740644.327996;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002a2a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740644.453793;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002a36 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740644.455818;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002a36 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740644.565822;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002a42 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740644.567899;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002a42 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740644.661847;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002a4b link  0   3   0  0  0 ch 20} bc-0-0 rx LL-9889->LL-NULL, len  35, seq  51, edr   0
+1683740644.663926;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002a4b link  0   3   0  0  0 ch 20} bc-0-0 tx LL-9889->LL-NULL, len  35, seq 166, st 0  1
+1683740644.805845;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002a5a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740644.807921;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002a5a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740645.046019;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002a72 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740645.047959;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002a72 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740645.285974;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002a8a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740645.287836;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002a8a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740645.413927;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002a96 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740645.415812;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002a96 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740645.525763;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002aa2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740645.527624;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002aa2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740645.653873;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002aae link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740645.655849;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002aae link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740645.765604;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002aba link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740645.767824;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002aba link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740645.893869;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002ac6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740645.895933;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002ac6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740646.005778;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002ad2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740646.007862;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002ad2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740646.133751;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002ade link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740646.135832;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002ade link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740646.245759;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002aea link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740646.247807;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002aea link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740646.341776;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002af3 link  0   3   0  0  0 ch 20} !failed to parse frame 21 64
+1683740646.343760;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002af3 link  0   3   0  0  0 ch 20} !failed to parse frame 21 64
+1683740646.373757;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002af6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740646.375811;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002af6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740646.485753;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002b02 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740646.487813;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002b02 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740646.613637;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002b0e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740646.615689;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002b0e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740646.725662;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002b1a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740646.727611;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002b1a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740646.965871;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002b32 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740646.967828;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002b32 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740647.333766;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002b56 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740647.335778;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002b56 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740647.445671;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002b62 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740647.447732;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002b62 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740647.813660;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002b86 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740647.815736;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002b86 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740648.135626;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002ba7 link  0   3   0  0  0 ch 20} drift -2 ppm (min/max delta seen: -1/1)
+1683740648.149697;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002ba7 link  0   3   0  0  0 ch 20} bc-0-0 tx LL-9388->LL-NULL, len  35, seq  86, st 0  1
+1683740648.151626;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002ba7 link  0   3   0  0  0 ch 20} bc-0-0 rx LL-9388->LL-NULL, len  35, seq  52, edr   1, dr  -1
+1683740648.293671;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002bb6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740648.295582;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002bb6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740648.533689;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002bce link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740648.535649;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002bce link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740648.645668;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002bda link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740648.647593;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002bda link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740648.773532;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002be6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740648.775635;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002be6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740648.885679;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002bf2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740648.887736;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002bf2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740649.125590;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002c0a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740649.127658;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002c0a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740649.253595;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002c16 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740649.255584;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002c16 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740649.303557;m3-5;[INFO: App       ] Sending request 14 to [INFO: App       ] 
+1683740649.317585;m3-4;[INFO: App       ] Received request 'hello 14' from fd00::9889
+1683740649.317804;m3-4;[INFO: App       ] sending response
+1683740649.317927;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002c1c link  0   3   0  0  0 ch 15} uc-1-0 rx LL-9889->LL-9388, len  47, seq  79, edr   1
+1683740649.319659;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002c1c link  0   3   0  0  0 ch 15} uc-1-0 tx LL-9889->LL-9388, len  47, seq  79, st 0  1, dr   1
+1683740649.349599;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002c1f link  0   3   0  0  0 ch 20} uc-1-0 tx LL-9388->LL-9889, len  47, seq  28, st 0  1
+1683740649.351680;m3-5;[INFO: App       ] Received response 'hello 14' from fd00::9388--> With 4 of ping (100) 
+1683740649.351903;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002c1f link  0   3   0  0  0 ch 20} uc-1-0 rx LL-9388->LL-9889, len  47, seq  28, edr   1, dr  -1
+1683740649.367462;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002c22 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740649.381504;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002c22 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740649.493556;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002c2e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740649.495444;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002c2e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740649.605518;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002c3a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740649.607506;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002c3a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740649.733514;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002c46 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740649.735462;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002c46 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740649.973706;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002c5e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740649.975616;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002c5e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740650.087512;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002c6a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740650.101565;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002c6a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740650.213429;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002c76 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740650.215384;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002c76 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740650.421493;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002c8b link  0   3   0  0  0 ch 20} !failed to parse frame 21 64
+1683740650.423497;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002c8b link  0   3   0  0  0 ch 20} !failed to parse frame 21 64
+1683740650.453371;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002c8e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740650.455481;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002c8e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740650.567463;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002c9a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740650.581388;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002c9a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740650.693421;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002ca6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740650.695385;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002ca6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740650.933561;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002cbe link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740650.935444;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002cbe link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740651.047373;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002cca link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740651.061442;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002cca link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740651.173498;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002cd6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740651.175370;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002cd6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740651.541500;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002cfa link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740651.543349;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002cfa link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740651.893467;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002d1e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740651.895531;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002d1e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740652.007436;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002d2a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740652.133385;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002d36 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740652.135358;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002d36 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740652.469421;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002d57 link  0   3   0  0  0 ch 20} !failed to parse frame 21 64
+1683740652.471323;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002d57 link  0   3   0  0  0 ch 20} !failed to parse frame 21 64
+1683740652.613332;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002d66 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740652.615244;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002d66 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740652.741328;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002d72 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740652.743243;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002d72 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740652.853365;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002d7e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740652.855252;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002d7e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740652.981490;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002d8a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740652.983273;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002d8a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740653.093401;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002d96 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740653.095264;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002d96 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740653.461324;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002dba link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740653.463268;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002dba link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740653.573260;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002dc6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740653.575293;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002dc6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740653.701247;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002dd2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740653.703149;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002dd2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740653.941379;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002dea link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740653.943253;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002dea link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740654.053253;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002df6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740654.055198;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002df6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740654.181252;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002e02 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740654.183160;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002e02 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740654.293228;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002e0e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740654.295132;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002e0e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740654.421298;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002e1a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740654.423196;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002e1a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740654.501232;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002e23 link  0   3   0  0  0 ch 20} !failed to parse frame 21 64
+1683740654.503132;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002e23 link  0   3   0  0  0 ch 20} !failed to parse frame 21 64
+1683740654.901256;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002e4a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740654.903281;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002e4a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740655.013165;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002e56 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740655.015208;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002e56 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740655.141143;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002e62 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740655.143054;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002e62 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740655.253221;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002e6e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740655.255014;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002e6e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740655.303009;m3-5;[INFO: App       ] Sending request 15 to [INFO: App       ] 
+1683740655.317185;m3-4;[INFO: App       ] Received request 'hello 15' from fd00::9889
+1683740655.317407;m3-4;[INFO: App       ] sending response
+1683740655.317529;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002e74 link  0   3   0  0  0 ch 15} uc-1-0 rx LL-9889->LL-9388, len  47, seq  80, edr   1
+1683740655.319037;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002e74 link  0   3   0  0  0 ch 15} drift -2 ppm (min/max delta seen: -1/1)
+1683740655.319264;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002e74 link  0   3   0  0  0 ch 15} uc-1-0 tx LL-9889->LL-9388, len  47, seq  80, st 0  1, dr   1
+1683740655.349173;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002e77 link  0   3   0  0  0 ch 20} uc-1-0 tx LL-9388->LL-9889, len  47, seq  29, st 0  1
+1683740655.351112;m3-5;[INFO: App       ] Received response 'hello 15' from fd00::9388--> With 4 of ping (100) 
+1683740655.351335;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002e77 link  0   3   0  0  0 ch 20} uc-1-0 rx LL-9388->LL-9889, len  47, seq  29, edr   0, dr   0
+1683740655.381147;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002e7a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740655.383022;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002e7a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740655.493131;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002e86 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740655.495021;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002e86 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740655.621159;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002e92 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740655.623091;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002e92 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740655.733134;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002e9e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740655.735048;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002e9e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740655.861135;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002eaa link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740655.863039;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002eaa link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740655.973288;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002eb6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740655.975173;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002eb6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740656.213075;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002ece link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740656.215085;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002ece link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740656.341117;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002eda link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740656.342895;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002eda link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740656.580978;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002ef2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740656.582855;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002ef2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740656.821047;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002f0a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740656.822927;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002f0a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740656.933034;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002f16 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740656.934823;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002f16 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740657.060977;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002f22 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740657.062831;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002f22 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740657.173102;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002f2e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740657.174917;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002f2e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740657.301048;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002f3a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740657.302840;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002f3a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740657.413076;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002f46 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740657.414887;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002f46 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740657.540973;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002f52 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740657.542853;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002f52 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740658.021065;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002f82 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740658.022954;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002f82 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740658.132934;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002f8e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740658.134827;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002f8e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740658.260898;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002f9a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740658.262855;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002f9a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740658.500948;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002fb2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740658.502877;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002fb2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740658.614733;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002fbe link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740658.628881;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002fbe link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740658.740914;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002fca link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740658.742845;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002fca link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740658.854807;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002fd6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740658.868892;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002fd6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740658.885072;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002fd9 link  0   3   0  0  0 ch 25} bc-0-0 rx LL-9889->LL-NULL, len  35, seq 143, edr   0
+1683740658.886957;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002fd9 link  0   3   0  0  0 ch 25} bc-0-0 tx LL-9889->LL-NULL, len  35, seq 167, st 0  1
+1683740659.220917;m3-4;[INFO: TSCH-LOG  ] {asn 00.00002ffa link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740659.222880;m3-5;[INFO: TSCH-LOG  ] {asn 00.00002ffa link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740659.334776;m3-5;[INFO: TSCH-LOG  ] {asn 00.00003006 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740659.348823;m3-4;[INFO: TSCH-LOG  ] {asn 00.00003006 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740659.460823;m3-4;[INFO: TSCH-LOG  ] {asn 00.00003012 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740659.462587;m3-5;[INFO: TSCH-LOG  ] {asn 00.00003012 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740659.574634;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000301e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740659.588778;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000301e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740659.700831;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000302a link  0   3   0  0  0 ch 26} !failed to parse frame 0 0
+1683740659.829220;m3-4;[INFO: TSCH-LOG  ] {asn 00.00003036 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740659.831041;m3-5;[INFO: TSCH-LOG  ] {asn 00.00003036 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740659.941109;m3-4;[INFO: TSCH-LOG  ] {asn 00.00003042 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740659.943000;m3-5;[INFO: TSCH-LOG  ] {asn 00.00003042 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740660.421035;m3-4;[INFO: TSCH-LOG  ] {asn 00.00003072 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740660.422879;m3-5;[INFO: TSCH-LOG  ] {asn 00.00003072 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740660.534824;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000307e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740660.548821;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000307e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740660.660901;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000308a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740660.662834;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000308a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740660.788939;m3-4;[INFO: TSCH-LOG  ] {asn 00.00003096 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740660.790611;m3-5;[INFO: TSCH-LOG  ] {asn 00.00003096 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740660.868772;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000309f link  0   3   0  0  0 ch 20} bc-0-0 tx LL-9388->LL-NULL, len  35, seq  87, st 0  1
+1683740660.870671;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000309f link  0   3   0  0  0 ch 20} drift -2 ppm (min/max delta seen: -1/1)
+1683740660.870896;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000309f link  0   3   0  0  0 ch 20} bc-0-0 rx LL-9388->LL-NULL, len  35, seq  41, edr   0, dr   0
+1683740660.900811;m3-4;[INFO: TSCH-LOG  ] {asn 00.000030a2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740660.902739;m3-5;[INFO: TSCH-LOG  ] {asn 00.000030a2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740661.140812;m3-4;[INFO: TSCH-LOG  ] {asn 00.000030ba link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740661.142734;m3-5;[INFO: TSCH-LOG  ] {asn 00.000030ba link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740661.268846;m3-4;[INFO: TSCH-LOG  ] {asn 00.000030c6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740661.270607;m3-5;[INFO: TSCH-LOG  ] {asn 00.000030c6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740661.302629;m3-5;[INFO: App       ] Sending request 16 to [INFO: App       ] 
+1683740661.332830;m3-4;[INFO: App       ] Received request 'hello 16' from fd00::9889
+1683740661.333051;m3-4;[INFO: App       ] sending response
+1683740661.333190;m3-4;[INFO: TSCH-LOG  ] {asn 00.000030cc link  0   3   0  0  0 ch 15} uc-1-0 rx LL-9889->LL-9388, len  47, seq  81, edr   0
+1683740661.334617;m3-5;[INFO: TSCH-LOG  ] {asn 00.000030cc link  0   3   0  0  0 ch 15} uc-1-0 tx LL-9889->LL-9388, len  47, seq  81, st 0  1, dr   0
+1683740661.350567;m3-5;[INFO: App       ] Received response 'hello 16' from fd00::9388--> With 5 of ping (100) 
+1683740661.364691;m3-4;[INFO: TSCH-LOG  ] {asn 00.000030cf link  0   3   0  0  0 ch 20} uc-1-0 tx LL-9388->LL-9889, len  47, seq  30, st 0  1
+1683740661.366575;m3-5;[INFO: TSCH-LOG  ] {asn 00.000030cf link  0   3   0  0  0 ch 20} uc-1-0 rx LL-9388->LL-9889, len  47, seq  30, edr   0, dr   0
+1683740661.380715;m3-4;[INFO: TSCH-LOG  ] {asn 00.000030d2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740661.382580;m3-5;[INFO: TSCH-LOG  ] {asn 00.000030d2 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740661.620846;m3-4;[INFO: TSCH-LOG  ] {asn 00.000030ea link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740661.622712;m3-5;[INFO: TSCH-LOG  ] {asn 00.000030ea link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740661.748811;m3-4;[INFO: TSCH-LOG  ] {asn 00.000030f6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740661.750704;m3-5;[INFO: TSCH-LOG  ] {asn 00.000030f6 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740661.860806;m3-4;[INFO: TSCH-LOG  ] {asn 00.00003102 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740661.862803;m3-5;[INFO: TSCH-LOG  ] {asn 00.00003102 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740661.988837;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000310e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740661.990631;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000310e link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740662.100816;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000311a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740662.102730;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000311a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740662.228573;m3-4;[INFO: TSCH-LOG  ] {asn 00.00003126 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740662.230388;m3-5;[INFO: TSCH-LOG  ] {asn 00.00003126 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740662.340598;m3-4;[INFO: TSCH-LOG  ] {asn 00.00003132 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740662.342591;m3-5;[INFO: TSCH-LOG  ] {asn 00.00003132 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740662.580720;m3-4;[INFO: TSCH-LOG  ] {asn 00.0000314a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740662.582601;m3-5;[INFO: TSCH-LOG  ] {asn 00.0000314a link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740662.708715;m3-4;[INFO: TSCH-LOG  ] {asn 00.00003156 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24
+1683740662.710596;m3-5;[INFO: TSCH-LOG  ] {asn 00.00003156 link  0   3   0  0  0 ch 26} !failed to parse frame 17 24

@@ -9,13 +9,11 @@ TARGET = iotlab
 BOARD = m3
 ARCH_PATH = /senslab/users/wifi2023stras10/iot-lab/parts/iot-lab-contiki-ng/arch/
 
-ORCHESTRA ?= 0 # ??? set orchestra à 0 ?
+ORCHESTRA ?= 0 # set another scheduler by default
 
 ifeq ($(ORCHESTRA),1)
 	MODULES += $(CONTIKI_NG_SERVICES_DIR)/orchestra
 endif
-
-
 
 MODULES += $(CONTIKI_NG_SERVICES_DIR)/shell
 
@@ -23,7 +21,7 @@ tsch:
 	OCHESTRA=0
 	$(MAKE) MAKE_MAC=MAKE_MAC_TSCH -f Makefile
 orchestra:
-	ORCHESTRA=1
+	ORCHESTRA=1 # set orchestra as scheduler
 	$(MAKE) MAKE_MAC=MAKE_MAC_TSCH -f Makefile
 
 csma:
