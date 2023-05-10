@@ -8,7 +8,7 @@ import matplotlib.patches as patches
 import numpy as np
 
 # Check that the correct number of arguments was given
-if len(sys.argv) != 5 && len(sys.argv) != 6:
+if len(sys.argv) != 5 and len(sys.argv) != 6:
     print("Usage: python3 monitor.py <experiment_id> <duration> <power | radio> <coordinator | sender> <plot>")
     print("Usage: <plot> is not necessary, if you want to save the plot with matplotlib : save, and if you want to display the plot : plot")
     sys.exit()
@@ -20,8 +20,8 @@ if sys.argv[3] not in ['power', 'radio']:
 if sys.argv[4] not in ['coordinator', 'sender']:
     print("Invalid argument : [coordinator | sender]")
     sys.exit()
-    
-if len(sys.argv) == 6 and sys.argv[6] not in ['plot', 'save']:
+
+if len(sys.argv) == 6 and sys.argv[5] not in ['plot', 'save']:
     print("Invalid argument : [plot | save]")
     sys.exit()
 
@@ -99,7 +99,7 @@ if len(sys.argv) == 5:
     print(text)
 
 if len(sys.argv) == 6:
-    if sys.argv[6] == 'save':
+    if sys.argv[5] == 'save':
         # Set figure size and plot the data using matplotlib
         plt.figure(figsize=(8, 6))
         if sys.argv[3] == 'power':
@@ -127,11 +127,11 @@ if len(sys.argv) == 6:
 
         # Save the plot to a file
         plt.savefig(f"plot/{sys.argv[4]}_d{sys.argv[2]}_n{nodes_number}_plot.png")
-        
-    elif sys.argv[6] == 'plot':
+
+    elif sys.argv[5] == 'plot':
         if sys.argv[3] == 'power':
-            command = 'plot_oml_power -p -i {file_path}'
+            command = f'plot_oml_consum -p -i {file_path}'
         elif sys.argv[3] == 'radio':
-            command = 'plot_oml_radio -p -i {file_path}'
-            
+            command = f'plot_oml_radio -p -i {file_path}'
+
         subprocess.run(command, shell=True)

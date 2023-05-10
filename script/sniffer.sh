@@ -48,8 +48,7 @@ mkdir sniffer > /dev/null 2>&1
 sleep 3
 
 # launch sniffer_aggregator processes on nodes
-echo $id
-sniffer_aggregator -l "$4,m3,$id" -o "sniffer/d$2_n$3.pcap" > /dev/null 2>&1
+serial_aggregator -i $id >> "sniffer/d$2_n$3.txt" &
 
 echo "$(tput setaf 3)Waiting for the end of the experiment...$(tput setaf 7)"
 sleep $(($2 * 60))
