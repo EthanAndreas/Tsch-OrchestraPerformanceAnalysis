@@ -1,4 +1,4 @@
-import matplotlib.pyplot as plt
+from matplotlib import pyplot as plt
 import sys
 import os
 import re
@@ -89,9 +89,16 @@ def parse_coor_tsch(file):
 
     return log_tsch
 
+# check if the script execution is in the good folder
+current_folder_path = os.getcwd()
+folder_name = os.path.basename(current_folder_path)
+if folder_name != 'Tsch-OrchestraPerformanceAnalysis':
+    print('Usage: execute the script in Tsch-OrchestraPerformanceAnalysis folder')
+    sys.exit()
+
 result = []
 
-for dir in ["/../netcat/csma/", "/../netcat/tsch/"]:
+for dir in ["netcat/csma/", "netcat/tsch/"]:
     resu = [[], [], [], []]
     logs_tsch_coord = [[],[],[],[]]
     for file in os.listdir(dir):
