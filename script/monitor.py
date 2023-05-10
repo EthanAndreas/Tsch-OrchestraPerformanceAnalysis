@@ -1,5 +1,6 @@
 import sys
 import os
+import glob
 import subprocess
 import matplotlib
 matplotlib.use('Agg')
@@ -25,17 +26,30 @@ if len(sys.argv) == 6 and sys.argv[5] not in ['plot', 'save']:
     print("Invalid argument : [plot | save]")
     sys.exit()
 
-# get the first file of /senslab/users/wifi2023stras10/.iot-lab/$id/consumption_or_radio/
-directory = '/senslab/users/wifi2023stras10/.iot-lab/' + sys.argv[1]
+# Check if the script is executed in the good folder
+current_folder_path = os.getcwd()
+folder_name = os.path.basename(current_folder_path)
+if folder_name != 'Tsch-OrchestraPerformanceAnalysis':
+    print('Usage: execute the script in Tsch-OrchestraPerformanceAnalysis folder')
+    sys.exit()
+
+# Retrieve the folder path where the data is stored
+directory = os.path.expanduser("~") + '/.iot-lab/' + sys.argv[1]
 
 if sys.argv[3] == 'power':
     directory = directory + '/consumption/'
 elif sys.argv[3] == 'radio':
     directory = directory + '/radio/'
 
-files = os.listdir(directory)
-nodes_number = len(files)
+# Check if the folder contains the data file
+pattern = "m3_*.oml"
+nodes_number = glob.glob(os.path.join(directory, pattern))
+if len(nodes_number) < 2:
+    print(f'Usage: the folder {directory} does not contain the data file required')
+    sys.exit()
 
+# Retrieve the file
+files = os.listdir(directory)
 if sys.argv[4] == 'coordinator':
 	file = files[-1]
 elif sys.argv[4] == 'sender':
