@@ -25,7 +25,7 @@ if len(sys.argv) == 6 and sys.argv[5] not in ['plot', 'save']:
     print("Invalid argument : [plot | save]")
     sys.exit()
 
-# get the first file of /senslab/users/wifi2023stras10/.iot-lab/$id/consumption/
+# get the first file of /senslab/users/wifi2023stras10/.iot-lab/$id/consumption_or_radio/
 directory = '/senslab/users/wifi2023stras10/.iot-lab/' + sys.argv[1]
 
 if sys.argv[3] == 'power':

@@ -3,13 +3,11 @@ import sys
 import os
 import re
 
-
 def max_tl(tab):
     themax = 0
     for i in range(len(tab)):
         themax = max(themax, tab[i][0])
     return themax
-
 
 def average2(tab, a, b):
     sum = 0
@@ -19,13 +17,11 @@ def average2(tab, a, b):
         sum += tab[i][a]/tab[i][b]
     return sum/(len(tab))
 
-
 def average(tab, a):
     sum = 0
     for i in range(len(tab)):
         sum += tab[i][a]
     return sum/(len(tab))
-
 
 def parse_sender(file):
     lines = file.readlines()
@@ -63,7 +59,6 @@ def parse_sender(file):
               nb_reciv, "\naverage ping :NaN")
         return [time_link, nb_send, nb_reciv, -1]
 
-
 def parse_coor_tsch(file):
     lines = file.readlines()
 
@@ -94,10 +89,9 @@ def parse_coor_tsch(file):
 
     return log_tsch
 
+result = []
 
-resutl = []
-
-for dir in ["csma/", "tsch/"]:
+for dir in ["/../netcat/csma/", "/../netcat/tsch/"]:
     resu = [[], [], [], []]
     logs_tsch_coord = [[],[],[],[]]
     for file in os.listdir(dir):
@@ -119,9 +113,7 @@ for dir in ["csma/", "tsch/"]:
                 print("Coordinator")
                 logs_tsch_coord[_n]=parse_coor_tsch(f)
             print()
-    resutl.append(resu)
-
-
+    result.append(resu)
 
 #time to link
 time_link = []
@@ -129,22 +121,21 @@ time_link = []
 temp = []
 temp2 = []
 for i in range(4):
-    temp.append(max_tl(resutl[0][i]))
-    temp2.append(max_tl(resutl[1][i]))
+    temp.append(max_tl(result[0][i]))
+    temp2.append(max_tl(result[1][i]))
 time_link.append(temp)
 time_link.append(temp2)
 
 print(time_link)
 
-
-#pdr
+#pos
 average_pdr = []
 
 temp = []
 temp2 = []
 for i in range(4):
-    temp.append(average2(resutl[0][i], 2, 1))
-    temp2.append(average2(resutl[1][i], 2, 1))
+    temp.append(average2(result[0][i], 2, 1))
+    temp2.append(average2(result[1][i], 2, 1))
 average_pdr.append(temp)
 average_pdr.append(temp2)
 
@@ -156,15 +147,12 @@ average_ping = []
 temp = []
 temp2 = []
 for i in range(4):
-    temp.append(average(resutl[0][i], 3))
-    temp2.append(average(resutl[1][i], 3))
+    temp.append(average(result[0][i], 3))
+    temp2.append(average(result[1][i], 3))
 average_ping.append(temp)
 average_ping.append(temp2)
 
 print(average_ping)
-
-
-
 
 #chanel use
 chanel_use =[[],[],[],[]]
@@ -173,7 +161,6 @@ for i in range(len(logs_tsch_coord)):
         if (logs_tsch_coord[i][j][1] not in chanel_use[i]):
             chanel_use[i].append(logs_tsch_coord[i][j][1])
 print("Chanel use :",chanel_use)
-
 
 #ack /total
 ratio_ack = []
@@ -187,10 +174,6 @@ for i in range(len(logs_tsch_coord)):
             nb_nack+=1
     ratio_ack.append(nb_ack/(nb_ack+nb_nack))
 print("ration ack/all tsch coordinator:",ratio_ack)
-        
-
-
-
 
 # Labels
 labels = [2, 4, 10, 25]
@@ -212,8 +195,8 @@ plt.subplot(1, 3, 2)
 plt.plot(labels, average_pdr[0], marker='o', label='CSMA')
 plt.plot(labels, average_pdr[1], marker='o', label='TSCH')
 plt.xlabel('Nodes')
-plt.ylabel('PDR average (app)')
-plt.title('PDR')
+plt.ylabel('PoS average (app)')
+plt.title('Percentage of success (PoS)')
 plt.legend()
 
 # Figure 3
