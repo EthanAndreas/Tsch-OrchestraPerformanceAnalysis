@@ -1,5 +1,6 @@
 import sys
 import os
+import subprocess
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
@@ -9,7 +10,7 @@ import numpy as np
 # Check that the correct number of arguments was given
 if len(sys.argv) != 5 && len(sys.argv) != 6:
     print("Usage: python3 monitor.py <experiment_id> <duration> <power | radio> <coordinator | sender> <plot>")
-    print("Usage: <plot> is not necessary")
+    print("Usage: <plot> is not necessary, if you want to save the plot with matplotlib : save, and if you want to display the plot : plot")
     sys.exit()
 
 if sys.argv[3] not in ['power', 'radio']:
@@ -18,6 +19,10 @@ if sys.argv[3] not in ['power', 'radio']:
 
 if sys.argv[4] not in ['coordinator', 'sender']:
     print("Invalid argument : [coordinator | sender]")
+    sys.exit()
+    
+if len(sys.argv) == 6 and sys.argv[6] not in ['plot', 'save']:
+    print("Invalid argument : [plot | save]")
     sys.exit()
 
 # get the first file of /senslab/users/wifi2023stras10/.iot-lab/$id/consumption/
@@ -94,33 +99,39 @@ if len(sys.argv) == 5:
     print(text)
 
 if len(sys.argv) == 6:
-    # Set figure size and plot the data using matplotlib
-    plt.figure(figsize=(8, 6))
-    if sys.argv[3] == 'power':
-        # plot the power consumption
-        plt.plot(timestamps, values, color='blue')
-    elif sys.argv[3] == 'radio':
-        # plot vertical bar when radio activity is detected
-        plt.plot(timestamps, values, color='blue')
-    
-    plt.title(f"Consumption of experiment {sys.argv[1]} for {sys.argv[4]}")
-    plt.xlabel("Time (s)")
-    plt.ylabel("Power (W)" if sys.argv[4] == 'power' else "Radio activity")
-    
-    text_rect = patches.Rectangle((0.92, 0.02), 0.06, 0.07, fill=True, facecolor='white', transform=plt.gca().transAxes)
-    
-    plt.gca().add_patch(text_rect)
-    plt.text(0.95, 0.05, text, transform=plt.gca().transAxes, ha='right')
-    
-    # Set y-axis label and limit
-    plt.ylabel("Power (W)" if sys.argv[3] == 'power' else "Radio activity")
-    if sys.argv[3] == 'power':
-         plt.ylim(bottom=min(values))
-    elif sys.argv[3] == 'radio':
-         plt.ylim(bottom=0)
-    
-    # Show the plot
-    plt.show(block=True)
-    
-    # Save the plot to a file
-    plt.savefig(f"plot/{sys.argv[4]}_d{sys.argv[2]}_n{nodes_number}_plot.png")
+    if sys.argv[6] == 'save':
+        # Set figure size and plot the data using matplotlib
+        plt.figure(figsize=(8, 6))
+        if sys.argv[3] == 'power':
+            # plot the power consumption
+            plt.plot(timestamps, values, color='blue')
+        elif sys.argv[3] == 'radio':
+            # plot vertical bar when radio activity is detected
+            plt.bar(timestamps, values, color='blue')
+
+        plt.title(f"Consumption of experiment {sys.argv[1]} for {sys.argv[4]}")
+        plt.xlabel("Time (s)")
+        plt.ylabel("Power (W)" if sys.argv[4] == 'power' else "Radio activity")
+
+        text_rect = patches.Rectangle((0.92, 0.02), 0.06, 0.07, fill=True, facecolor='white', transform=plt.gca().transAxes)
+
+        plt.gca().add_patch(text_rect)
+        plt.text(0.95, 0.05, text, transform=plt.gca().transAxes, ha='right')
+
+        # Set y-axis label and limit
+        plt.ylabel("Power (W)" if sys.argv[3] == 'power' else "Radio activity")
+        if sys.argv[3] == 'power':
+             plt.ylim(bottom=min(values))
+        elif sys.argv[3] == 'radio':
+             plt.ylim(bottom=0)
+
+        # Save the plot to a file
+        plt.savefig(f"plot/{sys.argv[4]}_d{sys.argv[2]}_n{nodes_number}_plot.png")
+        
+    elif sys.argv[6] == 'plot':
+        if sys.argv[3] == 'power':
+            command = 'plot_oml_power -p -i {file_path}'
+        elif sys.argv[3] == 'radio':
+            command = 'plot_oml_radio -p -i {file_path}'
+            
+        subprocess.run(command, shell=True)
