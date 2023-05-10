@@ -33,7 +33,7 @@ done
 
 # submit experiment
 echo "$(tput setaf 3)Submitting experiment...$(tput setaf 7)"
-id=$(iotlab-experiment submit -n $1 -d $2 $nodes 2>&1 |grep id |cut -d":" -f2)
+id=$(iotlab-experiment submit -n $1 -d $2 $nodes 2>&1 | grep id | cut -d":" -f2 | tr -d ' ')
 echo "Waiting for experiment $id to be in state RUNNING"
 iotlab-experiment wait -i $id > /dev/null 2>&1 
 echo "$(tput setaf 2)Experiment start$(tput setaf 7)"
