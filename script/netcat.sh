@@ -44,7 +44,7 @@ echo "$(tput setaf 2)Experiment start$(tput setaf 7)"
 rm nodes_free.txt > /dev/null 2>&1
 
 # retrieve node names
-iotlab-experiment get -n | grep "network_address" | sed 's/.*: "\(.*\)".*/\1/' > nodes.txt
+iotlab-experiment -i $id get -n | grep "network_address" | sed 's/.*: "\(.*\)".*/\1/' > nodes.txt
 
 echo "$(tput setaf 3)Retrieving info...$(tput setaf 7)"
 mkdir netcat > /dev/null 2>&1
