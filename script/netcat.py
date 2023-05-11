@@ -98,7 +98,8 @@ if folder_name != 'Tsch-OrchestraPerformanceAnalysis':
 
 result = []
 
-for dir in ["netcat/csma/", "netcat/tsch/"]:
+for dir in ["csma/", "tsch/", "orchestra/"]:
+
     resu = [[], [], [], []]
     logs_tsch_coord = [[],[],[],[]]
     for file in os.listdir(dir):
@@ -127,25 +128,30 @@ time_link = []
 
 temp = []
 temp2 = []
+temp3 = []
 for i in range(4):
     temp.append(max_tl(result[0][i]))
     temp2.append(max_tl(result[1][i]))
+    temp3.append(max_tl(result[2][i]))
 time_link.append(temp)
 time_link.append(temp2)
+time_link.append(temp3)
 
-print(time_link)
+print("Time to link ",time_link)
 
-#pos
+# pos
 average_pdr = []
 
 temp = []
 temp2 = []
+temp3 = []
 for i in range(4):
     temp.append(average2(result[0][i], 2, 1))
     temp2.append(average2(result[1][i], 2, 1))
+    temp3.append(average2(result[2][i], 2, 1))
 average_pdr.append(temp)
 average_pdr.append(temp2)
-
+average_pdr.append(temp3)
 print(average_pdr)
 
 #ping
@@ -153,11 +159,14 @@ average_ping = []
 
 temp = []
 temp2 = []
+temp3 = []
 for i in range(4):
     temp.append(average(result[0][i], 3))
     temp2.append(average(result[1][i], 3))
+    temp3.append(average(result[2][i], 3))
 average_ping.append(temp)
 average_ping.append(temp2)
+average_ping.append(temp3)
 
 print(average_ping)
 
@@ -192,6 +201,7 @@ plt.figure(figsize=(10, 6))
 plt.subplot(1, 3, 1)
 plt.plot(labels, time_link[0], marker='o', label='CSMA')
 plt.plot(labels, time_link[1], marker='o', label='TSCH')
+plt.plot(labels, time_link[2], marker='o', label='ORCHESTRA')
 plt.xlabel('Nodes')
 plt.ylabel('Time to link the network (sec)')
 plt.title('Linking network')
@@ -201,6 +211,7 @@ plt.legend()
 plt.subplot(1, 3, 2)
 plt.plot(labels, average_pdr[0], marker='o', label='CSMA')
 plt.plot(labels, average_pdr[1], marker='o', label='TSCH')
+plt.plot(labels, average_pdr[2], marker='o', label='ORCHESTRA')
 plt.xlabel('Nodes')
 plt.ylabel('PoS average (app)')
 plt.title('Percentage of success (PoS)')
@@ -210,6 +221,7 @@ plt.legend()
 plt.subplot(1, 3, 3)
 plt.plot(labels, average_ping[0], marker='o', label='CSMA')
 plt.plot(labels, average_ping[1], marker='o', label='TSCH')
+plt.plot(labels, average_ping[2], marker='o', label='ORCHESTRA')
 plt.xlabel('Nodes')
 plt.ylabel('Ping avergae (app)')
 plt.title('Ping')
