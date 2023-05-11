@@ -1,4 +1,4 @@
-1683754560 ÿ[INFO: App ] Not reachable yet: !node_is_reachable
+1683754560 [INFO: App ] Not reachable yet: !node_is_reachable
 1683754566 [INFO: App ] Not reachable yet: !node_is_reachable
 1683754572 [INFO: App ] Not reachable yet: !node_is_reachable
 1683754573 [INFO: TSCH-LOG ] {asn 00.00000990 link 0 3 0 0 0 ch 15} !failed to parse frame 0 0

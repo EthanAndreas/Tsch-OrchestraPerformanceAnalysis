@@ -1,4 +1,4 @@
-1683754560 ;[INFO: App ] Not reachable yet: !node_is_reachable
+1683754560 [INFO: App ] Not reachable yet: !node_is_reachable
 1683754566 [INFO: App ] Not reachable yet: !node_is_reachable
 1683754568 [WARN: RPL ] just joined, no parent yet, setting timer for leaving
 1683754568 [INFO: TSCH-LOG ] {asn 00.00000756 link 0 3 0 0 0 ch 26} bc-1-0 rx LL-a484->LL-NULL, len 94, seq 0, edr 1

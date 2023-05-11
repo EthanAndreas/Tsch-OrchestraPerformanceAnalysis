@@ -1,4 +1,4 @@
-1683754560 &[INFO: App ] Not reachable yet: !node_is_reachable
+1683754560 [INFO: App ] Not reachable yet: !node_is_reachable
 1683754565 [WARN: RPL ] dis_input: not in an instance yet, discard
 1683754565 [INFO: TSCH-LOG ] {asn 00.00000615 link 0 3 0 0 0 ch 25} bc-1-0 rx LL-a887->LL-NULL, len 24, seq 15, edr 1
 1683754566 [INFO: App ] Not reachable yet: !node_is_reachable

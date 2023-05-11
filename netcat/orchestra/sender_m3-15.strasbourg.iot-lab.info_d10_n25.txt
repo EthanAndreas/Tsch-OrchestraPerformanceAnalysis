@@ -1,4 +1,4 @@
-1683754559 ;[WARN: RPL ] just joined, no parent yet, setting timer for leaving
+1683754559 [WARN: RPL ] just joined, no parent yet, setting timer for leaving
 1683754559 [INFO: TSCH-LOG ] {asn 00.00000411 link 0 3 0 0 0 ch 25} bc-1-0 rx LL-a484->LL-NULL, len 94, seq 0, edr 1, dr -1
 1683754560 [INFO: App ] Not reachable yet: !node_is_reachable
 1683754560 [INFO: TSCH-LOG ] {asn 00.00000474 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9488->LL-a484, len 100, seq 58, st 0 1, dr 0
