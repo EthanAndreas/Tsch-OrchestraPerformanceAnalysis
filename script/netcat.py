@@ -3,11 +3,13 @@ import sys
 import os
 import re
 
+
 def max_tl(tab):
     themax = 0
     for i in range(len(tab)):
         themax = max(themax, tab[i][0])
     return themax
+
 
 def average2(tab, a, b):
     sum = 0
@@ -17,11 +19,13 @@ def average2(tab, a, b):
         sum += tab[i][a]/tab[i][b]
     return sum/(len(tab))
 
+
 def average(tab, a):
     sum = 0
     for i in range(len(tab)):
         sum += tab[i][a]
     return sum/(len(tab))
+
 
 def parse_sender(file):
     lines = file.readlines()
@@ -59,6 +63,7 @@ def parse_sender(file):
               nb_reciv, "\naverage ping :NaN")
         return [time_link, nb_send, nb_reciv, -1]
 
+
 def parse_coor_tsch(file):
     lines = file.readlines()
 
@@ -89,6 +94,7 @@ def parse_coor_tsch(file):
 
     return log_tsch
 
+
 # check if the script execution is in the good folder
 current_folder_path = os.getcwd()
 folder_name = os.path.basename(current_folder_path)
@@ -98,10 +104,10 @@ if folder_name != 'Tsch-OrchestraPerformanceAnalysis':
 
 result = []
 
-for dir in ["csma/", "tsch/", "orchestra/"]:
+for dir in ["netcat/csma/", "netcat/tsch/", "netcat/orchestra/"]:
 
     resu = [[], [], [], []]
-    logs_tsch_coord = [[],[],[],[]]
+    logs_tsch_coord = [[], [], [], []]
     for file in os.listdir(dir):
 
         match = re.search(r"_n(\d+)", file)
@@ -117,13 +123,13 @@ for dir in ["csma/", "tsch/", "orchestra/"]:
         with open(file, "r") as f:
             if ("sender" in file):
                 resu[_n].append(parse_sender(f))
-            elif("coordinator" in file):
+            elif ("coordinator" in file):
                 print("Coordinator")
-                logs_tsch_coord[_n]=parse_coor_tsch(f)
+                logs_tsch_coord[_n] = parse_coor_tsch(f)
             print()
     result.append(resu)
 
-#time to link
+# time to link
 time_link = []
 
 temp = []
@@ -137,7 +143,7 @@ time_link.append(temp)
 time_link.append(temp2)
 time_link.append(temp3)
 
-print("Time to link ",time_link)
+print("Time to link ", time_link)
 
 # pos
 average_pdr = []
@@ -154,7 +160,7 @@ average_pdr.append(temp2)
 average_pdr.append(temp3)
 print(average_pdr)
 
-#ping
+# ping
 average_ping = []
 
 temp = []
@@ -170,26 +176,29 @@ average_ping.append(temp3)
 
 print(average_ping)
 
-#chanel use
-chanel_use =[[],[],[],[]]
+# chanel use
+chanel_use = [[], [], [], []]
 for i in range(len(logs_tsch_coord)):
     for j in range(len(logs_tsch_coord[i])):
         if (logs_tsch_coord[i][j][1] not in chanel_use[i]):
             chanel_use[i].append(logs_tsch_coord[i][j][1])
-print("Chanel use :",chanel_use)
+print("Chanel use :", chanel_use)
 
 #ack /total
 ratio_ack = []
 for i in range(len(logs_tsch_coord)):
-    nb_ack =0
-    nb_nack=0
+    nb_ack = 0
+    nb_nack = 0
     for j in range(len(logs_tsch_coord[i])):
         if (logs_tsch_coord[i][j][0]):
-            nb_ack+=1
+            nb_ack += 1
         else:
-            nb_nack+=1
-    ratio_ack.append(nb_ack/(nb_ack+nb_nack))
-print("ration ack/all tsch coordinator:",ratio_ack)
+            nb_nack += 1
+    if ((nb_ack+nb_nack) == 0):
+        ratio_ack.append(1000)
+    else:
+        ratio_ack.append(nb_ack/(nb_ack+nb_nack))
+print("ration ack/all tsch coordinator:", ratio_ack)
 
 # Labels
 labels = [2, 4, 10, 25]
