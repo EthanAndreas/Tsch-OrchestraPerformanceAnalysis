@@ -10,7 +10,7 @@ import math
 import numpy as np
 
 # Check that the correct number of arguments was given
-if len(sys.argv) != 4 and len(sys.argv) != 5:
+if len(sys.argv) != 5 and len(sys.argv) != 6:
     print("Usage: python3 monitor.py <experiment_id> <duration> <power | radio> <coordinator | sender> <plot>")
     print("Usage: <plot> (not necessary) permit to plot the result")
     sys.exit()
@@ -127,18 +127,18 @@ if sys.argv[3] == 'power':
 elif sys.argv[3] == 'radio':
     # total time
     total_time = timestamps[0][-1] - timestamps[0][0]
-    # calculate the duration of use of the channel 11 and 14 
-    duration_channel_11 = 0 
+    # calculate the duration of use of the channel 11 and 14
+    duration_channel_11 = 0
     duration_channel_14 = 0
-    for i in range(len(timestamps[0])-1): 
+    for i in range(len(timestamps[0]) - 1):
         if timestamps[1][i] == 11:
             duration_channel_11 += timestamps[0][i+1] - timestamps[0][i]
         elif timestamps[1][i] == 14:
             duration_channel_14 += timestamps[0][i+1] - timestamps[0][i]
-    
+
     radio_consumption_channel_11 = sum(values[0][i] for i in range(len(values[0])) if values[1][i] == 11)/len(values[0])
     radio_consumption_channel_14 = sum(values[0][i] for i in range(len(values[0])) if values[1][i] == 14)/len(values[0])
-    
+
     text = f"Radio consumption of channel 11: {radio_consumption_channel_11:.2f} dBm\n"
     text += f"Radio consumption of channel 14: {radio_consumption_channel_14:.2f} dBm\n"
     text += f"Duty cycle of channel 11: {duration_channel_11/total_time*100:.2f} %\n"
