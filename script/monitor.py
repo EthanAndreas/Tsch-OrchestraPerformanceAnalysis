@@ -107,10 +107,6 @@ elif sys.argv[3] == 'radio':
             values[0].append(10*math.log10(1/float(parts[4].replace('\x00', ''))))
             values[1].append(int(parts[5]))
 
-#if sys.argv[3] == 'radio':
-#    for i in range(len(timestamps[0] - 1)
- #        print(timestamps[0][i])
-
 # put the same size for timestamps and values (avoid any error)
 if sys.argv[3] == 'power':
     if len(timestamps) > len(values):
@@ -124,16 +120,17 @@ if sys.argv[3] == 'power':
 elif sys.argv[3] == 'radio':
     # total time
     total_time = timestamps[0][-1] - timestamps[0][0]
-    # calculate the duration of use of the channel 11
-    duration_channel_11 =  sum([timestamps[0][i+1] - timestamps[0][i]
-                          for i in range(len(timestamps)-1) if timestamps[i][1] == 11])
-    print(duration_channel_11)
-    # calculate the duration of use of the channel 14
-    duration_channel_14 =  sum([timestamps[0][i+1] - timestamps[0][i]
-                            for i in range(len(timestamps)-1) if timestamps[i][1] == 14])
-    print(duration_channel_14)
-    print(total_time)
-    text = f"Average power: {sum(values[0])/len(values[0]):.2f} dBm\n"
+    # calculate the duration of use of the channel 11 and 14 
+    duration_channel_11 = 0 
+    duration_channel_14 = 0
+    for i in range(len(timestamps[0])-1): 
+        if timestamps[i][1] == 11:
+            duration_channel_11 += timestamps[0][i+1] - timestamps[0][i]
+        elif timestamps[i][1] == 14:
+            duration_channel_14 += timestamps[0][i+1] - timestamps[0][i]
+    
+    text = f"Radio consumption of channel 11: {sum(values[0][i] for i in range(len(values[0])) if timestamps[1][i] == 11):.2f} dBm\n"
+    text += f"Radio consumption of channel 14: {sum(values[0][i] for i in range(len(values[0])) if timestamps[1][i] == 14):.2f} dBm\n"
     text += f"Duty cycle of channel 11: {duration_channel_11/total_time*100:.2f} %\n"
     text += f"Duty cycle of channel 14: {duration_channel_14/total_time*100:.2f} %"
 
