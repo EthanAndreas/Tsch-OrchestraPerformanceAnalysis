@@ -28,7 +28,10 @@ def average(tab, a):
 
 
 def parse_sender(file):
-    lines = file.readlines()
+    try:
+        lines = file.readlines()
+    except UnicodeDecodeError:
+        pass  # Ignore the decoding error and continue processing
     debut = lines[0].split()[0]
     i = 0
     nb_send = 0
@@ -70,7 +73,7 @@ def parse_coor_tsch(file):
     log_tsch = []
 
     for line in lines:
-        if (not "{asn" in line):
+        if (not "{asn" in line or "bc-" in line):
             continue
         match = re.search(r"ch (\d+)", line)
         if match:
@@ -103,6 +106,7 @@ if folder_name != 'Tsch-OrchestraPerformanceAnalysis':
     sys.exit()
 
 result = []
+coord_logs=[]
 
 for dir in ["netcat/csma/", "netcat/tsch/", "netcat/orchestra/"]:
 
@@ -128,6 +132,7 @@ for dir in ["netcat/csma/", "netcat/tsch/", "netcat/orchestra/"]:
                 logs_tsch_coord[_n] = parse_coor_tsch(f)
             print()
     result.append(resu)
+    coord_logs.append(logs_tsch_coord)
 
 # time to link
 time_link = []
@@ -177,27 +182,35 @@ average_ping.append(temp3)
 print(average_ping)
 
 # chanel use
-chanel_use = [[], [], [], []]
-for i in range(len(logs_tsch_coord)):
-    for j in range(len(logs_tsch_coord[i])):
-        if (logs_tsch_coord[i][j][1] not in chanel_use[i]):
-            chanel_use[i].append(logs_tsch_coord[i][j][1])
+chanel_use = []
+for k in range(len(coord_logs)):
+    chanel_use_pro = [[], [], [], []]
+    logs_tsch_coord = coord_logs[k]
+    for i in range(len(logs_tsch_coord)):
+        for j in range(len(logs_tsch_coord[i])):
+            if (logs_tsch_coord[i][j][1] not in chanel_use_pro[i]):
+                chanel_use_pro[i].append(logs_tsch_coord[i][j][1])
+    chanel_use.append(chanel_use_pro)
 print("Chanel use :", chanel_use)
 
 #ack /total
 ratio_ack = []
-for i in range(len(logs_tsch_coord)):
-    nb_ack = 0
-    nb_nack = 0
-    for j in range(len(logs_tsch_coord[i])):
-        if (logs_tsch_coord[i][j][0]):
-            nb_ack += 1
+for k in range(len(coord_logs)):
+    ratio_ack_pro = []
+    logs_tsch_coord = coord_logs[k]
+    for i in range(len(logs_tsch_coord)):
+        nb_ack = 0
+        nb_nack = 0
+        for j in range(len(logs_tsch_coord[i])):
+            if (logs_tsch_coord[i][j][0]):
+                nb_ack += 1
+            else:
+                nb_nack += 1
+        if ((nb_ack+nb_nack) == 0):
+            ratio_ack_pro.append(1000)
         else:
-            nb_nack += 1
-    if ((nb_ack+nb_nack) == 0):
-        ratio_ack.append(1000)
-    else:
-        ratio_ack.append(nb_ack/(nb_ack+nb_nack))
+            ratio_ack_pro.append(nb_ack/(nb_ack+nb_nack))
+    ratio_ack.append(ratio_ack_pro)
 print("ration ack/all tsch coordinator:", ratio_ack)
 
 # Labels
@@ -237,4 +250,17 @@ plt.title('Ping (ms)')
 plt.legend()
 
 plt.tight_layout()
+plt.show()
+
+
+plt.figure(figsize=(10, 6))
+
+# Figure 1
+plt.subplot(1, 1, 1)
+plt.plot(labels, ratio_ack[1], marker='o', label='TSCH')
+plt.plot(labels, ratio_ack[2], marker='o', label='ORCHESTRA')
+plt.xlabel('Nodes')
+plt.ylabel('Percentage of success (sec)')
+plt.title('Frame TSCH PoS')
+plt.legend()
 plt.show()

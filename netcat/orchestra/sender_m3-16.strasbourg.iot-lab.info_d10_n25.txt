@@ -1,4 +1,4 @@
-1683817218 »[INFO: App ] Not reachable yet: !node_is_reachable
+1683817218 [INFO: App ] Not reachable yet: !node_is_reachable
 1683817224 [INFO: App ] Not reachable yet: !node_is_reachable
 1683817230 [INFO: App ] Not reachable yet: !node_is_reachable
 1683817232 [WARN: RPL ] just joined, no parent yet, setting timer for leaving

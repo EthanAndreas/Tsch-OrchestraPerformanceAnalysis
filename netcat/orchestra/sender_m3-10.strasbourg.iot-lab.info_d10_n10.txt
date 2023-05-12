@@ -1,4 +1,4 @@
-1683816388 »[INFO: TSCH-LOG ] {asn 00.000002af link 0 3 0 0 0 ch 20} bc-0-0 rx LL-a484->LL-NULL, len 35, seq 0, edr 1, dr -1
+1683816388 [INFO: TSCH-LOG ] {asn 00.000002af link 0 3 0 0 0 ch 20} bc-0-0 rx LL-a484->LL-NULL, len 35, seq 0, edr 1, dr -1
 1683816391 [WARN: RPL ] just joined, no parent yet, setting timer for leaving
 1683816392 [INFO: TSCH-LOG ] {asn 00.00000411 link 0 3 0 0 0 ch 25} bc-1-0 rx LL-a484->LL-NULL, len 94, seq 0, edr 0, dr 0
 1683816392 [INFO: App ] Not reachable yet: !node_is_reachable
