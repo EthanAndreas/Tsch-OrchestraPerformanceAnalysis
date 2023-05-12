@@ -101,11 +101,13 @@ elif sys.argv[3] == 'radio':
             continue  # skip over lines with non-numeric timestamp
 
         if parts[5] == '11':
-            values[0].append(10 * math.log10(1 / float(parts[4].replace('\x00', ''))) - 30)
+            values[0].append(10 * math.log10(1 / float(parts[4].replace('\x00', ''))) )
             values[1].append(int(parts[5]))
+            print(line)
         elif parts[5] == '14':
             values[0].append(10 * math.log10(1 / float(parts[4].replace('\x00', ''))) - 30)
             values[1].append(int(parts[5]))
+            print(line)
 
 # display the average value aside the plot
 if sys.argv[3] == 'power':
@@ -134,9 +136,11 @@ elif sys.argv[3] == 'radio':
         elif values[1][i] == 14:
             radio_consumption_channel_14 += values[0][i]
             nb_values_14 += 1   
-    
-    text = f"Radio consumption of channel 11: {radio_consumption_channel_11/nb_values_11:.2f} dBm\n"
-    text += f"Radio consumption of channel 14: {radio_consumption_channel_14/nb_values_14:.2f} dBm\n"
+    print(radio_consumption_channel_11)
+    print(radio_consumption_channel_14)
+
+    text = f"Radio consumption of channel 11: {radio_consumption_channel_11/nb_values_11:.4f} dBm\n"
+    text += f"Radio consumption of channel 14: {radio_consumption_channel_14/nb_values_14:.4f} dBm\n"
     text += f"Duty cycle of channel 11: {duration_channel_11/total_time*100:.2f} %\n"
     text += f"Duty cycle of channel 14: {duration_channel_14/total_time*100:.2f} %"
 
