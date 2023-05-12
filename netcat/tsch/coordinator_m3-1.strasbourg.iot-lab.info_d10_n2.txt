@@ -1,4 +1,4 @@
-1683893536 ù[INFO: TSCH-LOG ] {asn 00.00000411 link 0 3 0 0 0 ch 25} bc-1-0 tx LL-a484->LL-NULL, len 94, seq 218, st 0 1
+1683893536 [INFO: TSCH-LOG ] {asn 00.00000411 link 0 3 0 0 0 ch 25} bc-1-0 tx LL-a484->LL-NULL, len 94, seq 218, st 0 1
 1683893540 [INFO: TSCH-LOG ] {asn 00.00000579 link 0 3 0 0 0 ch 25} bc-0-0 tx LL-a484->LL-NULL, len 35, seq 219, st 0 1
 1683893553 [INFO: TSCH-LOG ] {asn 00.00000a86 link 0 3 0 0 0 ch 26} bc-1-0 tx LL-a484->LL-NULL, len 94, seq 220, st 0 1
 1683893555 [INFO: TSCH-LOG ] {asn 00.00000b34 link 0 3 0 0 0 ch 15} bc-0-0 tx LL-a484->LL-NULL, len 35, seq 221, st 0 1

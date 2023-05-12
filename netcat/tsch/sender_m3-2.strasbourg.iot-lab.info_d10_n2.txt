@@ -1,4 +1,4 @@
-1683893537 ÿ[INFO: App ] Not reachable yet: !node_is_reachable
+1683893537 [INFO: App ] Not reachable yet: !node_is_reachable
 1683893543 [INFO: App ] Not reachable yet: !node_is_reachable
 1683893549 [INFO: App ] Not reachable yet: !node_is_reachable
 1683893550 [WARN: 6LoWPAN ] output: failed to calculate payload size - dropping packet
