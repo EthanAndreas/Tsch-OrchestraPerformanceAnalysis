@@ -101,25 +101,11 @@ elif sys.argv[3] == 'radio':
             continue  # skip over lines with non-numeric timestamp
 
         if parts[5] == '11':
-            values[0].append(10*math.log10(1/float(parts[4].replace('\x00', ''))))
+            values[0].append(10 * math.log10(1 / float(parts[4].replace('\x00', ''))) - 30)
             values[1].append(int(parts[5]))
         elif parts[5] == '14':
-            values[0].append(10*math.log10(1/float(parts[4].replace('\x00', ''))))
+            values[0].append(10 * math.log10(1 / float(parts[4].replace('\x00', ''))) - 30)
             values[1].append(int(parts[5]))
-
-# put the same size for timestamps and values (avoid any error)
-if sys.argv[3] == 'power':
-    if len(timestamps) > len(values):
-        timestamps = timestamps[:len(values)]
-    else:
-        values = values[:len(timestamps)]
-elif sys.argv[3] == 'radio':
-    if len(timestamps[0]) > len(values[0]):
-        timestamps[0] = timestamps[0][:len(values[0])]
-        timestamps[1] = timestamps[1][:len(values[0])]
-    else:
-        values[0] = values[0][:len(timestamps[0])]
-        values[1] = values[1][:len(timestamps[0])]
 
 # display the average value aside the plot
 if sys.argv[3] == 'power':
@@ -136,11 +122,21 @@ elif sys.argv[3] == 'radio':
         elif timestamps[1][i] == 14:
             duration_channel_14 += timestamps[0][i+1] - timestamps[0][i]
 
-    radio_consumption_channel_11 = sum(values[0][i] for i in range(len(values[0])) if values[1][i] == 11)/len(values[0])
-    radio_consumption_channel_14 = sum(values[0][i] for i in range(len(values[0])) if values[1][i] == 14)/len(values[0])
-
-    text = f"Radio consumption of channel 11: {radio_consumption_channel_11:.2f} dBm\n"
-    text += f"Radio consumption of channel 14: {radio_consumption_channel_14:.2f} dBm\n"
+    # calculate the radio consumption of channel 11 and 14
+    radio_consumption_channel_11 = 0
+    nb_values_11 = 0
+    radio_consumption_channel_14 = 0
+    nb_values_14 = 0
+    for i in range(len(values[0]) - 1):
+        if values[1][i] == 11:
+            radio_consumption_channel_11 += values[0][i]
+            nb_values_11 += 1
+        elif values[1][i] == 14:
+            radio_consumption_channel_14 += values[0][i]
+            nb_values_14 += 1   
+    
+    text = f"Radio consumption of channel 11: {radio_consumption_channel_11/nb_values_11:.2f} dBm\n"
+    text += f"Radio consumption of channel 14: {radio_consumption_channel_14/nb_values_14:.2f} dBm\n"
     text += f"Duty cycle of channel 11: {duration_channel_11/total_time*100:.2f} %\n"
     text += f"Duty cycle of channel 14: {duration_channel_14/total_time*100:.2f} %"
 
