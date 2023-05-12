@@ -1,4 +1,4 @@
-#Count the number of message send/recived (app)
+#Count the number of message send/recived (app <app>)
 
 
 import os
@@ -31,3 +31,5 @@ for dir in ["monitor_netcat/csma/","monitor_netcat/tsch/","monitor_netcat/orches
                 continue
         print(file)
         print()
+
+

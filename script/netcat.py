@@ -28,10 +28,8 @@ def average(tab, a):
 
 
 def parse_sender(file):
-    try:
-        lines = file.readlines()
-    except UnicodeDecodeError:
-        pass  # Ignore the decoding error and continue processing
+    lines = file.readlines()
+
     debut = lines[0].split()[0]
     i = 0
     nb_send = 0
@@ -235,8 +233,8 @@ plt.plot(labels, average_pdr[0], marker='o', label='CSMA')
 plt.plot(labels, average_pdr[1], marker='o', label='TSCH')
 plt.plot(labels, average_pdr[2], marker='o', label='ORCHESTRA')
 plt.xlabel('Nodes')
-plt.ylabel('PoS average <app>')
-plt.title('Percentage of success (PoS)')
+plt.ylabel('PoS average ')
+plt.title('Percentage of success (PoS) <app>')
 plt.legend()
 
 # Figure 3
@@ -246,7 +244,7 @@ plt.plot(labels, average_ping[1], marker='o', label='TSCH')
 plt.plot(labels, average_ping[2], marker='o', label='ORCHESTRA')
 plt.xlabel('Nodes')
 plt.ylabel('Ping avergae (app)')
-plt.title('Ping (ms)')
+plt.title('Ping (ms) <app> ')
 plt.legend()
 
 plt.tight_layout()

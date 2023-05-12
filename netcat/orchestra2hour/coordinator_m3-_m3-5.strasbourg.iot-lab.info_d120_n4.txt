@@ -1,4 +1,4 @@
-1683897065 ±[INFO: TSCH-LOG ] {asn 00.0000028e link 0 3 0 0 0 ch 26} bc-0-0 tx LL-9889->LL-NULL, len 35, seq 193, st 0 1
+1683897065 [INFO: TSCH-LOG ] {asn 00.0000028e link 0 3 0 0 0 ch 26} bc-0-0 tx LL-9889->LL-NULL, len 35, seq 193, st 0 1
 1683897067 [INFO: TSCH-LOG ] {asn 00.0000035a link 0 3 0 0 0 ch 26} bc-1-0 tx LL-9889->LL-NULL, len 94, seq 194, st 0 1
 1683897068 [INFO: TSCH-LOG ] {asn 00.00000381 link 0 3 0 0 0 ch 25} !failed to parse frame 13 17
 1683897071 [INFO: TSCH-LOG ] {asn 00.000004a7 link 0 3 0 0 0 ch 20} !dl-miss RxBeforeAck 131 133

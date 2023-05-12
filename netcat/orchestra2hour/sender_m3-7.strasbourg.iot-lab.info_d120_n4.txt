@@ -1,4 +1,4 @@
-1683897067 »[WARN: RPL ] just joined, no parent yet, setting timer for leaving
+1683897067 [WARN: RPL ] just joined, no parent yet, setting timer for leaving
 1683897067 [INFO: TSCH-LOG ] {asn 00.0000035a link 0 3 0 0 0 ch 26} bc-1-0 rx LL-9889->LL-NULL, len 94, seq 0, edr 1, dr -1
 1683897068 [INFO: TSCH-LOG ] {asn 00.00000381 link 0 3 0 0 0 ch 25} !failed to parse frame 13 17
 1683897070 [INFO: App ] Not reachable yet: !node_is_reachable
