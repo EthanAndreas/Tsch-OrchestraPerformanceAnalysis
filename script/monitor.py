@@ -64,9 +64,9 @@ with open(file_path, 'r') as f:
 data = data[9:]
 
 # Extract the relevant values from the data
-timestamps = []
-values = []
 if sys.argv[3] == 'power':
+    timestamps = []
+    values = []
     for line in data:
         if line.startswith('#'):
             continue
@@ -81,7 +81,8 @@ if sys.argv[3] == 'power':
         values.append(float(parts[-1]))
 
 elif sys.argv[3] == 'radio':
-    interval = []
+    timestamps = [[], []]
+    values = [[], []]
     for line in data:
         if line.startswith('#'):
             continue
@@ -89,25 +90,52 @@ elif sys.argv[3] == 'radio':
         if len(parts) < 2:
             continue  # skip over lines without enough parts
         try:
-            timestamp = float(parts[0])
+            if parts[5] == '11':
+                timestamps[0].append(float(parts[0]))
+                timestamps[1].append(int(parts[5]))
+            elif parts[5] == '14':
+                timestamps[0].append(float(parts[0]))
+                timestamps[1].append(int(parts[5]))
         except ValueError:
             continue  # skip over lines with non-numeric timestamp
-        timestamps.append(timestamp)
-        values.append(parts[4])
-        if timestamps[len(timestamps) - 1] != timestamps[len(timestamps) - 2]:
-            interval.append(1/(timestamps[len(timestamps) - 1]*1000 - timestamps[len(timestamps) - 2]*1000))
-
-# put the same size for timestamps and values
-if len(timestamps) > len(values):
-    timestamps = timestamps[:len(values)]
-else:
-    values = values[:len(timestamps)]
+        
+        if parts[5] == '11':
+            values[0].append(float(parts[4]))
+            values[1].append(int(parts[5]))
+        elif parts[5] == '14':
+            values[0].append(float(parts[4]))
+            values[1].append(int(parts[5]))
+        
+# put the same size for timestamps and values (avoid any error)
+if sys.argv[3] == 'power':
+    if len(timestamps) > len(values):
+        timestamps = timestamps[:len(values)]
+    else:
+        values = values[:len(timestamps)]
+elif sys.argv[3] == 'radio':
+    if len(timestamps[0]) > len(values[0]):
+        timestamps[0] = timestamps[0][:len(values[0])]
+        timestamps[1] = timestamps[1][:len(values[0])]
+    else:
+        values[0] = values[0][:len(timestamps[0])]
+        values[1] = values[1][:len(timestamps[0])]
 
 # display the average value aside the plot
 if sys.argv[3] == 'power':
     text = f"Average power: {sum(values)/len(values)*1000:.2f} mW"
 elif sys.argv[3] == 'radio':
-    text = f"Average frequency of radio activity: {sum(interval)/len(interval):.2f} kHz"
+    # total time
+    total_time = timestamps[-1][0] - timestamps[0][0]
+    # calculate the duration of use of the channel 11
+    duration_channel_11 =  sum([timestamps[i+1][0] - timestamps[i][0] 
+                          for i in range(len(timestamps)-1) if timestamps[i][1] == 11])
+    
+    # calculate the duration of use of the channel 14
+    duration_channel_14 =  sum([timestamps[i+1][0] - timestamps[i][0]
+                            for i in range(len(timestamps)-1) if timestamps[i][1] == 14])
+    text = f"Average power: {sum(values[0])/len(values[0])*1000:.2f} mW\n"
+    text += f"Duty cycle of channel 11: {duration_channel_11/total_time*100:.2f} %\n"
+    text += f"Duty cycle of channel 14: {duration_channel_14/total_time*100:.2f} %"
 
 if len(sys.argv) == 5:
     print(text)
