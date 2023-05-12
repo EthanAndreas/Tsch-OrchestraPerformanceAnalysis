@@ -124,9 +124,9 @@ elif sys.argv[3] == 'radio':
     duration_channel_11 = 0 
     duration_channel_14 = 0
     for i in range(len(timestamps[0])-1): 
-        if timestamps[i][1] == 11:
+        if timestamps[1][i] == 11:
             duration_channel_11 += timestamps[0][i+1] - timestamps[0][i]
-        elif timestamps[i][1] == 14:
+        elif timestamps[1][i] == 14:
             duration_channel_14 += timestamps[0][i+1] - timestamps[0][i]
     
     text = f"Radio consumption of channel 11: {sum(values[0][i] for i in range(len(values[0])) if timestamps[1][i] == 11):.2f} dBm\n"
