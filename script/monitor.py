@@ -10,20 +10,21 @@ import math
 import numpy as np
 
 # Check that the correct number of arguments was given
-if len(sys.argv) != 5 and len(sys.argv) != 6:
-    print("Usage: python3 monitor.py <experiment_id> <duration> <power | radio> <coordinator | sender> <plot>")
+if len(sys.argv) != 4 and len(sys.argv) != 5:
+    print("Usage: python3 monitor.py <experiment_id> <power | radio> <coordinator | sender> <plot>")
+    print("Usage: <coordinator | sender> specify which node to monitor in case of power monitoring")
     print("Usage: <plot> (not necessary) permit to plot the result")
     sys.exit()
 
-if sys.argv[3] not in ['power', 'radio']:
+if sys.argv[2] not in ['power', 'radio']:
     print("Invalid argument : [power | radio]")
     sys.exit()
 
-if sys.argv[4] not in ['coordinator', 'sender']:
+if sys.argv[3] not in ['coordinator', 'sender']:
     print("Invalid argument : [coordinator | sender]")
     sys.exit()
 
-if len(sys.argv) == 6 and sys.argv[5] not in ['plot']:
+if len(sys.argv) == 5 and sys.argv[4] not in ['plot']:
     print("Invalid argument : [plot]")
     sys.exit()
 
@@ -37,9 +38,9 @@ if folder_name != 'Tsch-OrchestraPerformanceAnalysis':
 # Retrieve the folder path where the data is stored
 directory = os.path.expanduser("~") + '/.iot-lab/' + sys.argv[1]
 
-if sys.argv[3] == 'power':
+if sys.argv[2] == 'power':
     directory = directory + '/consumption/'
-elif sys.argv[3] == 'radio':
+elif sys.argv[2] == 'radio':
     directory = directory + '/radio/'
 
 # Check if the folder contains the data file
@@ -51,9 +52,9 @@ if len(nodes_number) < 2:
 
 # Retrieve the file
 files = os.listdir(directory)
-if sys.argv[4] == 'coordinator':
+if sys.argv[3] == 'coordinator':
 	file = files[-1]
-elif sys.argv[4] == 'sender':
+elif sys.argv[3] == 'sender':
 	file = files[-2]
 file_path = directory + file
 
@@ -65,7 +66,7 @@ with open(file_path, 'r') as f:
 data = data[9:]
 
 # Extract the relevant values from the data
-if sys.argv[3] == 'power':
+if sys.argv[2] == 'power':
     timestamps = []
     values = []
     for line in data:
@@ -81,7 +82,7 @@ if sys.argv[3] == 'power':
         timestamps.append(timestamp)
         values.append(float(parts[-1].replace('\x00', '')))
 
-elif sys.argv[3] == 'radio':
+elif sys.argv[2] == 'radio':
     timestamps = [[], []]
     for line in data:
         if line.startswith('#'):
@@ -100,9 +101,9 @@ elif sys.argv[3] == 'radio':
             continue  # skip over lines with non-numeric timestamp
 
 # display the average value aside the plot
-if sys.argv[3] == 'power':
+if sys.argv[2] == 'power':
     text = f"Average power: {sum(values)/len(values)*1000:.2f} mW"
-elif sys.argv[3] == 'radio':
+elif sys.argv[2] == 'radio':
     # total time
     total_time = timestamps[0][-1] - timestamps[0][0]
     # calculate the duration of use of the channel 11 and 14
@@ -117,13 +118,13 @@ elif sys.argv[3] == 'radio':
     text = f"Duty cycle of channel 11: {duration_channel_11/total_time*100:.2f} %\n"
     text += f"Duty cycle of channel 14: {duration_channel_14/total_time*100:.2f} %"
 
-if len(sys.argv) == 5:
+if len(sys.argv) == 4:
     print(text)
 
-if len(sys.argv) == 6:
-    if sys.argv[3] == 'power':
+if len(sys.argv) == 5:
+    if sys.argv[2] == 'power':
         command = f'plot_oml_consum -p -i {file_path}'
-    elif sys.argv[3] == 'radio':
+    elif sys.argv[2] == 'radio':
         command = f'plot_oml_radio -p -i {file_path}'
 
     subprocess.run(command, shell=True)
