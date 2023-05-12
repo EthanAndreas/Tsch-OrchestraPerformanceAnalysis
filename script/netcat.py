@@ -216,10 +216,10 @@ print("ration ack/all tsch coordinator:", ratio_ack)
 # Labels
 labels = [2, 4, 10, 25]
 
-# Plotting
+# Figure 1
 plt.figure(figsize=(10, 6))
 
-# Figure 1
+# Plot 1
 plt.subplot(1, 3, 1)
 plt.plot(labels, time_link[0], marker='o', label='CSMA')
 plt.plot(labels, time_link[1], marker='o', label='TSCH')
@@ -229,7 +229,7 @@ plt.ylabel('Time to link the network (sec)')
 plt.title('Linking network')
 plt.legend()
 
-# Figure 2
+# Plot 2
 plt.subplot(1, 3, 2)
 plt.plot(labels, average_pdr[0], marker='o', label='CSMA')
 plt.plot(labels, average_pdr[1], marker='o', label='TSCH')
@@ -239,7 +239,7 @@ plt.ylabel('PoS average <app>')
 plt.title('Percentage of success (PoS)')
 plt.legend()
 
-# Figure 3
+# Plot 3
 plt.subplot(1, 3, 3)
 plt.plot(labels, average_ping[0], marker='o', label='CSMA')
 plt.plot(labels, average_ping[1], marker='o', label='TSCH')
@@ -252,10 +252,10 @@ plt.legend()
 plt.tight_layout()
 plt.show()
 
-
+# Figure 2
 plt.figure(figsize=(10, 6))
 
-# Figure 1
+# Plot 1
 plt.subplot(1, 1, 1)
 plt.plot(labels, ratio_ack[1], marker='o', label='TSCH')
 plt.plot(labels, ratio_ack[2], marker='o', label='ORCHESTRA')
@@ -263,4 +263,5 @@ plt.xlabel('Nodes')
 plt.ylabel('Percentage of success (sec)')
 plt.title('Frame TSCH PoS')
 plt.legend()
+
 plt.show()

@@ -1,5 +1,5 @@
 # Performance Analysis of TSCH Protocol and Orchestra Scheduling in IoT Networks
-[![version](https://img.shields.io/badge/version-0.0.1-blue.svg)](https://github.com/EthanAndreas/Tsch-OrchestraPerformanceAnalysis)
+[![version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/EthanAndreas/Tsch-OrchestraPerformanceAnalysis)
 [![compiler](https://img.shields.io/badge/compiler-gcc-red.svg)](https://github.com/EthanAndreas/Tsch-OrchestraPerformanceAnalysis/blob/main/Makefile)
 [![author](https://img.shields.io/badge/author-EthanAndreas-blue)](https://github.com/EthanAndreas)
 [![author](https://img.shields.io/badge/author-Cottelle-blue)](https://github.com/Cottelle)
@@ -93,7 +93,6 @@ python3 script/netcat.py
 ```bash
 ./script/monitor_netcat.sh <experiment_name> <duration> <nodes_number> <power | consumption> <protocol>
 ```
-
 
 ## Remark
 
