@@ -1,3 +1,5 @@
+#remove non unicode symbole at the start of the file if the warning is catch
+
 from matplotlib import pyplot as plt
 import sys
 import os
@@ -161,7 +163,7 @@ for i in range(4):
 average_pdr.append(temp)
 average_pdr.append(temp2)
 average_pdr.append(temp3)
-print(average_pdr)
+print("Average of Pos (app):",average_pdr)
 
 # ping
 average_ping = []
@@ -177,7 +179,7 @@ average_ping.append(temp)
 average_ping.append(temp2)
 average_ping.append(temp3)
 
-print(average_ping)
+print("Average ping (app):",average_ping)
 
 # chanel use
 chanel_use = []
@@ -209,7 +211,7 @@ for k in range(len(coord_logs)):
         else:
             ratio_ack_pro.append(nb_ack/(nb_ack+nb_nack))
     ratio_ack.append(ratio_ack_pro)
-print("ration ack/all tsch coordinator:", ratio_ack)
+print("ratio ack/all tsch coordinator:", ratio_ack)
 
 # Labels
 labels = [2, 4, 10, 25]
