@@ -83,7 +83,6 @@ if sys.argv[3] == 'power':
 
 elif sys.argv[3] == 'radio':
     timestamps = [[], []]
-    values = [[], []]
     for line in data:
         if line.startswith('#'):
             continue
@@ -100,15 +99,6 @@ elif sys.argv[3] == 'radio':
         except ValueError:
             continue  # skip over lines with non-numeric timestamp
 
-        if parts[5] == '11':
-            values[0].append(10 * math.log10(1 / float(parts[4].replace('\x00', ''))) )
-            values[1].append(int(parts[5]))
-            print(line)
-        elif parts[5] == '14':
-            values[0].append(10 * math.log10(1 / float(parts[4].replace('\x00', ''))) - 30)
-            values[1].append(int(parts[5]))
-            print(line)
-
 # display the average value aside the plot
 if sys.argv[3] == 'power':
     text = f"Average power: {sum(values)/len(values)*1000:.2f} mW"
@@ -123,25 +113,8 @@ elif sys.argv[3] == 'radio':
             duration_channel_11 += timestamps[0][i+1] - timestamps[0][i]
         elif timestamps[1][i] == 14:
             duration_channel_14 += timestamps[0][i+1] - timestamps[0][i]
-
-    # calculate the radio consumption of channel 11 and 14
-    radio_consumption_channel_11 = 0
-    nb_values_11 = 0
-    radio_consumption_channel_14 = 0
-    nb_values_14 = 0
-    for i in range(len(values[0]) - 1):
-        if values[1][i] == 11:
-            radio_consumption_channel_11 += values[0][i]
-            nb_values_11 += 1
-        elif values[1][i] == 14:
-            radio_consumption_channel_14 += values[0][i]
-            nb_values_14 += 1   
-    print(radio_consumption_channel_11)
-    print(radio_consumption_channel_14)
-
-    text = f"Radio consumption of channel 11: {radio_consumption_channel_11/nb_values_11:.4f} dBm\n"
-    text += f"Radio consumption of channel 14: {radio_consumption_channel_14/nb_values_14:.4f} dBm\n"
-    text += f"Duty cycle of channel 11: {duration_channel_11/total_time*100:.2f} %\n"
+            
+    text = f"Duty cycle of channel 11: {duration_channel_11/total_time*100:.2f} %\n"
     text += f"Duty cycle of channel 14: {duration_channel_14/total_time*100:.2f} %"
 
 if len(sys.argv) == 5:
