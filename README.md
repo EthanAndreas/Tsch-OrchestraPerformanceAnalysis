@@ -21,10 +21,7 @@ Thus, we created experiments containing different nodes using CSMA/TSCH and 6TiS
 We set up groups of experiments focused on the analysis of several metrics, where each experiment contained different configurations.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-As result, we have observed the promises of TSCH compared to CSMA in non-beacon mode, which
-is to reduce energy consumption and increase reliability by reducing packet loss.
-packet loss. However, we have not been able to observe the promises made by Orchestra compared to
-6TiSCH, which is to reduce packet loss and increase latency-energy balance.  
+Finally, we have been able to observe the promises of TSCH compared to CSMA in non-beacon mode, which is to reduce energy consumption and to increase reliability by reducing packet loss. For Orchestra, in a first step, we were not able to observe the promises compared to 6TiSCH. However, in a second step, we were able to observe them once on a 2 hour experiment, where this time Orchestra performed better than 6TiSCH while having a similar energy consumption. We therefore conclude that in order to achieve better analysis and comparison between schedulers, it is necessary to carry out long experiments.
 
 ## Command
 
