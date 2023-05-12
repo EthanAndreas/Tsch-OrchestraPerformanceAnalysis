@@ -1,0 +1,363 @@
+1683889941 [INFO: TSCH-LOG ] {asn 00.00000414 link 0 3 0 0 0 ch 15} bc-1-0 tx LL-9787->LL-NULL, len 94, seq 190, st 0 1
+1683889944 [INFO: TSCH-LOG ] {asn 00.0000050a link 0 3 0 0 0 ch 26} uc-1-0 rx LL-9388->LL-9787, len 100, seq 13, edr 0
+1683889944 [INFO: TSCH-LOG ] {asn 00.00000522 link 0 3 0 0 0 ch 26} uc-1-0 rx LL-9388->LL-9787, len 100, seq 14, edr 0
+1683889946 [INFO: TSCH-LOG ] {asn 00.0000060c link 0 3 0 0 0 ch 15} bc-0-0 tx LL-9787->LL-NULL, len 35, seq 191, st 0 1
+1683889947 [INFO: TSCH-LOG ] {asn 00.0000062d link 0 3 0 0 0 ch 25} uc-1-0 rx LL-9388->LL-9787, len 100, seq 15, edr 0
+1683889949 [INFO: TSCH-LOG ] {asn 00.0000070b link 0 3 0 0 0 ch 20} uc-1-0 rx LL-9388->LL-9787, len 100, seq 16, edr 0
+1683889949 [INFO: TSCH-LOG ] {asn 00.00000741 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-9388->LL-NULL, len 35, seq 16, edr 0
+1683889951 [INFO: TSCH-LOG ] {asn 00.000007e3 link 0 3 0 0 0 ch 20} uc-1-0 rx LL-9388->LL-9787, len 83, seq 17, edr 0
+1683889951 [INFO: TSCH-LOG ] {asn 00.000007e6 link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9787->LL-9388, len 41, seq 117, st 0 1
+1683889952 [INFO: TSCH-LOG ] {asn 00.00000858 link 0 3 0 0 0 ch 15} bc-1-0 tx LL-9787->LL-NULL, len 94, seq 192, st 0 1
+1683889954 [INFO: App ] Received request 'hello 0' from fd00::9388
+1683889954 [INFO: App ] sending response
+1683889954 [INFO: TSCH-LOG ] {asn 00.00000900 link 0 3 0 0 0 ch 15} uc-1-0 rx LL-9388->LL-9787, len 46, seq 18, edr 0
+1683889954 [INFO: TSCH-LOG ] {asn 00.00000903 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9787->LL-9388, len 46, seq 118, st 0 1
+1683889955 [INFO: TSCH-LOG ] {asn 00.0000093c link 0 3 0 0 0 ch 15} bc-1-0 rx LL-9388->LL-NULL, len 94, seq 18, edr 0
+1683889960 [INFO: TSCH-LOG ] {asn 00.00000b4f link 0 3 0 0 0 ch 20} bc-0-0 tx LL-9787->LL-NULL, len 35, seq 193, st 0 1
+1683889960 [INFO: App ] Received request 'hello 1' from fd00::9388
+1683889960 [INFO: App ] sending response
+1683889960 [INFO: TSCH-LOG ] {asn 00.00000b58 link 0 3 0 0 0 ch 15} uc-1-0 rx LL-9388->LL-9787, len 46, seq 19, edr 0
+1683889960 [INFO: TSCH-LOG ] {asn 00.00000b5b link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9787->LL-9388, len 46, seq 119, st 0 1
+1683889960 [INFO: TSCH-LOG ] {asn 00.00000b5e link 0 3 0 0 0 ch 26} bc-1-0 rx LL-9388->LL-NULL, len 94, seq 19, edr 0
+1683889962 [INFO: TSCH-LOG ] {asn 00.00000c45 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-9388->LL-NULL, len 35, seq 19, edr 0
+1683889966 [INFO: App ] Received request 'hello 2' from fd00::9388
+1683889966 [INFO: App ] sending response
+1683889966 [INFO: TSCH-LOG ] {asn 00.00000db0 link 0 3 0 0 0 ch 15} uc-1-0 rx LL-9388->LL-9787, len 46, seq 20, edr 0
+1683889966 [INFO: TSCH-LOG ] {asn 00.00000db3 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9787->LL-9388, len 46, seq 120, st 0 1
+1683889969 [INFO: TSCH-LOG ] {asn 00.00000f09 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-9388->LL-NULL, len 35, seq 20, edr 0
+1683889972 [INFO: App ] Received request 'hello 3' from fd00::9388
+1683889972 [INFO: App ] sending response
+1683889972 [INFO: TSCH-LOG ] {asn 00.00001008 link 0 3 0 0 0 ch 15} uc-1-0 rx LL-9388->LL-9787, len 46, seq 21, edr 0
+1683889972 [INFO: TSCH-LOG ] {asn 00.0000100b link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9787->LL-9388, len 46, seq 121, st 0 1
+1683889972 [INFO: TSCH-LOG ] {asn 00.0000101d link 0 3 0 0 0 ch 25} bc-1-0 rx LL-9388->LL-NULL, len 94, seq 21, edr 0
+1683889973 [INFO: TSCH-LOG ] {asn 00.0000106e link 0 3 0 0 0 ch 26} bc-0-0 tx LL-9787->LL-NULL, len 35, seq 194, st 0 1
+1683889978 [INFO: App ] Received request 'hello 4' from fd00::9388
+1683889978 [INFO: App ] sending response
+1683889978 [INFO: TSCH-LOG ] {asn 00.00001260 link 0 3 0 0 0 ch 15} uc-1-0 rx LL-9388->LL-9787, len 46, seq 22, edr 0
+1683889978 [INFO: TSCH-LOG ] {asn 00.00001263 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9787->LL-9388, len 46, seq 122, st 0 1
+1683889982 [INFO: TSCH-LOG ] {asn 00.00001407 link 0 3 0 0 0 ch 20} bc-0-0 rx LL-9388->LL-NULL, len 35, seq 22, edr 0
+1683889984 [INFO: App ] Received request 'hello 5' from fd00::9388
+1683889984 [INFO: App ] sending response
+1683889984 [INFO: TSCH-LOG ] {asn 00.000014b5 link 0 3 0 0 0 ch 25} uc-1-0 rx LL-9388->LL-9787, len 46, seq 23, edr 0
+1683889984 [INFO: TSCH-LOG ] {asn 00.000014b8 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9787->LL-9388, len 46, seq 123, st 0 1
+1683889986 [INFO: TSCH-LOG ] {asn 00.0000155a link 0 3 0 0 0 ch 26} bc-1-0 rx LL-a484->LL-NULL, len 95, seq 209, edr -29
+1683889988 [INFO: TSCH-LOG ] {asn 00.0000167a link 0 3 0 0 0 ch 26} bc-0-0 tx LL-9787->LL-NULL, len 35, seq 195, st 0 1
+1683889989 [INFO: TSCH-LOG ] {asn 00.00001692 link 0 3 0 0 0 ch 26} bc-1-0 tx LL-9787->LL-NULL, len 94, seq 196, st 0 1
+1683889990 [INFO: App ] Received request 'hello 6' from fd00::9388
+1683889990 [INFO: App ] sending response
+1683889990 [INFO: TSCH-LOG ] {asn 00.0000170d link 0 3 0 0 0 ch 25} uc-1-0 rx LL-9388->LL-9787, len 46, seq 24, edr 0
+1683889990 [INFO: TSCH-LOG ] {asn 00.00001710 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9787->LL-9388, len 46, seq 124, st 0 1
+1683889996 [INFO: App ] Received request 'hello 7' from fd00::9388
+1683889996 [INFO: App ] sending response
+1683889996 [INFO: TSCH-LOG ] {asn 00.00001965 link 0 3 0 0 0 ch 25} uc-1-0 rx LL-9388->LL-9787, len 46, seq 25, edr 0
+1683889996 [INFO: TSCH-LOG ] {asn 00.00001968 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9787->LL-9388, len 46, seq 125, st 0 1
+1683889997 [INFO: TSCH-LOG ] {asn 00.000019d1 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-9388->LL-NULL, len 35, seq 25, edr 0
+1683890002 [INFO: App ] Received request 'hello 8' from fd00::9388
+1683890002 [INFO: App ] sending response
+1683890002 [INFO: TSCH-LOG ] {asn 00.00001bbd link 0 3 0 0 0 ch 25} uc-1-0 rx LL-9388->LL-9787, len 46, seq 26, edr 0
+1683890002 [INFO: TSCH-LOG ] {asn 00.00001bc0 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9787->LL-9388, len 46, seq 126, st 0 1
+1683890003 [INFO: TSCH-LOG ] {asn 00.00001c3b link 0 3 0 0 0 ch 20} bc-0-0 tx LL-9787->LL-NULL, len 35, seq 197, st 0 1
+1683890008 [INFO: App ] Received request 'hello 9' from fd00::9388
+1683890008 [INFO: App ] sending response
+1683890008 [INFO: TSCH-LOG ] {asn 00.00001e15 link 0 3 0 0 0 ch 25} uc-1-0 rx LL-9388->LL-9787, len 46, seq 27, edr 0
+1683890008 [INFO: TSCH-LOG ] {asn 00.00001e18 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9787->LL-9388, len 46, seq 127, st 0 1
+1683890010 [INFO: TSCH-LOG ] {asn 00.00001ebd link 0 3 0 0 0 ch 25} bc-1-0 rx LL-9388->LL-NULL, len 94, seq 27, edr 0
+1683890011 [INFO: TSCH-LOG ] {asn 00.00001f2c link 0 3 0 0 0 ch 15} bc-0-0 rx LL-9388->LL-NULL, len 35, seq 27, edr 0
+1683890014 [INFO: App ] Received request 'hello 10' from fd00::9388
+1683890014 [INFO: App ] sending response
+1683890014 [INFO: TSCH-LOG ] {asn 00.0000206d link 0 3 0 0 0 ch 25} uc-1-0 rx LL-9388->LL-9787, len 47, seq 28, edr 0
+1683890014 [INFO: TSCH-LOG ] {asn 00.00002070 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9787->LL-9388, len 47, seq 128, st 0 1
+1683890015 [INFO: TSCH-LOG ] {asn 00.000020fa link 0 3 0 0 0 ch 26} bc-0-0 tx LL-9787->LL-NULL, len 35, seq 198, st 0 1
+1683890020 [INFO: App ] Received request 'hello 11' from fd00::9388
+1683890020 [INFO: App ] sending response
+1683890020 [INFO: TSCH-LOG ] {asn 00.000022c2 link 0 3 0 0 0 ch 26} uc-1-0 rx LL-9388->LL-9787, len 47, seq 29, edr 1
+1683890020 [INFO: TSCH-LOG ] {asn 00.000022c5 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9787->LL-9388, len 47, seq 129, st 0 1
+1683890024 [INFO: TSCH-LOG ] {asn 00.00002430 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-9388->LL-NULL, len 35, seq 32, edr 0
+1683890026 [INFO: App ] Received request 'hello 12' from fd00::9388
+1683890026 [INFO: App ] sending response
+1683890026 [INFO: TSCH-LOG ] {asn 00.0000251a link 0 3 0 0 0 ch 26} uc-1-0 rx LL-9388->LL-9787, len 47, seq 30, edr 1
+1683890026 [INFO: TSCH-LOG ] {asn 00.0000251d link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9787->LL-9388, len 47, seq 130, st 0 1
+1683890027 [INFO: TSCH-LOG ] {asn 00.000025a7 link 0 3 0 0 0 ch 20} bc-0-0 tx LL-9787->LL-NULL, len 35, seq 199, st 0 1
+1683890032 [INFO: App ] Received request 'hello 13' from fd00::9388
+1683890032 [INFO: App ] sending response
+1683890032 [INFO: TSCH-LOG ] {asn 00.00002772 link 0 3 0 0 0 ch 26} uc-1-0 rx LL-9388->LL-9787, len 47, seq 31, edr 1
+1683890032 [INFO: TSCH-LOG ] {asn 00.00002775 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9787->LL-9388, len 47, seq 131, st 0 1
+1683890032 [INFO: TSCH-LOG ] {asn 00.00002787 link 0 3 0 0 0 ch 20} bc-1-0 tx LL-9787->LL-NULL, len 94, seq 200, st 0 1
+1683890036 [INFO: TSCH-LOG ] {asn 00.00002913 link 0 3 0 0 0 ch 20} bc-0-0 rx LL-9388->LL-NULL, len 35, seq 31, edr 1
+1683890038 [INFO: App ] Received request 'hello 14' from fd00::9388
+1683890038 [INFO: App ] sending response
+1683890038 [INFO: TSCH-LOG ] {asn 00.000029ca link 0 3 0 0 0 ch 26} uc-1-0 rx LL-9388->LL-9787, len 47, seq 32, edr 1
+1683890038 [INFO: TSCH-LOG ] {asn 00.000029cd link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9787->LL-9388, len 47, seq 132, st 0 1
+1683890041 [INFO: TSCH-LOG ] {asn 00.00002b14 link 0 3 0 0 0 ch 15} bc-0-0 tx LL-9787->LL-NULL, len 35, seq 201, st 0 1
+1683890044 [INFO: App ] Received request 'hello 15' from fd00::9388
+1683890044 [INFO: App ] sending response
+1683890044 [INFO: TSCH-LOG ] {asn 00.00002c22 link 0 3 0 0 0 ch 26} uc-1-0 rx LL-9388->LL-9787, len 47, seq 33, edr 1
+1683890044 [INFO: TSCH-LOG ] {asn 00.00002c25 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9787->LL-9388, len 47, seq 133, st 0 1
+1683890049 [INFO: TSCH-LOG ] {asn 00.00002e47 link 0 3 0 0 0 ch 20} bc-0-0 rx LL-9388->LL-NULL, len 35, seq 33, edr -1
+1683890050 [INFO: App ] Received request 'hello 16' from fd00::9388
+1683890050 [INFO: App ] sending response
+1683890050 [INFO: TSCH-LOG ] {asn 00.00002e7a link 0 3 0 0 0 ch 26} uc-1-0 rx LL-9388->LL-9787, len 47, seq 34, edr -1
+1683890050 [INFO: TSCH-LOG ] {asn 00.00002e7d link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9787->LL-9388, len 47, seq 134, st 0 1
+1683890054 [INFO: TSCH-LOG ] {asn 00.00003018 link 0 3 0 0 0 ch 15} bc-1-0 rx LL-9388->LL-NULL, len 94, seq 34, edr 0
+1683890056 [INFO: App ] Received request 'hello 17' from fd00::9388
+1683890056 [INFO: App ] sending response
+1683890056 [INFO: TSCH-LOG ] {asn 00.000030cf link 0 3 0 0 0 ch 20} uc-1-0 rx LL-9388->LL-9787, len 47, seq 35, edr 1
+1683890056 [INFO: TSCH-LOG ] {asn 00.000030d2 link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9787->LL-9388, len 47, seq 135, st 0 1
+1683890056 [INFO: TSCH-LOG ] {asn 00.000030de link 0 3 0 0 0 ch 26} bc-0-0 tx LL-9787->LL-NULL, len 35, seq 202, st 0 1
+1683890057 [INFO: TSCH-LOG ] {asn 00.00003126 link 0 3 0 0 0 ch 26} !failed to parse frame 3 3
+1683890062 [INFO: App ] Received request 'hello 18' from fd00::9388
+1683890062 [INFO: App ] sending response
+1683890062 [INFO: TSCH-LOG ] {asn 00.00003327 link 0 3 0 0 0 ch 20} uc-1-0 rx LL-9388->LL-9787, len 47, seq 36, edr 1
+1683890062 [INFO: TSCH-LOG ] {asn 00.0000332a link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9787->LL-9388, len 47, seq 136, st 0 1
+1683890064 [INFO: TSCH-LOG ] {asn 00.000033f9 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-9388->LL-NULL, len 35, seq 36, edr 1
+1683890068 [INFO: App ] Received request 'hello 19' from fd00::9388
+1683890068 [INFO: App ] sending response
+1683890068 [INFO: TSCH-LOG ] {asn 00.0000357f link 0 3 0 0 0 ch 20} uc-1-0 rx LL-9388->LL-9787, len 47, seq 37, edr 1
+1683890068 [INFO: TSCH-LOG ] {asn 00.00003582 link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9787->LL-9388, len 47, seq 137, st 0 1
+1683890071 [INFO: TSCH-LOG ] {asn 00.000036de link 0 3 0 0 0 ch 26} bc-0-0 tx LL-9787->LL-NULL, len 35, seq 203, st 0 1
+1683890074 [INFO: App ] Received request 'hello 20' from fd00::9388
+1683890074 [INFO: App ] sending response
+1683890074 [INFO: TSCH-LOG ] {asn 00.000037d7 link 0 3 0 0 0 ch 20} uc-1-0 rx LL-9388->LL-9787, len 47, seq 38, edr 1
+1683890074 [INFO: TSCH-LOG ] {asn 00.000037da link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9787->LL-9388, len 47, seq 138, st 0 1
+1683890078 [INFO: TSCH-LOG ] {asn 00.00003948 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-9388->LL-NULL, len 35, seq 38, edr 0
+1683890080 [INFO: App ] Received request 'hello 21' from fd00::9388
+1683890080 [INFO: App ] sending response
+1683890080 [INFO: TSCH-LOG ] {asn 00.00003a2f link 0 3 0 0 0 ch 20} uc-1-0 rx LL-9388->LL-9787, len 47, seq 39, edr 1
+1683890080 [INFO: TSCH-LOG ] {asn 00.00003a32 link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9787->LL-9388, len 47, seq 139, st 0 1
+1683890083 [WARN: 6LoWPAN ] input: empty packet
+1683890083 [INFO: TSCH-LOG ] {asn 00.00003b49 link 0 3 0 0 0 ch 25} uc-1-0 rx LL-9287->LL-9787, len 21, seq 147, edr -3
+1683890086 [INFO: App ] Received request 'hello 22' from fd00::9388
+1683890086 [INFO: App ] sending response
+1683890086 [INFO: TSCH-LOG ] {asn 00.00003c87 link 0 3 0 0 0 ch 20} uc-1-0 rx LL-9388->LL-9787, len 47, seq 40, edr 1
+1683890086 [INFO: TSCH-LOG ] {asn 00.00003c8a link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9787->LL-9388, len 47, seq 140, st 0 1
+1683890086 [INFO: TSCH-LOG ] {asn 00.00003ca5 link 0 3 0 0 0 ch 25} bc-0-0 tx LL-9787->LL-NULL, len 35, seq 204, st 0 1
+1683890092 [INFO: App ] Received request 'hello 23' from fd00::9388
+1683890092 [INFO: App ] sending response
+1683890092 [INFO: TSCH-LOG ] {asn 00.00003edc link 0 3 0 0 0 ch 15} uc-1-0 rx LL-9388->LL-9787, len 47, seq 41, edr 1
+1683890092 [INFO: TSCH-LOG ] {asn 00.00003edf link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9787->LL-9388, len 47, seq 141, st 0 1
+1683890093 [INFO: TSCH-LOG ] {asn 00.00003f24 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-9388->LL-NULL, len 35, seq 41, edr 1
+1683890097 [WARN: 6LoWPAN ] input: empty packet
+1683890097 [INFO: TSCH-LOG ] {asn 00.000040fb link 0 3 0 0 0 ch 20} uc-1-0 rx LL-9287->LL-9787, len 21, seq 148, edr -1
+1683890098 [INFO: App ] Received request 'hello 24' from fd00::9388
+1683890098 [INFO: App ] sending response
+1683890098 [INFO: TSCH-LOG ] {asn 00.00004134 link 0 3 0 0 0 ch 15} uc-1-0 rx LL-9388->LL-9787, len 47, seq 42, edr 1
+1683890098 [INFO: TSCH-LOG ] {asn 00.00004137 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9787->LL-9388, len 47, seq 142, st 0 1
+1683890099 [INFO: TSCH-LOG ] {asn 00.000041d3 link 0 3 0 0 0 ch 20} bc-0-0 tx LL-9787->LL-NULL, len 35, seq 205, st 0 1
+1683890104 [INFO: App ] Received request 'hello 25' from fd00::9388
+1683890104 [INFO: App ] sending response
+1683890104 [INFO: TSCH-LOG ] {asn 00.0000438c link 0 3 0 0 0 ch 15} uc-1-0 rx LL-9388->LL-9787, len 47, seq 43, edr 1
+1683890104 [INFO: TSCH-LOG ] {asn 00.0000438f link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9787->LL-9388, len 47, seq 143, st 0 1
+1683890106 [INFO: TSCH-LOG ] {asn 00.00004482 link 0 3 0 0 0 ch 26} bc-0-0 rx LL-9388->LL-NULL, len 35, seq 43, edr 1
+1683890110 [INFO: App ] Received request 'hello 26' from fd00::9388
+1683890110 [INFO: App ] sending response
+1683890110 [INFO: TSCH-LOG ] {asn 00.000045e4 link 0 3 0 0 0 ch 15} uc-1-0 rx LL-9388->LL-9787, len 47, seq 44, edr 1
+1683890110 [INFO: TSCH-LOG ] {asn 00.000045e7 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9787->LL-9388, len 47, seq 144, st 0 1
+1683890111 [WARN: 6LoWPAN ] input: empty packet
+1683890111 [INFO: TSCH-LOG ] {asn 00.00004623 link 0 3 0 0 0 ch 20} uc-1-0 rx LL-9287->LL-9787, len 21, seq 149, edr 0
+1683890112 [INFO: TSCH-LOG ] {asn 00.000046a1 link 0 3 0 0 0 ch 25} bc-0-0 tx LL-9787->LL-NULL, len 35, seq 206, st 0 1
+1683890114 [INFO: TSCH-LOG ] {asn 00.0000478e link 0 3 0 0 0 ch 26} bc-1-0 rx LL-9287->LL-NULL, len 24, seq 149, edr -1
+1683890116 [INFO: App ] Received request 'hello 27' from fd00::9388
+1683890116 [INFO: App ] sending response
+1683890116 [INFO: TSCH-LOG ] {asn 00.0000483c link 0 3 0 0 0 ch 15} uc-1-0 rx LL-9388->LL-9787, len 47, seq 45, edr 1
+1683890116 [INFO: TSCH-LOG ] {asn 00.0000483f link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9787->LL-9388, len 47, seq 145, st 0 1
+1683890117 [INFO: TSCH-LOG ] {asn 00.00004884 link 0 3 0 0 0 ch 15} bc-1-0 rx LL-9388->LL-NULL, len 94, seq 45, edr 1
+1683890118 [INFO: TSCH-LOG ] {asn 00.0000491a link 0 3 0 0 0 ch 26} bc-1-0 tx LL-9787->LL-NULL, len 94, seq 207, st 0 1
+1683890120 [INFO: TSCH-LOG ] {asn 00.000049fe link 0 3 0 0 0 ch 26} bc-0-0 rx LL-9388->LL-NULL, len 35, seq 151, edr 0
+1683890120 [INFO: TSCH-LOG ] {asn 00.00004a01 link 0 3 0 0 0 ch 25} !dl-miss RxBeforeAck 131 133
+1683890120 [INFO: TSCH-LOG ] {asn 00.00004a01 link 0 3 0 0 0 ch 25} uc-1-0 rx LL-9287->LL-9787, len 100, seq 152, edr 0
+1683890122 [INFO: App ] Received request 'hello 28' from fd00::9388
+1683890122 [INFO: App ] sending response
+1683890122 [INFO: TSCH-LOG ] {asn 00.00004a91 link 0 3 0 0 0 ch 25} uc-1-0 rx LL-9388->LL-9787, len 47, seq 46, edr 0
+1683890122 [INFO: TSCH-LOG ] {asn 00.00004a94 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9787->LL-9388, len 47, seq 146, st 0 1
+1683890123 [INFO: TSCH-LOG ] {asn 00.00004ae2 link 0 3 0 0 0 ch 26} bc-1-0 tx LL-9787->LL-NULL, len 94, seq 208, st 0 1
+1683890125 [INFO: TSCH-LOG ] {asn 00.00004bae link 0 3 0 0 0 ch 26} bc-0-0 rx LL-9287->LL-NULL, len 35, seq 46, edr 1
+1683890125 [INFO: TSCH-LOG ] {asn 00.00004be7 link 0 3 0 0 0 ch 20} uc-1-0 rx LL-9287->LL-9787, len 83, seq 153, edr 1
+1683890125 [INFO: TSCH-LOG ] {asn 00.00004bea link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9787->LL-9287, len 41, seq 147, st 0 1
+1683890126 [INFO: TSCH-LOG ] {asn 00.00004c47 link 0 3 0 0 0 ch 20} bc-1-0 rx LL-9388->LL-NULL, len 94, seq 153, edr 0
+1683890127 [INFO: TSCH-LOG ] {asn 00.00004c7a link 0 3 0 0 0 ch 26} bc-0-0 tx LL-9787->LL-NULL, len 35, seq 209, st 0 1
+1683890127 [INFO: TSCH-LOG ] {asn 00.00004cb3 link 0 3 0 0 0 ch 20} bc-0-0 rx LL-9388->LL-NULL, len 35, seq 153, edr 0
+1683890128 [INFO: App ] Received request 'hello 29' from fd00::9388
+1683890128 [INFO: App ] sending response
+1683890128 [INFO: TSCH-LOG ] {asn 00.00004ce9 link 0 3 0 0 0 ch 25} uc-1-0 rx LL-9388->LL-9787, len 47, seq 47, edr 0
+1683890128 [INFO: TSCH-LOG ] {asn 00.00004cec link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9787->LL-9388, len 47, seq 148, st 0 1
+1683890129 [INFO: App ] Received request 'hello 0' from fd00::9287
+1683890129 [INFO: App ] sending response
+1683890129 [INFO: TSCH-LOG ] {asn 00.00004d49 link 0 3 0 0 0 ch 25} uc-1-0 rx LL-9287->LL-9787, len 46, seq 154, edr 0
+1683890129 [INFO: TSCH-LOG ] {asn 00.00004d4c link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9787->LL-9287, len 46, seq 149, st 0 1
+1683890129 [INFO: TSCH-LOG ] {asn 00.00004d58 link 0 3 0 0 0 ch 15} bc-1-0 rx LL-9287->LL-NULL, len 94, seq 154, edr 0
+1683890134 [INFO: App ] Received request 'hello 30' from fd00::9388
+1683890134 [INFO: App ] sending response
+1683890134 [INFO: TSCH-LOG ] {asn 00.00004f41 link 0 3 0 0 0 ch 25} uc-1-0 rx LL-9388->LL-9787, len 47, seq 48, edr 0
+1683890134 [INFO: TSCH-LOG ] {asn 00.00004f44 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9787->LL-9388, len 47, seq 150, st 0 1
+1683890135 [INFO: App ] Received request 'hello 1' from fd00::9287
+1683890135 [INFO: App ] sending response
+1683890135 [INFO: TSCH-LOG ] {asn 00.00004fa1 link 0 3 0 0 0 ch 25} uc-1-0 rx LL-9287->LL-9787, len 46, seq 155, edr 0
+1683890135 [INFO: TSCH-LOG ] {asn 00.00004fa4 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9787->LL-9287, len 46, seq 151, st 0 1
+1683890135 [INFO: TSCH-LOG ] {asn 00.00004fbc link 0 3 0 0 0 ch 15} bc-1-0 rx LL-9388->LL-NULL, len 94, seq 155, edr 0
+1683890135 [INFO: TSCH-LOG ] {asn 00.00004fdd link 0 3 0 0 0 ch 25} bc-1-0 tx LL-9787->LL-NULL, len 94, seq 210, st 0 1
+1683890137 [INFO: TSCH-LOG ] {asn 00.0000508b link 0 3 0 0 0 ch 20} bc-1-0 rx LL-9287->LL-NULL, len 94, seq 155, edr -1
+1683890138 [INFO: TSCH-LOG ] {asn 00.000050dc link 0 3 0 0 0 ch 15} bc-0-0 rx LL-9287->LL-NULL, len 35, seq 49, edr -1
+1683890140 [INFO: App ] Received request 'hello 31' from fd00::9388
+1683890140 [INFO: App ] sending response
+1683890140 [INFO: TSCH-LOG ] {asn 00.00005199 link 0 3 0 0 0 ch 25} uc-1-0 rx LL-9388->LL-9787, len 47, seq 50, edr 0
+1683890140 [INFO: TSCH-LOG ] {asn 00.0000519c link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9787->LL-9388, len 47, seq 152, st 0 1
+1683890141 [INFO: TSCH-LOG ] {asn 00.000051ea link 0 3 0 0 0 ch 26} !failed to parse frame 3 3
+1683890141 [INFO: App ] Received request 'hello 2' from fd00::9287
+1683890141 [INFO: App ] sending response
+1683890141 [INFO: TSCH-LOG ] {asn 00.000051f6 link 0 3 0 0 0 ch 26} uc-1-0 rx LL-9287->LL-9787, len 46, seq 156, edr -1
+1683890141 [INFO: TSCH-LOG ] {asn 00.000051f9 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9787->LL-9287, len 46, seq 153, st 0 1
+1683890142 [INFO: TSCH-LOG ] {asn 00.00005244 link 0 3 0 0 0 ch 15} bc-0-0 tx LL-9787->LL-NULL, len 35, seq 211, st 0 1
+1683890142 [INFO: TSCH-LOG ] {asn 00.0000527d link 0 3 0 0 0 ch 25} bc-0-0 rx LL-9388->LL-NULL, len 35, seq 156, edr 0
+1683890146 [INFO: TSCH-LOG ] {asn 00.000053eb link 0 3 0 0 0 ch 20} bc-1-0 rx LL-9287->LL-NULL, len 94, seq 156, edr 1
+1683890146 [INFO: App ] Received request 'hello 32' from fd00::9388
+1683890146 [INFO: App ] sending response
+1683890146 [INFO: TSCH-LOG ] {asn 00.000053f1 link 0 3 0 0 0 ch 25} uc-1-0 rx LL-9388->LL-9787, len 47, seq 51, edr 0
+1683890146 [INFO: TSCH-LOG ] {asn 00.000053f4 link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9787->LL-9388, len 47, seq 154, st 0 1
+1683890147 [INFO: App ] Received request 'hello 3' from fd00::9287
+1683890147 [INFO: App ] sending response
+1683890147 [INFO: TSCH-LOG ] {asn 00.0000544e link 0 3 0 0 0 ch 26} uc-1-0 rx LL-9287->LL-9787, len 46, seq 157, edr 1
+1683890147 [INFO: TSCH-LOG ] {asn 00.00005451 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9787->LL-9287, len 46, seq 155, st 0 1
+1683890152 [INFO: App ] Received request 'hello 33' from fd00::9388
+1683890152 [INFO: App ] sending response
+1683890152 [INFO: TSCH-LOG ] {asn 00.00005649 link 0 3 0 0 0 ch 25} uc-1-0 rx LL-9388->LL-9787, len 47, seq 52, edr 0
+1683890152 [INFO: TSCH-LOG ] {asn 00.0000564c link 0 3 0 0 0 ch 15} uc-1-0 tx LL-9787->LL-9388, len 47, seq 156, st 0 1
+1683890153 [INFO: App ] Received request 'hello 4' from fd00::9287
+1683890153 [INFO: App ] sending response
+1683890153 [INFO: TSCH-LOG ] {asn 00.000056a6 link 0 3 0 0 0 ch 26} uc-1-0 rx LL-9287->LL-9787, len 46, seq 158, edr 1
+1683890153 [INFO: TSCH-LOG ] {asn 00.000056a9 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9787->LL-9287, len 46, seq 157, st 0 1
+1683890153 [INFO: TSCH-LOG ] {asn 00.000056be link 0 3 0 0 0 ch 26} bc-0-0 rx LL-9287->LL-NULL, len 35, seq 158, edr 1
+1683890156 [INFO: TSCH-LOG ] {asn 00.000057b4 link 0 3 0 0 0 ch 15} bc-0-0 tx LL-9787->LL-NULL, len 35, seq 212, st 0 1
+1683890158 [INFO: App ] Received request 'hello 34' from fd00::9388
+1683890158 [INFO: App ] sending response
+1683890158 [INFO: TSCH-LOG ] {asn 00.0000589e link 0 3 0 0 0 ch 26} uc-1-0 rx LL-9388->LL-9787, len 47, seq 53, edr 0
+1683890158 [INFO: TSCH-LOG ] {asn 00.000058a1 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9787->LL-9388, len 47, seq 158, st 0 1
+1683890159 [INFO: App ] Received request 'hello 5' from fd00::9287
+1683890159 [INFO: App ] sending response
+1683890159 [INFO: TSCH-LOG ] {asn 00.000058fe link 0 3 0 0 0 ch 26} uc-1-0 rx LL-9287->LL-9787, len 46, seq 159, edr 0
+1683890159 [INFO: TSCH-LOG ] {asn 00.00005901 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9787->LL-9287, len 46, seq 159, st 0 1
+1683890164 [INFO: App ] Received request 'hello 35' from fd00::9388
+1683890164 [INFO: App ] sending response
+1683890164 [INFO: TSCH-LOG ] {asn 00.00005af6 link 0 3 0 0 0 ch 26} uc-1-0 rx LL-9388->LL-9787, len 47, seq 54, edr 0
+1683890164 [INFO: TSCH-LOG ] {asn 00.00005af9 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9787->LL-9388, len 47, seq 160, st 0 1
+1683890165 [INFO: App ] Received request 'hello 6' from fd00::9287
+1683890165 [INFO: App ] sending response
+1683890165 [INFO: TSCH-LOG ] {asn 00.00005b56 link 0 3 0 0 0 ch 26} uc-1-0 rx LL-9287->LL-9787, len 46, seq 160, edr 0
+1683890165 [INFO: TSCH-LOG ] {asn 00.00005b59 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9787->LL-9287, len 46, seq 161, st 0 1
+1683890166 [INFO: TSCH-LOG ] {asn 00.00005ba4 link 0 3 0 0 0 ch 15} bc-0-0 rx LL-9287->LL-NULL, len 35, seq 160, edr 0
+1683890169 [INFO: TSCH-LOG ] {asn 00.00005cd9 link 0 3 0 0 0 ch 25} bc-1-0 rx LL-9388->LL-NULL, len 94, seq 161, edr 0
+1683890169 [INFO: TSCH-LOG ] {asn 00.00005d0f link 0 3 0 0 0 ch 20} bc-1-0 tx LL-9787->LL-NULL, len 94, seq 213, st 0 1
+1683890170 [INFO: App ] Received request 'hello 36' from fd00::9388
+1683890170 [INFO: App ] sending response
+1683890170 [INFO: TSCH-LOG ] {asn 00.00005d4e link 0 3 0 0 0 ch 26} uc-1-0 rx LL-9388->LL-9787, len 47, seq 55, edr 0
+1683890170 [INFO: TSCH-LOG ] {asn 00.00005d51 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9787->LL-9388, len 47, seq 162, st 0 1
+1683890171 [INFO: TSCH-LOG ] {asn 00.00005d99 link 0 3 0 0 0 ch 25} bc-0-0 tx LL-9787->LL-NULL, len 35, seq 214, st 0 1
+1683890171 [INFO: TSCH-LOG ] {asn 00.00005dab link 0 3 0 0 0 ch 20} bc-0-0 rx LL-9388->LL-NULL, len 35, seq 55, edr 0
+1683890171 [INFO: App ] Received request 'hello 7' from fd00::9287
+1683890171 [INFO: App ] sending response
+1683890171 [INFO: TSCH-LOG ] {asn 00.00005dae link 0 3 0 0 0 ch 26} uc-1-0 rx LL-9287->LL-9787, len 46, seq 162, edr 0
+1683890171 [INFO: TSCH-LOG ] {asn 00.00005db1 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9787->LL-9287, len 46, seq 163, st 0 1
+1683890176 [INFO: App ] Received request 'hello 37' from fd00::9388
+1683890176 [INFO: App ] sending response
+1683890176 [INFO: TSCH-LOG ] {asn 00.00005fa6 link 0 3 0 0 0 ch 26} uc-1-0 rx LL-9388->LL-9787, len 47, seq 56, edr 0
+1683890176 [INFO: TSCH-LOG ] {asn 00.00005fa9 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9787->LL-9388, len 47, seq 164, st 0 1
+1683890177 [INFO: App ] Received request 'hello 8' from fd00::9287
+1683890177 [INFO: App ] sending response
+1683890177 [INFO: TSCH-LOG ] {asn 00.00006003 link 0 3 0 0 0 ch 20} uc-1-0 rx LL-9287->LL-9787, len 46, seq 163, edr 1
+1683890177 [INFO: TSCH-LOG ] {asn 00.00006006 link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9787->LL-9287, len 46, seq 165, st 0 1
+1683890180 [INFO: TSCH-LOG ] {asn 00.0000611a link 0 3 0 0 0 ch 26} bc-0-0 rx LL-9287->LL-NULL, len 35, seq 163, edr 0
+1683890182 [INFO: App ] Received request 'hello 38' from fd00::9388
+1683890182 [INFO: App ] sending response
+1683890182 [INFO: TSCH-LOG ] {asn 00.000061fe link 0 3 0 0 0 ch 26} uc-1-0 rx LL-9388->LL-9787, len 47, seq 57, edr 0
+1683890182 [INFO: TSCH-LOG ] {asn 00.00006201 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9787->LL-9388, len 47, seq 166, st 0 1
+1683890183 [INFO: App ] Received request 'hello 9' from fd00::9287
+1683890183 [INFO: App ] sending response
+1683890183 [INFO: TSCH-LOG ] {asn 00.0000625b link 0 3 0 0 0 ch 20} uc-1-0 rx LL-9287->LL-9787, len 46, seq 164, edr 0
+1683890183 [INFO: TSCH-LOG ] {asn 00.0000625e link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9787->LL-9287, len 46, seq 167, st 0 1
+1683890184 [INFO: TSCH-LOG ] {asn 00.000062cd link 0 3 0 0 0 ch 25} bc-0-0 tx LL-9787->LL-NULL, len 35, seq 215, st 0 1
+1683890185 [INFO: TSCH-LOG ] {asn 00.0000630c link 0 3 0 0 0 ch 15} bc-0-0 rx LL-9388->LL-NULL, len 35, seq 164, edr 0
+1683890186 [INFO: TSCH-LOG ] {asn 00.000063c6 link 0 3 0 0 0 ch 26} bc-1-0 rx LL-9287->LL-NULL, len 94, seq 164, edr 0
+1683890188 [INFO: App ] Received request 'hello 39' from fd00::9388
+1683890188 [INFO: App ] sending response
+1683890188 [INFO: TSCH-LOG ] {asn 00.00006456 link 0 3 0 0 0 ch 26} uc-1-0 rx LL-9388->LL-9787, len 47, seq 58, edr 0
+1683890188 [INFO: TSCH-LOG ] {asn 00.00006459 link 0 3 0 0 0 ch 25} uc-1-0 tx LL-9787->LL-9388, len 47, seq 168, st 0 1
+1683890189 [INFO: App ] Received request 'hello 10' from fd00::9287
+1683890189 [INFO: App ] sending response
+1683890189 [INFO: TSCH-LOG ] {asn 00.000064b3 link 0 3 0 0 0 ch 20} uc-1-0 rx LL-9287->LL-9787, len 47, seq 165, edr 0
+1683890189 [INFO: TSCH-LOG ] {asn 00.000064b6 link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9787->LL-9287, len 47, seq 169, st 0 1
+1683890193 [INFO: TSCH-LOG ] {asn 00.0000666f link 0 3 0 0 0 ch 20} bc-0-0 rx LL-9287->LL-NULL, len 35, seq 165, edr 0
+1683890194 [INFO: App ] Received request 'hello 40' from fd00::9388
+1683890194 [INFO: App ] sending response
+1683890194 [INFO: TSCH-LOG ] {asn 00.000066ab link 0 3 0 0 0 ch 20} uc-1-0 rx LL-9388->LL-9787, len 47, seq 59, edr 0
+1683890194 [INFO: TSCH-LOG ] {asn 00.000066ae link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9787->LL-9388, len 47, seq 170, st 0 1
+1683890195 [INFO: App ] Received request 'hello 11' from fd00::9287
+1683890195 [INFO: App ] sending response
+1683890195 [INFO: TSCH-LOG ] {asn 00.0000670b link 0 3 0 0 0 ch 20} uc-1-0 rx LL-9287->LL-9787, len 47, seq 166, edr 0
+1683890195 [INFO: TSCH-LOG ] {asn 00.0000670e link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9787->LL-9287, len 47, seq 171, st 0 1
+1683890196 [INFO: TSCH-LOG ] {asn 00.000067ad link 0 3 0 0 0 ch 25} bc-0-0 tx LL-9787->LL-NULL, len 35, seq 216, st 0 1
+1683890198 [INFO: TSCH-LOG ] {asn 00.00006843 link 0 3 0 0 0 ch 20} bc-0-0 rx LL-9388->LL-NULL, len 35, seq 166, edr 0
+1683890200 [INFO: App ] Received request 'hello 41' from fd00::9388
+1683890200 [INFO: App ] sending response
+1683890200 [INFO: TSCH-LOG ] {asn 00.00006903 link 0 3 0 0 0 ch 20} uc-1-0 rx LL-9388->LL-9787, len 47, seq 60, edr 0
+1683890200 [INFO: TSCH-LOG ] {asn 00.00006906 link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9787->LL-9388, len 47, seq 172, st 0 1
+1683890201 [INFO: App ] Received request 'hello 12' from fd00::9287
+1683890201 [INFO: App ] sending response
+1683890201 [INFO: TSCH-LOG ] {asn 00.00006963 link 0 3 0 0 0 ch 20} uc-1-0 rx LL-9287->LL-9787, len 47, seq 167, edr 1
+1683890201 [INFO: TSCH-LOG ] {asn 00.00006966 link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9787->LL-9287, len 47, seq 173, st 0 1
+1683890206 [INFO: App ] Received request 'hello 42' from fd00::9388
+1683890206 [INFO: App ] sending response
+1683890206 [INFO: TSCH-LOG ] {asn 00.00006b5b link 0 3 0 0 0 ch 20} uc-1-0 rx LL-9388->LL-9787, len 47, seq 61, edr 0
+1683890206 [INFO: TSCH-LOG ] {asn 00.00006b5e link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9787->LL-9388, len 47, seq 174, st 0 1
+1683890207 [INFO: App ] Received request 'hello 13' from fd00::9287
+1683890207 [INFO: App ] sending response
+1683890207 [INFO: TSCH-LOG ] {asn 00.00006bb8 link 0 3 0 0 0 ch 15} uc-1-0 rx LL-9287->LL-9787, len 47, seq 168, edr 1
+1683890207 [INFO: TSCH-LOG ] {asn 00.00006bbb link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9787->LL-9287, len 47, seq 175, st 0 1
+1683890208 [INFO: TSCH-LOG ] {asn 00.00006c3c link 0 3 0 0 0 ch 15} bc-0-0 rx LL-9287->LL-NULL, len 35, seq 168, edr 1
+1683890209 [INFO: TSCH-LOG ] {asn 00.00006cab link 0 3 0 0 0 ch 20} bc-0-0 tx LL-9787->LL-NULL, len 35, seq 217, st 0 1
+1683890212 [INFO: App ] Received request 'hello 43' from fd00::9388
+1683890212 [INFO: App ] sending response
+1683890212 [INFO: TSCH-LOG ] {asn 00.00006db3 link 0 3 0 0 0 ch 20} uc-1-0 rx LL-9388->LL-9787, len 47, seq 62, edr 0
+1683890212 [INFO: TSCH-LOG ] {asn 00.00006db6 link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9787->LL-9388, len 47, seq 176, st 0 1
+1683890212 [INFO: TSCH-LOG ] {asn 00.00006ddd link 0 3 0 0 0 ch 25} bc-0-0 rx LL-9388->LL-NULL, len 35, seq 169, edr 0
+1683890213 [INFO: App ] Received request 'hello 14' from fd00::9287
+1683890213 [INFO: App ] sending response
+1683890213 [INFO: TSCH-LOG ] {asn 00.00006e10 link 0 3 0 0 0 ch 15} uc-1-0 rx LL-9287->LL-9787, len 47, seq 170, edr 0
+1683890213 [INFO: TSCH-LOG ] {asn 00.00006e13 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9787->LL-9287, len 47, seq 177, st 0 1
+1683890215 [INFO: TSCH-LOG ] {asn 00.00006efd link 0 3 0 0 0 ch 25} bc-1-0 rx LL-9388->LL-NULL, len 94, seq 170, edr 0
+1683890218 [INFO: App ] Received request 'hello 44' from fd00::9388
+1683890218 [INFO: App ] sending response
+1683890218 [INFO: TSCH-LOG ] {asn 00.0000700b link 0 3 0 0 0 ch 20} uc-1-0 rx LL-9388->LL-9787, len 47, seq 63, edr 0
+1683890218 [INFO: TSCH-LOG ] {asn 00.0000700e link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9787->LL-9388, len 47, seq 178, st 0 1
+1683890219 [INFO: App ] Received request 'hello 15' from fd00::9287
+1683890219 [INFO: App ] sending response
+1683890219 [INFO: TSCH-LOG ] {asn 00.00007068 link 0 3 0 0 0 ch 15} uc-1-0 rx LL-9287->LL-9787, len 47, seq 171, edr 0
+1683890219 [INFO: TSCH-LOG ] {asn 00.0000706b link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9787->LL-9287, len 47, seq 179, st 0 1
+1683890222 [INFO: TSCH-LOG ] {asn 00.00007185 link 0 3 0 0 0 ch 25} bc-0-0 rx LL-9287->LL-NULL, len 35, seq 171, edr 1
+1683890223 [INFO: TSCH-LOG ] {asn 00.00007221 link 0 3 0 0 0 ch 25} bc-0-0 tx LL-9787->LL-NULL, len 35, seq 218, st 0 1
+1683890224 [INFO: App ] Received request 'hello 45' from fd00::9388
+1683890224 [INFO: App ] sending response
+1683890224 [INFO: TSCH-LOG ] {asn 00.00007263 link 0 3 0 0 0 ch 20} uc-1-0 rx LL-9388->LL-9787, len 47, seq 64, edr 0
+1683890224 [INFO: TSCH-LOG ] {asn 00.00007266 link 0 3 0 0 0 ch 26} uc-1-0 tx LL-9787->LL-9388, len 47, seq 180, st 0 1
+1683890225 [INFO: App ] Received request 'hello 16' from fd00::9287
+1683890225 [INFO: App ] sending response
+1683890225 [INFO: TSCH-LOG ] {asn 00.000072c0 link 0 3 0 0 0 ch 15} uc-1-0 rx LL-9287->LL-9787, len 47, seq 172, edr 0
+1683890225 [INFO: TSCH-LOG ] {asn 00.000072c3 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9787->LL-9287, len 47, seq 181, st 0 1
+1683890226 [INFO: TSCH-LOG ] {asn 00.0000735c link 0 3 0 0 0 ch 15} bc-0-0 rx LL-9388->LL-NULL, len 35, seq 172, edr 0
+1683890230 [INFO: App ] Received request 'hello 46' from fd00::9388
+1683890230 [INFO: App ] sending response
+1683890230 [INFO: TSCH-LOG ] {asn 00.000074b8 link 0 3 0 0 0 ch 15} uc-1-0 rx LL-9388->LL-9787, len 47, seq 65, edr 0
+1683890230 [INFO: TSCH-LOG ] {asn 00.000074bb link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9787->LL-9388, len 47, seq 182, st 0 1
+1683890231 [INFO: App ] Received request 'hello 17' from fd00::9287
+1683890231 [INFO: App ] sending response
+1683890231 [INFO: TSCH-LOG ] {asn 00.00007518 link 0 3 0 0 0 ch 15} uc-1-0 rx LL-9287->LL-9787, len 47, seq 173, edr 1
+1683890231 [INFO: TSCH-LOG ] {asn 00.0000751b link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9787->LL-9287, len 47, seq 183, st 0 1
+1683890234 [INFO: TSCH-LOG ] {asn 00.0000763e link 0 3 0 0 0 ch 26} bc-1-0 tx LL-9787->LL-NULL, len 94, seq 219, st 0 1
+1683890236 [INFO: TSCH-LOG ] {asn 00.0000770a link 0 3 0 0 0 ch 26} bc-0-0 rx LL-9287->LL-NULL, len 35, seq 173, edr 1
+1683890236 [INFO: App ] Received request 'hello 47' from fd00::9388
+1683890236 [INFO: App ] sending response
+1683890236 [INFO: TSCH-LOG ] {asn 00.00007710 link 0 3 0 0 0 ch 15} uc-1-0 rx LL-9388->LL-9787, len 47, seq 66, edr 0
+1683890236 [INFO: TSCH-LOG ] {asn 00.00007713 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9787->LL-9388, len 47, seq 184, st 0 1
+1683890236 [INFO: TSCH-LOG ] {asn 00.00007746 link 0 3 0 0 0 ch 26} bc-0-0 tx LL-9787->LL-NULL, len 35, seq 220, st 0 1
+1683890237 [INFO: App ] Received request 'hello 18' from fd00::9287
+1683890237 [INFO: App ] sending response
+1683890237 [INFO: TSCH-LOG ] {asn 00.00007770 link 0 3 0 0 0 ch 15} uc-1-0 rx LL-9287->LL-9787, len 47, seq 174, edr 0
+1683890237 [INFO: TSCH-LOG ] {asn 00.00007773 link 0 3 0 0 0 ch 20} uc-1-0 tx LL-9787->LL-9287, len 47, seq 185, st 0 1

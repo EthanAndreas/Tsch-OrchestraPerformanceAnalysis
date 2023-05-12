@@ -1,0 +1,170 @@
+1683889877 [INFO: App ] Not reachable yet: !node_is_reachable
+1683889881 [WARN: RPL ] found parent: fe80::a484, staying in DAG
+1683889883 [INFO: App ] Not reachable yet: !node_is_reachable
+1683889889 [INFO: App ] Sending request 0 to [INFO: App ]
+1683889889 [INFO: App ] Received response 'hello 0' from fd00::a484--> With 8 of ping (100)
+1683889895 [INFO: App ] Sending request 1 to [INFO: App ]
+1683889895 [INFO: App ] Received response 'hello 1' from fd00::a484--> With 11 of ping (100)
+1683889901 [INFO: App ] Sending request 2 to [INFO: App ]
+1683889901 [INFO: App ] Received response 'hello 2' from fd00::a484--> With 6 of ping (100)
+1683889907 [INFO: App ] Sending request 3 to [INFO: App ]
+1683889907 [INFO: App ] Received response 'hello 3' from fd00::a484--> With 6 of ping (100)
+1683889913 [INFO: App ] Sending request 4 to [INFO: App ]
+1683889913 [INFO: App ] Received response 'hello 4' from fd00::a484--> With 4 of ping (100)
+1683889919 [INFO: App ] Sending request 5 to [INFO: App ]
+1683889919 [INFO: App ] Received response 'hello 5' from fd00::a484--> With 10 of ping (100)
+1683889925 [INFO: App ] Sending request 6 to [INFO: App ]
+1683889925 [INFO: App ] Received response 'hello 6' from fd00::a484--> With 6 of ping (100)
+1683889931 [INFO: App ] Sending request 7 to [INFO: App ]
+1683889931 [INFO: App ] Received response 'hello 7' from fd00::a484--> With 11 of ping (100)
+1683889937 [INFO: App ] Sending request 8 to [INFO: App ]
+1683889937 [INFO: App ] Received response 'hello 8' from fd00::a484--> With 6 of ping (100)
+1683889943 [INFO: App ] Sending request 9 to [INFO: App ]
+1683889943 [INFO: App ] Received response 'hello 9' from fd00::a484--> With 12 of ping (100)
+1683889944 [WARN: CSMA ] not for us
+1683889944 [WARN: CSMA ] not for us
+1683889944 [WARN: CSMA ] not for us
+1683889944 [WARN: CSMA ] not for us
+1683889949 [INFO: App ] Sending request 10 to [INFO: App ]
+1683889949 [INFO: App ] Received response 'hello 10' from fd00::a484--> With 3 of ping (100)
+1683889951 [WARN: CSMA ] not for us
+1683889951 [WARN: CSMA ] not for us
+1683889955 [INFO: App ] Sending request 11 to [INFO: App ]
+1683889955 [INFO: App ] Received response 'hello 11' from fd00::a484--> With 5 of ping (100)
+1683889961 [INFO: App ] Sending request 12 to [INFO: App ]
+1683889961 [INFO: App ] Received response 'hello 12' from fd00::a484--> With 5 of ping (100)
+1683889967 [INFO: App ] Sending request 13 to [INFO: App ]
+1683889967 [INFO: App ] Received response 'hello 13' from fd00::a484--> With 4 of ping (100)
+1683889973 [INFO: App ] Sending request 14 to [INFO: App ]
+1683889973 [INFO: App ] Received response 'hello 14' from fd00::a484--> With 7 of ping (100)
+1683889973 [ERR : 6LoWPAN ] uncompression: unknown dispatch: 0x00, or IPHC disabled
+1683889979 [INFO: App ] Sending request 15 to [INFO: App ]
+1683889979 [INFO: App ] Received response 'hello 15' from fd00::a484--> With 4 of ping (100)
+1683889985 [INFO: App ] Sending request 16 to [INFO: App ]
+1683889985 [INFO: App ] Received response 'hello 16' from fd00::a484--> With 10 of ping (100)
+1683889988 [ERR : 6LoWPAN ] uncompression: unknown dispatch: 0x00, or IPHC disabled
+1683889991 [INFO: App ] Sending request 17 to [INFO: App ]
+1683889991 [INFO: App ] Received response 'hello 17' from fd00::a484--> With 5 of ping (100)
+1683889997 [INFO: App ] Sending request 18 to [INFO: App ]
+1683889997 [INFO: App ] Received response 'hello 18' from fd00::a484--> With 7 of ping (100)
+1683890003 [INFO: App ] Sending request 19 to [INFO: App ]
+1683890003 [INFO: App ] Received response 'hello 19' from fd00::a484--> With 5 of ping (100)
+1683890009 [INFO: App ] Sending request 20 to [INFO: App ]
+1683890009 [INFO: App ] Received response 'hello 20' from fd00::a484--> With 9 of ping (100)
+1683890015 [INFO: App ] Sending request 21 to [INFO: App ]
+1683890015 [INFO: App ] Received response 'hello 21' from fd00::a484--> With 7 of ping (100)
+1683890015 [ERR : 6LoWPAN ] uncompression: unknown dispatch: 0x00, or IPHC disabled
+1683890020 [WARN: CSMA ] not for us
+1683890020 [WARN: CSMA ] not for us
+1683890021 [INFO: App ] Sending request 22 to [INFO: App ]
+1683890021 [INFO: App ] Received response 'hello 22' from fd00::a484--> With 4 of ping (100)
+1683890026 [WARN: CSMA ] not for us
+1683890026 [WARN: CSMA ] not for us
+1683890027 [INFO: App ] Sending request 23 to [INFO: App ]
+1683890027 [INFO: App ] Received response 'hello 23' from fd00::a484--> With 6 of ping (100)
+1683890032 [WARN: CSMA ] not for us
+1683890032 [WARN: CSMA ] not for us
+1683890033 [INFO: App ] Sending request 24 to [INFO: App ]
+1683890033 [INFO: App ] Received response 'hello 24' from fd00::a484--> With 1 of ping (100)
+1683890038 [WARN: CSMA ] not for us
+1683890038 [WARN: CSMA ] not for us
+1683890039 [INFO: App ] Sending request 25 to [INFO: App ]
+1683890039 [INFO: App ] Received response 'hello 25' from fd00::a484--> With 3 of ping (100)
+1683890044 [WARN: CSMA ] not for us
+1683890044 [WARN: CSMA ] not for us
+1683890045 [INFO: App ] Sending request 26 to [INFO: App ]
+1683890045 [INFO: App ] Received response 'hello 26' from fd00::a484--> With 8 of ping (100)
+1683890050 [WARN: CSMA ] not for us
+1683890050 [WARN: CSMA ] not for us
+1683890051 [INFO: App ] Sending request 27 to [INFO: App ]
+1683890051 [INFO: App ] Received response 'hello 27' from fd00::a484--> With 1 of ping (100)
+1683890056 [WARN: CSMA ] not for us
+1683890056 [WARN: CSMA ] not for us
+1683890056 [ERR : 6LoWPAN ] uncompression: unknown dispatch: 0x00, or IPHC disabled
+1683890057 [INFO: App ] Sending request 28 to [INFO: App ]
+1683890057 [INFO: App ] Received response 'hello 28' from fd00::a484--> With 8 of ping (100)
+1683890062 [WARN: CSMA ] not for us
+1683890062 [WARN: CSMA ] not for us
+1683890063 [INFO: App ] Sending request 29 to [INFO: App ]
+1683890063 [INFO: App ] Received response 'hello 29' from fd00::a484--> With 2 of ping (100)
+1683890068 [WARN: CSMA ] not for us
+1683890068 [WARN: CSMA ] not for us
+1683890069 [INFO: App ] Sending request 30 to [INFO: App ]
+1683890069 [INFO: App ] Received response 'hello 30' from fd00::a484--> With 2 of ping (100)
+1683890071 [ERR : 6LoWPAN ] uncompression: unknown dispatch: 0x00, or IPHC disabled
+1683890074 [WARN: CSMA ] not for us
+1683890074 [WARN: CSMA ] not for us
+1683890075 [INFO: App ] Sending request 31 to [INFO: App ]
+1683890075 [INFO: App ] Received response 'hello 31' from fd00::a484--> With 3 of ping (100)
+1683890076 [ERR : 6LoWPAN ] uncompression: unknown dispatch: 0x00, or IPHC disabled
+1683890080 [WARN: CSMA ] not for us
+1683890080 [WARN: CSMA ] not for us
+1683890081 [INFO: App ] Sending request 32 to [INFO: App ]
+1683890081 [INFO: App ] Received response 'hello 32' from fd00::a484--> With 3 of ping (100)
+1683890086 [WARN: CSMA ] not for us
+1683890086 [WARN: CSMA ] not for us
+1683890087 [INFO: App ] Sending request 33 to [INFO: App ]
+1683890087 [INFO: App ] Received response 'hello 33' from fd00::a484--> With 8 of ping (100)
+1683890093 [INFO: App ] Sending request 34 to [INFO: App ]
+1683890093 [INFO: App ] Received response 'hello 34' from fd00::a484--> With 2 of ping (100)
+1683890098 [ERR : 6LoWPAN ] uncompression: unknown dispatch: 0x00, or IPHC disabled
+1683890099 [INFO: App ] Sending request 35 to [INFO: App ]
+1683890099 [INFO: App ] Received response 'hello 35' from fd00::a484--> With 5 of ping (100)
+1683890105 [INFO: App ] Sending request 36 to [INFO: App ]
+1683890105 [INFO: App ] Received response 'hello 36' from fd00::a484--> With 7 of ping (100)
+1683890106 [ERR : 6LoWPAN ] uncompression: unknown dispatch: 0x00, or IPHC disabled
+1683890111 [INFO: App ] Sending request 37 to [INFO: App ]
+1683890111 [INFO: App ] Received response 'hello 37' from fd00::a484--> With 1 of ping (100)
+1683890117 [INFO: App ] Sending request 38 to [INFO: App ]
+1683890117 [INFO: App ] Received response 'hello 38' from fd00::a484--> With 3 of ping (100)
+1683890120 [WARN: CSMA ] not for us
+1683890123 [INFO: App ] Sending request 39 to [INFO: App ]
+1683890123 [INFO: App ] Received response 'hello 39' from fd00::a484--> With 5 of ping (100)
+1683890125 [ERR : 6LoWPAN ] uncompression: unknown dispatch: 0x00, or IPHC disabled
+1683890125 [WARN: CSMA ] not for us
+1683890125 [WARN: CSMA ] not for us
+1683890127 [ERR : 6LoWPAN ] uncompression: unknown dispatch: 0x00, or IPHC disabled
+1683890129 [INFO: App ] Sending request 40 to [INFO: App ]
+1683890129 [INFO: App ] Received response 'hello 40' from fd00::a484--> With 9 of ping (100)
+1683890135 [INFO: App ] Sending request 41 to [INFO: App ]
+1683890135 [INFO: App ] Received response 'hello 41' from fd00::a484--> With 7 of ping (100)
+1683890141 [INFO: App ] Sending request 42 to [INFO: App ]
+1683890141 [INFO: App ] Received response 'hello 42' from fd00::a484--> With 2 of ping (100)
+1683890141 [WARN: CSMA ] not for us
+1683890141 [WARN: CSMA ] not for us
+1683890142 [ERR : 6LoWPAN ] uncompression: unknown dispatch: 0x00, or IPHC disabled
+1683890147 [INFO: App ] Sending request 43 to [INFO: App ]
+1683890147 [INFO: App ] Received response 'hello 43' from fd00::a484--> With 5 of ping (100)
+1683890147 [WARN: CSMA ] not for us
+1683890147 [WARN: CSMA ] not for us
+1683890153 [INFO: App ] Sending request 44 to [INFO: App ]
+1683890153 [INFO: App ] Received response 'hello 44' from fd00::a484--> With 4 of ping (100)
+1683890153 [WARN: CSMA ] not for us
+1683890153 [WARN: CSMA ] not for us
+1683890153 [ERR : 6LoWPAN ] uncompression: unknown dispatch: 0x00, or IPHC disabled
+1683890157 [ERR : 6LoWPAN ] uncompression: unknown dispatch: 0x00, or IPHC disabled
+1683890158 [WARN: CSMA ] not for us
+1683890158 [WARN: CSMA ] not for us
+1683890159 [INFO: App ] Sending request 45 to [INFO: App ]
+1683890159 [INFO: App ] Received response 'hello 45' from fd00::a484--> With 11 of ping (100)
+1683890159 [WARN: CSMA ] not for us
+1683890159 [WARN: CSMA ] not for us
+1683890164 [WARN: CSMA ] not for us
+1683890164 [WARN: CSMA ] not for us
+1683890165 [INFO: App ] Sending request 46 to [INFO: App ]
+1683890165 [INFO: App ] Received response 'hello 46' from fd00::a484--> With 6 of ping (100)
+1683890165 [WARN: CSMA ] not for us
+1683890165 [WARN: CSMA ] not for us
+1683890170 [WARN: CSMA ] not for us
+1683890170 [WARN: CSMA ] not for us
+1683890171 [INFO: App ] Sending request 47 to [INFO: App ]
+1683890171 [INFO: App ] Received response 'hello 47' from fd00::a484--> With 7 of ping (100)
+1683890171 [WARN: CSMA ] not for us
+1683890171 [WARN: CSMA ] not for us
+1683890172 [ERR : 6LoWPAN ] uncompression: unknown dispatch: 0x00, or IPHC disabled
+1683890176 [WARN: CSMA ] not for us
+1683890176 [WARN: CSMA ] not for us
+1683890177 [INFO: App ] Sending request 48 to [INFO: App ]
+1683890177 [INFO: App ] Received response 'hello 48' from fd00::a484--> With 4 of ping (100)
+1683890177 [WARN: CSMA ] not for us
+1683890177 [WARN: CSMA ] not for us
