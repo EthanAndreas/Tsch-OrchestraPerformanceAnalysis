@@ -7,7 +7,7 @@ if [ $# -ne 5 ]; then
 echo "Usage: ./netcat.sh <experiment_name> <duration> <nodes_number> <site> <protocol>"
 echo "Example: ./netcat.sh my_experiment 10 2 strasbourg tsch"
 echo "<duration> : in minutes"
-echo "<protocol> : tsch or csma"
+echo "<protocol> : csma, tsch or orchestra"
 exit 1
 fi
 

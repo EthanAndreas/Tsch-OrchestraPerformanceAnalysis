@@ -5,7 +5,7 @@ echo "Usage: ./monitor.sh <experiment_name> <duration> <nodes_number> <monitor> 
 echo "Example: ./monitor.sh my_experiment m3 10 2 power tsch"
 echo "<duration> : in minutes"
 echo "<monitor> : power or radio"
-echo "<protocol> : tsch or csma"
+echo "<protocol> : csma, tsch or orchestra"
 echo "PS: Result of experiment is only accessible for Strasbourg site"
 exit 1
 fi
