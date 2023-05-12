@@ -114,7 +114,7 @@ temp.append(average2(sender[0], 2, 1))
 temp2.append(average2(sender[1], 2, 1))
 average_pdr.append(temp)
 average_pdr.append(temp2)
-print("Average Pos :",average_pdr)
+print("Average Pos app:",average_pdr)
 
 # ping
 average_ping = []
@@ -126,7 +126,7 @@ temp2.append(average(sender[1], 3))
 average_ping.append(temp)
 average_ping.append(temp2)
 
-print("Average ping :",average_ping)
+print("Average ping app:",average_ping)
 
 
 
@@ -149,4 +149,4 @@ for k in range(len(coord)):
         else:
             ratio_ack_pro.append(nb_ack/(nb_ack+nb_nack))
     ratio_ack.append(ratio_ack_pro)
-print("ratio ack/all tsch coordinator:", ratio_ack)
+print("ratio ack/all tsch:", ratio_ack)
